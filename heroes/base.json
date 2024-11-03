@@ -13,17 +13,19 @@
         "tag": "inferno",
         "name": "Infernus",
         "alt_name": null,
-        "aliases": "ixian",
+        "aliases": null,
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
-        "inspiration": ["dota:batrider"]
+        "inspiration": [
+            "dota:batrider"
+        ]
     },
     "2": {
         "tag": "gigawatt",
         "name": "Seven",
         "alt_name": "Prisoner 4279",
-        "aliases": null,
+        "aliases": "Prisoner 4279",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -33,17 +35,19 @@
         "tag": "hornet",
         "name": "Vindicta",
         "alt_name": "Witch",
-        "aliases": "wasp",
+        "aliases": "Witch",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
-        "inspiration": ["dota:sniper"]
+        "inspiration": [
+            "dota:sniper"
+        ]
     },
     "4": {
         "tag": "ghost",
         "name": "Lady Geist",
         "alt_name": "Oathkeeper",
-        "aliases": "spectre",
+        "aliases": "Oathkeeper",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -53,11 +57,15 @@
         "tag": "atlas",
         "name": "Abrams",
         "alt_name": "Detective",
-        "aliases": "bull",
+        "aliases": "Detective",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
-        "inspiration": ["dota:dragon_knight", "dota:primal_beast", "dota:spirit_breaker"]
+        "inspiration": [
+            "dota:dragon_knight",
+            "dota:primal_beast",
+            "dota:spirit_breaker"
+        ]
     },
     "7": {
         "tag": "wraith",
@@ -73,11 +81,13 @@
         "tag": "forge",
         "name": "McGinnis",
         "alt_name": "Maggie",
-        "aliases": "fairfax engineer",
+        "aliases": "Maggie",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
-        "inspiration": ["ow:torbjorn"]
+        "inspiration": [
+            "ow:torbjorn"
+        ]
     },
     "10": {
         "tag": "chrono",
@@ -93,17 +103,19 @@
         "tag": "dynamo",
         "name": "Dynamo",
         "alt_name": "Professor",
-        "aliases": "sumo",
+        "aliases": "Professor",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["dota:enigma"]
+        "inspiration": [
+            "dota:enigma"
+        ]
     },
     "12": {
         "tag": "kelvin",
         "name": "Kelvin",
         "alt_name": "Ice Wight",
-        "aliases": "kevin",
+        "aliases": "Ice Wight",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -113,37 +125,45 @@
         "tag": "haze",
         "name": "Haze",
         "alt_name": "Assassin",
-        "aliases": "sandman division cia security",
+        "aliases": "Assassin",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
-        "inspiration": ["dota:riki", "ow:reaper"]
+        "inspiration": [
+            "dota:riki",
+            "ow:reaper"
+        ]
     },
     "14": {
         "tag": "astro",
         "name": "Holliday",
         "alt_name": "Sheriff",
-        "aliases": null,
+        "aliases": "Sheriff",
         "released": null,
         "status": "labs",
         "complexity": 3,
-        "inspiration": ["dota:batrider"]
+        "inspiration": [
+            "dota:batrider"
+        ]
     },
     "15": {
         "tag": "bebop",
         "name": "Bebop",
         "alt_name": "Robot",
-        "aliases": "junkyard scrap",
+        "aliases": "Robot",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["dota:pudge", "lol:blitzcrank"]
+        "inspiration": [
+            "dota:pudge",
+            "lol:blitzcrank"
+        ]
     },
     "16": {
         "tag": "nano",
         "name": "Calico",
         "alt_name": null,
-        "aliases": "cat lady",
+        "aliases": null,
         "released": null,
         "status": "labs",
         "complexity": 1,
@@ -153,41 +173,49 @@
         "tag": "orion",
         "name": "Grey Talon",
         "alt_name": "Wesley Grey",
-        "aliases": "archer baxter",
+        "aliases": "Wesley Grey",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["lol:ashe"]
+        "inspiration": [
+            "lol:ashe"
+        ]
     },
     "18": {
         "tag": "krill",
         "name": "Mo & Krill",
         "alt_name": "The Tunnel Rats",
-        "aliases": "maurice",
+        "aliases": "The Tunnel Rats",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
-        "inspiration": ["dota:pudge"]
+        "inspiration": [
+            "dota:pudge"
+        ]
     },
     "19": {
         "tag": "shiv",
         "name": "Shiv",
         "alt_name": null,
-        "aliases": "baxter weremole",
+        "aliases": null,
         "released": 1721339055,
         "status": "available",
         "complexity": 3,
-        "inspiration": []
+        "inspiration": [
+            "dota:axe"
+        ]
     },
     "20": {
         "tag": "tengu",
         "name": "Ivy",
         "alt_name": "Gargoyle",
-        "aliases": "spanish kudzu",
+        "aliases": "Gargoyle",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
-        "inspiration": ["dota:wisp"]
+        "inspiration": [
+            "dota:wisp"
+        ]
     },
     "21": {
         "tag": "kali",
@@ -213,17 +241,19 @@
         "tag": "yamato",
         "name": "Yamato",
         "alt_name": "Kaori",
-        "aliases": "japanese",
+        "aliases": "Kaori",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
-        "inspiration": ["lol:yone"]
+        "inspiration": [
+            "lol:yone"
+        ]
     },
     "31": {
         "tag": "lash",
         "name": "Lash",
         "alt_name": "Jacob",
-        "aliases": "asshole",
+        "aliases": "Jacob",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
@@ -233,11 +263,14 @@
         "tag": "viscous",
         "name": "Viscous",
         "alt_name": "Psychic Sea Anemone",
-        "aliases": "bermuda ectoplasmic goo",
+        "aliases": "Psychic Sea Anemone",
         "released": 1722548846,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["dota:tusk", "dota:pangolier"]
+        "inspiration": [
+            "dota:tusk",
+            "dota:pangolier"
+        ]
     },
     "38": {
         "tag": "gunslinger",
@@ -283,7 +316,7 @@
         "tag": "wrecker",
         "name": "Wrecker",
         "alt_name": null,
-        "aliases": "clockwerk",
+        "aliases": null,
         "released": null,
         "status": "labs",
         "complexity": 3,
@@ -303,11 +336,13 @@
         "tag": "synth",
         "name": "Pocket",
         "alt_name": "Arin Fairfax",
-        "aliases": null,
+        "aliases": "Arin Fairfax",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["dota:puck"]
+        "inspiration": [
+            "dota:puck"
+        ]
     },
     "51": {
         "tag": "thumper",
@@ -323,11 +358,14 @@
         "tag": "mirage",
         "name": "Mirage",
         "alt_name": "The Djinn Bodyguard",
-        "aliases": null,
+        "aliases": "The Djinn Bodyguard",
         "released": 1727385478,
         "status": "available",
         "complexity": 2,
-        "inspiration": ["dota:furion", "lol:twisted_fate"]
+        "inspiration": [
+            "dota:furion",
+            "lol:twisted_fate"
+        ]
     },
     "53": {
         "tag": "slork",
@@ -337,7 +375,9 @@
         "released": null,
         "status": "labs",
         "complexity": 2,
-        "inspiration": ["dota:slark"]
+        "inspiration": [
+            "dota:slark"
+        ]
     },
     "54": {
         "tag": "cadence",

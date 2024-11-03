@@ -9,7 +9,8 @@ The metadata is generated based on the game files, SteamDB metadata and localiza
 - Heroes metadata
   - `heroes` - 
     - `status` reflects hero's availability: enum ["available", "labs", "in_devel", "notahero"]
-  - `heroes_stats` - 
+    - `stats` lists all relevant hero stats, inspired by the sheet made by lamarrite
+    - `names` lists hero names in all available languages
   - `heroes_abilities` - 
   - `heroes_names`
 - Items

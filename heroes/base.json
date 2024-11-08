@@ -448,5 +448,15 @@
         "status": "labs",
         "complexity": 1,
         "inspiration": null
+    },
+    "61": {
+        "tag": "trapper",
+        "name": "Trapper",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "labs",
+        "complexity": 2,
+        "inspiration": null
     }
 }

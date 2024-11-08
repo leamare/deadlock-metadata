@@ -216,7 +216,7 @@
         "brazilian": "Holliday",
         "german": "Holliday",
         "italian": "Holliday",
-        "russian": "Holliday",
+        "russian": "Холлидей",
         "english": "Holliday",
         "polish": "Holliday",
         "schinese": "哈雷黛",
@@ -507,7 +507,7 @@
         "brazilian": "Demolidor",
         "german": "Wrecker",
         "italian": "Wrecker",
-        "russian": "Wrecker",
+        "russian": "Крушитель",
         "english": "Wrecker",
         "polish": "Wrecker",
         "schinese": "破坏王",
@@ -600,7 +600,7 @@
         "russian": "Фатом",
         "english": "Fathom",
         "polish": "Fathom",
-        "schinese": "Fathom",
+        "schinese": "海魇",
         "thai": "Fathom",
         "czech": "Fathom",
         "koreana": "패덤",
@@ -688,6 +688,7 @@
         "russian": "Змея",
         "english": "Viper",
         "polish": "Viper",
+        "schinese": "蝰邪",
         "thai": "Viper",
         "czech": "Viper",
         "koreana": "바이퍼",
@@ -728,5 +729,11 @@
         "french": "Magician",
         "indonesian": "Magician",
         "latam": "Magician"
+    },
+    "61": {
+        "tag": "trapper",
+        "italian": "Trapper",
+        "english": "Trapper",
+        "french": "Trapper"
     }
 }

@@ -1254,7 +1254,10 @@
         "tags": [
             "trapper_labs"
         ],
-        "minor_dates": [],
+        "minor_dates": [
+            1731255567,
+            1731546608
+        ],
         "builds": [
             5345
         ]

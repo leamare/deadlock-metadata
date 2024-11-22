@@ -4219,16 +4219,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.573571,
+            "bullet_dmg_per_lvl": 0.35,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_slork_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 62.2222,
-                        "max_dps": 187.1332,
+                        "max_dps": 138.4444,
                         "bullet_dmg": 4,
-                        "bullet_dmg_max": 12.029994,
+                        "bullet_dmg_max": 8.899999999999999,
                         "clip_size": 13,
                         "full_clip_sec": 5.85,
                         "reload_time": 0.3,

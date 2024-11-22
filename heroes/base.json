@@ -1,6 +1,7 @@
 {
     "0": {
         "tag": "base",
+        "old_name": null,
         "name": "base",
         "alt_name": null,
         "aliases": null,
@@ -11,9 +12,10 @@
     },
     "1": {
         "tag": "inferno",
+        "old_name": null,
         "name": "Infernus",
         "alt_name": null,
-        "aliases": null,
+        "aliases": "ixian",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -23,9 +25,10 @@
     },
     "2": {
         "tag": "gigawatt",
+        "old_name": null,
         "name": "Seven",
         "alt_name": "Prisoner 4279",
-        "aliases": "Prisoner 4279",
+        "aliases": null,
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -33,9 +36,10 @@
     },
     "3": {
         "tag": "hornet",
+        "old_name": ["wasp"],
         "name": "Vindicta",
         "alt_name": "Witch",
-        "aliases": "Witch",
+        "aliases": "wasp",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -45,9 +49,10 @@
     },
     "4": {
         "tag": "ghost",
+        "old_name": ["spectre"],
         "name": "Lady Geist",
         "alt_name": "Oathkeeper",
-        "aliases": "Oathkeeper",
+        "aliases": "spectre",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -55,9 +60,10 @@
     },
     "6": {
         "tag": "atlas",
+        "old_name": ["bull"],
         "name": "Abrams",
         "alt_name": "Detective",
-        "aliases": "Detective",
+        "aliases": "bull",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -69,6 +75,7 @@
     },
     "7": {
         "tag": "wraith",
+        "old_name": null,
         "name": "Wraith",
         "alt_name": null,
         "aliases": null,
@@ -79,9 +86,10 @@
     },
     "8": {
         "tag": "forge",
+        "old_name": ["engineer"],
         "name": "McGinnis",
         "alt_name": "Maggie",
-        "aliases": "Maggie",
+        "aliases": "fairfax engineer",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -91,6 +99,7 @@
     },
     "10": {
         "tag": "chrono",
+        "old_name": null,
         "name": "Paradox",
         "alt_name": null,
         "aliases": null,
@@ -101,9 +110,10 @@
     },
     "11": {
         "tag": "dynamo",
+        "old_name": ["sumo"],
         "name": "Dynamo",
         "alt_name": "Professor",
-        "aliases": "Professor",
+        "aliases": "sumo",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -113,9 +123,10 @@
     },
     "12": {
         "tag": "kelvin",
+        "old_name": null,
         "name": "Kelvin",
         "alt_name": "Ice Wight",
-        "aliases": "Ice Wight",
+        "aliases": "kevin",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -123,9 +134,10 @@
     },
     "13": {
         "tag": "haze",
+        "old_name": null,
         "name": "Haze",
         "alt_name": "Assassin",
-        "aliases": "Assassin",
+        "aliases": "sandman division cia security",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -136,9 +148,10 @@
     },
     "14": {
         "tag": "astro",
+        "old_name": null,
         "name": "Holliday",
         "alt_name": "Sheriff",
-        "aliases": "Sheriff",
+        "aliases": null,
         "released": null,
         "status": "labs",
         "complexity": 3,
@@ -148,9 +161,10 @@
     },
     "15": {
         "tag": "bebop",
+        "old_name": null,
         "name": "Bebop",
         "alt_name": "Robot",
-        "aliases": "Robot",
+        "aliases": "junkyard scrap",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -161,9 +175,10 @@
     },
     "16": {
         "tag": "nano",
+        "old_name": null,
         "name": "Calico",
         "alt_name": null,
-        "aliases": null,
+        "aliases": "cat lady",
         "released": null,
         "status": "labs",
         "complexity": 1,
@@ -171,9 +186,10 @@
     },
     "17": {
         "tag": "orion",
+        "old_name": ["archer"],
         "name": "Grey Talon",
         "alt_name": "Wesley Grey",
-        "aliases": "Wesley Grey",
+        "aliases": "archer baxter",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -183,9 +199,10 @@
     },
     "18": {
         "tag": "krill",
+        "old_name": ["digger"],
         "name": "Mo & Krill",
         "alt_name": "The Tunnel Rats",
-        "aliases": "The Tunnel Rats",
+        "aliases": "maurice",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
@@ -195,21 +212,21 @@
     },
     "19": {
         "tag": "shiv",
+        "old_name": ["weremole"],
         "name": "Shiv",
         "alt_name": null,
-        "aliases": null,
+        "aliases": "baxter weremole",
         "released": 1721339055,
         "status": "available",
         "complexity": 3,
-        "inspiration": [
-            "dota:axe"
-        ]
+        "inspiration": []
     },
     "20": {
         "tag": "tengu",
+        "old_name": null,
         "name": "Ivy",
         "alt_name": "Gargoyle",
-        "aliases": "Gargoyle",
+        "aliases": "spanish kudzu",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
@@ -219,6 +236,7 @@
     },
     "21": {
         "tag": "kali",
+        "old_name": null,
         "name": "Kali",
         "alt_name": null,
         "aliases": null,
@@ -229,6 +247,7 @@
     },
     "25": {
         "tag": "warden",
+        "old_name": null,
         "name": "Warden",
         "alt_name": null,
         "aliases": null,
@@ -239,9 +258,10 @@
     },
     "27": {
         "tag": "yamato",
+        "old_name": null,
         "name": "Yamato",
         "alt_name": "Kaori",
-        "aliases": "Kaori",
+        "aliases": "japanese",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
@@ -251,9 +271,10 @@
     },
     "31": {
         "tag": "lash",
+        "old_name": null,
         "name": "Lash",
         "alt_name": "Jacob",
-        "aliases": "Jacob",
+        "aliases": "asshole",
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
@@ -261,9 +282,10 @@
     },
     "35": {
         "tag": "viscous",
+        "old_name": null,
         "name": "Viscous",
         "alt_name": "Psychic Sea Anemone",
-        "aliases": "Psychic Sea Anemone",
+        "aliases": "bermuda ectoplasmic goo",
         "released": 1722548846,
         "status": "available",
         "complexity": 2,
@@ -274,6 +296,7 @@
     },
     "38": {
         "tag": "gunslinger",
+        "old_name": null,
         "name": "Gunslinger",
         "alt_name": null,
         "aliases": null,
@@ -284,6 +307,7 @@
     },
     "39": {
         "tag": "yakuza",
+        "old_name": null,
         "name": "The Boss",
         "alt_name": null,
         "aliases": null,
@@ -294,6 +318,7 @@
     },
     "46": {
         "tag": "genericperson",
+        "old_name": null,
         "name": "Generic Person",
         "alt_name": null,
         "aliases": null,
@@ -304,6 +329,7 @@
     },
     "47": {
         "tag": "tokamak",
+        "old_name": null,
         "name": "Tokamak",
         "alt_name": null,
         "aliases": null,
@@ -314,9 +340,10 @@
     },
     "48": {
         "tag": "wrecker",
+        "old_name": null,
         "name": "Wrecker",
         "alt_name": null,
-        "aliases": null,
+        "aliases": "clockwerk",
         "released": null,
         "status": "labs",
         "complexity": 3,
@@ -324,6 +351,7 @@
     },
     "49": {
         "tag": "rutger",
+        "old_name": null,
         "name": "Rutger",
         "alt_name": null,
         "aliases": null,
@@ -334,9 +362,10 @@
     },
     "50": {
         "tag": "synth",
+        "old_name": null,
         "name": "Pocket",
         "alt_name": "Arin Fairfax",
-        "aliases": "Arin Fairfax",
+        "aliases": null,
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -346,6 +375,7 @@
     },
     "51": {
         "tag": "thumper",
+        "old_name": null,
         "name": "Thumper",
         "alt_name": null,
         "aliases": null,
@@ -356,9 +386,10 @@
     },
     "52": {
         "tag": "mirage",
+        "old_name": null,
         "name": "Mirage",
         "alt_name": "The Djinn Bodyguard",
-        "aliases": "The Djinn Bodyguard",
+        "aliases": null,
         "released": 1727385478,
         "status": "available",
         "complexity": 2,
@@ -369,6 +400,7 @@
     },
     "53": {
         "tag": "slork",
+        "old_name": null,
         "name": "Fathom",
         "alt_name": null,
         "aliases": null,
@@ -381,6 +413,7 @@
     },
     "54": {
         "tag": "cadence",
+        "old_name": null,
         "name": "Cadence",
         "alt_name": null,
         "aliases": null,
@@ -391,6 +424,7 @@
     },
     "55": {
         "tag": "targetdummy",
+        "old_name": null,
         "name": "TargetDummy",
         "alt_name": null,
         "aliases": null,
@@ -401,6 +435,7 @@
     },
     "56": {
         "tag": "bomber",
+        "old_name": null,
         "name": "Bomber",
         "alt_name": null,
         "aliases": null,
@@ -411,6 +446,7 @@
     },
     "57": {
         "tag": "shieldguy",
+        "old_name": null,
         "name": "Shield Guy",
         "alt_name": null,
         "aliases": null,
@@ -421,6 +457,7 @@
     },
     "58": {
         "tag": "viper",
+        "old_name": null,
         "name": "Viper",
         "alt_name": null,
         "aliases": null,
@@ -431,6 +468,7 @@
     },
     "59": {
         "tag": "vandal",
+        "old_name": null,
         "name": "Vandal",
         "alt_name": null,
         "aliases": null,
@@ -441,6 +479,7 @@
     },
     "60": {
         "tag": "magician",
+        "old_name": null,
         "name": "Magician",
         "alt_name": null,
         "aliases": null,
@@ -451,6 +490,7 @@
     },
     "61": {
         "tag": "trapper",
+        "old_name": null,
         "name": "Trapper",
         "alt_name": null,
         "aliases": null,

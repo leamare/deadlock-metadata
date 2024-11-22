@@ -732,8 +732,18 @@
     },
     "61": {
         "tag": "trapper",
+        "brazilian": "Armadilheiro",
+        "german": "Trapper",
         "italian": "Trapper",
+        "russian": "Ловец",
         "english": "Trapper",
-        "french": "Trapper"
+        "schinese": "网罗鬼匠",
+        "thai": "Trapper",
+        "czech": "Trapper",
+        "spanish": "Trapper",
+        "turkish": "Trapper",
+        "french": "Trapper",
+        "indonesian": "Trapper",
+        "latam": "Trapper"
     }
 }

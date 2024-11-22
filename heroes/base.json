@@ -36,7 +36,9 @@
     },
     "3": {
         "tag": "hornet",
-        "old_name": ["wasp"],
+        "old_name": [
+            "wasp"
+        ],
         "name": "Vindicta",
         "alt_name": "Witch",
         "aliases": "wasp",
@@ -49,7 +51,9 @@
     },
     "4": {
         "tag": "ghost",
-        "old_name": ["spectre"],
+        "old_name": [
+            "spectre"
+        ],
         "name": "Lady Geist",
         "alt_name": "Oathkeeper",
         "aliases": "spectre",
@@ -60,7 +64,9 @@
     },
     "6": {
         "tag": "atlas",
-        "old_name": ["bull"],
+        "old_name": [
+            "bull"
+        ],
         "name": "Abrams",
         "alt_name": "Detective",
         "aliases": "bull",
@@ -86,7 +92,9 @@
     },
     "8": {
         "tag": "forge",
-        "old_name": ["engineer"],
+        "old_name": [
+            "engineer"
+        ],
         "name": "McGinnis",
         "alt_name": "Maggie",
         "aliases": "fairfax engineer",
@@ -110,7 +118,9 @@
     },
     "11": {
         "tag": "dynamo",
-        "old_name": ["sumo"],
+        "old_name": [
+            "sumo"
+        ],
         "name": "Dynamo",
         "alt_name": "Professor",
         "aliases": "sumo",
@@ -186,7 +196,9 @@
     },
     "17": {
         "tag": "orion",
-        "old_name": ["archer"],
+        "old_name": [
+            "archer"
+        ],
         "name": "Grey Talon",
         "alt_name": "Wesley Grey",
         "aliases": "archer baxter",
@@ -199,7 +211,9 @@
     },
     "18": {
         "tag": "krill",
-        "old_name": ["digger"],
+        "old_name": [
+            "digger"
+        ],
         "name": "Mo & Krill",
         "alt_name": "The Tunnel Rats",
         "aliases": "maurice",
@@ -212,7 +226,9 @@
     },
     "19": {
         "tag": "shiv",
-        "old_name": ["weremole"],
+        "old_name": [
+            "weremole"
+        ],
         "name": "Shiv",
         "alt_name": null,
         "aliases": "baxter weremole",
@@ -496,6 +512,17 @@
         "aliases": null,
         "released": null,
         "status": "labs",
+        "complexity": 2,
+        "inspiration": null
+    },
+    "62": {
+        "tag": "operative",
+        "old_name": null,
+        "name": "Operative",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     }

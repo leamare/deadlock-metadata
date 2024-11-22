@@ -37,7 +37,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -164,7 +164,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -291,7 +291,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -422,7 +422,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2519.69
                     },
                     "crit": {
@@ -554,7 +554,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -751,7 +751,7 @@
         },
         "vitality": {
             "hp": 570,
-            "hp_regen": 1,
+            "hp_regen": 1.5,
             "hp_per_lvl": 34,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
@@ -805,7 +805,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -922,7 +922,7 @@
                     "bullet": {
                         "cycle_time": 0.2,
                         "radius": 4,
-                        "speed": 21000,
+                        "speed": 23228,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 5,
@@ -936,7 +936,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -979,13 +979,13 @@
                         "spline": [
                             {
                                 "x": 0,
-                                "y": 21000,
+                                "y": 23228,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             },
                             {
                                 "x": 100,
-                                "y": 21000,
+                                "y": 23228,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             }
@@ -996,7 +996,7 @@
                         ],
                         "domain_maxs": [
                             100,
-                            21000
+                            23228
                         ]
                     }
                 }
@@ -1063,7 +1063,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -1190,7 +1190,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -1291,10 +1291,10 @@
                 "citadel_weapon_kelvin_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 83.6,
-                        "max_dps": 123.36,
-                        "bullet_dmg": 20.9,
-                        "bullet_dmg_max": 30.839999999999996,
+                        "dps": 84,
+                        "max_dps": 123.76,
+                        "bullet_dmg": 21,
+                        "bullet_dmg_max": 30.939999999999998,
                         "clip_size": 15,
                         "full_clip_sec": 3.75,
                         "reload_time": 2.585,
@@ -1317,7 +1317,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -1444,7 +1444,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 1811
                     },
                     "crit": {
@@ -1575,7 +1575,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -1702,7 +1702,7 @@
                     },
                     "range": {
                         "range": 1259.84,
-                        "base": 866,
+                        "base": 787,
                         "max": 2000
                     },
                     "crit": {
@@ -1829,7 +1829,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -1930,10 +1930,10 @@
                 "citadel_weapon_archer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 43.6364,
-                        "max_dps": 84.8727,
-                        "bullet_dmg": 24,
-                        "bullet_dmg_max": 46.68,
+                        "dps": 45.4545,
+                        "max_dps": 86.6909,
+                        "bullet_dmg": 25,
+                        "bullet_dmg_max": 47.68,
                         "clip_size": 17,
                         "full_clip_sec": 9.35,
                         "reload_time": 2.35,
@@ -2030,7 +2030,7 @@
         "vitality": {
             "hp": 550,
             "hp_regen": 2.5,
-            "hp_per_lvl": 27,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2088,7 +2088,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -2310,16 +2310,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.36,
+            "bullet_dmg_per_lvl": 0.34,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_tengu_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 71.4286,
-                        "max_dps": 143.4286,
-                        "bullet_dmg": 5,
-                        "bullet_dmg_max": 10.04,
+                        "dps": 74.2857,
+                        "max_dps": 142.2857,
+                        "bullet_dmg": 5.2,
+                        "bullet_dmg_max": 9.96,
                         "clip_size": 33,
                         "full_clip_sec": 2.31,
                         "reload_time": 2.444,
@@ -2342,7 +2342,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -2469,7 +2469,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -2596,7 +2596,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -2685,8 +2685,8 @@
         },
         "scaling_stats": {
             "tech_power": {
-                "rounds_per_second": 0.012,
-                "fire_rate": 0.3
+                "rounds_per_second": 0.01,
+                "fire_rate": 0.25
             }
         }
     },
@@ -2728,7 +2728,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 1800
                     },
                     "crit": {
@@ -2857,7 +2857,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -2984,7 +2984,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3079,31 +3079,31 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0,
+            "bullet_dmg_per_lvl": 1.49286,
             "attack_range_per_level": 0,
             "set": {
-                "citadel_weapon_gunslinger_set": {
+                "citadel_weapon_gunslinger2_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 154.6667,
-                        "max_dps": 154.6667,
-                        "bullet_dmg": 11.6,
-                        "bullet_dmg_max": 11.6,
-                        "clip_size": 22,
-                        "full_clip_sec": 1.6500000000000001,
-                        "reload_time": 1.6,
+                        "dps": 100,
+                        "max_dps": 169.6668,
+                        "bullet_dmg": 30,
+                        "bullet_dmg_max": 50.900040000000004,
+                        "clip_size": 6,
+                        "full_clip_sec": 1.7999999999999998,
+                        "reload_time": 2.75,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.1,
+                        "cycle_time": 0.3,
                         "radius": 3,
-                        "speed": 16000,
+                        "speed": 25000,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 13.333333333333332,
+                        "num_per_sec": 3.3333333333333335,
                         "gravity_scale": 0.8,
-                        "burst_amount": 2,
-                        "burst_cycle_time": 0.05,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
                         "damage_falloff_end_scale": 0.1,
                         "damage_falloff_bias": 0.5,
@@ -3111,7 +3111,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3123,8 +3123,8 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                -0.2,
-                                0.2
+                                0.6,
+                                1
                             ],
                             "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
@@ -3132,35 +3132,35 @@
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1,
-                                0.1
+                                -0.4,
+                                0.4
                             ],
                             "m_flBurstExponent": 0
                         },
-                        "speed": 1,
-                        "recovery_speed": 10,
-                        "recovery_delay_factor": 0,
+                        "speed": 6,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.75,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 1,
-                        "standing_spread": 1.5,
+                        "spread": 0.2,
+                        "standing_spread": 1,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0,
-                        "penalty_decay_delay": 0,
-                        "penalty_decay": 2
+                        "penalty_per_shot": 0.25,
+                        "penalty_decay_delay": 0.1,
+                        "penalty_decay": 3
                     },
                     "curve": {
                         "spline": [
                             {
                                 "x": 0,
-                                "y": 16000,
+                                "y": 25000,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             },
                             {
                                 "x": 100,
-                                "y": 16000,
+                                "y": 25000,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             }
@@ -3171,7 +3171,7 @@
                         ],
                         "domain_maxs": [
                             100,
-                            16000
+                            25000
                         ]
                     }
                 }
@@ -3238,7 +3238,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3365,7 +3365,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3492,7 +3492,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3619,7 +3619,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3746,7 +3746,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -3997,7 +3997,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4124,7 +4124,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4375,7 +4375,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4502,7 +4502,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4629,7 +4629,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4756,7 +4756,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -4857,10 +4857,10 @@
                 "citadel_weapon_viper_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 200,
-                        "max_dps": 291.6666,
-                        "bullet_dmg": 12,
-                        "bullet_dmg_max": 17.499997999999998,
+                        "dps": 183.3333,
+                        "max_dps": 275,
+                        "bullet_dmg": 11,
+                        "bullet_dmg_max": 16.499997999999998,
                         "clip_size": 18,
                         "full_clip_sec": 1.0799999999999998,
                         "reload_time": 1.6,
@@ -5016,7 +5016,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 866,
+                        "base": 787,
                         "max": 2264
                     },
                     "crit": {
@@ -5349,6 +5349,133 @@
             "hp": 550,
             "hp_regen": 2,
             "hp_per_lvl": 45,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.3,
+            "sprint_speed": 0,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": []
+    },
+    "62": {
+        "tag": "operative",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.282857,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_operative_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 54.5455,
+                        "max_dps": 61.7455,
+                        "bullet_dmg": 30,
+                        "bullet_dmg_max": 33.959998,
+                        "clip_size": 9,
+                        "full_clip_sec": 4.95,
+                        "reload_time": 2.585,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.55,
+                        "radius": 4,
+                        "speed": 26600,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 1.8181818181818181,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
+                    },
+                    "crit": {
+                        "start": 1.9,
+                        "end": 1.9,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 6,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.8,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 1.2,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.5,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2.5
+                    },
+                    "curve": {
+                        "spline": [
+                            {
+                                "x": 0,
+                                "y": 32600,
+                                "m_flSlopeIncoming": 0,
+                                "m_flSlopeOutgoing": 0
+                            },
+                            {
+                                "x": 100,
+                                "y": 32600,
+                                "m_flSlopeIncoming": 0,
+                                "m_flSlopeOutgoing": 0
+                            }
+                        ],
+                        "domain_mins": [
+                            0,
+                            1
+                        ],
+                        "domain_maxs": [
+                            100,
+                            26600
+                        ]
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 63,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 2.671429
+        },
+        "vitality": {
+            "hp": 550,
+            "hp_regen": 2,
+            "hp_per_lvl": 33,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0

@@ -16,6 +16,7 @@ The metadata is generated based on the game files, SteamDB metadata and localiza
 - Items
   - `items`
     - `base` has a map of item IDs (MurmurHash2) to item tags
+    - `names` lists item names in all available languages
 - `patchdates` - dates and tags for the game's updates
   - It also includes version from earlier stages of development and groups them together, though anything before the original playtest date is unknown. Many updates were filtered out, leaving only one update per 15 hours (or when it's most likely that there were no significant changes in this time window).
   - All versions have tags, marking notable changes in the game or development stages (though precise dates and the size of the pre-deadlock updates are unknown). What patch relates to what development stage was decided based on various reports about the game, leaks and drops/spikes in patch rate activity.

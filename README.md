@@ -8,11 +8,11 @@ The metadata is generated based on the game files, SteamDB metadata and localiza
 
 - Heroes metadata
   - `heroes`
-    - `status` reflects hero's availability: enum ["available", "labs", "in_devel", "notahero"]
+    - `base`
+      - `status` reflects hero's availability: enum ["available", "labs", "in_devel", "notahero"]
     - `stats` lists all relevant hero stats, inspired by the sheet made by lamarrite
     - `names` lists hero names in all available languages
-  - `heroes_abilities` - 
-  - `heroes_names`
+    - `abilities` - abilities of heroes
 - Items
   - `items`
     - `base` has a map of item IDs (MurmurHash2) to item tags
@@ -23,7 +23,6 @@ The metadata is generated based on the game files, SteamDB metadata and localiza
 
 ## TODO:
 
-- `heroes/abilities`
 - `abilities/base`
 - `abilities/names`
 - `items/stats`

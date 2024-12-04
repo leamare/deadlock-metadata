@@ -4857,19 +4857,19 @@
                 "citadel_weapon_viper_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 183.3333,
-                        "max_dps": 275,
-                        "bullet_dmg": 11,
-                        "bullet_dmg_max": 16.499997999999998,
-                        "clip_size": 18,
-                        "full_clip_sec": 1.0799999999999998,
+                        "dps": 150,
+                        "max_dps": 241.6666,
+                        "bullet_dmg": 9,
+                        "bullet_dmg_max": 14.499998,
+                        "clip_size": 24,
+                        "full_clip_sec": 1.44,
                         "reload_time": 1.6,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
                         "cycle_time": 0.06,
                         "radius": 5,
-                        "speed": 3200,
+                        "speed": 16200,
                         "lifetime": 0.5,
                         "num_per_shot": 1,
                         "num_per_sec": 16.666666666666668,
@@ -4928,13 +4928,13 @@
                         "spline": [
                             {
                                 "x": 0,
-                                "y": 3200,
+                                "y": 16200.000977,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             },
                             {
                                 "x": 100,
-                                "y": 3200,
+                                "y": 16200.000977,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             }
@@ -4945,7 +4945,7 @@
                         ],
                         "domain_maxs": [
                             100,
-                            3200
+                            16200
                         ]
                     }
                 }
@@ -4959,7 +4959,7 @@
         "vitality": {
             "hp": 550,
             "hp_regen": 2,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 30,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0

@@ -518,11 +518,11 @@
     "62": {
         "tag": "operative",
         "old_name": null,
-        "name": "Operative",
+        "name": "Raven",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "labs",
         "complexity": 2,
         "inspiration": null
     }

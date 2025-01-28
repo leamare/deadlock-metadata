@@ -11,10 +11,10 @@
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 66,
-                        "max_dps": 66,
-                        "bullet_dmg": 6.6,
-                        "bullet_dmg_max": 6.6,
+                        "dps": 59.4,
+                        "max_dps": 59.4,
+                        "bullet_dmg": 5.94,
+                        "bullet_dmg_max": 5.94,
                         "clip_size": 27,
                         "full_clip_sec": 2.7,
                         "reload_time": 2.491,
@@ -132,16 +132,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.282857,
+            "bullet_dmg_per_lvl": 0.254571,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 66,
-                        "max_dps": 105.6,
-                        "bullet_dmg": 6.6,
-                        "bullet_dmg_max": 10.559998,
+                        "dps": 59.4,
+                        "max_dps": 95.0399,
+                        "bullet_dmg": 5.94,
+                        "bullet_dmg_max": 9.503994,
                         "clip_size": 27,
                         "full_clip_sec": 2.7,
                         "reload_time": 2.491,
@@ -245,7 +245,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -259,16 +259,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.597143,
+            "bullet_dmg_per_lvl": 0.537429,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_gigawatt_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 84.1463,
-                        "max_dps": 145.3171,
-                        "bullet_dmg": 11.5,
-                        "bullet_dmg_max": 19.860002,
+                        "dps": 75.7317,
+                        "max_dps": 130.7854,
+                        "bullet_dmg": 10.35,
+                        "bullet_dmg_max": 17.874006,
                         "clip_size": 29,
                         "full_clip_sec": 3.963333333333334,
                         "reload_time": 2.35,
@@ -372,7 +372,7 @@
         },
         "mobility": {
             "move_speed": 7.1,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -390,16 +390,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.8,
+            "bullet_dmg_per_lvl": 0.72,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_hornet_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 59.0909,
-                        "max_dps": 110,
-                        "bullet_dmg": 13,
-                        "bullet_dmg_max": 24.200000000000003,
+                        "dps": 53.1818,
+                        "max_dps": 99,
+                        "bullet_dmg": 11.7,
+                        "bullet_dmg_max": 21.78,
                         "clip_size": 22,
                         "full_clip_sec": 4.84,
                         "reload_time": 2.914,
@@ -408,7 +408,7 @@
                     "bullet": {
                         "cycle_time": 0.22,
                         "radius": 3,
-                        "speed": 35000,
+                        "speed": 29133.9,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 4.545454545454546,
@@ -465,13 +465,13 @@
                         "spline": [
                             {
                                 "x": 0,
-                                "y": 35000,
+                                "y": 29133.9,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             },
                             {
                                 "x": 100,
-                                "y": 35000,
+                                "y": 29133.9,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             }
@@ -482,7 +482,7 @@
                         ],
                         "domain_maxs": [
                             100,
-                            35000
+                            29133.9
                         ]
                     }
                 }
@@ -494,7 +494,7 @@
             "melee_damage_per_lvl": 2.671429
         },
         "vitality": {
-            "hp": 550,
+            "hp": 525,
             "hp_regen": 2,
             "hp_per_lvl": 20,
             "bullet_resist": 0,
@@ -502,8 +502,8 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 9,
-            "sprint_speed": 0,
+            "move_speed": 8,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -522,16 +522,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.65,
+            "bullet_dmg_per_lvl": 1.485,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_ghost_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 55.5556,
-                        "max_dps": 106.8889,
-                        "bullet_dmg": 25,
-                        "bullet_dmg_max": 48.099999999999994,
+                        "dps": 50,
+                        "max_dps": 96.2,
+                        "bullet_dmg": 22.5,
+                        "bullet_dmg_max": 43.290000000000006,
                         "clip_size": 13,
                         "full_clip_sec": 5.85,
                         "reload_time": 2.585,
@@ -635,7 +635,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 1.5,
+            "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -649,16 +649,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.251429,
+            "bullet_dmg_per_lvl": 0.226286,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_bull_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 70.125,
-                        "max_dps": 122.9251,
-                        "bullet_dmg": 4.675,
-                        "bullet_dmg_max": 8.195006,
+                        "dps": 60.75,
+                        "max_dps": 108.2701,
+                        "bullet_dmg": 4.05,
+                        "bullet_dmg_max": 7.218004,
                         "clip_size": 9,
                         "full_clip_sec": 5.3999999999999995,
                         "reload_time": 0.3525,
@@ -759,7 +759,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -773,16 +773,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.377143,
+            "bullet_dmg_per_lvl": 0.351,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_wraith_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 61.1111,
-                        "max_dps": 119.7778,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 10.780002,
+                        "dps": 55,
+                        "max_dps": 109.6,
+                        "bullet_dmg": 4.95,
+                        "bullet_dmg_max": 9.864,
                         "clip_size": 52,
                         "full_clip_sec": 4.680000000000001,
                         "reload_time": 2.82,
@@ -886,7 +886,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -904,16 +904,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.345714,
+            "bullet_dmg_per_lvl": 0.311143,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_engineer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 35.75,
-                        "max_dps": 59.95,
-                        "bullet_dmg": 7.15,
-                        "bullet_dmg_max": 11.989996000000001,
+                        "dps": 32.175,
+                        "max_dps": 53.955,
+                        "bullet_dmg": 6.435,
+                        "bullet_dmg_max": 10.791001999999999,
                         "clip_size": 66,
                         "full_clip_sec": 13.2,
                         "reload_time": 3.29,
@@ -1017,7 +1017,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -1031,16 +1031,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.45,
+            "bullet_dmg_per_lvl": 0.405,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_chrono_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 64.2857,
-                        "max_dps": 120.5357,
-                        "bullet_dmg": 7.2,
-                        "bullet_dmg_max": 13.5,
+                        "dps": 57.8571,
+                        "max_dps": 108.4821,
+                        "bullet_dmg": 6.48,
+                        "bullet_dmg_max": 12.15,
                         "clip_size": 40,
                         "full_clip_sec": 4.48,
                         "reload_time": 2.585,
@@ -1144,7 +1144,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1158,16 +1158,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.707143,
+            "bullet_dmg_per_lvl": 0.636429,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_sumo_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 52,
-                        "max_dps": 91.6,
-                        "bullet_dmg": 13,
-                        "bullet_dmg_max": 22.900002,
+                        "dps": 46.8,
+                        "max_dps": 82.44,
+                        "bullet_dmg": 11.7,
+                        "bullet_dmg_max": 20.610006,
                         "clip_size": 18,
                         "full_clip_sec": 4.5,
                         "reload_time": 2.35,
@@ -1271,7 +1271,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1285,16 +1285,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.71,
+            "bullet_dmg_per_lvl": 0.639,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_kelvin_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 84,
-                        "max_dps": 123.76,
-                        "bullet_dmg": 21,
-                        "bullet_dmg_max": 30.939999999999998,
+                        "dps": 75.6,
+                        "max_dps": 111.384,
+                        "bullet_dmg": 18.9,
+                        "bullet_dmg_max": 27.845999999999997,
                         "clip_size": 15,
                         "full_clip_sec": 3.75,
                         "reload_time": 2.585,
@@ -1389,7 +1389,7 @@
             "melee_damage_per_lvl": 2.671429
         },
         "vitality": {
-            "hp": 600,
+            "hp": 650,
             "hp_regen": 2,
             "hp_per_lvl": 50,
             "bullet_resist": 0,
@@ -1398,7 +1398,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1412,16 +1412,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.223929,
+            "bullet_dmg_per_lvl": 0.201536,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_haze_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 56,
-                        "max_dps": 87.3501,
-                        "bullet_dmg": 5.6,
-                        "bullet_dmg_max": 8.735005999999998,
+                        "dps": 50.4,
+                        "max_dps": 78.615,
+                        "bullet_dmg": 5.04,
+                        "bullet_dmg_max": 7.861504,
                         "clip_size": 25,
                         "full_clip_sec": 2.5,
                         "reload_time": 2.35,
@@ -1525,7 +1525,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1543,16 +1543,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.492857,
+            "bullet_dmg_per_lvl": 1.53,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_astro_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 71.5556,
-                        "max_dps": 118,
-                        "bullet_dmg": 32.2,
-                        "bullet_dmg_max": 53.099998,
+                        "dps": 64.4,
+                        "max_dps": 112,
+                        "bullet_dmg": 28.98,
+                        "bullet_dmg_max": 50.400000000000006,
                         "clip_size": 10,
                         "full_clip_sec": 4.5,
                         "reload_time": 2.75,
@@ -1647,7 +1647,7 @@
             "melee_damage_per_lvl": 2.671429
         },
         "vitality": {
-            "hp": 625,
+            "hp": 550,
             "hp_regen": 2,
             "hp_per_lvl": 33,
             "bullet_resist": 0,
@@ -1656,7 +1656,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -1670,16 +1670,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.33,
+            "bullet_dmg_per_lvl": 0.297,
             "attack_range_per_level": 77.334084,
             "set": {
                 "citadel_weapon_bebop_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 66.25,
-                        "max_dps": 124,
-                        "bullet_dmg": 5.3,
-                        "bullet_dmg_max": 9.92,
+                        "dps": 59.625,
+                        "max_dps": 111.6,
+                        "bullet_dmg": 4.77,
+                        "bullet_dmg_max": 8.927999999999999,
                         "clip_size": 66,
                         "full_clip_sec": 5.28,
                         "reload_time": 2.35,
@@ -1783,7 +1783,7 @@
         },
         "mobility": {
             "move_speed": 6.55,
-            "sprint_speed": 3,
+            "sprint_speed": 3.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1797,19 +1797,19 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.124929,
+            "bullet_dmg_per_lvl": 0.112436,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_nano_set": {
-                    "can_zoom": false,
+                    "can_zoom": true,
                     "damage": {
-                        "dps": 75,
-                        "max_dps": 118.7252,
-                        "bullet_dmg": 3,
-                        "bullet_dmg_max": 4.749006,
-                        "clip_size": 16,
-                        "full_clip_sec": 3.2,
-                        "reload_time": 3,
+                        "dps": 79.2,
+                        "max_dps": 142.1642,
+                        "bullet_dmg": 1.98,
+                        "bullet_dmg_max": 3.5541039999999997,
+                        "clip_size": 12,
+                        "full_clip_sec": 2.4,
+                        "reload_time": 2.5,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
@@ -1817,7 +1817,7 @@
                         "radius": 3,
                         "speed": 12500,
                         "lifetime": 2,
-                        "num_per_shot": 5,
+                        "num_per_shot": 8,
                         "num_per_sec": 5,
                         "gravity_scale": 0.8,
                         "burst_amount": 1,
@@ -1910,7 +1910,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1924,16 +1924,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.62,
+            "bullet_dmg_per_lvl": 1.458,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_archer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 45.4545,
-                        "max_dps": 86.6909,
-                        "bullet_dmg": 25,
-                        "bullet_dmg_max": 47.68,
+                        "dps": 40.9091,
+                        "max_dps": 78.0218,
+                        "bullet_dmg": 22.5,
+                        "bullet_dmg_max": 42.912,
                         "clip_size": 17,
                         "full_clip_sec": 9.35,
                         "reload_time": 2.35,
@@ -2037,7 +2037,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -2056,16 +2056,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.196429,
+            "bullet_dmg_per_lvl": 0.176786,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_digger_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 80,
-                        "max_dps": 141.1112,
-                        "bullet_dmg": 3.6,
-                        "bullet_dmg_max": 6.3500060000000005,
+                        "dps": 72,
+                        "max_dps": 127.0001,
+                        "bullet_dmg": 3.24,
+                        "bullet_dmg_max": 5.715004,
                         "clip_size": 20,
                         "full_clip_sec": 3.6,
                         "reload_time": 2.82,
@@ -2169,7 +2169,7 @@
         },
         "mobility": {
             "move_speed": 8.1,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2183,16 +2183,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.314286,
+            "bullet_dmg_per_lvl": 0.246857,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_shiv_set": {
                     "can_zoom": false,
                     "damage": {
-                        "dps": 65.1429,
-                        "max_dps": 115.4286,
-                        "bullet_dmg": 5.7,
-                        "bullet_dmg_max": 10.100004,
+                        "dps": 56.5714,
+                        "max_dps": 96.0685,
+                        "bullet_dmg": 4.95,
+                        "bullet_dmg_max": 8.405998,
                         "clip_size": 10,
                         "full_clip_sec": 5.25,
                         "reload_time": 2.8,
@@ -2296,7 +2296,7 @@
         },
         "mobility": {
             "move_speed": 7,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2310,16 +2310,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.34,
+            "bullet_dmg_per_lvl": 0.306,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_tengu_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 74.2857,
-                        "max_dps": 142.2857,
-                        "bullet_dmg": 5.2,
-                        "bullet_dmg_max": 9.96,
+                        "dps": 66.8571,
+                        "max_dps": 128.0571,
+                        "bullet_dmg": 4.68,
+                        "bullet_dmg_max": 8.963999999999999,
                         "clip_size": 33,
                         "full_clip_sec": 2.31,
                         "reload_time": 2.444,
@@ -2409,12 +2409,12 @@
             }
         },
         "melee": {
-            "light_melee_damage": 63,
-            "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "light_melee_damage": 54,
+            "heavy_melee_damage": 99,
+            "melee_damage_per_lvl": 2.27
         },
         "vitality": {
-            "hp": 550,
+            "hp": 525,
             "hp_regen": 2,
             "hp_per_lvl": 35,
             "bullet_resist": 0,
@@ -2423,7 +2423,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -2564,16 +2564,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.942857,
+            "bullet_dmg_per_lvl": 0.81,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_warden_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 79.2,
-                        "max_dps": 132,
-                        "bullet_dmg": 19.8,
-                        "bullet_dmg_max": 32.999998,
+                        "dps": 70.2,
+                        "max_dps": 115.56,
+                        "bullet_dmg": 17.55,
+                        "bullet_dmg_max": 28.89,
                         "clip_size": 17,
                         "full_clip_sec": 4.25,
                         "reload_time": 2.914,
@@ -2677,7 +2677,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2685,8 +2685,8 @@
         },
         "scaling_stats": {
             "tech_power": {
-                "rounds_per_second": 0.01,
-                "fire_rate": 0.25
+                "rounds_per_second": 0.0088,
+                "fire_rate": 0.22
             }
         }
     },
@@ -2696,16 +2696,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.353,
+            "bullet_dmg_per_lvl": 0.216,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_yamato_set": {
                     "can_zoom": false,
                     "damage": {
-                        "dps": 70.625,
-                        "max_dps": 132.4,
-                        "bullet_dmg": 5.65,
-                        "bullet_dmg_max": 10.592,
+                        "dps": 63.5625,
+                        "max_dps": 101.3625,
+                        "bullet_dmg": 5.085,
+                        "bullet_dmg_max": 8.109,
                         "clip_size": 12,
                         "full_clip_sec": 4.8,
                         "reload_time": 2.444,
@@ -2807,7 +2807,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2825,16 +2825,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.707143,
+            "bullet_dmg_per_lvl": 0.636429,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_lash_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 65.8537,
-                        "max_dps": 138.2927,
-                        "bullet_dmg": 9,
-                        "bullet_dmg_max": 18.900002,
+                        "dps": 59.2683,
+                        "max_dps": 124.4635,
+                        "bullet_dmg": 8.1,
+                        "bullet_dmg_max": 17.010006,
                         "clip_size": 29,
                         "full_clip_sec": 3.963333333333334,
                         "reload_time": 2.35,
@@ -2938,7 +2938,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2952,16 +2952,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.9,
+            "bullet_dmg_per_lvl": 0.81,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_viscous_set": {
                     "can_zoom": false,
                     "damage": {
-                        "dps": 55,
-                        "max_dps": 118,
-                        "bullet_dmg": 11,
-                        "bullet_dmg_max": 23.6,
+                        "dps": 49.5,
+                        "max_dps": 106.2,
+                        "bullet_dmg": 9.9,
+                        "bullet_dmg_max": 21.240000000000002,
                         "clip_size": 20,
                         "full_clip_sec": 4,
                         "reload_time": 2.5,
@@ -3065,7 +3065,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3079,16 +3079,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.49286,
+            "bullet_dmg_per_lvl": 1.343574,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_gunslinger2_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 100,
-                        "max_dps": 169.6668,
+                        "max_dps": 162.7001,
                         "bullet_dmg": 30,
-                        "bullet_dmg_max": 50.900040000000004,
+                        "bullet_dmg_max": 48.810036,
                         "clip_size": 6,
                         "full_clip_sec": 1.7999999999999998,
                         "reload_time": 2.75,
@@ -3460,16 +3460,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.666836,
+            "bullet_dmg_per_lvl": 0.600152,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_tokamak_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 68.3333,
-                        "max_dps": 146.1309,
+                        "max_dps": 138.3511,
                         "bullet_dmg": 8.2,
-                        "bullet_dmg_max": 17.535704,
+                        "bullet_dmg_max": 16.602128,
                         "clip_size": 50,
                         "full_clip_sec": 6,
                         "reload_time": 4,
@@ -3587,16 +3587,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.241429,
+            "bullet_dmg_per_lvl": 1.117286,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_wrecker_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 84,
-                        "max_dps": 153.52,
-                        "bullet_dmg": 21,
-                        "bullet_dmg_max": 38.380005999999995,
+                        "dps": 75.6,
+                        "max_dps": 138.168,
+                        "bullet_dmg": 18.9,
+                        "bullet_dmg_max": 34.542004,
                         "clip_size": 15,
                         "full_clip_sec": 3.75,
                         "reload_time": 2.75,
@@ -3700,7 +3700,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3841,16 +3841,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.314286,
+            "bullet_dmg_per_lvl": 0.282857,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_synth_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 70,
-                        "max_dps": 131.6001,
-                        "bullet_dmg": 5,
-                        "bullet_dmg_max": 9.400004,
+                        "dps": 63,
+                        "max_dps": 118.44,
+                        "bullet_dmg": 4.5,
+                        "bullet_dmg_max": 8.459998,
                         "clip_size": 11,
                         "full_clip_sec": 5.5,
                         "reload_time": 2.82,
@@ -3944,14 +3944,14 @@
         "vitality": {
             "hp": 550,
             "hp_regen": 2,
-            "hp_per_lvl": 31,
+            "hp_per_lvl": 27,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4092,16 +4092,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1,
+            "bullet_dmg_per_lvl": 0.9,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_mirage_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 51.4286,
-                        "max_dps": 91.4286,
-                        "bullet_dmg": 18,
-                        "bullet_dmg_max": 32,
+                        "dps": 46.2857,
+                        "max_dps": 82.2857,
+                        "bullet_dmg": 16.2,
+                        "bullet_dmg_max": 28.799999999999997,
                         "clip_size": 16,
                         "full_clip_sec": 5.6,
                         "reload_time": 2.6,
@@ -4205,7 +4205,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4219,16 +4219,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.35,
+            "bullet_dmg_per_lvl": 0.315,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_slork_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 62.2222,
-                        "max_dps": 138.4444,
-                        "bullet_dmg": 4,
-                        "bullet_dmg_max": 8.899999999999999,
+                        "dps": 56,
+                        "max_dps": 124.6,
+                        "bullet_dmg": 3.6,
+                        "bullet_dmg_max": 8.01,
                         "clip_size": 13,
                         "full_clip_sec": 5.85,
                         "reload_time": 0.3,
@@ -4329,7 +4329,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4597,16 +4597,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.124929,
+            "bullet_dmg_per_lvl": 0.112436,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_bomber_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 61.1111,
-                        "max_dps": 80.5445,
+                        "max_dps": 78.6012,
                         "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 7.249006,
+                        "bullet_dmg_max": 7.074104,
                         "clip_size": 30,
                         "full_clip_sec": 2.7,
                         "reload_time": 2.5,
@@ -4724,16 +4724,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.124929,
+            "bullet_dmg_per_lvl": 0.112436,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_shieldguy_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 61.1111,
-                        "max_dps": 80.5445,
+                        "max_dps": 78.6012,
                         "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 7.249006,
+                        "bullet_dmg_max": 7.074104,
                         "clip_size": 30,
                         "full_clip_sec": 2.7,
                         "reload_time": 2.5,
@@ -4851,16 +4851,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.392857,
+            "bullet_dmg_per_lvl": 0.324,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_viper_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 150,
-                        "max_dps": 241.6666,
-                        "bullet_dmg": 9,
-                        "bullet_dmg_max": 14.499998,
+                        "dps": 105,
+                        "max_dps": 180.6,
+                        "bullet_dmg": 6.3,
+                        "bullet_dmg_max": 10.836,
                         "clip_size": 24,
                         "full_clip_sec": 1.44,
                         "reload_time": 1.6,
@@ -4918,11 +4918,11 @@
                     },
                     "spread": {
                         "spread": 0.2,
-                        "standing_spread": 0,
+                        "standing_spread": 0.2,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.055,
-                        "penalty_decay_delay": 0,
-                        "penalty_decay": 1
+                        "penalty_per_shot": 0.02,
+                        "penalty_decay_delay": 0.3,
+                        "penalty_decay": 3
                     },
                     "curve": {
                         "spline": [
@@ -4965,8 +4965,8 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 0,
+            "move_speed": 7,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -4984,16 +4984,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.392857,
+            "bullet_dmg_per_lvl": 0.353571,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_vandal_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 10,
-                        "max_dps": 28.3333,
+                        "max_dps": 26.5,
                         "bullet_dmg": 3,
-                        "bullet_dmg_max": 8.499998,
+                        "bullet_dmg_max": 7.949994,
                         "clip_size": 150,
                         "full_clip_sec": 45,
                         "reload_time": 5,
@@ -5111,16 +5111,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.597143,
+            "bullet_dmg_per_lvl": 0.537429,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_magician_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 100,
-                        "max_dps": 127.8667,
-                        "bullet_dmg": 30,
-                        "bullet_dmg_max": 38.360002,
+                        "dps": 90,
+                        "max_dps": 115.08,
+                        "bullet_dmg": 27,
+                        "bullet_dmg_max": 34.524006,
                         "clip_size": 22,
                         "full_clip_sec": 6.6,
                         "reload_time": 2.5,
@@ -5224,7 +5224,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5242,16 +5242,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.36,
+            "bullet_dmg_per_lvl": 0.324,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_trapper_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 86.6667,
-                        "max_dps": 195.8667,
+                        "max_dps": 184.9467,
                         "bullet_dmg": 4,
-                        "bullet_dmg_max": 9.04,
+                        "bullet_dmg_max": 8.536000000000001,
                         "clip_size": 8,
                         "full_clip_sec": 4.8,
                         "reload_time": 2.82,
@@ -5306,12 +5306,12 @@
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0.6,
+                        "spread": 1.5,
                         "standing_spread": 1.5,
                         "pellet_spread": 0.5,
-                        "penalty_per_shot": 0.2,
+                        "penalty_per_shot": 0.3,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 5
+                        "penalty_decay": 1
                     },
                     "curve": {
                         "spline": [
@@ -5355,7 +5355,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5369,16 +5369,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.282857,
+            "bullet_dmg_per_lvl": 1.17,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_operative_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 54.5455,
-                        "max_dps": 61.7455,
-                        "bullet_dmg": 30,
-                        "bullet_dmg_max": 33.959998,
+                        "dps": 49.0909,
+                        "max_dps": 78.8727,
+                        "bullet_dmg": 27,
+                        "bullet_dmg_max": 43.379999999999995,
                         "clip_size": 9,
                         "full_clip_sec": 4.95,
                         "reload_time": 2.585,
@@ -5482,7 +5482,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 0,
+            "sprint_speed": 0.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,

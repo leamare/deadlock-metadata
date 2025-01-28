@@ -163,7 +163,7 @@
         "alt_name": "Sheriff",
         "aliases": null,
         "released": null,
-        "status": "labs",
+        "status": "available",
         "complexity": 3,
         "inspiration": [
             "dota:batrider"
@@ -190,8 +190,8 @@
         "alt_name": null,
         "aliases": "cat lady",
         "released": null,
-        "status": "labs",
-        "complexity": 1,
+        "status": "available",
+        "complexity": 2,
         "inspiration": []
     },
     "17": {
@@ -474,11 +474,11 @@
     "58": {
         "tag": "viper",
         "old_name": null,
-        "name": "Viper",
+        "name": "Vyper",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "labs",
+        "status": "available",
         "complexity": 1,
         "inspiration": null
     },
@@ -496,13 +496,13 @@
     "60": {
         "tag": "magician",
         "old_name": null,
-        "name": "Magician",
+        "name": "THE MAGNIFICENT SINCLAIR",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "labs",
-        "complexity": 1,
-        "inspiration": null
+        "status": "available",
+        "complexity": 4,
+        "inspiration": ["dota:rubick"]
     },
     "61": {
         "tag": "trapper",

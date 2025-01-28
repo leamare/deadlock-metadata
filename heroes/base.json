@@ -502,7 +502,9 @@
         "released": null,
         "status": "available",
         "complexity": 4,
-        "inspiration": ["dota:rubick"]
+        "inspiration": [
+            "dota:rubick"
+        ]
     },
     "61": {
         "tag": "trapper",

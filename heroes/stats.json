@@ -396,10 +396,10 @@
                 "citadel_weapon_hornet_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 53.1818,
-                        "max_dps": 99,
-                        "bullet_dmg": 11.7,
-                        "bullet_dmg_max": 21.78,
+                        "dps": 51.8182,
+                        "max_dps": 97.6364,
+                        "bullet_dmg": 11.4,
+                        "bullet_dmg_max": 21.48,
                         "clip_size": 22,
                         "full_clip_sec": 4.84,
                         "reload_time": 2.914,
@@ -4851,16 +4851,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.324,
+            "bullet_dmg_per_lvl": 0.36,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_viper_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 105,
-                        "max_dps": 180.6,
+                        "max_dps": 189,
                         "bullet_dmg": 6.3,
-                        "bullet_dmg_max": 10.836,
+                        "bullet_dmg_max": 11.34,
                         "clip_size": 24,
                         "full_clip_sec": 1.44,
                         "reload_time": 1.6,

@@ -5117,10 +5117,10 @@
                 "citadel_weapon_magician_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 90,
-                        "max_dps": 115.08,
-                        "bullet_dmg": 27,
-                        "bullet_dmg_max": 34.524006,
+                        "dps": 76.6667,
+                        "max_dps": 101.7467,
+                        "bullet_dmg": 23,
+                        "bullet_dmg_max": 30.524006,
                         "clip_size": 22,
                         "full_clip_sec": 6.6,
                         "reload_time": 2.5,
@@ -5129,7 +5129,7 @@
                     "bullet": {
                         "cycle_time": 0.5,
                         "radius": 5,
-                        "speed": 3400,
+                        "speed": 13400,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 3.3333333333333335,
@@ -5186,13 +5186,13 @@
                         "spline": [
                             {
                                 "x": 0,
-                                "y": 3399.999756,
+                                "y": 13399.998047,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             },
                             {
                                 "x": 100,
-                                "y": 3399.999756,
+                                "y": 13399.998047,
                                 "m_flSlopeIncoming": 0,
                                 "m_flSlopeOutgoing": 0
                             }
@@ -5203,7 +5203,7 @@
                         ],
                         "domain_maxs": [
                             100,
-                            3400
+                            13400
                         ]
                     }
                 }

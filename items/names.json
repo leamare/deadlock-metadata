@@ -1472,5 +1472,11 @@
         "indonesian": "Rampas Spirit",
         "latam": "Robo Espiritual",
         "ukrainian": "Духовна крадіжка"
+    },
+    "343572757": {
+        "tag": "upgrade_spirit_burn"
+    },
+    "493591231": {
+        "tag": "upgrade_ultimate_burst"
     }
 }

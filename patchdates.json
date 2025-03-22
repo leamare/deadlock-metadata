@@ -1303,13 +1303,15 @@
             "forum",
             "deadlock",
             "map",
-            "three_lanes"
+            "three_lanes",
+            "sprint_speed"
         ],
         "minor_dates": [
-            1741891211
+            1741891211,
+            1742438174
         ],
         "builds": [
-            5496
+            5496, 5517
         ]
     }
 ]

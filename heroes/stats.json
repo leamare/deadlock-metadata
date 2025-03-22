@@ -118,7 +118,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -245,7 +245,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -372,7 +372,7 @@
         },
         "mobility": {
             "move_speed": 7.1,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -503,7 +503,7 @@
         },
         "mobility": {
             "move_speed": 8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -635,7 +635,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 2,
+            "sprint_speed": 2.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -759,7 +759,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -886,7 +886,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1017,7 +1017,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -1144,7 +1144,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1271,7 +1271,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1398,7 +1398,7 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1525,7 +1525,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1656,7 +1656,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -1783,7 +1783,7 @@
         },
         "mobility": {
             "move_speed": 6.55,
-            "sprint_speed": 3.5,
+            "sprint_speed": 4,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -1910,7 +1910,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2037,7 +2037,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -2169,7 +2169,7 @@
         },
         "mobility": {
             "move_speed": 8.1,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2296,7 +2296,7 @@
         },
         "mobility": {
             "move_speed": 7,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2423,7 +2423,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -2550,7 +2550,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2677,7 +2677,7 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 1.5,
+            "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2807,7 +2807,7 @@
         },
         "mobility": {
             "move_speed": 8.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -2938,7 +2938,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1.5,
+            "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3065,7 +3065,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3192,7 +3192,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3319,7 +3319,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3446,7 +3446,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3573,7 +3573,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3700,7 +3700,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3827,7 +3827,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -3951,7 +3951,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4078,7 +4078,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4205,7 +4205,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4329,7 +4329,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4456,7 +4456,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4583,7 +4583,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4710,7 +4710,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4837,7 +4837,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -4966,7 +4966,7 @@
         },
         "mobility": {
             "move_speed": 7,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -5097,7 +5097,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
@@ -5224,7 +5224,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5355,7 +5355,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5482,7 +5482,7 @@
         },
         "mobility": {
             "move_speed": 7.3,
-            "sprint_speed": 1,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,

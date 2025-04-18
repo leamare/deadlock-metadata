@@ -357,10 +357,10 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "damage_pct": 20
+            "damage_pct": 18
         },
         "vitality": {
-            "spirit_shield_hp": 95
+            "spirit_shield_hp": 70
         },
         "spirit": {
             "spirit_power": 4
@@ -1104,12 +1104,12 @@
             "damage_pct": 8
         },
         "vitality": {
-            "hp": 125
+            "hp": 75
         },
         "spirit": [],
         "mobility": [],
         "extra": {
-            "status_resistance_percent": 28
+            "status_resistance_percent": 24
         }
     },
     "2887128033": {
@@ -1194,7 +1194,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "damage_pct": 27
+            "damage_pct": 23
         },
         "vitality": {
             "hp": 400
@@ -1204,7 +1204,7 @@
             "move_speed_bonus": "2m"
         },
         "extra": {
-            "restore_delay": 10,
+            "restore_delay": 13,
             "heal_life_percent_out_of_combat": 4,
             "health_threshold": 75
         }
@@ -1321,7 +1321,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "spirit_shield_hp": 300
+            "spirit_shield_hp": 250
         },
         "spirit": [],
         "mobility": [],
@@ -1615,7 +1615,7 @@
         "extra": {
             "heal_amp_receive_penalty_percent": -40,
             "heal_amp_regen_penalty_percent": -40,
-            "heal_on_kill": 350
+            "heal_on_kill": 275
         },
         "active": {
             "duration": 7
@@ -1971,7 +1971,7 @@
         "mobility": [],
         "extra": {
             "spirit_damage": 50,
-            "tech_armor_damage_reduction": -12
+            "tech_armor_damage_reduction": -8
         },
         "active": {
             "cooldown": 8.5,

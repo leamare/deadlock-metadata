@@ -831,5 +831,35 @@
         "indonesian": "Si Gagak Hitam",
         "latam": "Cuervo",
         "ukrainian": "Ворон"
+    },
+    "63": {
+        "tag": "vampirebat"
+    },
+    "64": {
+        "tag": "drifter"
+    },
+    "65": {
+        "tag": "priest"
+    },
+    "66": {
+        "tag": "frank"
+    },
+    "67": {
+        "tag": "bookworm"
+    },
+    "68": {
+        "tag": "boho"
+    },
+    "69": {
+        "tag": "doorman"
+    },
+    "70": {
+        "tag": "skyrunner"
+    },
+    "71": {
+        "tag": "swan"
+    },
+    "72": {
+        "tag": "punkgoat"
     }
 }

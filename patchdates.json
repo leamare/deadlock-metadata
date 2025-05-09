@@ -1315,5 +1315,19 @@
         "builds": [
             5496, 5517, 5526, 5533
         ]
+    },
+    {
+        "timestamp": 1746733400,
+        "title": "2025-05-08",
+        "tags": [
+            "forum",
+            "deadlock",
+            "map",
+            "shop"
+        ],
+        "minor_dates": [],
+        "builds": [
+            5574
+        ]
     }
 ]

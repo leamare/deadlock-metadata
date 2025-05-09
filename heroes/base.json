@@ -527,5 +527,115 @@
         "status": "labs",
         "complexity": 2,
         "inspiration": null
+    },
+    "63": {
+        "tag": "vampirebat",
+        "old_name": null,
+        "name": "VampireBat",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "64": {
+        "tag": "drifter",
+        "old_name": null,
+        "name": "Drifter",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "65": {
+        "tag": "priest",
+        "old_name": null,
+        "name": "Priest",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 2,
+        "inspiration": null
+    },
+    "66": {
+        "tag": "frank",
+        "old_name": null,
+        "name": "Frank",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 2,
+        "inspiration": null
+    },
+    "67": {
+        "tag": "bookworm",
+        "old_name": null,
+        "name": "Bookworm",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 1,
+        "inspiration": null
+    },
+    "68": {
+        "tag": "boho",
+        "old_name": null,
+        "name": "Boho",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 1,
+        "inspiration": null
+    },
+    "69": {
+        "tag": "doorman",
+        "old_name": null,
+        "name": "Doorman",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 1,
+        "inspiration": null
+    },
+    "70": {
+        "tag": "skyrunner",
+        "old_name": null,
+        "name": "Skyrunner",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "71": {
+        "tag": "swan",
+        "old_name": null,
+        "name": "Swan",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "72": {
+        "tag": "punkgoat",
+        "old_name": null,
+        "name": "Punkgoat",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 3,
+        "inspiration": null
     }
 }

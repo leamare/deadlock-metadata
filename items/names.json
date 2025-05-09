@@ -1582,5 +1582,76 @@
         "indonesian": "Tembakan Cahaya",
         "latam": "Pergamino de tormenta",
         "ukrainian": "Осяйний сувій"
+    },
+    "1851590806": {
+        "tag": "armor_upgrade_t5"
+    },
+    "349524508": {
+        "tag": "weapon_upgrade_t5"
+    },
+    "4121208447": {
+        "tag": "tech_upgrade_t5"
+    },
+    "4204808176": {
+        "tag": "upgrade_melee_rebuttal"
+    },
+    "1414025773": {
+        "tag": "upgrade_counterspell"
+    },
+    "3791587546": {
+        "tag": "upgrade_weighted_shots"
+    },
+    "2858617477": {
+        "tag": "upgrade_health_2"
+    },
+    "3074274290": {
+        "tag": "upgrade_trophy_collector"
+    },
+    "800008313": {
+        "tag": "upgrade_crushing_fists"
+    },
+    "84321454": {
+        "tag": "upgrade_quick_silver",
+        "brazilian": "Recarregamento Célere",
+        "german": "Quecksilber-Nachlader",
+        "italian": "Ricarica flash",
+        "russian": "Ртутная перезарядка",
+        "english": "Quicksilver Reload",
+        "japanese": "クイックシルバーリロード",
+        "polish": "Energiczne Przeładowanie",
+        "schinese": "魔力装填",
+        "thai": "​ควิก​ซิลเวอร์​รีโหลด​",
+        "czech": "Kouzlo přebití",
+        "koreana": "즉시 재장전",
+        "spanish": "Recarga Repentina",
+        "turkish": "Hızlı Şarjör Değiştirme",
+        "french": "Rechargement éclair",
+        "indonesian": "Isi Ulang Quicksilver",
+        "latam": "Recarga rápida",
+        "ukrainian": "Жвава перезарядка"
+    },
+    "3919289022": {
+        "tag": "upgrade_ethereal_bullets"
+    },
+    "3028234315": {
+        "tag": "upgrade_absorbing_armor"
+    },
+    "1427630806": {
+        "tag": "upgrade_healbuff"
+    },
+    "673001892": {
+        "tag": "upgrade_aprounds"
+    },
+    "3491236900": {
+        "tag": "upgrade_deflecting_armor"
+    },
+    "1955841979": {
+        "tag": "upgrade_spellbreaker"
+    },
+    "2221211450": {
+        "tag": "upgrade_enchanted_holsters"
+    },
+    "98582110": {
+        "tag": "upgrade_weapon_backstabber"
     }
 }

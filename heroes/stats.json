@@ -2183,16 +2183,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.246857,
+            "bullet_dmg_per_lvl": 0.22,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_shiv_set": {
                     "can_zoom": false,
                     "damage": {
                         "dps": 56.5714,
-                        "max_dps": 96.0685,
+                        "max_dps": 91.7714,
                         "bullet_dmg": 4.95,
-                        "bullet_dmg_max": 8.405998,
+                        "bullet_dmg_max": 8.030000000000001,
                         "clip_size": 10,
                         "full_clip_sec": 5.25,
                         "reload_time": 2.8,

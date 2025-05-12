@@ -519,7 +519,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "debuff_duration": 2.5,
+            "debuff_duration": 3,
             "outgoing_damage_penalty_percent": -35,
             "heal_amp_receive_penalty_percent": -30,
             "heal_amp_regen_penalty_percent": -30
@@ -1969,7 +1969,7 @@
             "move_speed_bonus": "2m"
         },
         "extra": {
-            "healing_per_cast": 100,
+            "healing_per_cast": 75,
             "out_of_combat_health_regen": 4
         },
         "active": {
@@ -2310,8 +2310,8 @@
             "explosion_radius": "12m",
             "d_p_s": 24,
             "debuff_duration": 8,
-            "heal_amp_receive_penalty_percent": -80,
-            "heal_amp_regen_penalty_percent": -80,
+            "heal_amp_receive_penalty_percent": -70,
+            "heal_amp_regen_penalty_percent": -70,
             "tick_rate": 0.5,
             "cooldown_reduction_pct_on_non_heroes": 100,
             "damage_pct_vs_non_heroes": 50
@@ -2561,7 +2561,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "fire_rate": 30,
+            "fire_rate": 25,
             "clip_size_pct": 20
         },
         "vitality": [],

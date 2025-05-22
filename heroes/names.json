@@ -39,7 +39,7 @@
         "turkish": "Yedi",
         "french": "Seven",
         "indonesian": "Seven",
-        "latam": "Seven",
+        "latam": "Siete",
         "ukrainian": "Сьомий"
     },
     "3": {
@@ -79,7 +79,7 @@
         "turkish": "Leydi Geist",
         "french": "Dame Geist",
         "indonesian": "Lady Geist",
-        "latam": "Lady Geist",
+        "latam": "Condesa Geist",
         "ukrainian": "Леді Ґейст"
     },
     "6": {
@@ -119,7 +119,7 @@
         "turkish": "Tayf",
         "french": "Fortuna",
         "indonesian": "Wraith",
-        "latam": "Wraith",
+        "latam": "Espectro",
         "ukrainian": "Мара"
     },
     "8": {
@@ -159,7 +159,7 @@
         "turkish": "Paradoks",
         "french": "Paradox",
         "indonesian": "Paradox",
-        "latam": "Paradox",
+        "latam": "Paradoja",
         "ukrainian": "Парадокс"
     },
     "11": {
@@ -179,7 +179,7 @@
         "turkish": "Dinamo",
         "french": "Dynamo",
         "indonesian": "Dynamo",
-        "latam": "Dynamo",
+        "latam": "Dínamo",
         "ukrainian": "Динамо"
     },
     "12": {
@@ -219,7 +219,7 @@
         "turkish": "Duman",
         "french": "Nébula",
         "indonesian": "Haze",
-        "latam": "Haze",
+        "latam": "Bruma",
         "ukrainian": "Імла"
     },
     "14": {
@@ -299,7 +299,7 @@
         "turkish": "Gri Pençe",
         "french": "Serregrise",
         "indonesian": "Grey Talon",
-        "latam": "Grey Talon",
+        "latam": "Jefe Garra",
         "ukrainian": "Сивий Кіготь"
     },
     "18": {
@@ -339,7 +339,7 @@
         "turkish": "Hançer",
         "french": "Surin",
         "indonesian": "Shiv",
-        "latam": "Shiv",
+        "latam": "El Navajas",
         "ukrainian": "Лезо"
     },
     "20": {
@@ -398,7 +398,7 @@
         "turkish": "Bekçi",
         "french": "Marshal",
         "indonesian": "Warden",
-        "latam": "Warden",
+        "latam": "Guardia",
         "ukrainian": "Постовий"
     },
     "27": {
@@ -458,7 +458,7 @@
         "turkish": "Balçık",
         "french": "Myxo",
         "indonesian": "Viscous",
-        "latam": "Viscous",
+        "latam": "Viscoso",
         "ukrainian": "В’язкий"
     },
     "38": {
@@ -632,7 +632,7 @@
         "turkish": "Vaha",
         "french": "Mirage",
         "indonesian": "Mirage",
-        "latam": "Mirage",
+        "latam": "Espejismo",
         "ukrainian": "Міраж"
     },
     "53": {
@@ -750,7 +750,7 @@
         "turkish": "Engerek",
         "french": "Vypère",
         "indonesian": "Vyper",
-        "latam": "Vyper",
+        "latam": "Víper",
         "ukrainian": "Гадюка"
     },
     "59": {
@@ -833,33 +833,201 @@
         "ukrainian": "Ворон"
     },
     "63": {
-        "tag": "vampirebat"
+        "tag": "vampirebat",
+        "brazilian": "Vampira",
+        "german": "Vampirebat",
+        "italian": "Vampiria",
+        "russian": "VampireBat",
+        "english": "VampireBat",
+        "japanese": "ヴァンパイアバット",
+        "polish": "VampireBat",
+        "schinese": "吸血鬼蝠",
+        "thai": "แวมไพร์แบต",
+        "czech": "VampireBat",
+        "koreana": "뱀파이어뱃",
+        "spanish": "Vampira",
+        "turkish": "Vampir Yarasa",
+        "french": "Vespéra",
+        "indonesian": "VampireBat",
+        "latam": "Murciélago vampiro",
+        "ukrainian": "Вампірка"
     },
     "64": {
-        "tag": "drifter"
+        "tag": "drifter",
+        "brazilian": "Andarilho",
+        "german": "Drifter",
+        "italian": "Losco",
+        "russian": "Drifter",
+        "english": "Drifter",
+        "japanese": "ドリフター",
+        "polish": "Drifter",
+        "schinese": "漂游人",
+        "thai": "ดริฟเตอร์",
+        "czech": "Drifter",
+        "koreana": "드리프터",
+        "spanish": "Vagabundo",
+        "turkish": "Serseri",
+        "french": "Drifter",
+        "indonesian": "Drifter",
+        "latam": "Vagabundo",
+        "ukrainian": "Бродяга"
     },
     "65": {
-        "tag": "priest"
+        "tag": "priest",
+        "brazilian": "Padre",
+        "german": "Priest",
+        "italian": "Monaco",
+        "russian": "Priest",
+        "english": "Priest",
+        "japanese": "プリースト",
+        "polish": "Priest",
+        "schinese": "牧师",
+        "thai": "พรีสต์",
+        "czech": "Priest",
+        "koreana": "프리스트",
+        "spanish": "Reverendo",
+        "turkish": "Rahip",
+        "french": "Priest",
+        "indonesian": "Priest",
+        "latam": "Sacerdote",
+        "ukrainian": "Священик"
     },
     "66": {
-        "tag": "frank"
+        "tag": "frank",
+        "brazilian": "Frank",
+        "german": "Frank",
+        "italian": "Frank",
+        "russian": "Frank",
+        "english": "Frank",
+        "japanese": "フランク",
+        "polish": "Frank",
+        "schinese": "弗兰克",
+        "thai": "แฟรงก์",
+        "czech": "Frank",
+        "koreana": "프랭크",
+        "spanish": "Frank",
+        "turkish": "Frank",
+        "french": "Frank",
+        "indonesian": "Frank",
+        "latam": "Frank",
+        "ukrainian": "Френк"
     },
     "67": {
-        "tag": "bookworm"
+        "tag": "bookworm",
+        "brazilian": "Literata",
+        "german": "Bookworm",
+        "italian": "Archivista",
+        "russian": "Bookworm",
+        "english": "Bookworm",
+        "japanese": "ブックワーム",
+        "polish": "Bookworm",
+        "schinese": "书虫",
+        "thai": "บุ๊กเวิร์ม",
+        "czech": "Bookworm",
+        "koreana": "북웜",
+        "spanish": "Ratón de Biblioteca",
+        "turkish": "Kitap Kurdu",
+        "french": "Codex",
+        "indonesian": "Bookworm",
+        "latam": "Comelibros",
+        "ukrainian": "Книжниця"
     },
     "68": {
-        "tag": "boho"
+        "tag": "boho",
+        "brazilian": "Boho",
+        "german": "Boho",
+        "italian": "Bohémienne",
+        "russian": "Boho",
+        "english": "Boho",
+        "japanese": "ボーホー",
+        "polish": "Boho",
+        "schinese": "波米",
+        "thai": "โบโฮ",
+        "czech": "Boho",
+        "koreana": "보우호우",
+        "spanish": "Bohemia",
+        "turkish": "Boho",
+        "french": "Boho",
+        "indonesian": "Boho",
+        "latam": "Bohemio",
+        "ukrainian": "Богема"
     },
     "69": {
-        "tag": "doorman"
+        "tag": "doorman",
+        "brazilian": "Porteiro",
+        "german": "Doorman",
+        "italian": "Portiere",
+        "russian": "Doorman",
+        "english": "Doorman",
+        "japanese": "ドアマン",
+        "polish": "Doorman",
+        "schinese": "门侍",
+        "thai": "ดอร์แมน",
+        "czech": "Doorman",
+        "koreana": "도어맨",
+        "spanish": "Portero",
+        "turkish": "Kapıcı",
+        "french": "Alphonse",
+        "indonesian": "Doorman",
+        "latam": "Portero",
+        "ukrainian": "Швейцар"
     },
     "70": {
-        "tag": "skyrunner"
+        "tag": "skyrunner",
+        "german": "Skyrunner",
+        "italian": "Skyrunner",
+        "russian": "Skyrunner",
+        "english": "Skyrunner",
+        "japanese": "スカイランナー",
+        "polish": "Skyrunner",
+        "schinese": "御空行者",
+        "thai": "สกายรันเนอร์",
+        "czech": "Skyrunner",
+        "koreana": "스카이러너",
+        "spanish": "Trotacielos",
+        "turkish": "Gök Yürüyen",
+        "french": "Céleste",
+        "indonesian": "Skyrunner",
+        "latam": "Trotacielos",
+        "ukrainian": "Небесник"
     },
     "71": {
-        "tag": "swan"
+        "tag": "swan",
+        "brazilian": "Cisne",
+        "german": "Swan",
+        "italian": "Cigno",
+        "russian": "Swan",
+        "english": "Swan",
+        "japanese": "スワン",
+        "polish": "Swan",
+        "schinese": "天鹅舞伶",
+        "thai": "สวอน",
+        "czech": "Swan",
+        "koreana": "스완",
+        "spanish": "Cisne",
+        "turkish": "Kuğu",
+        "french": "Swan",
+        "indonesian": "Swan",
+        "latam": "Cisne",
+        "ukrainian": "Лебідь"
     },
     "72": {
-        "tag": "punkgoat"
+        "tag": "punkgoat",
+        "german": "Punkgoat",
+        "italian": "Teppista",
+        "russian": "Punkgoat",
+        "english": "Punkgoat",
+        "japanese": "パンクゴート",
+        "polish": "Punkgoat",
+        "schinese": "Punkgoat",
+        "thai": "พังก์โกต",
+        "czech": "Punkgoat",
+        "koreana": "펑크고트",
+        "spanish": "Punkicabra",
+        "turkish": "Punk Keçi",
+        "french": "Punkgoat",
+        "indonesian": "Punkgoat",
+        "latam": "Cabra punk",
+        "ukrainian": "Козопанк"
     }
 }

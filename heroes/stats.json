@@ -106,7 +106,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -233,7 +233,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 750,
@@ -360,7 +360,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -491,7 +491,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 675,
@@ -623,12 +623,12 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 800,
             "hp_regen": 1,
-            "hp_per_lvl": 86,
+            "hp_per_lvl": 82,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -747,7 +747,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 720,
@@ -758,7 +758,7 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
+            "move_speed": 6.5,
             "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
@@ -874,12 +874,12 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
             "hp_regen": 2,
-            "hp_per_lvl": 65,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1005,7 +1005,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -1132,7 +1132,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -1259,7 +1259,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 800,
@@ -1386,7 +1386,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 800,
@@ -1402,7 +1402,7 @@
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.1666
         },
         "scaling_stats": []
     },
@@ -1513,7 +1513,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 650,
@@ -1644,7 +1644,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -1771,7 +1771,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 800,
@@ -1898,7 +1898,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -2025,7 +2025,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -2157,7 +2157,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 850,
@@ -2189,10 +2189,10 @@
                 "citadel_weapon_shiv_set": {
                     "can_zoom": false,
                     "damage": {
-                        "dps": 56.5714,
-                        "max_dps": 91.7714,
-                        "bullet_dmg": 4.95,
-                        "bullet_dmg_max": 8.030000000000001,
+                        "dps": 52.5714,
+                        "max_dps": 87.7714,
+                        "bullet_dmg": 4.6,
+                        "bullet_dmg_max": 7.68,
                         "clip_size": 10,
                         "full_clip_sec": 5.25,
                         "reload_time": 2.8,
@@ -2284,18 +2284,18 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 750,
             "hp_regen": 2,
-            "hp_per_lvl": 81,
+            "hp_per_lvl": 77,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7,
+            "move_speed": 6.8,
             "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
@@ -2411,7 +2411,7 @@
         "melee": {
             "light_melee_damage": 54,
             "heavy_melee_damage": 99,
-            "melee_damage_per_lvl": 2.27
+            "melee_damage_per_lvl": 2.15
         },
         "vitality": {
             "hp": 675,
@@ -2538,7 +2538,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -2665,7 +2665,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 725,
@@ -2795,7 +2795,7 @@
         "melee": {
             "light_melee_damage": 69,
             "heavy_melee_damage": 128,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 650,
@@ -2926,7 +2926,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3053,7 +3053,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3180,7 +3180,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3307,7 +3307,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3434,7 +3434,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3561,7 +3561,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3688,7 +3688,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3815,7 +3815,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -3939,7 +3939,7 @@
         "melee": {
             "light_melee_damage": 75,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -4066,7 +4066,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -4193,7 +4193,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 650,
@@ -4317,7 +4317,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -4444,7 +4444,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 800,
@@ -4571,7 +4571,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 3000,
@@ -4698,7 +4698,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -4825,7 +4825,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -4851,16 +4851,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.33,
+            "bullet_dmg_per_lvl": 0.28,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_viper_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 105,
-                        "max_dps": 182,
+                        "max_dps": 170.3333,
                         "bullet_dmg": 6.3,
-                        "bullet_dmg_max": 10.92,
+                        "bullet_dmg_max": 10.22,
                         "clip_size": 24,
                         "full_clip_sec": 1.44,
                         "reload_time": 1.6,
@@ -4954,12 +4954,12 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
             "hp_regen": 2,
-            "hp_per_lvl": 64,
+            "hp_per_lvl": 53,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5085,7 +5085,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -5212,7 +5212,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -5343,7 +5343,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -5470,7 +5470,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -5597,7 +5597,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 480,
@@ -5724,7 +5724,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 750,
@@ -5851,7 +5851,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -5978,7 +5978,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -6109,7 +6109,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 675,
@@ -6236,7 +6236,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 675,
@@ -6368,7 +6368,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 675,
@@ -6500,7 +6500,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -6627,7 +6627,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 700,
@@ -6754,7 +6754,7 @@
         "melee": {
             "light_melee_damage": 63,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 2.671429
+            "melee_damage_per_lvl": 2.53
         },
         "vitality": {
             "hp": 750,

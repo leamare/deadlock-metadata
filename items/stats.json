@@ -2294,7 +2294,7 @@
             "damage_threshold_duration": 5,
             "explosion_damage": 120,
             "explosion_radius": "12m",
-            "d_p_s": 24,
+            "dps": 24,
             "debuff_duration": 8,
             "heal_amp_receive_penalty_percent": -70,
             "heal_amp_regen_penalty_percent": -70,
@@ -2722,7 +2722,7 @@
             "move_speed_bonus": "1.75m"
         },
         "extra": {
-            "d_p_s": 20,
+            "dps": 20,
             "tick_rate": 0.5,
             "debuff_radius": "25m",
             "bullet_resist_reduction": -6,

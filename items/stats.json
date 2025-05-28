@@ -1624,7 +1624,7 @@
         "bullet": [],
         "vitality": [],
         "spirit": {
-            "cooldown_reduction": 26
+            "cooldown_reduction": 25
         },
         "mobility": [],
         "extra": {
@@ -2196,7 +2196,7 @@
         "mobility": [],
         "extra": {
             "radius": "1m",
-            "proc_chance": 90,
+            "proc_chance": 100,
             "heal_from_hero": 40,
             "heal_from_n_p_c": 15
         },
@@ -2413,7 +2413,7 @@
         "extra": {
             "spirit_power": 20,
             "buff_duration": 6,
-            "spell_parry_duration": 0.8
+            "spell_parry_duration": 1
         },
         "active": {
             "cooldown": 25
@@ -2633,7 +2633,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "bonus_bullet_speed_percent": 30,
+            "bonus_bullet_speed_percent": 35,
             "proc_chance": 60
         }
     },
@@ -2752,7 +2752,57 @@
         "mobility": [],
         "extra": {
             "out_of_combat_health_regen": 4,
-            "tech_power_percent": 10
+            "tech_power_percent": 13
+        }
+    },
+    "2010028405": {
+        "tag": "upgrade_headshot_booster",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/headshot_booster",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 40
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "head_shot_bonus_damage": 50,
+            "proc_chance": 100
+        },
+        "active": {
+            "cooldown": 8
+        }
+    },
+    "4053935515": {
+        "tag": "upgrade_headhunter",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/headhunter",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 5
+        },
+        "vitality": {
+            "hp": 75
+        },
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "2m"
+        },
+        "extra": {
+            "head_shot_bonus_damage": 75,
+            "heal_percent_per_headshot": 4,
+            "movement_speed_bonus_duration": 3,
+            "proc_chance": 100
+        },
+        "active": {
+            "cooldown": 8
         }
     }
 }

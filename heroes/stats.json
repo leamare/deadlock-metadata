@@ -364,7 +364,7 @@
         },
         "vitality": {
             "hp": 700,
-            "hp_regen": 3,
+            "hp_regen": 1.5,
             "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
@@ -752,7 +752,7 @@
         "vitality": {
             "hp": 720,
             "hp_regen": 1.5,
-            "hp_per_lvl": 81,
+            "hp_per_lvl": 78,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1807,8 +1807,8 @@
                         "max_dps": 115.2,
                         "bullet_dmg": 1.9,
                         "bullet_dmg_max": 2.88,
-                        "clip_size": 9,
-                        "full_clip_sec": 1.8,
+                        "clip_size": 10,
+                        "full_clip_sec": 2,
                         "reload_time": 2.5,
                         "reload_time_single_delay": 0
                     },
@@ -2062,10 +2062,10 @@
                 "citadel_weapon_digger_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 57.7778,
-                        "max_dps": 88.8889,
-                        "bullet_dmg": 2.6,
-                        "bullet_dmg_max": 4,
+                        "dps": 60,
+                        "max_dps": 91.1111,
+                        "bullet_dmg": 2.7,
+                        "bullet_dmg_max": 4.1000000000000005,
                         "clip_size": 20,
                         "full_clip_sec": 3.6,
                         "reload_time": 2.82,
@@ -2564,16 +2564,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.74,
+            "bullet_dmg_per_lvl": 0.6,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_warden_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 70.2,
-                        "max_dps": 111.64,
+                        "max_dps": 103.8,
                         "bullet_dmg": 17.55,
-                        "bullet_dmg_max": 27.91,
+                        "bullet_dmg_max": 25.950000000000003,
                         "clip_size": 17,
                         "full_clip_sec": 4.25,
                         "reload_time": 2.914,

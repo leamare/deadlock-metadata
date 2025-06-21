@@ -64,7 +64,7 @@
         "turkish": "Genişletilmiş Şarjör",
         "french": "Chargeur XL",
         "indonesian": "Magasin Besar",
-        "latam": "Cartucho extendido",
+        "latam": "Cargador extendido",
         "ukrainian": "Збільшений магазин"
     },
     "1009965641": {
@@ -585,7 +585,7 @@
         "tag": "upgrade_debuff_reducer",
         "brazilian": "Redutor de Malefícios",
         "german": "Schwächungs­reduzierer",
-        "italian": "Riduttore effetti negativi",
+        "italian": "Riduttore debuff",
         "russian": "Уменьшитель эффектов",
         "english": "Debuff Reducer",
         "japanese": "デバフリデューサー",
@@ -641,7 +641,7 @@
         "turkish": "Mermi Dayanıklılığı",
         "french": "Résilience balistique",
         "indonesian": "Ketahanan Peluru",
-        "latam": "Resiliencia a balas",
+        "latam": "Resiliencia balística",
         "ukrainian": "Кульова стійкість"
     },
     "2566692615": {
@@ -1185,7 +1185,7 @@
         "turkish": "Süre Uzatıcı",
         "french": "Prolongation",
         "indonesian": "Pemanjang Durasi",
-        "latam": "Ampliador de duración",
+        "latam": "Amplificador de duración",
         "ukrainian": "Подовжувач дії"
     },
     "2717651715": {
@@ -1466,7 +1466,7 @@
         "turkish": "Devasa Şarjör",
         "french": "Chargeur titanesque",
         "indonesian": "Magasin Super",
-        "latam": "Cartucho titánico",
+        "latam": "Cargador titánico",
         "ukrainian": "Титановий магазин"
     },
     "1150006784": {
@@ -1522,7 +1522,7 @@
         "thai": "​​สปิริต​​เบิร์น​",
         "czech": "Žhnoucí duše",
         "koreana": "영혼 화상",
-        "spanish": "Quemadura Espiritual",
+        "spanish": "Quemadura Espiritual",
         "turkish": "Yakıcı Büyü",
         "french": "Brulure spirituelle",
         "indonesian": "Api Spirit",
@@ -1867,11 +1867,13 @@
         "english": "Boundless Spirit",
         "japanese": "バウンドレススピリット",
         "polish": "Bezkresny Spirytualizm",
+        "schinese": "灵力无边",
         "thai": "​บาวด์เลส​สปิริต​",
         "czech": "Bezbřehá spiritualita",
         "koreana": "영혼의 해방",
         "spanish": "Espíritu Ilimitado",
         "turkish": "Sınırsız Büyü",
+        "french": "Profusion spirituelle",
         "indonesian": "Spirit Tak Terbatas",
         "latam": "Espíritu ilimitado",
         "ukrainian": "Вільний дух"

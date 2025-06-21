@@ -811,7 +811,7 @@
                 "channel_move_speed": 50,
                 "special_props": {
                     "max_range": "30m",
-                    "move_speed_reduction": 25,
+                    "move_speed_reduction": 40,
                     "life_drain_per_second": 35,
                     "tick_rate": 0.1,
                     "life_drain_health_mult": 80
@@ -924,7 +924,7 @@
                 ],
                 "cooldown": 170,
                 "duration": 0.25,
-                "cast_range": "7m",
+                "cast_range": "6m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
                 "channel_move_speed": "2m",
@@ -1147,7 +1147,7 @@
                     "impact_height": "4m",
                     "damage": 60,
                     "stun_duration": 1.5,
-                    "toss_speed": 330
+                    "toss_speed": 450
                 },
                 "upgrades": [
                     [
@@ -1211,7 +1211,7 @@
                 "charges": 1,
                 "channel_move_speed": 50,
                 "special_props": {
-                    "damage": 70,
+                    "damage": 60,
                     "ability_charges_conditionally": 1,
                     "resource_per_card": 100,
                     "bonus_ability_resource": 100,
@@ -1242,6 +1242,14 @@
                         {
                             "property": "card_resource_gen_pct_scale",
                             "value": 50
+                        },
+                        {
+                            "property": "slow_percent",
+                            "value": 25
+                        },
+                        {
+                            "property": "slow_duration",
+                            "value": 1
                         }
                     ]
                 ]
@@ -1338,7 +1346,7 @@
                         },
                         {
                             "property": "magic_damage_per_bullet",
-                            "value": 4
+                            "value": 3
                         }
                     ],
                     [
@@ -2319,7 +2327,7 @@
                     "no_target",
                     "dont_aim_facing_enemy"
                 ],
-                "cooldown": 24,
+                "cooldown": 25,
                 "unit_target_limit": 1,
                 "channel_time": 5,
                 "channel_move_speed": -1,
@@ -2343,7 +2351,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -7.5
+                            "value": -7
                         }
                     ],
                     [
@@ -2355,7 +2363,7 @@
                     [
                         {
                             "property": "beam_split",
-                            "value": "13m"
+                            "value": "10m"
                         },
                         {
                             "property": "beam_split",
@@ -2747,7 +2755,7 @@
                     [
                         {
                             "property": "barrel_damage",
-                            "value": 100
+                            "value": 80
                         }
                     ],
                     [
@@ -2865,7 +2873,7 @@
                     [
                         {
                             "property": "damage",
-                            "value": 85
+                            "value": 60
                         }
                     ],
                     [
@@ -3320,7 +3328,8 @@
                     "cannot_cancel_during_channel",
                     "inhibit_soft_camera_collision",
                     "movement",
-                    "prevent_bot_usage"
+                    "prevent_bot_usage",
+                    "require_ability_button_to_cancel"
                 ],
                 "cooldown": 45,
                 "unit_target_limit": 1,
@@ -3330,7 +3339,8 @@
                     "bonus_move_speed_percent": 65,
                     "interrupt_cooldown": 6,
                     "speed_lost_duration": 2,
-                    "enemy_damage_speed_penalty": 65
+                    "enemy_damage_speed_penalty": 65,
+                    "cat_form_damage_dealt_reduction": -100
                 },
                 "upgrades": [
                     [
@@ -3411,7 +3421,7 @@
                         },
                         {
                             "property": "outgoing_damage_percent",
-                            "value": 30
+                            "value": 24
                         }
                     ]
                 ]
@@ -4785,14 +4795,13 @@
                 "cast_delay": 2,
                 "special_props": {
                     "pulse_interval": 0.5,
-                    "pulse_d_p_s": 90,
+                    "pulse_d_p_s": 80,
                     "health_steal_pct_hero": 65,
                     "health_steal_pct": 15,
                     "cone_angle": 115,
                     "bonus_move_speed": "0m",
                     "bullet_resist": 30,
-                    "tech_resist": 30,
-                    "cooldown_on_interrupt": 30
+                    "tech_resist": 30
                 },
                 "radius": "13m",
                 "upgrades": [
@@ -4805,7 +4814,7 @@
                     [
                         {
                             "property": "pulse_d_p_s",
-                            "value": 60
+                            "value": 50
                         },
                         {
                             "property": "ability_cooldown",
@@ -5351,7 +5360,7 @@
                     "damage": 90,
                     "puddle_duration": 10,
                     "detonate_cooldown": 0.15,
-                    "second_hit_damage_percentage": 0.7,
+                    "second_hit_damage_percentage": 0.5,
                     "third_hit_damage_percentage": 0.5
                 },
                 "radius": "5m",
@@ -5558,7 +5567,7 @@
                 "special_props": {
                     "ball_radius": "1.4m",
                     "ball_hit_radius": "1.8m",
-                    "damage": 140,
+                    "damage": 120,
                     "ball_offset": 50,
                     "friction_percentage": -85,
                     "acceleration_percentage": -60,
@@ -7356,7 +7365,7 @@
                     "damage": 70,
                     "tick_rate": 0.25,
                     "projectile_think_interval": 0.01,
-                    "distance_above_ground": "2m",
+                    "distance_above_ground": "0.5m",
                     "climb_height": "1m",
                     "drop_down_rate": 10,
                     "tornado_speed": 945,
@@ -7432,7 +7441,7 @@
                     [
                         {
                             "property": "victim_stack_duration",
-                            "value": 4
+                            "value": 2.5
                         },
                         {
                             "property": "proc_damage_base",
@@ -9434,7 +9443,7 @@
                         },
                         {
                             "property": "magic_damage_per_bullet",
-                            "value": 4
+                            "value": 3
                         }
                     ],
                     [

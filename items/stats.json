@@ -1098,7 +1098,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "health_threshold": 35,
+            "health_threshold": 30,
             "tech_resist_below_threshold": 30
         }
     },
@@ -1117,7 +1117,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "health_threshold": 35,
+            "health_threshold": 30,
             "bullet_resist_below_threshold": 30
         }
     },
@@ -1131,7 +1131,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp_regen": 3.5
+            "hp_regen": 3
         },
         "spirit": [],
         "mobility": [],
@@ -1159,7 +1159,7 @@
             "move_speed_bonus": "1.5m"
         },
         "extra": {
-            "restore_delay": 12,
+            "restore_delay": 14,
             "heal_life_percent_out_of_combat": 3,
             "health_threshold": 75
         }
@@ -1263,7 +1263,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "spirit_resist": 18
+            "spirit_resist": 15
         },
         "spirit": {
             "spirit_power": 15,
@@ -1624,7 +1624,7 @@
         "bullet": [],
         "vitality": [],
         "spirit": {
-            "cooldown_reduction": 25
+            "cooldown_reduction": 24
         },
         "mobility": [],
         "extra": {
@@ -1990,7 +1990,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp_regen": 3.5
+            "hp_regen": 3
         },
         "spirit": [],
         "mobility": [],

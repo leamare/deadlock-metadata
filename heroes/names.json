@@ -79,7 +79,7 @@
         "turkish": "Leydi Geist",
         "french": "Dame Geist",
         "indonesian": "Lady Geist",
-        "latam": "Condesa Geist",
+        "latam": "Lady Geist",
         "ukrainian": "Леді Ґейст"
     },
     "6": {
@@ -175,7 +175,7 @@
         "thai": "ไดนาโม",
         "czech": "Dynamo",
         "koreana": "다이나모",
-        "spanish": "Dynamo",
+        "spanish": "Dínamo",
         "turkish": "Dinamo",
         "french": "Dynamo",
         "indonesian": "Dynamo",
@@ -215,7 +215,7 @@
         "thai": "เฮซ",
         "czech": "Haze",
         "koreana": "헤이즈",
-        "spanish": "Niebla",
+        "spanish": "Bruma",
         "turkish": "Duman",
         "french": "Nébula",
         "indonesian": "Haze",
@@ -279,7 +279,7 @@
         "turkish": "Kaliko",
         "french": "Calico",
         "indonesian": "Calico",
-        "latam": "Calicó",
+        "latam": "Felina",
         "ukrainian": "Каліко"
     },
     "17": {
@@ -299,7 +299,7 @@
         "turkish": "Gri Pençe",
         "french": "Serregrise",
         "indonesian": "Grey Talon",
-        "latam": "Jefe Garra",
+        "latam": "Garra Gris",
         "ukrainian": "Сивий Кіготь"
     },
     "18": {
@@ -335,7 +335,7 @@
         "thai": "ชิฟ",
         "czech": "Shiv",
         "koreana": "쉬브",
-        "spanish": "Cuchilla",
+        "spanish": "El Navajas",
         "turkish": "Hançer",
         "french": "Surin",
         "indonesian": "Shiv",
@@ -359,7 +359,7 @@
         "turkish": "Sarmaşık",
         "french": "Lyanne",
         "indonesian": "Ivy",
-        "latam": "Ivy",
+        "latam": "Hiedra",
         "ukrainian": "Плющ"
     },
     "21": {
@@ -438,7 +438,7 @@
         "turkish": "Kırbaç",
         "french": "Brutus",
         "indonesian": "Lash",
-        "latam": "Lash",
+        "latam": "Látigo",
         "ukrainian": "Батіг"
     },
     "35": {
@@ -554,7 +554,7 @@
         "turkish": "Yıkımcı",
         "french": "Rafistol",
         "indonesian": "Wrecker",
-        "latam": "Wrecker",
+        "latam": "Demoledor",
         "ukrainian": "Руйнівник"
     },
     "49": {
@@ -589,7 +589,7 @@
         "thai": "พ็อกเก็ต",
         "czech": "Pocket",
         "koreana": "포켓",
-        "spanish": "Bolsillo",
+        "spanish": "Pocket",
         "turkish": "Cep",
         "french": "Pocket",
         "indonesian": "Pocket",
@@ -652,7 +652,7 @@
         "turkish": "Fersah",
         "french": "Sonar",
         "indonesian": "Fathom",
-        "latam": "Fathom",
+        "latam": "Braza",
         "ukrainian": "Фатом"
     },
     "54": {
@@ -750,7 +750,7 @@
         "turkish": "Engerek",
         "french": "Vypère",
         "indonesian": "Vyper",
-        "latam": "Víper",
+        "latam": "Víbora",
         "ukrainian": "Гадюка"
     },
     "59": {
@@ -809,7 +809,7 @@
         "turkish": "Tuzakçı",
         "french": "Trappeur",
         "indonesian": "Trapper",
-        "latam": "Trapper",
+        "latam": "Trampero",
         "ukrainian": "Звіролов"
     },
     "62": {

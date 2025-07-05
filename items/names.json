@@ -1917,5 +1917,8 @@
         "indonesian": "Pembidik Headshot",
         "latam": "Cazacabezas",
         "ukrainian": "Мисливець за головами"
+    },
+    "915014646": {
+        "tag": "upgrade_transcendent_cooldown"
     }
 }

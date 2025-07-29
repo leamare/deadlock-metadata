@@ -1118,7 +1118,7 @@
         "polish": "Nadrzędny Czas Oczekiwania",
         "schinese": "超速冷却",
         "thai": "​ซูพีเรียร์​คูลดาวน์​",
-        "czech": "Plošný urychlovač čekání",
+        "czech": "Vylepšený urychlovač čekání",
         "koreana": "절대 쿨다운",
         "spanish": "Tiempo de Recarga Superior",
         "turkish": "Üstün Dolum Süresi Azaltıcı",
@@ -1919,6 +1919,23 @@
         "ukrainian": "Мисливець за головами"
     },
     "915014646": {
-        "tag": "upgrade_transcendent_cooldown"
+        "tag": "upgrade_transcendent_cooldown",
+        "brazilian": "Recarga Transcendente",
+        "german": "Transzendente Abklingzeit",
+        "italian": "Tempo di ricarica trascendentale",
+        "russian": "Трансцендентная перезарядка",
+        "english": "Transcendent Cooldown",
+        "japanese": "トランセンデント クールダウン",
+        "polish": "Transcendentny Czas Oczekiwania",
+        "schinese": "超凡冷却",
+        "thai": "​ทรานเซนเดนต์​คูลดาวน์​",
+        "czech": "Plošný urychlovač čekání",
+        "koreana": "초월 쿨다운",
+        "spanish": "Tiempo de recarga trascendente",
+        "turkish": "Muazzam Dolum Süresi Azaltıcı",
+        "french": "Récupération transcendante",
+        "indonesian": "Cooldown Transenden",
+        "latam": "Tiempo de recarga trascendente",
+        "ukrainian": "Трансцендентна зарядка"
     }
 }

@@ -1485,10 +1485,10 @@
             "watcher_max_duration": 30,
             "max_health_damage": 5,
             "damage": 40,
-            "ability_charge_up_time": 12
+            "ability_charge_up_time": 14
         },
         "active": {
-            "cooldown": 12
+            "cooldown": 14
         }
     },
     "1052584266": {

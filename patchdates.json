@@ -1351,5 +1351,19 @@
         "builds": [
             5707, 5716, 5723
         ]
+    },
+    {
+        "timestamp": 1755549832,
+        "title": "2025-08-18",
+        "tags": [
+            "forum",
+            "deadlock",
+            "heroes",
+            "hideout"
+        ],
+        "minor_dates": [],
+        "builds": [
+            5748
+        ]
     }
 ]

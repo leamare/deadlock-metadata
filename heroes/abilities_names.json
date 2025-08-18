@@ -48,7 +48,7 @@
         "english": "Afterburn",
         "japanese": "アフターバーン",
         "polish": "Oparzenie",
-        "schinese": "残焰",
+        "schinese": "复燃",
         "thai": "​อาฟเตอร์​เบิร์น​",
         "czech": "Spalující střely",
         "koreana": "화염 흔적",
@@ -108,7 +108,7 @@
         "english": "Static Charge",
         "japanese": "スタティックチャージ",
         "polish": "Ładunek Elektrostatyczny",
-        "schinese": "静电负荷",
+        "schinese": "静态电荷",
         "thai": "​สแตติก​ชาร์จ​",
         "czech": "Statický výboj",
         "koreana": "전하 충전",
@@ -208,7 +208,7 @@
         "english": "Crow Familiar",
         "japanese": "クロウ・ファミリア",
         "polish": "Kruczy Chowaniec",
-        "schinese": "渡鸦使魔",
+        "schinese": "渡鸦仆使",
         "thai": "​โครว์​แฟมิเลียร์​",
         "czech": "Záhrobní vrána",
         "koreana": "까마귀 소환",
@@ -228,7 +228,7 @@
         "english": "Assassinate",
         "japanese": "アサシネイト",
         "polish": "Zamach",
-        "schinese": "暗杀",
+        "schinese": "狙击",
         "thai": "​อัสแซสซิเนต​",
         "czech": "Odstřelování",
         "koreana": "암살",
@@ -288,7 +288,7 @@
         "english": "Malice",
         "japanese": "マリス",
         "polish": "Złośliwość",
-        "schinese": "恶念",
+        "schinese": "怨念",
         "thai": "​แมลิซ​",
         "czech": "Zášť",
         "koreana": "악의",
@@ -328,7 +328,7 @@
         "english": "Siphon Life",
         "japanese": "サイフォンライフ",
         "polish": "Wysysanie Życia",
-        "schinese": "移花接命",
+        "schinese": "生命汲取",
         "thai": "​ไซฟอน​ไลฟ์​",
         "czech": "Sání života",
         "koreana": "생명 흡수",
@@ -508,7 +508,7 @@
         "english": "Medicinal Specter",
         "japanese": "スペクターメディック",
         "polish": "Lecznicze Widmo",
-        "schinese": "灵丹妙药",
+        "schinese": "疗伤幽灵",
         "thai": "​เมดิซินัล​สเปกเตอร์​",
         "czech": "Léčivá nádobka",
         "koreana": "치유의 영혼",
@@ -688,7 +688,7 @@
         "english": "Rejuvenating Aurora",
         "japanese": "リジュビネ・オーロラ",
         "polish": "Odnawiająca Zorza",
-        "schinese": "回春光环",
+        "schinese": "回春极光",
         "thai": "​รีจูวีเนติง​ออโรรา​",
         "czech": "Ozdravující záře",
         "koreana": "소생의 오로라",
@@ -928,7 +928,7 @@
         "english": "Crackshot",
         "japanese": "クラックショット",
         "polish": "Celne Oko",
-        "schinese": "致命神枪",
+        "schinese": "神枪手",
         "thai": "​แคร็ก​ช็อต​",
         "czech": "Pistolnice",
         "koreana": "명사수",
@@ -1288,7 +1288,7 @@
         "english": "Serrated Knives",
         "japanese": "セレイテッド・ナイフ",
         "polish": "Noże Ząbkowane",
-        "schinese": "尖锋利齿",
+        "schinese": "尖锋短刀",
         "thai": "​เซอร์เรตเต็ดไนฟ์​",
         "czech": "Rezavé nože",
         "koreana": "톱니 칼날",
@@ -1328,7 +1328,7 @@
         "english": "Bloodletting",
         "japanese": "ブラッドレッティング",
         "polish": "Upuszczanie Krwi",
-        "schinese": "细血长流",
+        "schinese": "缓伤之法",
         "thai": "​บลัดเลตติ้ง​",
         "czech": "Ignorace nebezpečí",
         "koreana": "유혈",
@@ -1388,7 +1388,7 @@
         "english": "Watcher's Covenant",
         "japanese": "監視者の誓約",
         "polish": "Pakt Strażniczki",
-        "schinese": "守望者的盟友",
+        "schinese": "守望者盟约",
         "thai": "​วอตเชอร์​คัฟเวอแนนต์​",
         "czech": "Pouto s chrličem",
         "koreana": "수호 동맹",
@@ -1580,7 +1580,7 @@
         "english": "Crimson Slash",
         "japanese": "クリムゾンスラッシュ",
         "polish": "Szkarłatne Cięcie",
-        "schinese": "飞血狂刃",
+        "schinese": "绯色狂刃",
         "thai": "​คริมสัน​สแลช​",
         "czech": "Karmínové seknutí",
         "koreana": "핏빛 검술",
@@ -1720,7 +1720,7 @@
         "english": "The Cube",
         "japanese": "ザ・キューブ",
         "polish": "Sześcian",
-        "schinese": "复原立方",
+        "schinese": "复元立方",
         "thai": "​เดอะ​คิวบ์​",
         "czech": "Kostka",
         "koreana": "큐브",
@@ -1804,7 +1804,7 @@
         "japanese": "デモントリガー・ブリッツ",
         "polish": "Demoniczny Ostrzał",
         "schinese": "魔弹疾袭",
-        "thai": "Demontrigger Blitz",
+        "thai": "ดีมอนทริกเกอร์บลิตซ์",
         "czech": "Démonická salva",
         "koreana": "악마의 폭격",
         "spanish": "Gatillo Demoníaco",
@@ -2271,7 +2271,7 @@
         "english": "Lethal Venom",
         "japanese": "リーサルポイズン",
         "polish": "Śmiertelna Trucizna",
-        "schinese": "致命毒液",
+        "schinese": "危险蛇毒",
         "thai": "​ลีธัลเวนอม​",
         "czech": "Smrtící jed",
         "koreana": "치명적 맹독",
@@ -2363,7 +2363,7 @@
         "english": "Spectral Assistant",
         "japanese": "スペクターアシスタント",
         "polish": "Widmowa Asystentka",
-        "schinese": "鬼影随从",
+        "schinese": "幽灵助手",
         "thai": "​สเปกตรัล​แอสซิสแตนต์​",
         "czech": "Spektrální pomocnice",
         "koreana": "유령 조수",
@@ -2383,7 +2383,7 @@
         "english": "Rabbit Hex",
         "japanese": "ラビットヘックス",
         "polish": "Królicza Klątwa",
-        "schinese": "诡兔邪咒",
+        "schinese": "诡兔咒术",
         "thai": "​แรบบิต​เฮ็กซ์​",
         "czech": "Trik s králíkem",
         "koreana": "토끼 주술",
@@ -2483,7 +2483,7 @@
         "english": "Crawling Plague",
         "japanese": "アラクノフォビア",
         "polish": "Pełzająca Plaga",
-        "schinese": "瘟疫爬虫",
+        "schinese": "灵异爬虫",
         "thai": "​ครอว์ลิ่ง​เพลก​",
         "czech": "Mor na nožičkách",
         "koreana": "거미 방사",
@@ -2576,23 +2576,23 @@
     },
     "2398133749": {
         "tag": "ability_vampirebat_batblink",
-        "brazilian": "Revoada",
-        "german": "Flügelschlag",
-        "italian": "Battito d'ali",
-        "russian": "Летучее мгновение",
-        "english": "Batblink",
-        "japanese": "バットブリンク",
-        "polish": "Nietoperzowa Teleportacja",
-        "schinese": "惊刹蝠影",
-        "thai": "​แบต​บลิงก์​",
+        "brazilian": "Debandada Sanguínea",
+        "german": "Blutiger Rückzug",
+        "italian": "Fuga di sangue",
+        "russian": "Багровое отступление",
+        "english": "Sanguine Retreat",
+        "japanese": "サングインブリンク",
+        "polish": "Sangwiniczny Odwrót",
+        "schinese": "绯红蝠影",
+        "thai": "แซงกวินรีทรีต",
         "czech": "Stylový přesun",
-        "koreana": "박쥐 점멸",
-        "spanish": "Estallido de Murciélagos",
-        "turkish": "Yarasa Işınlanması",
+        "koreana": "피의 퇴각",
+        "spanish": "Retirada Sanguínea",
+        "turkish": "Kanlı İnziva",
         "french": "Volatilisation",
-        "indonesian": "Kelelawar Gaib",
-        "latam": "Colonia de murciélagos",
-        "ukrainian": "Трансформація"
+        "indonesian": "Mundur Teratur",
+        "latam": "Retirada sanguínea",
+        "ukrainian": "Рум’яний відступ"
     },
     "1233782561": {
         "tag": "ability_vampirebat_lovebites",
@@ -2623,7 +2623,7 @@
         "english": "Nox Nostra",
         "japanese": "ノックス・ノストラ",
         "polish": "Nox Nostra",
-        "schinese": "夜魔屠城",
+        "schinese": "夜晚霸主",
         "thai": "​น็อกซ์​นอสตรา​",
         "czech": "Nox Nostra",
         "koreana": "녹스 노스트라",
@@ -3040,5 +3040,150 @@
     },
     "1841661392": {
         "tag": "ability_punkgoat_ult"
+    },
+    "193508101": {
+        "tag": "ability_vampirebat_steallife",
+        "brazilian": "Sombrinha",
+        "german": "Schirmherrin",
+        "italian": "Rastrello",
+        "russian": "Загребание",
+        "english": "Rake",
+        "japanese": "レーキ",
+        "polish": "Drapaczka",
+        "schinese": "挥伞",
+        "thai": "เรค",
+        "czech": "Paraple",
+        "koreana": "갈퀴",
+        "spanish": "Rasgar",
+        "turkish": "Tırmık",
+        "indonesian": "Uang Bandar",
+        "latam": "Rastrillo",
+        "ukrainian": "Згрібання"
+    },
+    "3120550633": {
+        "tag": "drifter_blood_blast"
+    },
+    "1264175662": {
+        "tag": "drifter_shadow_mark"
+    },
+    "1168182161": {
+        "tag": "drifter_darkness"
+    },
+    "911307831": {
+        "tag": "ability_priest_flashbang"
+    },
+    "2043074967": {
+        "tag": "ability_frank_shocktarget2"
+    },
+    "604448162": {
+        "tag": "ability_bookworm_dragonfire"
+    },
+    "2000761890": {
+        "tag": "ability_boho_bouncyprojectile",
+        "german": "Wanderfluch",
+        "italian": "Proiettile mancato",
+        "russian": "Попрыгун",
+        "english": "Skipshot",
+        "japanese": "スキップショット",
+        "schinese": "跳跃射击",
+        "thai": "สกิปช็อต",
+        "czech": "Přeskakující kletba",
+        "koreana": "스킵샷",
+        "spanish": "Disparo Saltarín",
+        "turkish": "Seken Atış",
+        "indonesian": "Tembakan Memantul",
+        "latam": "Tiro al blanco",
+        "ukrainian": "Перескок"
+    },
+    "3962304265": {
+        "tag": "ability_boho_doublehit",
+        "german": "Doppelmoppel",
+        "italian": "Doppio colpo",
+        "russian": "Рассечение",
+        "english": "Swish",
+        "japanese": "ツインアタック",
+        "schinese": "旋击",
+        "thai": "สวิช",
+        "czech": "Pokárání",
+        "koreana": "휩쓸기",
+        "spanish": "Doble Tajo",
+        "turkish": "Çifte Vuruş",
+        "indonesian": "Desir",
+        "latam": "Doble tajo",
+        "ukrainian": "Розсікання"
+    },
+    "370209602": {
+        "tag": "ability_boho_damageshare",
+        "german": "Verflechtung",
+        "italian": "Interconnessi",
+        "russian": "Переплетение",
+        "english": "Intertwine",
+        "japanese": "インターツワイン",
+        "schinese": "纠缠",
+        "thai": "อินเตอร์ทไวน์",
+        "czech": "Protkané osudy",
+        "koreana": "뒤얽기",
+        "spanish": "Entrelazar",
+        "turkish": "İç İçe",
+        "indonesian": "Berjalin",
+        "latam": "Entrelazar",
+        "ukrainian": "Переплетення"
+    },
+    "759370291": {
+        "tag": "ability_boho_channeltether"
+    },
+    "103496908": {
+        "tag": "ability_doorman_bomb"
+    },
+    "1719512318": {
+        "tag": "ability_doorman_luggage_cart"
+    },
+    "1703045691": {
+        "tag": "ability_doorman_hotel"
+    },
+    "1792773251": {
+        "tag": "ability_punkgoat_goatflip"
+    },
+    "3296031213": {
+        "tag": "ability_punkgoat_blasted"
+    },
+    "3762861984": {
+        "tag": "ability_punkgoat_tether"
+    },
+    "3603780999": {
+        "tag": "ability_druid_ability01"
+    },
+    "1077190862": {
+        "tag": "ability_druid_ability02"
+    },
+    "2800600819": {
+        "tag": "ability_druid_sprout"
+    },
+    "2510227556": {
+        "tag": "ability_druid_ult"
+    },
+    "2627122290": {
+        "tag": "ability_graf_ability01"
+    },
+    "4197612718": {
+        "tag": "ability_graf_ability02"
+    },
+    "2949458312": {
+        "tag": "ability_graf_ability03"
+    },
+    "2561043068": {
+        "tag": "ability_graf_ult"
+    },
+    "309803113": {
+        "tag": "ability_fortuna_ability01"
+    },
+    "3803152704": {
+        "tag": "ability_fortuna_ability02"
+    },
+    "620778714": {
+        "tag": "ability_fortuna_ability03"
+    },
+    "3632058121": {
+        "tag": "ability_fortuna_ult"
     }
 }

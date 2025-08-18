@@ -23,7 +23,7 @@
                     "bullet": {
                         "cycle_time": 0.105,
                         "radius": 3,
-                        "speed": 16000,
+                        "speed": 26000,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 9.523809523809524,
@@ -70,35 +70,11 @@
                     },
                     "spread": {
                         "spread": 0.05,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.15,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 26000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 26000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            16000
-                        ]
                     }
                 }
             }
@@ -150,7 +126,7 @@
                     "bullet": {
                         "cycle_time": 0.105,
                         "radius": 3,
-                        "speed": 16000,
+                        "speed": 26000,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 9.523809523809524,
@@ -197,35 +173,11 @@
                     },
                     "spread": {
                         "spread": 0.05,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.15,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 26000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 26000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            16000
-                        ]
                     }
                 }
             }
@@ -329,30 +281,6 @@
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -408,7 +336,7 @@
                     "bullet": {
                         "cycle_time": 0.231,
                         "radius": 3,
-                        "speed": 29133.9,
+                        "speed": 21933.4,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 4.329004329004329,
@@ -455,35 +383,11 @@
                     },
                     "spread": {
                         "spread": 0.05,
-                        "standing_spread": 0.5,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 29133.9,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 29133.9,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            29133.9
-                        ]
                     }
                 }
             }
@@ -540,7 +444,7 @@
                     "bullet": {
                         "cycle_time": 0.4725,
                         "radius": 4,
-                        "speed": 26600,
+                        "speed": 32600,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 2.1164021164021167,
@@ -587,35 +491,11 @@
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1.2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2.5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            26600
-                        ]
                     }
                 }
             }
@@ -711,35 +591,11 @@
                     },
                     "spread": {
                         "spread": 2,
-                        "standing_spread": 2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0.3,
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 23999.998047,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 23999.998047,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            24000
-                        ]
                     }
                 }
             }
@@ -843,30 +699,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -974,30 +806,6 @@
                         "penalty_per_shot": 0.45,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25590.6,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25590.6,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25590.6
-                        ]
                     }
                 }
             }
@@ -1075,8 +883,8 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.3,
-                                0.3
+                                0.2,
+                                0.2
                             ],
                             "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
@@ -1089,42 +897,18 @@
                             ],
                             "m_flBurstExponent": 0
                         },
-                        "speed": 5,
-                        "recovery_speed": 5,
-                        "recovery_delay_factor": 0.4,
+                        "speed": 0.8,
+                        "recovery_speed": 15,
+                        "recovery_delay_factor": 0.3,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 0,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2.5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 20669.3,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 20669.3,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            20669.3
-                        ]
                     }
                 }
             }
@@ -1228,30 +1012,6 @@
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            12600
-                        ]
                     }
                 }
             }
@@ -1355,30 +1115,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            10000
-                        ]
                     }
                 }
             }
@@ -1430,7 +1166,7 @@
                     "bullet": {
                         "cycle_time": 0.105,
                         "radius": 3,
-                        "speed": 25000,
+                        "speed": 30000,
                         "lifetime": 3,
                         "num_per_shot": 1,
                         "num_per_sec": 9.523809523809524,
@@ -1482,30 +1218,6 @@
                         "penalty_per_shot": 0.4,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 30000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 30000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -1608,35 +1320,11 @@
                     },
                     "spread": {
                         "spread": 0.2,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.25,
                         "penalty_decay_delay": 0.1,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -1740,30 +1428,6 @@
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 20000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 20000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            20000
-                        ]
                     }
                 }
             }
@@ -1862,35 +1526,11 @@
                     },
                     "spread": {
                         "spread": 0.5,
-                        "standing_spread": 0.5,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 12500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 12500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            12500
-                        ]
                     }
                 }
             }
@@ -1989,35 +1629,11 @@
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.3,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 19500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 19500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            19500
-                        ]
                     }
                 }
             }
@@ -2126,30 +1742,6 @@
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            12600
-                        ]
                     }
                 }
             }
@@ -2253,30 +1845,6 @@
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 24000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 24000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            24000
-                        ]
                     }
                 }
             }
@@ -2375,35 +1943,11 @@
                     },
                     "spread": {
                         "spread": 0.1,
-                        "standing_spread": 0,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -2507,30 +2051,6 @@
                         "penalty_per_shot": 0.4,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 1.6
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 20000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 20000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            20000
-                        ]
                     }
                 }
             }
@@ -2634,30 +2154,6 @@
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 11417.3,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 11417.3,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            11417.3
-                        ]
                     }
                 }
             }
@@ -2759,35 +2255,11 @@
                     },
                     "spread": {
                         "spread": 2,
-                        "standing_spread": 3,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0.2,
                         "penalty_per_shot": 0.25,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            10000
-                        ]
                     }
                 }
             }
@@ -2895,30 +2367,6 @@
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -3022,30 +2470,6 @@
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 10000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            10000
-                        ]
                     }
                 }
             }
@@ -3144,35 +2568,11 @@
                     },
                     "spread": {
                         "spread": 0.2,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.25,
                         "penalty_decay_delay": 0.1,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -3276,30 +2676,6 @@
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 16000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 16000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            16000
-                        ]
                     }
                 }
             }
@@ -3403,30 +2779,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -3530,30 +2882,6 @@
                         "penalty_per_shot": 0.35,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 16000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 16000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            16000
-                        ]
                     }
                 }
             }
@@ -3652,35 +2980,11 @@
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.25,
                         "penalty_decay_delay": 0.1,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -3784,30 +3088,6 @@
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 12600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            12600
-                        ]
                     }
                 }
             }
@@ -3908,30 +3188,6 @@
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22000
-                        ]
                     }
                 }
             }
@@ -4035,30 +3291,6 @@
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 4900,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 4900,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            4900
-                        ]
                     }
                 }
             }
@@ -4110,7 +3342,7 @@
                     "bullet": {
                         "cycle_time": 0.3675,
                         "radius": 5,
-                        "speed": 26600,
+                        "speed": 32600,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 2.7210884353741496,
@@ -4157,35 +3389,11 @@
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1.2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2.5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            26600
-                        ]
                     }
                 }
             }
@@ -4286,30 +3494,6 @@
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22000
-                        ]
                     }
                 }
             }
@@ -4413,30 +3597,6 @@
                         "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -4540,30 +3700,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 25000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            25000
-                        ]
                     }
                 }
             }
@@ -4667,30 +3803,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -4794,30 +3906,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -4918,35 +4006,11 @@
                     },
                     "spread": {
                         "spread": 0.2,
-                        "standing_spread": 0.2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.02,
                         "penalty_decay_delay": 0.3,
                         "penalty_decay": 3
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 16200.000977,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 16200.000977,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            16200
-                        ]
                     }
                 }
             }
@@ -5049,35 +4113,11 @@
                     },
                     "spread": {
                         "spread": 0.8,
-                        "standing_spread": 2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -5181,30 +4221,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 11811,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 11811,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            11811
-                        ]
                     }
                 }
             }
@@ -5312,30 +4328,6 @@
                         "penalty_per_shot": 0.3,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 1
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 14999.999023,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 14999.999023,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            500
-                        ],
-                        "domain_maxs": [
-                            100,
-                            15000
-                        ]
                     }
                 }
             }
@@ -5434,35 +4426,11 @@
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1.2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2.5
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 32600,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            32600
-                        ]
                     }
                 }
             }
@@ -5503,22 +4471,22 @@
                     "can_zoom": true,
                     "damage": {
                         "dps": 27.7778,
-                        "max_dps": 47.2222,
-                        "bullet_dmg": 5,
-                        "bullet_dmg_max": 8.5,
+                        "max_dps": 41.6667,
+                        "bullet_dmg": 7,
+                        "bullet_dmg_max": 10.5,
                         "clip_size": 12,
-                        "full_clip_sec": 2.16,
+                        "full_clip_sec": 3.024,
                         "reload_time": 1.7,
                         "reload_time_single_delay": 0.4
                     },
                     "bullet": {
-                        "cycle_time": 0.18,
-                        "radius": 3,
-                        "speed": 8250,
+                        "cycle_time": 0.252,
+                        "radius": 5,
+                        "speed": 30000,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 5.555555555555555,
-                        "gravity_scale": 0.3,
+                        "num_per_sec": 3.9682539682539684,
+                        "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
@@ -5529,7 +4497,7 @@
                     "range": {
                         "range": 7000,
                         "base": 787,
-                        "max": 2264
+                        "max": 1811
                     },
                     "crit": {
                         "start": 1.8,
@@ -5560,36 +4528,12 @@
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0.05,
+                        "spread": 0.3,
                         "standing_spread": 1.5,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 1,
-                        "penalty_decay_delay": 0,
-                        "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 8250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 8250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            8250
-                        ]
+                        "penalty_per_shot": 0.3,
+                        "penalty_decay_delay": 0.05,
+                        "penalty_decay": 1
                     }
                 }
             }
@@ -5600,20 +4544,20 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 480,
+            "hp": 580,
             "hp_regen": 2,
-            "hp_per_lvl": 31,
+            "hp_per_lvl": 28,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
+            "move_speed": 6.7,
             "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
-            "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina": 2,
+            "stamina_regen": 0.25
         },
         "scaling_stats": []
     },
@@ -5623,113 +4567,75 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.15,
+            "bullet_dmg_per_lvl": 0.786,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_drifter_set": {
-                    "can_zoom": true,
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 400,
-                        "max_dps": 610,
-                        "bullet_dmg": 4,
-                        "bullet_dmg_max": 6.1,
-                        "clip_size": 2,
-                        "full_clip_sec": 0.4,
-                        "reload_time": 2.1,
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 11.004000000000001,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.2,
-                        "radius": 3,
-                        "speed": 6400,
-                        "lifetime": 2,
-                        "num_per_shot": 20,
-                        "num_per_sec": 5,
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
                         "gravity_scale": 0,
-                        "burst_amount": 1,
+                        "burst_amount": 0,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
                     },
                     "range": {
-                        "range": 1620,
-                        "base": 779,
-                        "max": 1620
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
                     },
                     "crit": {
-                        "start": 1.8,
-                        "end": 1.8,
-                        "start_range": 500,
-                        "end_range": 1500
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
                     },
                     "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                1.1,
-                                1.1
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 6,
-                        "recovery_speed": 2,
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
                         "recovery_delay_factor": 0,
-                        "shot_index_recovery_time_factor": 0.25
+                        "shot_index_recovery_time_factor": 0
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 1.5,
+                        "standing_spread": 0,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.5,
+                        "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 6400,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 6400,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            6400
-                        ]
+                        "penalty_decay": 0
                     }
                 }
             }
         },
         "melee": {
-            "light_melee_damage": 50,
-            "heavy_melee_damage": 116,
+            "light_melee_damage": 51.5,
+            "heavy_melee_damage": 120,
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 750,
-            "hp_regen": 2,
-            "hp_per_lvl": 53,
+            "hp": 725,
+            "hp_regen": 2.5,
+            "hp_per_lvl": 43,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5750,28 +4656,28 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.37,
+            "bullet_dmg_per_lvl": 0.32,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_priest_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 66.6667,
-                        "max_dps": 109.8333,
+                        "dps": 63.4921,
+                        "max_dps": 99.0476,
                         "bullet_dmg": 8,
-                        "bullet_dmg_max": 13.18,
+                        "bullet_dmg_max": 12.48,
                         "clip_size": 30,
-                        "full_clip_sec": 3.5999999999999996,
+                        "full_clip_sec": 3.78,
                         "reload_time": 2.8,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.12,
+                        "cycle_time": 0.126,
                         "radius": 3,
                         "speed": 42500,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 8.333333333333334,
+                        "num_per_sec": 7.936507936507937,
                         "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
@@ -5817,33 +4723,9 @@
                         "spread": 0.1,
                         "standing_spread": 1.5,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.5,
+                        "penalty_per_shot": 0.2,
                         "penalty_decay_delay": 0.03,
                         "penalty_decay": 1
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 42500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 42500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            42500
-                        ]
                     }
                 }
             }
@@ -5854,16 +4736,16 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 700,
+            "hp": 670,
             "hp_regen": 2,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 35,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.3,
-            "sprint_speed": 2.5,
+            "move_speed": 6.5,
+            "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5877,29 +4759,211 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.5,
+            "bullet_dmg_per_lvl": 0.3,
             "attack_range_per_level": 0,
             "set": {
-                "citadel_weapon_frank_set": {
-                    "can_zoom": true,
+                "citadel_weapon_frank_set2": {
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 73.3333,
-                        "max_dps": 96.6667,
-                        "bullet_dmg": 22,
-                        "bullet_dmg_max": 29,
-                        "clip_size": 12,
-                        "full_clip_sec": 3.5999999999999996,
-                        "reload_time": 2.4,
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 4.2,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.3,
-                        "radius": 20,
-                        "speed": 15250,
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 680,
+            "hp_regen": 3,
+            "hp_per_lvl": 45,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.3,
+            "sprint_speed": 1.5,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": {
+            "tech_power": {
+                "base_health_regen": 0.08
+            }
+        }
+    },
+    "67": {
+        "tag": "bookworm",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.8,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_bookworm_set2": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 11.200000000000001,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 600,
+            "hp_regen": 2,
+            "hp_per_lvl": 29,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7,
+            "sprint_speed": 2,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 2,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": []
+    },
+    "68": {
+        "tag": "boho",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.45,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_boho_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 55,
+                        "max_dps": 118,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 11.8,
+                        "clip_size": 30,
+                        "full_clip_sec": 3,
+                        "reload_time": 2.5,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.1,
+                        "radius": 6,
+                        "speed": 5500,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 3.3333333333333335,
-                        "gravity_scale": 0,
+                        "num_per_sec": 10,
+                        "gravity_scale": 0.01,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
@@ -5921,8 +4985,8 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.3,
-                                0.2
+                                0,
+                                0
                             ],
                             "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
@@ -5947,30 +5011,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 15250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 15250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            15250
-                        ]
                     }
                 }
             }
@@ -5981,285 +5021,22 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 700,
+            "hp": 675,
             "hp_regen": 2,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 60,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.3,
-            "sprint_speed": 2.5,
+            "move_speed": 8,
+            "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
             "stamina_regen": 0.2
         },
-        "scaling_stats": {
-            "tech_power": {
-                "base_health_regen": 0.05
-            }
-        }
-    },
-    "67": {
-        "tag": "bookworm",
-        "weapon": {
-            "weapon_power": 0,
-            "reload_speed": 1,
-            "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.45,
-            "attack_range_per_level": 0,
-            "set": {
-                "citadel_weapon_bookworm_set": {
-                    "can_zoom": true,
-                    "damage": {
-                        "dps": 48,
-                        "max_dps": 85.8,
-                        "bullet_dmg": 8,
-                        "bullet_dmg_max": 14.3,
-                        "clip_size": 21,
-                        "full_clip_sec": 3.5,
-                        "reload_time": 2.5,
-                        "reload_time_single_delay": 0
-                    },
-                    "bullet": {
-                        "cycle_time": 0.3,
-                        "radius": 12,
-                        "speed": 3250,
-                        "lifetime": 1,
-                        "num_per_shot": 1,
-                        "num_per_sec": 6,
-                        "gravity_scale": 0,
-                        "burst_amount": 3,
-                        "burst_cycle_time": 0.1,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
-                    },
-                    "range": {
-                        "range": 7000,
-                        "base": 787,
-                        "max": 2264
-                    },
-                    "crit": {
-                        "start": 1.8,
-                        "end": 1.8,
-                        "start_range": 500,
-                        "end_range": 1500
-                    },
-                    "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 5,
-                        "recovery_speed": 5,
-                        "recovery_delay_factor": 0.05,
-                        "shot_index_recovery_time_factor": 0.25
-                    },
-                    "spread": {
-                        "spread": 1,
-                        "standing_spread": 1.5,
-                        "pellet_spread": 0,
-                        "penalty_per_shot": 1,
-                        "penalty_decay_delay": 0,
-                        "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 3250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 3250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            3250
-                        ]
-                    }
-                }
-            }
-        },
-        "melee": {
-            "light_melee_damage": 50,
-            "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 1.58
-        },
-        "vitality": {
-            "hp": 675,
-            "hp_regen": 2,
-            "hp_per_lvl": 29,
-            "bullet_resist": 0,
-            "bullet_resist_per_level": 0,
-            "spirit_resist": 0
-        },
-        "mobility": {
-            "move_speed": 8,
-            "sprint_speed": 2,
-            "crouch_speed": 4.75,
-            "move_acceleration": 4,
-            "stamina": 2,
-            "stamina_regen": 0.2
-        },
         "scaling_stats": []
-    },
-    "68": {
-        "tag": "boho",
-        "weapon": {
-            "weapon_power": 0,
-            "reload_speed": 1,
-            "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.45,
-            "attack_range_per_level": 0,
-            "set": {
-                "citadel_weapon_boho_set": {
-                    "can_zoom": true,
-                    "damage": {
-                        "dps": 61.1111,
-                        "max_dps": 131.1111,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 11.8,
-                        "clip_size": 30,
-                        "full_clip_sec": 2.7,
-                        "reload_time": 2.5,
-                        "reload_time_single_delay": 0
-                    },
-                    "bullet": {
-                        "cycle_time": 0.09,
-                        "radius": 3,
-                        "speed": 22500,
-                        "lifetime": 2,
-                        "num_per_shot": 1,
-                        "num_per_sec": 11.11111111111111,
-                        "gravity_scale": 0,
-                        "burst_amount": 1,
-                        "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
-                    },
-                    "range": {
-                        "range": 7000,
-                        "base": 787,
-                        "max": 2264
-                    },
-                    "crit": {
-                        "start": 1.8,
-                        "end": 1.8,
-                        "start_range": 500,
-                        "end_range": 1500
-                    },
-                    "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 5,
-                        "recovery_speed": 5,
-                        "recovery_delay_factor": 0.05,
-                        "shot_index_recovery_time_factor": 0.25
-                    },
-                    "spread": {
-                        "spread": 0.2,
-                        "standing_spread": 1.5,
-                        "pellet_spread": 0,
-                        "penalty_per_shot": 1,
-                        "penalty_decay_delay": 0,
-                        "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
-                    }
-                }
-            }
-        },
-        "melee": {
-            "light_melee_damage": 50,
-            "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 1.58
-        },
-        "vitality": {
-            "hp": 675,
-            "hp_regen": 2,
-            "hp_per_lvl": 29,
-            "bullet_resist": 0,
-            "bullet_resist_per_level": 0,
-            "spirit_resist": 0
-        },
-        "mobility": {
-            "move_speed": 8,
-            "sprint_speed": 2,
-            "crouch_speed": 4.75,
-            "move_acceleration": 4,
-            "stamina": 2,
-            "stamina_regen": 0.2
-        },
-        "scaling_stats": {
-            "tech_power": {
-                "rounds_per_second": 0.00636,
-                "fire_rate": 0.14
-            }
-        }
     },
     "69": {
         "tag": "doorman",
@@ -6267,100 +5044,62 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.45,
+            "bullet_dmg_per_lvl": 1.15,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_doorman_set": {
-                    "can_zoom": true,
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 61.1111,
-                        "max_dps": 131.1111,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 11.8,
-                        "clip_size": 30,
-                        "full_clip_sec": 2.7,
-                        "reload_time": 2.5,
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 16.099999999999998,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.09,
-                        "radius": 3,
-                        "speed": 22500,
-                        "lifetime": 2,
-                        "num_per_shot": 1,
-                        "num_per_sec": 11.11111111111111,
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
                         "gravity_scale": 0,
-                        "burst_amount": 1,
+                        "burst_amount": 0,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
                     },
                     "range": {
-                        "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
                     },
                     "crit": {
-                        "start": 1.8,
-                        "end": 1.8,
-                        "start_range": 500,
-                        "end_range": 1500
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
                     },
                     "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 5,
-                        "recovery_speed": 5,
-                        "recovery_delay_factor": 0.05,
-                        "shot_index_recovery_time_factor": 0.25
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
                     },
                     "spread": {
-                        "spread": 0.2,
-                        "standing_spread": 1.5,
+                        "spread": 0,
+                        "standing_spread": 0,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 1,
+                        "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
+                        "penalty_decay": 0
                     }
                 }
             }
@@ -6373,7 +5112,7 @@
         "vitality": {
             "hp": 675,
             "hp_regen": 2,
-            "hp_per_lvl": 29,
+            "hp_per_lvl": 42,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6383,15 +5122,10 @@
             "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
-            "stamina": 2,
+            "stamina": 3,
             "stamina_regen": 0.2
         },
-        "scaling_stats": {
-            "tech_power": {
-                "rounds_per_second": 0.00636,
-                "fire_rate": 0.14
-            }
-        }
+        "scaling_stats": []
     },
     "70": {
         "tag": "skyrunner",
@@ -6405,22 +5139,22 @@
                 "citadel_weapon_skyrunner_set": {
                     "can_zoom": false,
                     "damage": {
-                        "dps": 55.5556,
-                        "max_dps": 117.7778,
+                        "dps": 52.9101,
+                        "max_dps": 112.1693,
                         "bullet_dmg": 5,
                         "bullet_dmg_max": 10.600000000000001,
                         "clip_size": 36,
-                        "full_clip_sec": 3.24,
+                        "full_clip_sec": 3.4019999999999997,
                         "reload_time": 3.1,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.09,
+                        "cycle_time": 0.0945,
                         "radius": 3,
                         "speed": 4250,
                         "lifetime": 0.5,
                         "num_per_shot": 1,
-                        "num_per_sec": 11.11111111111111,
+                        "num_per_sec": 10.582010582010582,
                         "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
@@ -6469,30 +5203,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 4250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 4250,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            4250
-                        ]
                     }
                 }
             }
@@ -6532,25 +5242,25 @@
                 "citadel_weapon_swan_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 34.4828,
-                        "max_dps": 46.5517,
+                        "dps": 32.8407,
+                        "max_dps": 44.335,
                         "bullet_dmg": 10,
                         "bullet_dmg_max": 13.5,
                         "clip_size": 8,
-                        "full_clip_sec": 2.32,
+                        "full_clip_sec": 2.436,
                         "reload_time": 2.5,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.5,
+                        "cycle_time": 0.525,
                         "radius": 3,
                         "speed": 7000,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 3.4482758620689657,
+                        "num_per_sec": 3.284072249589491,
                         "gravity_scale": 0,
                         "burst_amount": 2,
-                        "burst_cycle_time": 0.08,
+                        "burst_cycle_time": 0.084,
                         "damage_falloff_start_scale": 1,
                         "damage_falloff_end_scale": 0.1,
                         "damage_falloff_bias": 0.5,
@@ -6596,30 +5306,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 7000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 7000,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            7000
-                        ]
                     }
                 }
             }
@@ -6657,6 +5343,301 @@
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_punkgoat_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 2.52,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 730,
+            "hp_regen": 2.5,
+            "hp_per_lvl": 44,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.3,
+            "sprint_speed": 2,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": []
+    },
+    "73": {
+        "tag": "druid",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.124929,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_druid_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 58.2011,
+                        "max_dps": 76.7091,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 7.249006,
+                        "clip_size": 30,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.5,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.0945,
+                        "radius": 3,
+                        "speed": 25000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 10.582010582010582,
+                        "gravity_scale": 0,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
+                    },
+                    "crit": {
+                        "start": 1.8,
+                        "end": 1.8,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.2,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 1,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 700,
+            "hp_regen": 2,
+            "hp_per_lvl": 41,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.3,
+            "sprint_speed": 2,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": []
+    },
+    "74": {
+        "tag": "graf",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.25,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_graf_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 61.1111,
+                        "max_dps": 100,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 9,
+                        "clip_size": 30,
+                        "full_clip_sec": 2.7,
+                        "reload_time": 2.5,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.09,
+                        "radius": 3,
+                        "speed": 22500,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 11.11111111111111,
+                        "gravity_scale": 0,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
+                    },
+                    "crit": {
+                        "start": 1.8,
+                        "end": 1.8,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.2,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 1,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 480,
+            "hp_regen": 2,
+            "hp_per_lvl": 31,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.3,
+            "sprint_speed": 2,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.2
+        },
+        "scaling_stats": []
+    },
+    "75": {
+        "tag": "fortuna",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.18,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_fortuna_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 61.1111,
@@ -6723,30 +5704,6 @@
                         "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
-                    },
-                    "curve": {
-                        "spline": [
-                            {
-                                "x": 0,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            },
-                            {
-                                "x": 100,
-                                "y": 22500,
-                                "m_flSlopeIncoming": 0,
-                                "m_flSlopeOutgoing": 0
-                            }
-                        ],
-                        "domain_mins": [
-                            0,
-                            1
-                        ],
-                        "domain_maxs": [
-                            100,
-                            22500
-                        ]
                     }
                 }
             }
@@ -6757,21 +5714,25 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 750,
+            "hp": 650,
             "hp_regen": 2,
-            "hp_per_lvl": 53,
+            "hp_per_lvl": 35,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7,
+            "move_speed": 7.3,
             "sprint_speed": 2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
             "stamina_regen": 0.2
         },
-        "scaling_stats": []
+        "scaling_stats": {
+            "tech_power": {
+                "sprint_speed": 0.06
+            }
+        }
     }
 }

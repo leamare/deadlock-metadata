@@ -257,7 +257,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -317,7 +317,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -328,7 +328,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -350,7 +350,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -361,7 +361,7 @@
         "alt_name": null,
         "aliases": "clockwerk",
         "released": null,
-        "status": "labs",
+        "status": "notahero",
         "complexity": 3,
         "inspiration": null
     },
@@ -372,7 +372,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -396,7 +396,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -421,7 +421,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "labs",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": [
             "dota:slark"
@@ -434,7 +434,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -456,7 +456,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 1,
         "inspiration": null
     },
@@ -467,7 +467,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 1,
         "inspiration": null
     },
@@ -489,7 +489,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "notahero",
         "complexity": 1,
         "inspiration": null
     },
@@ -513,7 +513,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "labs",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
@@ -524,18 +524,18 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "labs",
+        "status": "notahero",
         "complexity": 2,
         "inspiration": null
     },
     "63": {
         "tag": "vampirebat",
         "old_name": null,
-        "name": "VampireBat",
+        "name": "Mina",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 3,
         "inspiration": null
     },
@@ -546,7 +546,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 3,
         "inspiration": null
     },
@@ -563,23 +563,23 @@
     },
     "66": {
         "tag": "frank",
-        "old_name": null,
-        "name": "Frank",
+        "old_name": "Frank",
+        "name": "Victor",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 2,
         "inspiration": null
     },
     "67": {
         "tag": "bookworm",
         "old_name": null,
-        "name": "Bookworm",
+        "name": "Paige",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 1,
         "inspiration": null
     },
@@ -601,7 +601,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 1,
         "inspiration": null
     },
@@ -630,12 +630,45 @@
     "72": {
         "tag": "punkgoat",
         "old_name": null,
-        "name": "Punkgoat",
+        "name": "Billy",
+        "alt_name": null,
+        "aliases": "Punkgoat",
+        "released": null,
+        "status": "available",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "73": {
+        "tag": "druid",
+        "old_name": null,
+        "name": "druid",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 1,
+        "inspiration": null
+    },
+    "74": {
+        "tag": "graf",
+        "old_name": null,
+        "name": "graf",
         "alt_name": null,
         "aliases": null,
         "released": null,
         "status": "in_devel",
         "complexity": 3,
+        "inspiration": null
+    },
+    "75": {
+        "tag": "fortuna",
+        "old_name": null,
+        "name": "fortuna",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 1,
         "inspiration": null
     }
 }

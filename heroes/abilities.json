@@ -9660,7 +9660,6 @@
                 "behaviors": [
                     ""
                 ],
-                "cooldown": 26,
                 "unit_target_limit": 1,
                 "channel_move_speed": -1,
                 "special_props": {
@@ -9752,7 +9751,6 @@
                 "unit_target_limit": 12,
                 "cast_delay": 0.5,
                 "channel_move_speed": -1,
-                "radius": "3.5m",
                 "projectile": [],
                 "upgrades": [
                     [
@@ -10891,14 +10889,84 @@
                 "is_ultimate": false,
                 "slot": 1,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "punkgoat\/goat_sigilslam",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "silent_cast_failure_feedback",
+                    "channelled",
+                    "exclusive_use",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "cooldown_on_channel_end",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "holds_at_max_channel"
                 ],
-                "upgrades": []
+                "cooldown": 35,
+                "cast_range": "4.5m",
+                "unit_target_limit": 1,
+                "channel_time": 0.3,
+                "post_cast_duration": 0.3,
+                "charges": 1,
+                "charge_cooldown": 8,
+                "channel_move_speed": 190,
+                "special_props": {
+                    "camera_turn_rate_max": 2000,
+                    "place_distance_in_front_of_caster": "7m",
+                    "damage": 40,
+                    "toss_force": 350,
+                    "explode_delay": 0.5,
+                    "counts_as_light_melee": 1,
+                    "toss_duration": 0.4,
+                    "pull_down_duration": 0.75,
+                    "pull_down_range": "3m",
+                    "wave_thickness": "1m",
+                    "wave_start_radius": "0.5m",
+                    "wave_end_radius": "8.0m"
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -10
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cast_range",
+                            "value": "1.3m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "counts_as_light_melee",
+                            "value": -1
+                        },
+                        {
+                            "property": "counts_as_heavy_melee",
+                            "value": 1
+                        },
+                        {
+                            "property": "heavy_melee_damage",
+                            "value": 0.6,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "heavy_melee_damage",
+                            "value": 0
+                        },
+                        {
+                            "property": "melee_damage",
+                            "value": 0,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "melee_damage",
+                            "value": 0
+                        }
+                    ]
+                ]
             },
             "ability_punkgoat_goatflip": {
                 "id": 1792773251,
@@ -10906,14 +10974,73 @@
                 "is_ultimate": false,
                 "slot": 2,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "punkgoat\/goat_risingram",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | neutral",
                 "behaviors": [
-                    ""
+                    "displays_damage_impact",
+                    "dont_trigger_post_cast_on_cast_complete",
+                    "movement",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "deactivate_crouch_toggle_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 33,
+                "duration": 0.51,
+                "unit_target_limit": 1,
+                "cast_delay": 0.35,
+                "special_props": {
+                    "charge_radius": "2.54m",
+                    "charge_multi_hit_radius": "1.5m",
+                    "charge_speed": 1200,
+                    "charge_strike_distance": 165,
+                    "camera_turn_rate_max": 188,
+                    "going_up_speed": 430,
+                    "going_up_distance": "3.1m",
+                    "going_up_enemy_distance_percent": 95,
+                    "going_back_away_speed": -100,
+                    "knock_away_speed": 170,
+                    "time_before_go_up_for_lag_comp": 0.1,
+                    "time_going_up_enemy": 0.2,
+                    "hover_gravity_scale": 0.75,
+                    "air_control_debuff_duration": 1.5,
+                    "air_control_dash_reduction_pct": -70,
+                    "air_control_accel_percent": 50,
+                    "air_control_percent": 50,
+                    "world_impact_radius": 25,
+                    "allow_ram_multiple": 1,
+                    "nearby_hero_kill_distance": "10m",
+                    "damage": 55
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "reduce_cooldown_on_hit_pct",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "weapon_damage_burst",
+                            "value": 25
+                        },
+                        {
+                            "property": "weapon_damage_burst_duration",
+                            "value": 5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "deal_max_health_damage_pct",
+                            "value": 6
+                        },
+                        {
+                            "property": "deal_max_health_damage_pct",
+                            "value": 0.017,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
             },
             "ability_punkgoat_blasted": {
                 "id": 3296031213,
@@ -10921,29 +11048,134 @@
                 "is_ultimate": false,
                 "slot": 3,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
+                "image": "punkgoat\/goat_blasted",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
                 "unit_target": null,
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "cooldown_on_channel_end",
+                    "do_not_allow_spam_proc",
+                    "allow_gun_fire_after_cast"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "duration": 8.5,
+                "unit_target_limit": 1,
+                "cast_delay": 0.28,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "duration_per_heavy_melee": 5,
+                    "duration_per_light_melee": 3,
+                    "bonus_move_speed": "0.0m",
+                    "non_player_resource_scale": 0.35,
+                    "max_duration": 35,
+                    "bullets_reloaded_per_light_melee_pct": 35,
+                    "bullets_reloaded_per_heavy_melee_pct": 100,
+                    "bullet_damage_amp": 8,
+                    "bullet_damage_amp_duration": 7,
+                    "fire_rate_slow": 15,
+                    "max_health_melee": 75,
+                    "health_boost_duration": 11,
+                    "blasted_extend_by_bullet_duration": 0.2,
+                    "blasted_rate_on_bullet_pct": 50
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "1.75m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "gain_slam_on_use",
+                            "value": 1
+                        },
+                        {
+                            "property": "bullet_damage_amp",
+                            "value": 5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_health_melee",
+                            "value": 65
+                        }
+                    ]
+                ]
             },
             "ability_punkgoat_tether": {
                 "id": 3762861984,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "punkgoat\/goat_chaingang",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy",
                 "behaviors": [
-                    ""
+                    "silent_cast_failure_feedback",
+                    "always_preview_radius",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "cooldown_on_channel_end",
+                    "can_set_quick_cast",
+                    "deactivate_crouch_toggle_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 150,
+                "duration": 2.8,
+                "cast_range": "13.0m",
+                "unit_target_limit": 1,
+                "post_cast_duration": 0.2,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "rope_length": "2.0m",
+                    "rope_snap_no_l_o_s_duration": 0.75,
+                    "rope_snap_distance": "40.0m",
+                    "rope_soft_edge_length": "4.5m",
+                    "move_speed_slow_max_pct": 35,
+                    "move_speed_slow_min_pct": 25,
+                    "damage": 150,
+                    "dps": 45,
+                    "bullet_resist": 15,
+                    "tech_resist": 15,
+                    "tick_rate": 0.25,
+                    "pull_force_max": 2000,
+                    "pull_distance": "4m",
+                    "pull_duration": 0.8,
+                    "pull_track_caster_duration": 0.5
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -25
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bullet_resist",
+                            "value": 15
+                        },
+                        {
+                            "property": "tech_resist",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 100
+                        },
+                        {
+                            "property": "unstoppable_on_pull_duration",
+                            "value": 2
+                        }
+                    ]
+                ]
             }
         }
     },

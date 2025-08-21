@@ -212,7 +212,8 @@
     "18": {
         "tag": "krill",
         "old_name": [
-            "digger"
+            "digger",
+            "grappler"
         ],
         "name": "Mo & Krill",
         "alt_name": "The Tunnel Rats",

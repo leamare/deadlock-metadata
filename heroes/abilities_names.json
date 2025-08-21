@@ -2589,10 +2589,10 @@
         "koreana": "피의 퇴각",
         "spanish": "Retirada Sanguínea",
         "turkish": "Kanlı İnziva",
-        "french": "Volatilisation",
+        "french": "Retraite sanguinaire",
         "indonesian": "Mundur Teratur",
         "latam": "Retirada sanguínea",
-        "ukrainian": "Рум’яний відступ"
+        "ukrainian": "Багряний відступ"
     },
     "1233782561": {
         "tag": "ability_vampirebat_lovebites",
@@ -2632,7 +2632,7 @@
         "french": "Nox Nostra",
         "indonesian": "Nox Nostra",
         "latam": "Nox Nostra",
-        "ukrainian": "Володарка ночі"
+        "ukrainian": "Нокс ностра"
     },
     "2942786671": {
         "tag": "ability_drifter_ability01"
@@ -3039,7 +3039,20 @@
         "tag": "ability_punkgoat_ability03"
     },
     "1841661392": {
-        "tag": "ability_punkgoat_ult"
+        "tag": "ability_punkgoat_ult",
+        "brazilian": "Tacada",
+        "german": "Niederschlag",
+        "italian": "Colpo a terra",
+        "russian": "Разгром",
+        "english": "Bashdown",
+        "polish": "Zdzielenie",
+        "thai": "แบลสดาวน์",
+        "czech": "Fláknutí",
+        "spanish": "Batazo",
+        "turkish": "Ezici Darbe",
+        "indonesian": "Penghancuran",
+        "latam": "Demoler",
+        "ukrainian": "Збиття"
     },
     "193508101": {
         "tag": "ability_vampirebat_steallife",
@@ -3058,7 +3071,8 @@
         "turkish": "Tırmık",
         "indonesian": "Uang Bandar",
         "latam": "Rastrillo",
-        "ukrainian": "Згрібання"
+        "ukrainian": "Подряпина",
+        "french": "Griffes"
     },
     "3120550633": {
         "tag": "drifter_blood_blast"
@@ -3093,7 +3107,9 @@
         "turkish": "Seken Atış",
         "indonesian": "Tembakan Memantul",
         "latam": "Tiro al blanco",
-        "ukrainian": "Перескок"
+        "ukrainian": "Перескок",
+        "polish": "Skaczący Strzał",
+        "french": "Ricochet"
     },
     "3962304265": {
         "tag": "ability_boho_doublehit",
@@ -3110,7 +3126,9 @@
         "turkish": "Çifte Vuruş",
         "indonesian": "Desir",
         "latam": "Doble tajo",
-        "ukrainian": "Розсікання"
+        "ukrainian": "Розсікання",
+        "polish": "Szast-prast",
+        "french": "Frémissement"
     },
     "370209602": {
         "tag": "ability_boho_damageshare",
@@ -3127,7 +3145,9 @@
         "turkish": "İç İçe",
         "indonesian": "Berjalin",
         "latam": "Entrelazar",
-        "ukrainian": "Переплетення"
+        "ukrainian": "Переплетення",
+        "polish": "Przeplatanka",
+        "french": "Entrelacement"
     },
     "759370291": {
         "tag": "ability_boho_channeltether"
@@ -3142,13 +3162,54 @@
         "tag": "ability_doorman_hotel"
     },
     "1792773251": {
-        "tag": "ability_punkgoat_goatflip"
+        "tag": "ability_punkgoat_goatflip",
+        "brazilian": "Chifrada",
+        "german": "Widderansturm",
+        "italian": "Ariete alla carica",
+        "russian": "Рогатый таран",
+        "english": "Rising Ram",
+        "polish": "Taranujący Baran",
+        "thai": "ไรซิงแรม",
+        "czech": "Běsnící kozel",
+        "spanish": "Embestida Ascendente",
+        "turkish": "Uçan Koçbaşı",
+        "indonesian": "Serudukan Kuat",
+        "latam": "Embestida ascendente",
+        "ukrainian": "Навіжений баран"
     },
     "3296031213": {
-        "tag": "ability_punkgoat_blasted"
+        "tag": "ability_punkgoat_blasted",
+        "brazilian": "Explosivo",
+        "german": "Besäufnis",
+        "italian": "Ubriaco",
+        "russian": "В стельку",
+        "english": "Blasted",
+        "polish": "Napruty",
+        "schinese": "沉醉",
+        "thai": "แบลสเต็ด",
+        "czech": "Tekutá odvaha",
+        "spanish": "Borracho",
+        "turkish": "Sarhoş",
+        "indonesian": "Ledakan",
+        "latam": "Explosivo",
+        "ukrainian": "Під градусом"
     },
     "3762861984": {
-        "tag": "ability_punkgoat_tether"
+        "tag": "ability_punkgoat_tether",
+        "brazilian": "Acorrentados",
+        "german": "Kettenkolonne",
+        "italian": "Gang incatenata",
+        "russian": "Цепная банда",
+        "english": "Chain Gang",
+        "polish": "Skuta Banda",
+        "schinese": "锁链囚徒",
+        "thai": "ล่ามโซ่",
+        "czech": "Život na řetězu",
+        "spanish": "Pandilla Encadenada",
+        "turkish": "Pranga",
+        "indonesian": "Geng Rantai",
+        "latam": "Pandilla en cadena",
+        "ukrainian": "Ланцюг"
     },
     "3603780999": {
         "tag": "ability_druid_ability01"

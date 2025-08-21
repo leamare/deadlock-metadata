@@ -849,6 +849,7 @@
         "koreana": "미나",
         "spanish": "Mina",
         "turkish": "Mina",
+        "french": "Mina",
         "indonesian": "Mina",
         "latam": "Mina",
         "ukrainian": "Міна"
@@ -868,6 +869,7 @@
         "koreana": "드리프터",
         "spanish": "Vagabundo",
         "turkish": "Serseri",
+        "french": "Drifter",
         "indonesian": "Drifter",
         "latam": "Vagabundo",
         "ukrainian": "Блукач"
@@ -887,6 +889,7 @@
         "koreana": "베네터",
         "spanish": "Cazador",
         "turkish": "Avcı",
+        "french": "Venator",
         "indonesian": "Venator",
         "latam": "Venator",
         "ukrainian": "Венатор"
@@ -906,6 +909,7 @@
         "koreana": "빅터",
         "spanish": "Víctor",
         "turkish": "Victor",
+        "french": "Victor",
         "indonesian": "Victor",
         "latam": "Víctor",
         "ukrainian": "Віктор"
@@ -925,6 +929,7 @@
         "koreana": "페이지",
         "spanish": "Paige",
         "turkish": "Paige",
+        "french": "Paige",
         "indonesian": "Paige",
         "latam": "Paige",
         "ukrainian": "Пейдж"
@@ -935,7 +940,7 @@
     "69": {
         "tag": "doorman",
         "brazilian": "Porteiro",
-        "german": "The Doorman",
+        "german": "Doorman",
         "italian": "Concierge",
         "russian": "Швейцар",
         "english": "The Doorman",
@@ -947,6 +952,7 @@
         "koreana": "도어맨",
         "spanish": "El Portero",
         "turkish": "Kapıcı",
+        "french": "Alphonse (Doorman)",
         "indonesian": "The Doorman",
         "latam": "El Portero",
         "ukrainian": "Швейцар"
@@ -972,6 +978,7 @@
         "koreana": "빌리",
         "spanish": "Billy",
         "turkish": "Billy",
+        "french": "Billy",
         "indonesian": "Billy",
         "latam": "Billy",
         "ukrainian": "Біллі"
@@ -989,6 +996,7 @@
         "czech": "Druid",
         "koreana": "드루이드",
         "turkish": "Druid",
+        "french": "Druid",
         "indonesian": "Druid",
         "latam": "Druida",
         "ukrainian": "Друїд"
@@ -1006,6 +1014,7 @@
         "czech": "Graf",
         "koreana": "그라프",
         "turkish": "Graf",
+        "french": "Graf",
         "indonesian": "Graf",
         "latam": "Graf",
         "ukrainian": "Граф"
@@ -1023,6 +1032,7 @@
         "czech": "Fortuna",
         "koreana": "포르투나",
         "turkish": "Fortuna",
+        "french": "Fortuna",
         "indonesian": "Fortuna",
         "latam": "Fortuna",
         "ukrainian": "Фортуна"

@@ -3046,13 +3046,16 @@
         "russian": "Разгром",
         "english": "Bashdown",
         "polish": "Zdzielenie",
-        "thai": "แบลสดาวน์",
+        "thai": "แบชดาวน์",
         "czech": "Fláknutí",
         "spanish": "Batazo",
         "turkish": "Ezici Darbe",
         "indonesian": "Penghancuran",
         "latam": "Demoler",
-        "ukrainian": "Збиття"
+        "ukrainian": "Збиття",
+        "japanese": "バッシュダウン",
+        "schinese": "向下猛击",
+        "french": "Coup de boule"
     },
     "193508101": {
         "tag": "ability_vampirebat_steallife",
@@ -3175,24 +3178,29 @@
         "turkish": "Uçan Koçbaşı",
         "indonesian": "Serudukan Kuat",
         "latam": "Embestida ascendente",
-        "ukrainian": "Навіжений баран"
+        "ukrainian": "Навіжений баран",
+        "japanese": "ライジング・ラム",
+        "schinese": "暴动之羊",
+        "french": "Bélier de tête"
     },
     "3296031213": {
         "tag": "ability_punkgoat_blasted",
-        "brazilian": "Explosivo",
+        "brazilian": "Alterado",
         "german": "Besäufnis",
         "italian": "Ubriaco",
         "russian": "В стельку",
         "english": "Blasted",
         "polish": "Napruty",
-        "schinese": "沉醉",
+        "schinese": "烂醉",
         "thai": "แบลสเต็ด",
         "czech": "Tekutá odvaha",
-        "spanish": "Borracho",
+        "spanish": "Botellazo",
         "turkish": "Sarhoş",
-        "indonesian": "Ledakan",
-        "latam": "Explosivo",
-        "ukrainian": "Під градусом"
+        "indonesian": "Mabuk",
+        "latam": "Botellazo",
+        "ukrainian": "Під градусом",
+        "japanese": "ブラスト",
+        "french": "Explosé"
     },
     "3762861984": {
         "tag": "ability_punkgoat_tether",
@@ -3203,13 +3211,15 @@
         "english": "Chain Gang",
         "polish": "Skuta Banda",
         "schinese": "锁链囚徒",
-        "thai": "ล่ามโซ่",
+        "thai": "เชนแก๊ง",
         "czech": "Život na řetězu",
         "spanish": "Pandilla Encadenada",
         "turkish": "Pranga",
-        "indonesian": "Geng Rantai",
+        "indonesian": "Jerat Rantai",
         "latam": "Pandilla en cadena",
-        "ukrainian": "Ланцюг"
+        "ukrainian": "Ланцюг",
+        "japanese": "チェーンギャング",
+        "french": "Chaine de forçats"
     },
     "3603780999": {
         "tag": "ability_druid_ability01"

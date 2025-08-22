@@ -4567,7 +4567,7 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.77,
+            "bullet_dmg_per_lvl": 0.693,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_drifter_set": {
@@ -4576,7 +4576,7 @@
                         "dps": 0,
                         "max_dps": 0,
                         "bullet_dmg": 0,
-                        "bullet_dmg_max": 10.780000000000001,
+                        "bullet_dmg_max": 9.702,
                         "clip_size": 0,
                         "full_clip_sec": 0,
                         "reload_time": 0,
@@ -4913,9 +4913,9 @@
             }
         },
         "melee": {
-            "light_melee_damage": 50,
-            "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 1.58
+            "light_melee_damage": 42,
+            "heavy_melee_damage": 125,
+            "melee_damage_per_lvl": 1.2
         },
         "vitality": {
             "hp": 600,
@@ -4933,7 +4933,11 @@
             "stamina": 2,
             "stamina_regen": 0.2
         },
-        "scaling_stats": []
+        "scaling_stats": {
+            "tech_power": {
+                "heavy_melee_damage": 0.7
+            }
+        }
     },
     "68": {
         "tag": "boho",
@@ -5048,58 +5052,72 @@
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_doorman_set": {
-                    "can_zoom": false,
+                    "can_zoom": true,
                     "damage": {
-                        "dps": 0,
-                        "max_dps": 0,
-                        "bullet_dmg": 0,
-                        "bullet_dmg_max": 16.099999999999998,
-                        "clip_size": 0,
-                        "full_clip_sec": 0,
-                        "reload_time": 0,
+                        "dps": 44.4444,
+                        "max_dps": 70,
+                        "bullet_dmg": 28,
+                        "bullet_dmg_max": 44.099999999999994,
+                        "clip_size": 8,
+                        "full_clip_sec": 5.04,
+                        "reload_time": 2.4,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0,
-                        "radius": 0,
-                        "speed": 0,
-                        "lifetime": 0,
-                        "num_per_shot": 0,
-                        "num_per_sec": 0,
+                        "cycle_time": 0.63,
+                        "radius": 10,
+                        "speed": 8000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 1.5873015873015872,
                         "gravity_scale": 0,
-                        "burst_amount": 0,
-                        "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 0,
-                        "damage_falloff_end_scale": 0,
-                        "damage_falloff_bias": 0,
-                        "reload_move_speed": 0
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0.05,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
                     },
                     "range": {
-                        "range": 0,
-                        "base": 0,
-                        "max": 0
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
                     },
                     "crit": {
-                        "start": 0,
-                        "end": 0,
-                        "start_range": 0,
-                        "end_range": 0
+                        "start": 1.8,
+                        "end": 1.8,
+                        "start_range": 500,
+                        "end_range": 1500
                     },
                     "recoil": {
-                        "vertical": 0,
-                        "horizontal": 0,
-                        "speed": 0,
-                        "recovery_speed": 0,
-                        "recovery_delay_factor": 0,
-                        "shot_index_recovery_time_factor": 0
+                        "vertical": {
+                            "m_Range": [
+                                0.5,
+                                0.5
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 30,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0.3,
+                        "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 0,
-                        "pellet_spread": 0,
-                        "penalty_per_shot": 0,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0.5,
+                        "penalty_per_shot": 0.5,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 0
+                        "penalty_decay": 2
                     }
                 }
             }

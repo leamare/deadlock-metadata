@@ -10425,60 +10425,222 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "doorman\/doorman_bell",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 16,
+                "duration": 4,
+                "unit_target_limit": 1,
+                "post_cast_duration": 0.5,
+                "charges": 1,
+                "charge_cooldown": 4,
+                "channel_move_speed": -1,
+                "radius": "5m",
+                "special_props": {
+                    "explosion_damage": 70,
+                    "projectile_fuse": 3,
+                    "projectile_drag": 0.975,
+                    "debuff_accuracy": -100,
+                    "impact_damage": 40,
+                    "accuracy_debuff_falloff_bias": 0.3,
+                    "slow_percent": 30
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "radius",
+                            "value": "2m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "impact_damage",
+                            "value": 30
+                        },
+                        {
+                            "property": "explosion_damage",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "explode_on_impact",
+                            "value": 1
+                        }
+                    ]
+                ]
             },
             "ability_doorman_doorway": {
                 "id": 109766091,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "doorman\/doorman_doorway",
+                "activation_time": "press",
+                "targeting_location": "custom",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "deploy_object",
+                    "no_target",
+                    "displays_damage_impact",
+                    "allow_alt_cast",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 40,
+                "duration": 20,
+                "cast_range": "50m",
+                "unit_target_limit": 1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "doorway_distance": "60m"
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_duration",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "property": "combat_barrier",
+                            "value": 250
+                        },
+                        {
+                            "property": "barrier_duration",
+                            "value": 8
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 1.5,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "doorway_distance",
+                            "value": "50m"
+                        },
+                        {
+                            "property": "ability_cast_range",
+                            "value": "30m"
+                        }
+                    ]
+                ]
             },
             "ability_doorman_luggage_cart": {
                 "id": 1719512318,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "doorman\/doorman_luggagetrolley",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "allow_self_cast",
+                    "projectile_pass_through_world"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "duration": 6,
+                "cast_range": "25m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.25,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "cart_damage": 80
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cast_range",
+                            "value": "15m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "cart_damage",
+                            "value": 50
+                        },
+                        {
+                            "property": "stun_duration",
+                            "value": 1.5
+                        },
+                        {
+                            "property": "wall_impact_damage",
+                            "value": 130
+                        },
+                        {
+                            "property": "wall_impact_damage",
+                            "value": 0.75,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
             },
             "ability_doorman_hotel": {
                 "id": 1703045691,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "doorman\/doorman_elevator",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "cannot_cancel_during_channel"
                 ],
-                "upgrades": []
+                "cooldown": 120,
+                "duration": 6.5,
+                "cast_range": "5m",
+                "unit_target_limit": 1,
+                "channel_time": 1,
+                "post_cast_duration": 0.7,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 150,
+                    "late_checkout_damage": 250
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cast_range",
+                            "value": "2m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "unstoppable_while_channeling",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -50
+                        }
+                    ]
+                ]
             }
         }
     },

@@ -10141,60 +10141,268 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "bookworm\/bookworm_dragon",
+                "activation_time": "instant_cast",
+                "targeting_location": "ground",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "projectile",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "projectile_fired_as_bullet",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "charges": 1,
+                "charge_cooldown": 8,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "dps": 30,
+                    "tick_rate": 0.3,
+                    "startup_delay": 0.3,
+                    "debuff_duration": 1.5,
+                    "dragon_search_radius": "8.5m",
+                    "dragon_cone_range": "5m",
+                    "dragon_upward_speed": 400,
+                    "ground_flame_duration": 3,
+                    "damage": 60,
+                    "dragon_search_tick_rate": 0.1,
+                    "ground_aura_spacing": "1m",
+                    "aura_linger_duration": 0.1,
+                    "dragon_travel_range": "20m",
+                    "dragon_range_per_second": 500
+                },
+                "radius": "4m",
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ground_flame_duration",
+                            "value": 2
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 115
+                        },
+                        {
+                            "property": "dps",
+                            "value": 30
+                        }
+                    ]
+                ]
             },
             "ability_bookworm_knightbarrier": {
                 "id": 3553292912,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "bookworm\/bookworm_defendandfight",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_friendly",
                 "behaviors": [
-                    ""
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "allow_self_cast",
+                    "cannot_cancel_during_channel",
+                    "allow_alt_cast",
+                    "use_instant_cast_unit_target_ui",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 26,
+                "duration": 5,
+                "cast_range": "35m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "post_cast_duration": 0.2,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "combat_barrier": 200,
+                    "push_force": 900,
+                    "base_attack_damage_percent": 25,
+                    "shove_radius": "6m",
+                    "bonus_target_radius": "30m"
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "combat_barrier",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_fire_rate",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_targets",
+                            "value": 2
+                        },
+                        {
+                            "property": "bonus_targets_barrier_percentage",
+                            "value": 75
+                        }
+                    ]
+                ]
             },
             "ability_bookworm_aoemagic": {
                 "id": 3054993162,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "bookworm\/bookworm_blindinglight",
+                "activation_time": "press",
+                "targeting_location": "ground",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "always_preview_radius",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "cast_range": "30m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.15,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 120,
+                    "detonation_delay": 1.25,
+                    "immobilize_duration": 1.25,
+                    "slow_percent": 45,
+                    "height": "8m"
+                },
+                "radius": "7m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -6
+                        }
+                    ],
+                    [
+                        {
+                            "property": "immobilize_duration",
+                            "value": 0.75
+                        }
+                    ],
+                    [
+                        {
+                            "property": "tech_armor_damage_reduction",
+                            "value": -18
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 6
+                        }
+                    ]
+                ]
             },
             "ability_bookworm_knightcharge": {
                 "id": 1841901343,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "bookworm\/bookworm_charge",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_friendly | trooper_friendly | minion_friendly | hero_enemy | trooper_enemy | minion_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "cannot_cancel_during_channel",
+                    "refund_half_cooldown_on_channel_interrupt"
                 ],
-                "upgrades": []
+                "cooldown": 190,
+                "cast_range": "600m",
+                "unit_target_limit": 1,
+                "channel_time": 0.7,
+                "channel_move_speed": "1.3m",
+                "special_props": {
+                    "damage": 150,
+                    "ground_stick_height": "0.05m",
+                    "toss_up_speed": 800,
+                    "knight_charge_width": "2.2m",
+                    "knight_count": 5,
+                    "knight_position_spread": "1.5m",
+                    "bonus_move_speed": "5m",
+                    "buff_duration": 9,
+                    "ally_radius": "4m",
+                    "ally_height": "20m",
+                    "knight_whisker_length": 300,
+                    "knight_whisker_side": 50,
+                    "knight_whisker_strength": 0.2,
+                    "toss_back_speed": 100,
+                    "knight_position_stagger": "-4m",
+                    "stun_duration": 1,
+                    "heal_amount": 150,
+                    "knight_nav_search_distance": "10m",
+                    "knight_distance_above_ground": "0m",
+                    "knight_charge_height": "3.5m",
+                    "gravity_acceleration": -1900,
+                    "knight_max_jump_height": "30m",
+                    "knight_max_fall_height": "-35m",
+                    "knight_nav_forward_distance": "8m",
+                    "knight_jump_speed": 900,
+                    "air_drag": 0.8,
+                    "fall_speed_max": 20,
+                    "wave_count": 2,
+                    "wave_position_stagger": "-15m",
+                    "knight_bonus_per_wave": -99,
+                    "knight_count_in_first_wave": 5,
+                    "cancel_cooldown_refund_percentage": 50,
+                    "target_finding_delay": 0.15
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "heal_amount",
+                            "value": 150
+                        }
+                    ],
+                    [
+                        {
+                            "property": "knight_count",
+                            "value": 4
+                        },
+                        {
+                            "property": "knight_count_in_first_wave",
+                            "value": 4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 150
+                        },
+                        {
+                            "property": "stun_duration",
+                            "value": 0.5
+                        }
+                    ]
+                ]
             }
         }
     },
@@ -11220,23 +11428,24 @@
                     "do_not_allow_spam_proc",
                     "allow_gun_fire_after_cast"
                 ],
-                "cooldown": 30,
-                "duration": 8.5,
+                "cooldown": 27,
+                "duration": 8,
                 "unit_target_limit": 1,
                 "cast_delay": 0.28,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "duration_per_heavy_melee": 5,
-                    "duration_per_light_melee": 3,
+                    "duration_per_heavy_melee": 4.5,
+                    "duration_per_light_melee": 2.8,
                     "bonus_move_speed": "0.0m",
-                    "non_player_resource_scale": 0.35,
+                    "non_player_resource_scale_pct": 35,
+                    "light_melee_scale_pct": 50,
                     "max_duration": 35,
                     "bullets_reloaded_per_light_melee_pct": 35,
                     "bullets_reloaded_per_heavy_melee_pct": 100,
-                    "bullet_damage_amp": 8,
+                    "bullet_damage_amp": 9,
                     "bullet_damage_amp_duration": 7,
                     "fire_rate_slow": 15,
-                    "max_health_melee": 75,
+                    "max_health_melee": 80,
                     "health_boost_duration": 11,
                     "blasted_extend_by_bullet_duration": 0.2,
                     "blasted_rate_on_bullet_pct": 50
@@ -11261,7 +11470,7 @@
                     [
                         {
                             "property": "max_health_melee",
-                            "value": 65
+                            "value": 50
                         }
                     ]
                 ]
@@ -11294,8 +11503,8 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "rope_length": "2.0m",
-                    "rope_snap_no_l_o_s_duration": 0.75,
-                    "rope_snap_distance": "40.0m",
+                    "rope_snap_no_l_o_s_duration": 0.85,
+                    "rope_snap_distance": "45.0m",
                     "rope_soft_edge_length": "4.5m",
                     "move_speed_slow_max_pct": 35,
                     "move_speed_slow_min_pct": 25,

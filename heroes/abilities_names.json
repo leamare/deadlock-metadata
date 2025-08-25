@@ -2896,19 +2896,19 @@
     },
     "109766091": {
         "tag": "ability_doorman_doorway",
-        "brazilian": "Porta de Entrada",
-        "german": "Türpforte",
+        "brazilian": "Portal",
+        "german": "Türöffner",
         "italian": "Soglia",
-        "russian": "Портал",
+        "russian": "Дверной портал",
         "english": "Doorway",
         "japanese": "ドアウェイ",
         "polish": "Wejście",
-        "schinese": "传送之门",
+        "schinese": "任意门",
         "thai": "​ดอร์เวย์​",
         "czech": "Průchod",
         "koreana": "문 연결",
         "spanish": "Puerta de Entrada",
-        "turkish": "Eşik",
+        "turkish": "Kapı",
         "french": "Embrasure",
         "indonesian": "Pintu Keluar",
         "latam": "Puerta de entrada",
@@ -3051,11 +3051,12 @@
         "spanish": "Batazo",
         "turkish": "Ezici Darbe",
         "indonesian": "Penghancuran",
-        "latam": "Demoler",
-        "ukrainian": "Збиття",
+        "latam": "Batazo",
+        "ukrainian": "Бита",
         "japanese": "バッシュダウン",
         "schinese": "向下猛击",
-        "french": "Coup de boule"
+        "french": "Coup de boule",
+        "koreana": "내려찍기"
     },
     "193508101": {
         "tag": "ability_vampirebat_steallife",
@@ -3073,7 +3074,7 @@
         "spanish": "Rasgar",
         "turkish": "Tırmık",
         "indonesian": "Uang Bandar",
-        "latam": "Rastrillo",
+        "latam": "Rasgar",
         "ukrainian": "Подряпина",
         "french": "Griffes"
     },
@@ -3156,13 +3157,58 @@
         "tag": "ability_boho_channeltether"
     },
     "103496908": {
-        "tag": "ability_doorman_bomb"
+        "tag": "ability_doorman_bomb",
+        "brazilian": "Sineta",
+        "german": "Rufglocke",
+        "italian": "Campanello",
+        "russian": "Звонок для вызова",
+        "english": "Call Bell",
+        "polish": "Dzwonek Recepcyjny",
+        "schinese": "呼叫铃",
+        "thai": "คอลเบล",
+        "czech": "Zvonek",
+        "spanish": "Campana",
+        "turkish": "Resepsiyon Zili",
+        "french": "Sonnette d'appel",
+        "indonesian": "Lonceng",
+        "latam": "Campana",
+        "ukrainian": "Дзвінок"
     },
     "1719512318": {
-        "tag": "ability_doorman_luggage_cart"
+        "tag": "ability_doorman_luggage_cart",
+        "brazilian": "Carrinho de Bagagem",
+        "german": "Gepäckwagen",
+        "italian": "Carrello portabagagli",
+        "russian": "Багажная тележка",
+        "english": "Luggage Cart",
+        "polish": "Wózek Bagażowy",
+        "schinese": "行李车",
+        "thai": "ลักเกจคาร์ท",
+        "czech": "Vozík se zavazadly",
+        "spanish": "Carrito de Equipaje",
+        "turkish": "Bavul Arabası",
+        "french": "Charriot à bagages",
+        "indonesian": "Troli Bagasi",
+        "latam": "Carrito de equipaje",
+        "ukrainian": "Візок для багажу"
     },
     "1703045691": {
-        "tag": "ability_doorman_hotel"
+        "tag": "ability_doorman_hotel",
+        "brazilian": "Hóspede do Hotel",
+        "german": "Hotelgast",
+        "italian": "Ospite dell'hotel",
+        "russian": "Постоялец отеля",
+        "english": "Hotel Guest",
+        "polish": "Gość Hotelu",
+        "schinese": "酒店宾客",
+        "thai": "โฮเทลเกสต์",
+        "czech": "Noc v hotelu",
+        "spanish": "Huésped del Hotel",
+        "turkish": "Otel Misafiri",
+        "french": "Clientèle de l'hôtel",
+        "indonesian": "Tamu Hotel",
+        "latam": "Huésped de hotel",
+        "ukrainian": "Гість готелю"
     },
     "1792773251": {
         "tag": "ability_punkgoat_goatflip",
@@ -3177,11 +3223,12 @@
         "spanish": "Embestida Ascendente",
         "turkish": "Uçan Koçbaşı",
         "indonesian": "Serudukan Kuat",
-        "latam": "Embestida ascendente",
-        "ukrainian": "Навіжений баран",
+        "latam": "Corneado",
+        "ukrainian": "Навіжений цап",
         "japanese": "ライジング・ラム",
         "schinese": "暴动之羊",
-        "french": "Bélier de tête"
+        "french": "Bélier de tête",
+        "koreana": "들이받기"
     },
     "3296031213": {
         "tag": "ability_punkgoat_blasted",
@@ -3200,7 +3247,8 @@
         "latam": "Botellazo",
         "ukrainian": "Під градусом",
         "japanese": "ブラスト",
-        "french": "Explosé"
+        "french": "Explosé",
+        "koreana": "폭주"
     },
     "3762861984": {
         "tag": "ability_punkgoat_tether",
@@ -3219,7 +3267,8 @@
         "latam": "Pandilla en cadena",
         "ukrainian": "Ланцюг",
         "japanese": "チェーンギャング",
-        "french": "Chaine de forçats"
+        "french": "Chaine de forçats",
+        "koreana": "사슬 포획"
     },
     "3603780999": {
         "tag": "ability_druid_ability01"

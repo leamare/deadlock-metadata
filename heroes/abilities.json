@@ -9788,60 +9788,243 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "drifter\/drifter_claw",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "displays_damage_impact",
+                    "no_target",
+                    "show_cast_range_as_sat_sphere_while_casting"
                 ],
-                "upgrades": []
+                "cooldown": 15,
+                "cast_range": "18m",
+                "unit_target_limit": 30,
+                "cast_delay": 0.5,
+                "post_cast_duration": 0.5,
+                "channel_move_speed": "1.3m",
+                "special_props": {
+                    "range_for_bonus_damage": "8m",
+                    "targeting_cone_angle": 50,
+                    "extra_sweep_cone_angle": 60,
+                    "extra_sweep_range": "3m",
+                    "extra_sweep_offset_behind_caster": 80,
+                    "bonus_damage": 40
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_damage",
+                            "value": 40
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -7
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bullet_lifesteal_percent_hero",
+                            "value": 55
+                        },
+                        {
+                            "property": "lifesteal_duration",
+                            "value": 4
+                        }
+                    ]
+                ]
             },
             "drifter_shadow_mark": {
                 "id": 1264175662,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "drifter\/drifter_stalkersmark",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "projectile",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cleave_disabled"
                 ],
-                "upgrades": []
+                "cooldown": 20,
+                "duration": 6,
+                "unit_target_limit": 1,
+                "cast_delay": 0.15,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "dot_health_percent": 2,
+                    "tick_rate": 0.5,
+                    "teleport_back_offset_from_target": 135,
+                    "fall_speed_max": "0.3m",
+                    "air_drag": 3,
+                    "vertical_drag": 1
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "dot_health_percent",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_fire_rate",
+                            "value": 25
+                        },
+                        {
+                            "property": "buff_duration",
+                            "value": 6
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_charges",
+                            "value": 2
+                        },
+                        {
+                            "property": "ability_charges",
+                            "value": 1,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "ability_cooldown_between_charge",
+                            "value": 5
+                        }
+                    ]
+                ]
             },
             "ability_drifter_hunger": {
                 "id": 1033019133,
-                "is_active": false,
+                "is_active": true,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
+                "update_time": 0,
+                "image": "drifter\/drifter_thehunger",
+                "activation_time": "passive",
                 "targeting_location": null,
-                "unit_target": null,
+                "unit_target": "hero_enemy",
                 "behaviors": [
                     ""
                 ],
-                "upgrades": []
+                "cast_range": "80m",
+                "unit_target_limit": 1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "isolation_range": "25m",
+                    "amp_damage_percent": 15,
+                    "low_health_threshold": 30,
+                    "invis_fade_to_duration": 0.3,
+                    "spotted_radius": "15m",
+                    "reveal_on_spotted_duration": 1.5,
+                    "reveal_on_damage_duration": 0.25,
+                    "invis_move_speed_mod": "0m",
+                    "delay_before_invis_starts": 0.6,
+                    "trail_duration": 10,
+                    "max_trail_targets": 2,
+                    "target_linger_duration": 3,
+                    "tick_rate": 1,
+                    "kill_duration": 300,
+                    "bonus_move_speed": "0m",
+                    "weapon_dmg_per_isolation_kill": 5,
+                    "isolation_assist_percent_value": 40
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "2m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "cooldown_reduction_on_kill",
+                            "value": 15
+                        },
+                        {
+                            "property": "stamina_to_restore",
+                            "value": 3
+                        }
+                    ],
+                    [
+                        {
+                            "property": "amp_damage_percent",
+                            "value": 13
+                        }
+                    ]
+                ]
             },
             "drifter_darkness": {
                 "id": 1168182161,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "drifter\/darkness",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy",
                 "behaviors": [
-                    ""
+                    "projectile_pass_through_world",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 130,
+                "duration": 7,
+                "cast_range": "100m",
+                "unit_target_limit": 1,
+                "cast_delay": 1,
+                "channel_move_speed": "1.3m",
+                "special_props": {
+                    "vision_distance": "35m",
+                    "small_vision_distance": "15m",
+                    "drifter_nearby_range_check": "40m",
+                    "dark_factor": 1,
+                    "post_process_fade_in_time": 0.2,
+                    "post_process_fade_out_time": 1,
+                    "min_projectile_speed": 3000,
+                    "max_projectile_speed": 3000,
+                    "distance_for_max_proj_speed": "200m",
+                    "bonus_sprint_speed": "3m",
+                    "spirit_damage_per_attack": 9,
+                    "reveal_duration": 3,
+                    "max_targets": 2,
+                    "aura_linger_duration": 0.001
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "spirit_damage_per_attack",
+                            "value": 11
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -30
+                        },
+                        {
+                            "property": "bonus_sprint_speed",
+                            "value": "3m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_duration",
+                            "value": 2
+                        },
+                        {
+                            "property": "max_targets",
+                            "value": 1
+                        }
+                    ]
+                ]
             }
         }
     },
@@ -10149,7 +10332,6 @@
                 "behaviors": [
                     "projectile",
                     "displays_damage_impact",
-                    "projectile_pass_through_world",
                     "projectile_fired_as_bullet",
                     "can_set_quick_cast"
                 ],
@@ -11425,7 +11607,6 @@
                 "behaviors": [
                     "no_target",
                     "cooldown_on_channel_end",
-                    "do_not_allow_spam_proc",
                     "allow_gun_fire_after_cast"
                 ],
                 "cooldown": 27,

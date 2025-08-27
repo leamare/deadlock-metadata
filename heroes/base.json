@@ -478,7 +478,7 @@
         "name": "Vyper",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1730079799,
         "status": "available",
         "complexity": 1,
         "inspiration": null
@@ -500,7 +500,7 @@
         "name": "Sinclair",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1730079799,
         "status": "available",
         "complexity": 4,
         "inspiration": [
@@ -535,7 +535,7 @@
         "name": "Mina",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1755549832,
         "status": "available",
         "complexity": 3,
         "inspiration": null
@@ -546,7 +546,7 @@
         "name": "Drifter",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1756330695,
         "status": "available",
         "complexity": 3,
         "inspiration": null
@@ -579,7 +579,7 @@
         "name": "Paige",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1756155603,
         "status": "available",
         "complexity": 1,
         "inspiration": null
@@ -601,7 +601,7 @@
         "name": "Doorman",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1755896403,
         "status": "available",
         "complexity": 1,
         "inspiration": null
@@ -634,7 +634,7 @@
         "name": "Billy",
         "alt_name": null,
         "aliases": "Punkgoat",
-        "released": null,
+        "released": 1755723615,
         "status": "available",
         "complexity": 3,
         "inspiration": null

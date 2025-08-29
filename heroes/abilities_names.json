@@ -2642,23 +2642,23 @@
     },
     "1033019133": {
         "tag": "ability_drifter_hunger",
-        "brazilian": "A Fome",
-        "german": "Mordshunger",
-        "italian": "Fame",
-        "russian": "Голод",
-        "english": "The Hunger",
+        "brazilian": "Cheiro de Sangue",
+        "german": "Blutdunst",
+        "italian": "Profumo di sangue",
+        "russian": "Запах крови",
+        "english": "Bloodscent",
         "japanese": "ハングリー",
-        "polish": "Głód",
-        "schinese": "嗜血之欲",
-        "thai": "​เดอะฮังเกอร์",
-        "czech": "Hlad",
+        "polish": "Woń Krwi",
+        "schinese": "腥气",
+        "thai": "บลัดเซ็นต์",
+        "czech": "Vůně krve",
         "koreana": "허기",
         "spanish": "El Hambre",
-        "turkish": "Açlık",
-        "french": "Famine",
-        "indonesian": "Si Kelaparan",
-        "latam": "El hambre",
-        "ukrainian": "Голод"
+        "turkish": "Kan kokusu",
+        "french": "Odeur de sang",
+        "indonesian": "Aroma Darah",
+        "latam": "Olor a sangre",
+        "ukrainian": "Запах крові"
     },
     "1014852125": {
         "tag": "ability_drifter_ult"
@@ -3080,13 +3080,55 @@
         "french": "Griffes"
     },
     "3120550633": {
-        "tag": "drifter_blood_blast"
+        "tag": "drifter_blood_blast",
+        "brazilian": "Lacerar",
+        "german": "Zerfleischen",
+        "italian": "Lacerazione",
+        "russian": "Раздирание",
+        "english": "Rend",
+        "polish": "Rozdarcie",
+        "schinese": "撕裂",
+        "thai": "ฉีกขาด",
+        "czech": "Spáry děsu",
+        "turkish": "Parçalama",
+        "french": "Déchirer",
+        "indonesian": "Robek",
+        "latam": "Desgarrar",
+        "ukrainian": "Шматування"
     },
     "1264175662": {
-        "tag": "drifter_shadow_mark"
+        "tag": "drifter_shadow_mark",
+        "brazilian": "Marca do Perseguidor",
+        "german": "Mal des Stalkers",
+        "italian": "Marchio dello stalker",
+        "russian": "Метка преследователя",
+        "english": "Stalker's Mark",
+        "polish": "Piętno Prześladowcy",
+        "schinese": "潜行印记",
+        "thai": "เครื่องหมายของนักสะกดรอย",
+        "czech": "Stopařův cejch",
+        "turkish": "İz Sürücü İşareti",
+        "french": "Marque du rôdeur",
+        "indonesian": "Penanda Penguntit",
+        "latam": "Marca del acechador",
+        "ukrainian": "Мітка переслідувача"
     },
     "1168182161": {
-        "tag": "drifter_darkness"
+        "tag": "drifter_darkness",
+        "brazilian": "Noite Eterna",
+        "german": "Ewige Nacht",
+        "italian": "Notte eterna",
+        "russian": "Вечная ночь",
+        "english": "Eternal Night",
+        "polish": "Wieczna Noc",
+        "schinese": "永恒之夜",
+        "thai": "อีเทอร์นัลไนต์",
+        "czech": "Věčná noc",
+        "turkish": "Ebedi Gece",
+        "french": "Nuit sans fin",
+        "indonesian": "Malam Abadi",
+        "latam": "Noche eterna",
+        "ukrainian": "Вічна ніч"
     },
     "911307831": {
         "tag": "ability_priest_flashbang"

@@ -9642,7 +9642,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -7
+                            "value": -12
                         }
                     ]
                 ]
@@ -9664,7 +9664,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "damage": 6,
-                    "per_target_cooldown": 8,
+                    "per_target_cooldown": 7,
                     "build_up_per_shot": 16,
                     "build_up_duration": 5,
                     "bonus_damage": 45,
@@ -9695,8 +9695,16 @@
                     ],
                     [
                         {
-                            "property": "per_target_cooldown",
-                            "value": -3
+                            "property": "slow_duration",
+                            "value": 3
+                        },
+                        {
+                            "property": "slow_percent",
+                            "value": 30
+                        },
+                        {
+                            "property": "stamina_reduction",
+                            "value": 1
                         }
                     ]
                 ]
@@ -9730,7 +9738,7 @@
                     "jump_pitch": -60,
                     "jump_speed": "17m",
                     "bat_count": 75,
-                    "debuff_duration": 1,
+                    "debuff_duration": 1.25,
                     "bat_spawn_random_angle": 0.15,
                     "bat_count_per_wave": 1,
                     "bonus_bats_max": 50,
@@ -9746,7 +9754,7 @@
                     "bat_effectiveness": 0.2,
                     "max_bat_targets": 2
                 },
-                "cooldown": 150,
+                "cooldown": 130,
                 "cast_range": "40m",
                 "unit_target_limit": 12,
                 "cast_delay": 0.5,
@@ -9828,7 +9836,7 @@
                     [
                         {
                             "property": "bullet_lifesteal_percent_hero",
-                            "value": 55
+                            "value": 45
                         },
                         {
                             "property": "lifesteal_duration",
@@ -9955,7 +9963,7 @@
                     [
                         {
                             "property": "amp_damage_percent",
-                            "value": 13
+                            "value": 11
                         }
                     ]
                 ]
@@ -10824,7 +10832,7 @@
                     "no_target",
                     "displays_damage_impact"
                 ],
-                "cooldown": 16,
+                "cooldown": 18,
                 "duration": 4,
                 "unit_target_limit": 1,
                 "post_cast_duration": 0.5,
@@ -10972,7 +10980,7 @@
                         },
                         {
                             "property": "stun_duration",
-                            "value": 1.5
+                            "value": 1.2
                         },
                         {
                             "property": "wall_impact_damage",
@@ -11465,8 +11473,8 @@
                 "channel_move_speed": 190,
                 "special_props": {
                     "camera_turn_rate_max": 2000,
-                    "place_distance_in_front_of_caster": "7m",
-                    "damage": 40,
+                    "place_distance_in_front_of_caster": "6.2m",
+                    "damage": 35,
                     "toss_force": 350,
                     "explode_delay": 0.5,
                     "counts_as_light_melee": 1,
@@ -11684,7 +11692,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "rope_length": "2.0m",
-                    "rope_snap_no_l_o_s_duration": 0.85,
+                    "rope_snap_no_l_o_s_duration": 0.8,
                     "rope_snap_distance": "45.0m",
                     "rope_soft_edge_length": "4.5m",
                     "move_speed_slow_max_pct": 35,

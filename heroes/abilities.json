@@ -10262,60 +10262,244 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "frank\/frank_pain_battery",
+                "activation_time": "instant_cast",
+                "targeting_location": "unit",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "show_cast_range_as_sat_sphere_while_casting"
                 ],
-                "upgrades": []
+                "cooldown": 2,
+                "cast_range": "20m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.35,
+                "post_cast_duration": 0.2,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 100,
+                    "ability_charges_conditionally": 1,
+                    "bonus_shocks_delay": 0.2,
+                    "spread_angle": 40,
+                    "bolt_count": 5,
+                    "stored_damage_health_percent_required": 50,
+                    "spread_randomness": 0.01,
+                    "battery_generation_percent": 100
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "damage",
+                            "value": 40
+                        }
+                    ],
+                    [
+                        {
+                            "property": "slow_percent",
+                            "value": 40
+                        },
+                        {
+                            "property": "slow_duration",
+                            "value": "2s"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "missing_health_percent_heal",
+                            "value": 20
+                        }
+                    ]
+                ]
             },
             "ability_frank_selfzap": {
                 "id": 3727084744,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "frank\/frank_jump_start",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 22,
+                "duration": 4,
+                "unit_target_limit": 1,
+                "channel_time": 0.35,
+                "charges": 1,
+                "charge_cooldown": 3,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "bonus_move_speed": "4m",
+                    "current_health_percent_damage": 15,
+                    "total_health_regen": 100
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "1.5m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "total_health_regen",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        },
+                        {
+                            "property": "remove_debuffs",
+                            "value": 1
+                        }
+                    ]
+                ]
             },
             "ability_frank_painaura": {
                 "id": 1472593493,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "frank\/frank_aura_of_suffering",
+                "activation_time": "press_toggle",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "start_cooldown_on_toggle_off",
+                    "no_target",
+                    "displays_damage_impact",
+                    "do_not_allow_spam_proc"
                 ],
-                "upgrades": []
+                "cooldown": 1,
+                "duration": 10,
+                "unit_target_limit": 1,
+                "channel_move_speed": -1,
+                "radius": "9m",
+                "special_props": {
+                    "min_d_p_s": 15,
+                    "self_d_p_s": 15,
+                    "tick_rate": 0.25,
+                    "debuff_duration": 0.5,
+                    "toggle_off_delay": 0.5,
+                    "max_d_p_s": 75,
+                    "self_damage_percentage": 80
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "slow_percent",
+                            "value": 30
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "min_dps",
+                            "value": 10
+                        },
+                        {
+                            "property": "max_d_p_s",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "incoming_damage_percent",
+                            "value": 13
+                        }
+                    ]
+                ]
             },
             "ability_frank_revive": {
                 "id": 3493884851,
-                "is_active": false,
-                "is_ultimate": false,
+                "is_active": true,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "frank\/frank_shocking_reanimation",
+                "activation_time": "passive",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "cast_even_if_busy_and_exclusive",
+                    "channelled",
+                    "castable_while_busy",
+                    "not_silencable",
+                    "no_target",
+                    "castable_while_cmd_restricted",
+                    "displays_damage_impact",
+                    "can_cast_while_dead"
                 ],
-                "upgrades": []
+                "cooldown": 180,
+                "unit_target_limit": 1,
+                "channel_time": 3,
+                "post_cast_duration": 0.66,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 200,
+                    "half_height": "15m",
+                    "initial_delay": 0.5,
+                    "respawn_delay": 3,
+                    "respawn_health_percent": 100,
+                    "slow_percent": 80,
+                    "slow_duration": 3,
+                    "zombie_tick_rate": 0.02,
+                    "stun_duration": 1
+                },
+                "radius": "12m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_damage_per_bullet",
+                            "value": 10
+                        },
+                        {
+                            "property": "bonus_fire_rate",
+                            "value": 25
+                        },
+                        {
+                            "property": "bonus_damage_per_bullet",
+                            "value": 0.08,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "buff_duration",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 200
+                        },
+                        {
+                            "property": "radius",
+                            "value": "3m"
+                        }
+                    ]
+                ]
             }
         }
     },

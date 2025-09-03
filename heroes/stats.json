@@ -4593,7 +4593,7 @@
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.8,
+                        "damage_falloff_end_scale": 0.6,
                         "damage_falloff_bias": 0.5,
                         "reload_move_speed": 10000
                     },
@@ -4852,7 +4852,7 @@
         },
         "vitality": {
             "hp": 680,
-            "hp_regen": 3,
+            "hp_regen": 1.5,
             "hp_per_lvl": 45,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,

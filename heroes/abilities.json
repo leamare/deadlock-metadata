@@ -9824,7 +9824,7 @@
                     [
                         {
                             "property": "bonus_damage",
-                            "value": 40
+                            "value": 35
                         }
                     ],
                     [
@@ -9999,7 +9999,7 @@
                     "max_projectile_speed": 3000,
                     "distance_for_max_proj_speed": "200m",
                     "bonus_sprint_speed": "3m",
-                    "spirit_damage_per_attack": 9,
+                    "spirit_damage_per_attack": 7,
                     "reveal_duration": 3,
                     "max_targets": 2,
                     "aura_linger_duration": 0.001
@@ -10009,7 +10009,7 @@
                     [
                         {
                             "property": "spirit_damage_per_attack",
-                            "value": 11
+                            "value": 7
                         }
                     ],
                     [
@@ -10358,7 +10358,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -8
+                            "value": -4
                         },
                         {
                             "property": "remove_debuffs",
@@ -10395,7 +10395,7 @@
                     "debuff_duration": 0.5,
                     "toggle_off_delay": 0.5,
                     "max_d_p_s": 75,
-                    "self_damage_percentage": 80
+                    "self_damage_percentage": 100
                 },
                 "upgrades": [
                     [
@@ -10446,7 +10446,7 @@
                     "displays_damage_impact",
                     "can_cast_while_dead"
                 ],
-                "cooldown": 180,
+                "cooldown": 190,
                 "unit_target_limit": 1,
                 "channel_time": 3,
                 "post_cast_duration": 0.66,
@@ -10456,7 +10456,7 @@
                     "half_height": "15m",
                     "initial_delay": 0.5,
                     "respawn_delay": 3,
-                    "respawn_health_percent": 100,
+                    "respawn_health_percent": 60,
                     "slow_percent": 80,
                     "slow_duration": 3,
                     "zombie_tick_rate": 0.02,
@@ -10485,8 +10485,8 @@
                     ],
                     [
                         {
-                            "property": "ability_cooldown",
-                            "value": -20
+                            "property": "respawn_health_percent",
+                            "value": 40
                         }
                     ],
                     [

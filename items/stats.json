@@ -306,7 +306,7 @@
         "extra": {
             "proc_cooldown": 0.25,
             "damage_per_chain": 40,
-            "bonus_per_chain": 45,
+            "bonus_per_chain": 40,
             "chain_radius": "8m",
             "proc_chance": 15,
             "chain_count": 4,
@@ -470,7 +470,9 @@
         "icon_class": "mods_weapon\/long_range",
         "is_active": null,
         "ability": [],
-        "bullet": [],
+        "bullet": {
+            "attack_range_pct": 4
+        },
         "vitality": [],
         "spirit": [],
         "mobility": {
@@ -520,12 +522,12 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "debuff_duration": 4,
+            "debuff_duration": 5,
             "build_up_per_shot": 0.92,
             "build_up_duration": 5,
             "outgoing_damage_penalty_percent": -35,
-            "heal_amp_receive_penalty_percent": -30,
-            "heal_amp_regen_penalty_percent": -30
+            "heal_amp_receive_penalty_percent": -35,
+            "heal_amp_regen_penalty_percent": -35
         }
     },
     "1889400890": {
@@ -772,7 +774,7 @@
         "spirit": [],
         "mobility": {
             "move_speed_bonus": "-1m",
-            "sprint_speed": "1m"
+            "sprint_speed": "1.5m"
         },
         "extra": {
             "long_range_bonus_weapon_power": 70,
@@ -1407,7 +1409,7 @@
         "bullet": [],
         "vitality": {
             "hp": 90,
-            "melee_resist_pct": 20
+            "bullet_resist": 7
         },
         "spirit": [],
         "mobility": [],
@@ -2175,7 +2177,7 @@
             "reveal_on_damage_duration": 0.25,
             "reveal_on_spotted_duration": 0.25,
             "spirit_power": 10,
-            "invis_duration": 6,
+            "invis_duration": 7,
             "heal_on_veil": 150
         },
         "active": {
@@ -2289,14 +2291,14 @@
         "bullet": [],
         "vitality": [],
         "spirit": {
-            "range": 10
+            "range": 8
         },
         "mobility": [],
         "extra": {
-            "tech_radius_multiplier": 10,
+            "tech_radius_multiplier": 8,
             "damage_threshold": 500,
             "damage_threshold_duration": 5,
-            "explosion_damage": 120,
+            "explosion_damage": 110,
             "explosion_radius": "12m",
             "dps": 24,
             "debuff_duration": 8,
@@ -2396,7 +2398,7 @@
         "extra": {
             "parry_cooldown_reduction": 2,
             "buff_duration": 6,
-            "buff_melee_damage_boost": 50,
+            "bonus_damage_percent": 30,
             "parry_success_heal_percentage": 100
         }
     },
@@ -2419,7 +2421,7 @@
         "extra": {
             "spirit_power": 20,
             "buff_duration": 6,
-            "spell_parry_duration": 1,
+            "spell_parry_duration": 0.9,
             "spirit_power_innate": 8,
             "heal_on_success": 150
         },
@@ -2481,12 +2483,12 @@
             "sprint_speed": "2m"
         },
         "extra": {
-            "out_of_combat_health_regen": 3.5,
+            "out_of_combat_health_regen": 4,
             "stacking_bonus_health": 25,
             "stacking_bonus_sprint_speed": "0.2m",
             "stacking_tech_range_multiplier": 1,
             "stacking_tech_radius_multiplier": 1,
-            "stacking_gold_per_minute": 23,
+            "stacking_gold_per_minute": 25,
             "think_rate": 3,
             "max_stacks": 16
         }
@@ -2538,7 +2540,7 @@
         "mobility": [],
         "extra": {
             "buff_duration": 12,
-            "damage": 60,
+            "damage": 55,
             "ammo_reload_percent": 100,
             "ability_charge_up_time": 18
         },
@@ -2587,7 +2589,7 @@
             "spirit_resist": 20
         },
         "spirit": {
-            "spirit_power": 10,
+            "spirit_power": 14,
             "cooldown_reduction": 7
         },
         "mobility": [],
@@ -2709,7 +2711,7 @@
         },
         "mobility": [],
         "extra": {
-            "buff_duration": 14,
+            "buff_duration": 18,
             "max_stacks": 6
         }
     },
@@ -2730,7 +2732,7 @@
             "move_speed_bonus": "1.75m"
         },
         "extra": {
-            "dps": 20,
+            "dps": 17,
             "tick_rate": 0.5,
             "debuff_radius": "25m",
             "bullet_resist_reduction": -6,
@@ -2738,7 +2740,7 @@
             "reduce_footstep_sound": -50
         },
         "active": {
-            "cooldown": 4,
+            "cooldown": 5,
             "duration": 5
         }
     },

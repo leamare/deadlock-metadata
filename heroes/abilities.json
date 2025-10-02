@@ -348,7 +348,7 @@
                     [
                         {
                             "property": "shock_radius",
-                            "value": "8m"
+                            "value": "7m"
                         }
                     ],
                     [
@@ -416,12 +416,12 @@
                         },
                         {
                             "property": "damage_per_chain",
-                            "value": 0.3,
+                            "value": 0.27,
                             "upgrade_type": "add_to_scale"
                         },
                         {
                             "property": "bonus_per_chain",
-                            "value": 0.3,
+                            "value": 0.27,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -460,7 +460,7 @@
                     "lightning_strikes": 1,
                     "lightning_strike_radius": "7m",
                     "lightning_strike_delay": 0.25,
-                    "lightning_strike_damage": 90,
+                    "lightning_strike_damage": 75,
                     "lightning_strike_knock_back_force": 500
                 },
                 "upgrades": [
@@ -578,7 +578,7 @@
                     "deactivate_crouch_toggle_on_cast"
                 ],
                 "cooldown": 42,
-                "duration": 13,
+                "duration": 15,
                 "unit_target_limit": 1,
                 "channel_time": 0.2,
                 "special_props": {
@@ -600,7 +600,7 @@
                     [
                         {
                             "property": "ability_duration",
-                            "value": 7
+                            "value": 8
                         }
                     ],
                     [
@@ -684,7 +684,7 @@
                     "no_target",
                     "displays_damage_impact"
                 ],
-                "cooldown": 60,
+                "cooldown": 50,
                 "unit_target_limit": 1,
                 "charges": 2,
                 "charge_cooldown": 2.5,
@@ -1001,9 +1001,9 @@
                 "channel_move_speed": -1,
                 "radius": "10m",
                 "special_props": {
-                    "healing_factor": 60,
-                    "non_hero_healing_factor": 30,
-                    "dps": 32,
+                    "healing_factor": 66,
+                    "non_hero_healing_factor": 33,
+                    "dps": 29,
                     "tick_rate": 0.25
                 },
                 "upgrades": [
@@ -1022,7 +1022,7 @@
                     [
                         {
                             "property": "dps",
-                            "value": 38
+                            "value": 34
                         }
                     ]
                 ]
@@ -1063,8 +1063,8 @@
                 "upgrades": [
                     [
                         {
-                            "property": "base_attack_damage_percent",
-                            "value": 25
+                            "property": "weapon_damage_bonus",
+                            "value": 2.2
                         },
                         {
                             "property": "weapon_power_increase_duration",
@@ -1208,7 +1208,7 @@
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui"
                 ],
-                "cooldown": 0.75,
+                "cooldown": 0.7,
                 "cast_range": "500m",
                 "unit_target_limit": 1,
                 "post_cast_duration": 0.2,
@@ -1970,8 +1970,8 @@
                 "special_props": {
                     "tech_cleave_expire_time": 0.2,
                     "damage": 90,
-                    "climb_height": "0.7m",
-                    "distance_above_ground": "0.7m",
+                    "climb_height": "1.0m",
+                    "distance_above_ground": "1.0m",
                     "drop_down_rate": 20,
                     "toss_speed": 450,
                     "impact_interval": 0.1,
@@ -2744,7 +2744,7 @@
                     "barrel_heavy_melee_force_forward": 1100,
                     "barrel_heavy_melee_force_up": 550,
                     "barrel_scale": 1.3,
-                    "toss_speed": 340,
+                    "toss_speed": 140,
                     "arm_time": 0.5,
                     "min_time_before_destroy": 1,
                     "toss_duration": 0.4
@@ -2771,6 +2771,10 @@
                         {
                             "property": "toss_duration",
                             "value": 0.4
+                        },
+                        {
+                            "property": "toss_speed",
+                            "value": 140
                         }
                     ]
                 ]
@@ -3239,7 +3243,7 @@
                     "time_between_grenades": 0.05,
                     "multi_hit_penalty_percentage": 50
                 },
-                "radius": "2.5m",
+                "radius": "3.0m",
                 "projectile": [],
                 "upgrades": [
                     [
@@ -3292,7 +3296,7 @@
                     "camera_distance": 550,
                     "side_move_speed_reduction": -90,
                     "slash_radius": "4.5m",
-                    "slash_height": "1.5m",
+                    "slash_height": "2.5m",
                     "heal_amount": 40,
                     "post_dash_maintained_velocity_ratio": 0.15,
                     "slash_forward_offset": "1.5m"
@@ -3341,7 +3345,7 @@
                 "unit_target_limit": 1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "buff_duration": 14,
+                    "buff_duration": 16,
                     "bonus_move_speed_percent": 65,
                     "interrupt_cooldown": 6,
                     "speed_lost_duration": 2,
@@ -3393,11 +3397,11 @@
                     "deactivate_crouch_toggle_on_cast",
                     "inhibit_soft_camera_collision"
                 ],
-                "cooldown": 100,
+                "cooldown": 90,
                 "unit_target_limit": 1,
                 "channel_time": 3,
                 "channel_move_speed": -1,
-                "radius": "7m",
+                "radius": "7.5m",
                 "special_props": {
                     "damage": 140,
                     "fall_speed_max": 10,
@@ -3496,7 +3500,7 @@
                         },
                         {
                             "property": "damage",
-                            "value": 1.116,
+                            "value": 1,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -3771,7 +3775,7 @@
                     "spin_slow_percent": 10,
                     "spin_slow_duration": 0.3,
                     "tech_resist": 30,
-                    "bullet_resist": 80,
+                    "bullet_resist": 60,
                     "tick_rate": 0.1,
                     "up_force": 250,
                     "toss_duration": 1
@@ -3874,7 +3878,7 @@
                 "cooldown": 90,
                 "cast_range": "4.75m",
                 "unit_target_limit": 1,
-                "channel_time": 2.5,
+                "channel_time": 2.4,
                 "special_props": {
                     "dps": 35,
                     "bonus_health_on_kill": 50
@@ -3889,7 +3893,7 @@
                     [
                         {
                             "property": "ability_channel_time",
-                            "value": 0.75
+                            "value": 0.7
                         }
                     ],
                     [
@@ -4183,7 +4187,7 @@
                 "special_props": {
                     "tick_rate": 0.25,
                     "height": "2m",
-                    "dps": 55,
+                    "dps": 50,
                     "slow_percent": 35
                 },
                 "radius": "6m",
@@ -4203,7 +4207,7 @@
                     [
                         {
                             "property": "dps",
-                            "value": 46
+                            "value": 40
                         },
                         {
                             "property": "radius",
@@ -4348,7 +4352,6 @@
                     "on_land_damage_radius_start": "4m",
                     "on_land_damage_radius": "12m",
                     "toss_speed": 400,
-                    "flying_bullet_resist": 40,
                     "ally_outgoing_damage_percent": -50,
                     "buff_duration": 5,
                     "air_drop_bullet_shield": 150,
@@ -5107,15 +5110,15 @@
                     "displays_damage_impact",
                     "can_cast_on_zipline"
                 ],
-                "cooldown": 19,
+                "cooldown": 21,
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
                 "post_cast_duration": 0.4,
                 "channel_move_speed": -1,
-                "radius": "11m",
+                "radius": "10m",
                 "special_props": {
                     "strike_velocity": "50m",
-                    "stomp_damage": 70,
+                    "stomp_damage": 60,
                     "stomp_damage_per_meter_primary": 5.5,
                     "stomp_damage_per_meter_secondary": 4.2,
                     "stomp_damage_primary_range": "25m",
@@ -5375,7 +5378,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "slow_percent": 35,
-                    "damage": 80,
+                    "damage": 70,
                     "puddle_duration": 10,
                     "detonate_cooldown": 0.15,
                     "second_hit_damage_percentage": 0.5,
@@ -5387,7 +5390,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -5.75
+                            "value": -6
                         }
                     ],
                     [
@@ -7440,7 +7443,6 @@
                 "special_props": {
                     "proc_damage_base": 11,
                     "proc_chance": 100,
-                    "proc_cooldown": 2.5,
                     "proc_max_range": "45m",
                     "victim_stack_duration": 4.5,
                     "reveal_duration": 3,
@@ -7469,7 +7471,7 @@
                     ],
                     [
                         {
-                            "property": "proc_cooldown",
+                            "property": "ability_cooldown",
                             "value": -0.75
                         },
                         {
@@ -8454,37 +8456,43 @@
                     "projectile_fired_as_bullet",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 9,
+                "cooldown": 10,
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
+                "charges": 2,
+                "charge_cooldown": 4.5,
                 "channel_move_speed": -1,
                 "special_props": {
                     "damage": 50,
-                    "slow_duration": 1,
-                    "slow_percent": 50
+                    "slow_duration": 2,
+                    "slow_percent": 35,
+                    "damage_per_stack": 25,
+                    "slow_percent_per_stack": 15,
+                    "stack_duration": 10,
+                    "max_stacks": 3
                 },
                 "projectile": [],
                 "upgrades": [
                     [
                         {
-                            "property": "ability_cooldown",
-                            "value": -4
+                            "property": "ability_charges",
+                            "value": 1
                         }
                     ],
                     [
                         {
-                            "property": "damage",
-                            "value": 50
-                        }
-                    ],
-                    [
-                        {
-                            "property": "slow_duration",
-                            "value": "2s"
+                            "property": "bullet_resist_reduction",
+                            "value": -8
                         },
                         {
-                            "property": "stamina_reduction",
-                            "value": 1
+                            "property": "bullet_resist_reduction_per_stack",
+                            "value": -5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "cooldown_refund_percent",
+                            "value": 40
                         }
                     ]
                 ]
@@ -8498,7 +8506,7 @@
                 "image": "viper\/viper_venom",
                 "activation_time": "press",
                 "targeting_location": "unit",
-                "unit_target": "hero_enemy",
+                "unit_target": "hero_enemy | boss_enemy | building_enemy | prop_enemy | minion_enemy | neutral",
                 "behaviors": [
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
@@ -8537,7 +8545,7 @@
                     [
                         {
                             "property": "build_up_per_shot",
-                            "value": 5
+                            "value": 4.5
                         }
                     ]
                 ]
@@ -8578,8 +8586,21 @@
                     ],
                     [
                         {
-                            "property": "slide_resist",
-                            "value": 20
+                            "property": "buff_duration",
+                            "value": 5
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 180
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": 8
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 0.6,
+                            "upgrade_type": "add_to_scale"
                         }
                     ]
                 ]
@@ -9572,7 +9593,11 @@
                     "rake_heal_per_kill": 30,
                     "trooper_execute_threshold": 60,
                     "extra_sweep_offset_behind_caster": "-1.5m",
-                    "extra_sweep_range": "2m"
+                    "extra_sweep_range": "2m",
+                    "fall_speed_max": 3,
+                    "air_drag": 0.2,
+                    "falling_drag": 20,
+                    "max_float_time": 2.5
                 },
                 "projectile": [],
                 "upgrades": [
@@ -9586,12 +9611,17 @@
                         {
                             "property": "damage",
                             "value": 60
+                        },
+                        {
+                            "property": "rake_heal_per_kill",
+                            "value": 1,
+                            "upgrade_type": "add_to_scale"
                         }
                     ],
                     [
                         {
                             "property": "missing_health_damage_percentage",
-                            "value": 6
+                            "value": 7
                         }
                     ]
                 ]
@@ -9617,7 +9647,7 @@
                     "can_set_quick_cast",
                     "deactivate_crouch_toggle_on_cast"
                 ],
-                "cooldown": 27,
+                "cooldown": 30,
                 "duration": 0.65,
                 "cast_range": "10m",
                 "unit_target_limit": 1,
@@ -9755,7 +9785,7 @@
                     "bat_count_per_wave": 1,
                     "bonus_bats_max": 50,
                     "bonus_bats_per_proc": 2,
-                    "current_health_damage_cap_to_bosses": 50,
+                    "current_health_damage_cap_to_bosses": 20,
                     "bat_per_second": 30,
                     "jump_ceiling_check_distance": "11m",
                     "not_in_cone_loses_lock": 1,
@@ -10298,7 +10328,7 @@
                     "bonus_shocks_delay": 0.2,
                     "spread_angle": 40,
                     "bolt_count": 5,
-                    "stored_damage_health_percent_required": 50,
+                    "stored_damage_health_percent_required": 40,
                     "spread_randomness": 0.01,
                     "battery_generation_percent": 100
                 },
@@ -10371,12 +10401,12 @@
                     ],
                     [
                         {
-                            "property": "ability_cooldown",
-                            "value": -4
-                        },
-                        {
                             "property": "remove_debuffs",
                             "value": 1
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -4
                         }
                     ]
                 ]
@@ -10409,7 +10439,7 @@
                     "debuff_duration": 0.5,
                     "toggle_off_delay": 0.5,
                     "max_d_p_s": 75,
-                    "self_damage_percentage": 100
+                    "self_damage_percentage": 85
                 },
                 "upgrades": [
                     [
@@ -10474,27 +10504,18 @@
                     "slow_percent": 80,
                     "slow_duration": 3,
                     "zombie_tick_rate": 0.02,
-                    "stun_duration": 1
+                    "stun_duration": 1.5
                 },
                 "radius": "12m",
                 "upgrades": [
                     [
                         {
-                            "property": "bonus_damage_per_bullet",
-                            "value": 10
+                            "property": "radius",
+                            "value": "3m"
                         },
                         {
-                            "property": "bonus_fire_rate",
-                            "value": 25
-                        },
-                        {
-                            "property": "bonus_damage_per_bullet",
-                            "value": 0.08,
-                            "upgrade_type": "add_to_scale"
-                        },
-                        {
-                            "property": "buff_duration",
-                            "value": 30
+                            "property": "damage",
+                            "value": 100
                         }
                     ],
                     [
@@ -10505,12 +10526,17 @@
                     ],
                     [
                         {
-                            "property": "damage",
-                            "value": 200
+                            "property": "bonus_damage_per_bullet",
+                            "value": 10
                         },
                         {
-                            "property": "radius",
-                            "value": "3m"
+                            "property": "bonus_fire_rate",
+                            "value": 20
+                        },
+                        {
+                            "property": "bonus_damage_per_bullet",
+                            "value": 0.06,
+                            "upgrade_type": "add_to_scale"
                         }
                     ]
                 ]
@@ -10537,11 +10563,13 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "projectile",
+                    "projectile_pass_through_world",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
                     "can_set_quick_cast"
                 ],
                 "cooldown": 30,
+                "duration": 5,
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
                 "charges": 1,
@@ -10610,8 +10638,8 @@
                     "trigger_cancel_mash_protection_on_cast",
                     "can_set_quick_cast"
                 ],
-                "cooldown": 26,
-                "duration": 5,
+                "cooldown": 30,
+                "duration": 7,
                 "cast_range": "35m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
@@ -10622,7 +10650,8 @@
                     "push_force": 900,
                     "base_attack_damage_percent": 25,
                     "shove_radius": "6m",
-                    "bonus_target_radius": "30m"
+                    "bonus_target_radius": "30m",
+                    "bonus_spirit_damage_percent": 15
                 },
                 "projectile": [],
                 "upgrades": [
@@ -10666,7 +10695,7 @@
                     "projectile_pass_through_world",
                     "can_set_quick_cast"
                 ],
-                "cooldown": 30,
+                "cooldown": 25,
                 "cast_range": "30m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
@@ -10675,10 +10704,11 @@
                     "damage": 120,
                     "detonation_delay": 1.25,
                     "immobilize_duration": 1.25,
+                    "slow_duration": 0.5,
                     "slow_percent": 45,
                     "height": "8m"
                 },
-                "radius": "7m",
+                "radius": "7.5m",
                 "upgrades": [
                     [
                         {
@@ -10723,17 +10753,18 @@
                     "refund_half_cooldown_on_channel_interrupt"
                 ],
                 "cooldown": 190,
+                "duration": 13,
                 "cast_range": "600m",
                 "unit_target_limit": 1,
                 "channel_time": 0.7,
                 "channel_move_speed": "1.3m",
                 "special_props": {
-                    "damage": 150,
+                    "damage": 125,
                     "ground_stick_height": "0.05m",
-                    "toss_up_speed": 800,
-                    "knight_charge_width": "2.2m",
+                    "toss_up_speed": 600,
+                    "knight_charge_width": "1.7m",
                     "knight_count": 5,
-                    "knight_position_spread": "1.5m",
+                    "knight_position_spread": "1.8m",
                     "bonus_move_speed": "5m",
                     "buff_duration": 9,
                     "ally_radius": "4m",
@@ -10744,7 +10775,7 @@
                     "toss_back_speed": 100,
                     "knight_position_stagger": "-4m",
                     "stun_duration": 1,
-                    "heal_amount": 150,
+                    "heal_amount": 125,
                     "knight_nav_search_distance": "10m",
                     "knight_distance_above_ground": "0m",
                     "knight_charge_height": "3.5m",
@@ -10760,7 +10791,9 @@
                     "knight_bonus_per_wave": -99,
                     "knight_count_in_first_wave": 5,
                     "cancel_cooldown_refund_percentage": 50,
-                    "target_finding_delay": 0.15
+                    "target_finding_delay": 0.04,
+                    "max_amp": 100,
+                    "max_amp_distance": "350m"
                 },
                 "projectile": [],
                 "upgrades": [
@@ -11841,7 +11874,7 @@
                     [
                         {
                             "property": "bonus_move_speed",
-                            "value": "1.75m"
+                            "value": "2.25m"
                         }
                     ],
                     [

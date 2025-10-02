@@ -340,7 +340,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -446,7 +446,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },

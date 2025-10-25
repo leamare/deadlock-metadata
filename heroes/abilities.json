@@ -125,7 +125,7 @@
                     [
                         {
                             "property": "dps",
-                            "value": 35
+                            "value": 30
                         }
                     ],
                     [
@@ -177,7 +177,7 @@
                     [
                         {
                             "property": "outgoing_tech_damage_percent",
-                            "value": -25
+                            "value": -20
                         }
                     ],
                     [
@@ -189,7 +189,7 @@
                     [
                         {
                             "property": "dps",
-                            "value": 28
+                            "value": 26
                         }
                     ]
                 ]
@@ -1461,12 +1461,12 @@
                     "turret_health_per_boon": 10,
                     "turret_attack_range": "25m",
                     "turret_attack_falloff_start": "20m",
-                    "turret_attack_falloff_end": "35m",
+                    "turret_attack_falloff_end": "30m",
                     "turret_attack_delay": 0.2,
                     "turret_d_p_s": 30,
                     "turret_lifetime": 24,
                     "attack_speed_mult": 100,
-                    "tech_resist": 30,
+                    "tech_resist": 35,
                     "non_hero_damage_percent_outgoing": 50,
                     "boss_damage_percent_outgoing": 30,
                     "boss_damage_percent_incoming": 50,
@@ -1899,7 +1899,7 @@
                     "cleave_disabled",
                     "show_cast_range_as_sat_sphere_while_casting"
                 ],
-                "cooldown": 70,
+                "cooldown": 75,
                 "cast_range": "25m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
@@ -2044,7 +2044,7 @@
                 "special_props": {
                     "ally_distance": "10m",
                     "trail_interval": 0.01,
-                    "fire_rate_bonus": 25,
+                    "fire_rate_bonus": 30,
                     "fire_rate_bonus_duration_max": 8
                 },
                 "upgrades": [
@@ -2088,7 +2088,7 @@
                     "can_heal_players",
                     "displays_damage_impact"
                 ],
-                "cooldown": 48,
+                "cooldown": 45,
                 "unit_target_limit": 1,
                 "channel_time": 5,
                 "channel_move_speed": -1,
@@ -2398,7 +2398,7 @@
                     "require_ability_button_to_cancel",
                     "can_set_quick_cast"
                 ],
-                "cooldown": 150,
+                "cooldown": 170,
                 "duration": 5.5,
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
@@ -3230,18 +3230,18 @@
                     "displays_damage_impact",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 10,
+                "cooldown": 12,
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "damage": 55,
+                    "damage": 45,
                     "toss_speed": 400,
                     "grenade_count": 4,
                     "lifetime": 0.75,
                     "grenade_angle_variance": 0.08,
                     "time_between_grenades": 0.05,
-                    "multi_hit_penalty_percentage": 50
+                    "multi_hit_penalty_percentage": 65
                 },
                 "radius": "3.0m",
                 "projectile": [],
@@ -4763,7 +4763,7 @@
                 "special_props": {
                     "immobilize_duration": 1.75,
                     "damage": 110,
-                    "escape_range": "19m",
+                    "escape_range": "20m",
                     "escape_time": 2.8
                 },
                 "upgrades": [
@@ -9984,7 +9984,7 @@
                     "tick_rate": 1,
                     "kill_duration": 300,
                     "bonus_move_speed": "0m",
-                    "weapon_dmg_per_isolation_kill": 5,
+                    "weapon_dmg_per_isolation_kill": 4,
                     "isolation_assist_percent_value": 40
                 },
                 "upgrades": [
@@ -10335,12 +10335,6 @@
                 "upgrades": [
                     [
                         {
-                            "property": "damage",
-                            "value": 40
-                        }
-                    ],
-                    [
-                        {
                             "property": "slow_percent",
                             "value": 40
                         },
@@ -10351,8 +10345,14 @@
                     ],
                     [
                         {
+                            "property": "damage",
+                            "value": 40
+                        }
+                    ],
+                    [
+                        {
                             "property": "missing_health_percent_heal",
-                            "value": 20
+                            "value": 18
                         }
                     ]
                 ]
@@ -10374,8 +10374,8 @@
                     "cannot_cancel_during_channel",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 22,
-                "duration": 4,
+                "cooldown": 23,
+                "duration": 4.5,
                 "unit_target_limit": 1,
                 "channel_time": 0.35,
                 "charges": 1,
@@ -10431,15 +10431,15 @@
                 "duration": 10,
                 "unit_target_limit": 1,
                 "channel_move_speed": -1,
-                "radius": "8m",
+                "radius": "7.7m",
                 "special_props": {
-                    "min_d_p_s": 15,
+                    "min_d_p_s": 16,
                     "self_d_p_s": 15,
                     "tick_rate": 0.25,
                     "debuff_duration": 0.5,
                     "toggle_off_delay": 0.5,
-                    "max_d_p_s": 75,
-                    "self_damage_percentage": 85
+                    "max_d_p_s": 70,
+                    "self_damage_percentage": 70
                 },
                 "upgrades": [
                     [
@@ -10455,11 +10455,11 @@
                     [
                         {
                             "property": "min_dps",
-                            "value": 10
+                            "value": 8
                         },
                         {
                             "property": "max_d_p_s",
-                            "value": 50
+                            "value": 40
                         }
                     ],
                     [
@@ -10506,7 +10506,7 @@
                     "zombie_tick_rate": 0.02,
                     "stun_duration": 1.5
                 },
-                "radius": "12m",
+                "radius": "13m",
                 "upgrades": [
                     [
                         {

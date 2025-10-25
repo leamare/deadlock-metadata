@@ -108,16 +108,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.12,
+            "bullet_dmg_per_lvl": 0.08,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 56.5714,
-                        "max_dps": 72.5714,
+                        "max_dps": 67.2381,
                         "bullet_dmg": 5.94,
-                        "bullet_dmg_max": 7.62,
+                        "bullet_dmg_max": 7.0600000000000005,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
                         "reload_time": 2.491,
@@ -845,10 +845,10 @@
                 "citadel_weapon_chrono_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 55.102,
-                        "max_dps": 87.2449,
-                        "bullet_dmg": 6.48,
-                        "bullet_dmg_max": 10.260000000000002,
+                        "dps": 52.2959,
+                        "max_dps": 84.4388,
+                        "bullet_dmg": 6.15,
+                        "bullet_dmg_max": 9.93,
                         "clip_size": 40,
                         "full_clip_sec": 4.704,
                         "reload_time": 2.585,
@@ -1126,7 +1126,7 @@
         },
         "vitality": {
             "hp": 800,
-            "hp_regen": 2,
+            "hp_regen": 1,
             "hp_per_lvl": 58,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
@@ -2090,10 +2090,10 @@
                 "citadel_weapon_warden_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 57.1429,
-                        "max_dps": 80.6095,
-                        "bullet_dmg": 15,
-                        "bullet_dmg_max": 21.16,
+                        "dps": 61.7143,
+                        "max_dps": 85.181,
+                        "bullet_dmg": 16.2,
+                        "bullet_dmg_max": 22.36,
                         "clip_size": 17,
                         "full_clip_sec": 4.4625,
                         "reload_time": 2.914,
@@ -2181,7 +2181,7 @@
         },
         "scaling_stats": {
             "tech_power": {
-                "rounds_per_second": 0.0088,
+                "rounds_per_second": 0.01,
                 "fire_rate": 0.25
             }
         }
@@ -4567,16 +4567,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.52,
+            "bullet_dmg_per_lvl": 0.56,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_drifter_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 142.1769,
-                        "max_dps": 191.7007,
-                        "bullet_dmg": 20.9,
-                        "bullet_dmg_max": 28.18,
+                        "dps": 144.898,
+                        "max_dps": 198.2313,
+                        "bullet_dmg": 21.3,
+                        "bullet_dmg_max": 29.14,
                         "clip_size": 12,
                         "full_clip_sec": 5.292,
                         "reload_time": 2.444,
@@ -5088,16 +5088,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.15,
+            "bullet_dmg_per_lvl": 1,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_doorman_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 44.4444,
-                        "max_dps": 70,
+                        "max_dps": 66.6667,
                         "bullet_dmg": 28,
-                        "bullet_dmg_max": 44.099999999999994,
+                        "bullet_dmg_max": 42,
                         "clip_size": 8,
                         "full_clip_sec": 5.04,
                         "reload_time": 2.4,

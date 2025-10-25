@@ -818,7 +818,7 @@
             "radius": "1m",
             "proc_chance": 100,
             "proc_cooldown": 1,
-            "proc_bonus_magic_damage": 55,
+            "proc_bonus_magic_damage": 45,
             "spirit_power": 7
         },
         "active": {
@@ -1162,7 +1162,7 @@
             "move_speed_bonus": "1.5m"
         },
         "extra": {
-            "restore_delay": 14,
+            "restore_delay": 13,
             "heal_life_percent_out_of_combat": 2,
             "health_threshold": 75
         }
@@ -2271,7 +2271,7 @@
         "mobility": [],
         "extra": {
             "light_melee_cooldown_mult": 2,
-            "spirit_damage": 75,
+            "spirit_damage": 50,
             "tech_armor_damage_reduction": -15,
             "tech_armor_gain": 15,
             "tech_power_reduction": -15,
@@ -2279,7 +2279,7 @@
         },
         "active": {
             "cooldown": 6,
-            "duration": 14
+            "duration": 10
         }
     },
     "343572757": {
@@ -2492,7 +2492,7 @@
             "stacking_bonus_sprint_speed": "0.2m",
             "stacking_tech_range_multiplier": 1,
             "stacking_tech_radius_multiplier": 1,
-            "stacking_gold_per_minute": 25,
+            "stacking_gold_per_minute": 30,
             "think_rate": 3,
             "max_stacks": 16
         }

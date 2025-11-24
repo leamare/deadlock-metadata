@@ -2488,11 +2488,11 @@
         },
         "extra": {
             "out_of_combat_health_regen": 4,
-            "stacking_bonus_health": 25,
+            "stacking_bonus_health": 20,
             "stacking_bonus_sprint_speed": "0.2m",
             "stacking_tech_range_multiplier": 1,
             "stacking_tech_radius_multiplier": 1,
-            "stacking_gold_per_minute": 30,
+            "stacking_gold_per_minute": 22,
             "think_rate": 3,
             "max_stacks": 16
         }

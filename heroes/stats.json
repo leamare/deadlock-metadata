@@ -11,10 +11,10 @@
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 59.0476,
-                        "max_dps": 59.0476,
-                        "bullet_dmg": 6.2,
-                        "bullet_dmg_max": 6.2,
+                        "dps": 52.381,
+                        "max_dps": 52.381,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 5.5,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
                         "reload_time": 2.491,
@@ -37,8 +37,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "base": 708.661,
+                        "max": 2165.35
                     },
                     "crit": {
                         "start": 1.65,
@@ -93,12 +93,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -114,10 +114,10 @@
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 59.0476,
-                        "max_dps": 70.781,
-                        "bullet_dmg": 6.2,
-                        "bullet_dmg_max": 7.432,
+                        "dps": 52.381,
+                        "max_dps": 64.1143,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 6.732,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
                         "reload_time": 2.491,
@@ -140,8 +140,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "base": 708.661,
+                        "max": 2165.35
                     },
                     "crit": {
                         "start": 1.65,
@@ -196,12 +196,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 2,
+            "move_speed": 6.7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -299,16 +299,16 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 1,
+            "move_speed": 6.7,
+            "sprint_speed": 0.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
-                "max_move_speed": 0.02
+                "max_move_speed": 0.012
             }
         }
     },
@@ -406,12 +406,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8,
-            "sprint_speed": 2,
+            "move_speed": 7.9,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -436,8 +436,8 @@
                         "max_dps": 74.4635,
                         "bullet_dmg": 21.94,
                         "bullet_dmg_max": 35.184,
-                        "clip_size": 10,
-                        "full_clip_sec": 4.725,
+                        "clip_size": 9,
+                        "full_clip_sec": 4.2524999999999995,
                         "reload_time": 2.585,
                         "reload_time_single_delay": 0
                     },
@@ -458,8 +458,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "base": 787.402,
+                        "max": 2047.24
                     },
                     "crit": {
                         "start": 1.65,
@@ -515,11 +515,11 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 3,
+            "sprint_speed": 2.4,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -614,12 +614,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.5,
-            "sprint_speed": 2,
+            "move_speed": 6.4,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -629,16 +629,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.1705,
+            "bullet_dmg_per_lvl": 0.14,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_wraith_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 59.6825,
-                        "max_dps": 84.9418,
+                        "max_dps": 80.4233,
                         "bullet_dmg": 5.64,
-                        "bullet_dmg_max": 8.027,
+                        "bullet_dmg_max": 7.6,
                         "clip_size": 52,
                         "full_clip_sec": 4.914,
                         "reload_time": 2.82,
@@ -717,16 +717,16 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
-                "sprint_speed": 0.06
+                "sprint_speed": 0.05
             }
         }
     },
@@ -824,12 +824,12 @@
             "spirit_resist": 0.625
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 2,
+            "move_speed": 6.7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -927,12 +927,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 2,
+            "move_speed": 6.7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1023,19 +1023,19 @@
         },
         "vitality": {
             "hp": 850,
-            "hp_regen": 2.5,
+            "hp_regen": 1.75,
             "hp_per_lvl": 59,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.625,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 2,
+            "move_speed": 6.7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1133,12 +1133,12 @@
             "spirit_resist": 0.625
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 1.5,
+            "move_speed": 6.7,
+            "sprint_speed": 1.1,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.1666
+            "stamina_regen": 0.18181
         },
         "scaling_stats": []
     },
@@ -1236,12 +1236,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8.3,
-            "sprint_speed": 2,
+            "move_speed": 8.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -1343,12 +1343,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8.3,
-            "sprint_speed": 2,
+            "move_speed": 8.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1440,18 +1440,18 @@
         "vitality": {
             "hp": 850,
             "hp_regen": 1.5,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 52,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.3,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.55,
-            "sprint_speed": 4.5,
+            "move_speed": 6.45,
+            "sprint_speed": 4,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
-            "stamina": 2,
-            "stamina_regen": 0.2
+            "stamina": 3,
+            "stamina_regen": 0.181818
         },
         "scaling_stats": []
     },
@@ -1549,12 +1549,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1653,15 +1653,15 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
-                "max_move_speed": 0.014,
+                "max_move_speed": 0.0084,
                 "bullet_damage": 0.08
             }
         }
@@ -1760,12 +1760,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8.1,
-            "sprint_speed": 2,
+            "move_speed": 8,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1863,12 +1863,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.8,
-            "sprint_speed": 2,
+            "move_speed": 6.7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -1966,12 +1966,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2069,12 +2069,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2173,11 +2173,11 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -2278,12 +2278,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8.3,
-            "sprint_speed": 2,
+            "move_speed": 8.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -2385,12 +2385,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2.5,
+            "move_speed": 7.2,
+            "sprint_speed": 2.1,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2488,12 +2488,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2591,12 +2591,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2694,12 +2694,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2797,12 +2797,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -2900,12 +2900,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3003,12 +3003,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3106,12 +3106,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3206,12 +3206,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3309,12 +3309,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3324,16 +3324,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.616,
+            "bullet_dmg_per_lvl": 0.5,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_mirage_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 41.4966,
-                        "max_dps": 64.9633,
+                        "max_dps": 60.5442,
                         "bullet_dmg": 15.25,
-                        "bullet_dmg_max": 23.874000000000002,
+                        "bullet_dmg_max": 22.25,
                         "clip_size": 16,
                         "full_clip_sec": 5.88,
                         "reload_time": 2.6,
@@ -3412,12 +3412,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3512,12 +3512,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3615,12 +3615,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3718,12 +3718,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3821,12 +3821,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -3924,12 +3924,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -4029,16 +4029,16 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7,
-            "sprint_speed": 2,
+            "move_speed": 6.9,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
-                "max_move_speed": 0.023
+                "max_move_speed": 0.0138
             }
         }
     },
@@ -4136,12 +4136,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -4239,16 +4239,16 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
-                "max_move_speed": 0.023
+                "max_move_speed": 0.0138
             }
         }
     },
@@ -4346,12 +4346,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -4449,12 +4449,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -4552,12 +4552,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.7,
-            "sprint_speed": 2,
+            "move_speed": 6.6,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
-            "stamina_regen": 0.25
+            "stamina_regen": 0.27777
         },
         "scaling_stats": []
     },
@@ -4573,10 +4573,10 @@
                 "citadel_weapon_drifter_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 151.3605,
-                        "max_dps": 210.0272,
-                        "bullet_dmg": 22.25,
-                        "bullet_dmg_max": 30.874000000000002,
+                        "dps": 132.6531,
+                        "max_dps": 191.3197,
+                        "bullet_dmg": 19.5,
+                        "bullet_dmg_max": 28.124000000000002,
                         "clip_size": 12,
                         "full_clip_sec": 5.292,
                         "reload_time": 2.444,
@@ -4653,12 +4653,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7,
-            "sprint_speed": 2,
+            "move_speed": 6.9,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -4668,76 +4668,62 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.32,
+            "bullet_dmg_per_lvl": 0.27,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_priest_set": {
-                    "can_zoom": true,
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 63.4921,
-                        "max_dps": 99.0476,
-                        "bullet_dmg": 8,
-                        "bullet_dmg_max": 12.48,
-                        "clip_size": 30,
-                        "full_clip_sec": 3.78,
-                        "reload_time": 2.8,
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 3.7800000000000002,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.126,
-                        "radius": 3,
-                        "speed": 42500,
-                        "lifetime": 2,
-                        "num_per_shot": 1,
-                        "num_per_sec": 7.936507936507937,
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
                         "gravity_scale": 0,
-                        "burst_amount": 1,
+                        "burst_amount": 0,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
                     },
                     "range": {
-                        "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
                     },
                     "crit": {
-                        "start": 1.65,
-                        "end": 1.65,
-                        "start_range": 500,
-                        "end_range": 1500
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
                     },
                     "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                0.1,
-                                0.13
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 2,
-                        "recovery_speed": 10,
-                        "recovery_delay_factor": 0.1,
-                        "shot_index_recovery_time_factor": 0.25
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
                     },
                     "spread": {
-                        "spread": 0.1,
-                        "standing_spread": 1.5,
+                        "spread": 0,
+                        "standing_spread": 0,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.2,
-                        "penalty_decay_delay": 0.03,
-                        "penalty_decay": 1
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
                     }
                 }
             }
@@ -4748,22 +4734,27 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 670,
+            "hp": 720,
             "hp_regen": 2,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 38,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.5,
-            "sprint_speed": 2,
+            "move_speed": 6.4,
+            "sprint_speed": 1.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
-        "scaling_stats": []
+        "scaling_stats": {
+            "tech_power": {
+                "tech_armor_damage_reduction": 0.12178,
+                "bullet_armor_damage_reduction": 0.12178
+            }
+        }
     },
     "66": {
         "tag": "frank",
@@ -4860,11 +4851,11 @@
         },
         "mobility": {
             "move_speed": 6.3,
-            "sprint_speed": 1.5,
+            "sprint_speed": 1.1,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -4966,12 +4957,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7,
-            "sprint_speed": 4,
+            "move_speed": 6.9,
+            "sprint_speed": 3.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
@@ -5074,11 +5065,11 @@
         },
         "mobility": {
             "move_speed": 8,
-            "sprint_speed": 2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5176,12 +5167,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 8,
-            "sprint_speed": 2,
+            "move_speed": 7.9,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5279,12 +5270,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
+            "move_speed": 7.2,
             "sprint_speed": 2.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5383,11 +5374,11 @@
         },
         "mobility": {
             "move_speed": 6.8,
-            "sprint_speed": 2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5403,10 +5394,10 @@
                 "citadel_weapon_punkgoat_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 79.8824,
-                        "max_dps": 108.8706,
-                        "bullet_dmg": 6.79,
-                        "bullet_dmg_max": 9.254,
+                        "dps": 74.1176,
+                        "max_dps": 103.1059,
+                        "bullet_dmg": 6.3,
+                        "bullet_dmg_max": 8.764,
                         "clip_size": 30,
                         "full_clip_sec": 2.5500000000000003,
                         "reload_time": 2.9,
@@ -5478,19 +5469,19 @@
         },
         "vitality": {
             "hp": 790,
-            "hp_regen": 3,
+            "hp_regen": 2.5,
             "hp_per_lvl": 43,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.1,
-            "sprint_speed": 2,
+            "move_speed": 7,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5518,7 +5509,7 @@
                     "bullet": {
                         "cycle_time": 0.0945,
                         "radius": 3,
-                        "speed": 25000,
+                        "speed": 22500,
                         "lifetime": 2,
                         "num_per_shot": 1,
                         "num_per_sec": 10.582010582010582,
@@ -5588,12 +5579,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5691,12 +5682,12 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     },
@@ -5794,17 +5785,644 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 7.3,
-            "sprint_speed": 2,
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.2
+            "stamina_regen": 0.222222
         },
         "scaling_stats": {
             "tech_power": {
                 "sprint_speed": 0.06
             }
         }
+    },
+    "76": {
+        "tag": "necro",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.1,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_necro_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 1.4000000000000001,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 700,
+            "hp_regen": 1,
+            "hp_per_lvl": 33,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.6,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 2,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": {
+            "tech_power": {
+                "bullet_damage": 0.03
+            }
+        }
+    },
+    "77": {
+        "tag": "fencer",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 1.2,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_fencer_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 16.8,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 63,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 700,
+            "hp_regen": 2,
+            "hp_per_lvl": 41,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "78": {
+        "tag": "airheart",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.2,
+            "attack_range_per_level": 0,
+            "set": {
+                "ability_airheart_primary_weapon": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 2.8000000000000003,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 650,
+            "hp_regen": 2,
+            "hp_per_lvl": 39,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.8,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "79": {
+        "tag": "familiar",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.34,
+            "attack_range_per_level": 0,
+            "set": {
+                "ability_familiar_primary_weapon_bubblegun": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 4.760000000000001,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 650,
+            "hp_regen": 2,
+            "hp_per_lvl": 30,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "80": {
+        "tag": "werewolf",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.1872,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_werewolf_rifle": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 2.6208,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 725,
+            "hp_regen": 2,
+            "hp_per_lvl": 29,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.7,
+            "sprint_speed": 1.5,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 2,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "81": {
+        "tag": "unicorn",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.4,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_unicorn_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 5.6000000000000005,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 750,
+            "hp_regen": 2,
+            "hp_per_lvl": 35,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.4,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "82": {
+        "tag": "opera",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.07,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_opera_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 0.9800000000000001,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 750,
+            "hp_regen": 2,
+            "hp_per_lvl": 61,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
     }
 }

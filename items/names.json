@@ -793,7 +793,7 @@
         "english": "Enchanter's Emblem",
         "japanese": "妖術師の紋章",
         "polish": "Emblemat Czarownika",
-        "schinese": "附魔纹章",
+        "schinese": "附魔师纹章",
         "thai": "​เอนแชนเตอร์​เอมเบลม​",
         "czech": "Kouzelnická vesta",
         "koreana": "마법사의 문장",
@@ -928,7 +928,7 @@
         "tag": "upgrade_bullet_resist_shredder",
         "brazilian": "Balas Rompe-Resistências",
         "german": "Reduzierte Kugelresistenz",
-        "italian": "Distruttore resist. pallottole",
+        "italian": "Pallottole perforanti",
         "russian": "Измельчитель пулестойкости",
         "english": "Bullet Resist Shredder",
         "japanese": "レジストシュレッダー",
@@ -1372,7 +1372,7 @@
     "2463960640": {
         "tag": "upgrade_reinforcing_casings",
         "brazilian": "Resiliência Crescente",
-        "german": "Steigende Belastbarkeit",
+        "german": "Steigende Resilienz",
         "italian": "Resistenza crescente",
         "russian": "Растущая стойкость",
         "english": "Escalating Resilience",
@@ -1721,7 +1721,7 @@
     "3028234315": {
         "tag": "upgrade_absorbing_armor",
         "brazilian": "Correntes do Bruxo",
-        "german": "Hexenpanzer",
+        "german": "Hexen-Panzer",
         "italian": "Catena delle streghe",
         "russian": "Ведьмовской доспех",
         "english": "Witchmail",
@@ -1841,7 +1841,7 @@
     "98582110": {
         "tag": "upgrade_weapon_backstabber",
         "brazilian": "Apunhalador",
-        "german": "Verräterklinge",
+        "german": "Verräter-Klinge",
         "italian": "Traditore",
         "russian": "Удар в спину",
         "english": "Backstabber",
@@ -1937,5 +1937,41 @@
         "indonesian": "Cooldown Transenden",
         "latam": "Tiempo de recarga trascendente",
         "ukrainian": "Трансцендентна зарядка"
+    },
+    "4238249888": {
+        "tag": "upgrade_ancient_shield"
+    },
+    "564937160": {
+        "tag": "upgrade_aerial_supremacy"
+    },
+    "3893702034": {
+        "tag": "upgrade_timeless_emblem"
+    },
+    "3269957497": {
+        "tag": "upgrade_infinite_rounds"
+    },
+    "1736094134": {
+        "tag": "upgrade_icarus_wings"
+    },
+    "230297145": {
+        "tag": "upgrade_eternal_gift"
+    },
+    "4050602737": {
+        "tag": "upgrade_patrons_blessing"
+    },
+    "3568217437": {
+        "tag": "upgrade_eldritch_shot"
+    },
+    "3523480953": {
+        "tag": "upgrade_cloak_of_opportunity"
+    },
+    "64550694": {
+        "tag": "upgrade_runed_gauntlets"
+    },
+    "2068250483": {
+        "tag": "upgrade_shivas_bracelet"
+    },
+    "3294954488": {
+        "tag": "upgrade_bulletshredimbue"
     }
 }

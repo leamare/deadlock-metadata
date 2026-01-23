@@ -283,7 +283,7 @@
         "tag": "ability_blood_shards",
         "brazilian": "Malícia",
         "german": "Bosheit",
-        "italian": "Malizia",
+        "italian": "Malvagità",
         "russian": "Порча",
         "english": "Malice",
         "japanese": "マリス",
@@ -342,7 +342,7 @@
     "2824119765": {
         "tag": "citadel_ability_bull_charge",
         "brazilian": "Investida Escapular",
-        "german": "Ansturm",
+        "german": "Schulterstoß",
         "italian": "Spallata",
         "russian": "Плечом вперёд",
         "english": "Shoulder Charge",
@@ -647,7 +647,7 @@
         "russian": "Кинетический импульс",
         "english": "Kinetic Pulse",
         "japanese": "ストンプパルス",
-        "polish": "Puls Kinetyczny",
+        "polish": "Kinetyczny Puls",
         "schinese": "动能脉冲",
         "thai": "​คิเนติก​พัลส์​",
         "czech": "Kinetická vlna",
@@ -1296,7 +1296,7 @@
         "turkish": "Tırtıklı Bıçaklar",
         "french": "Couteau de chasse",
         "indonesian": "Pisau Gerigi",
-        "latam": "Cuchillos Dentados",
+        "latam": "Cuchillos dentados",
         "ukrainian": "Зубчасті ножі"
     },
     "1458044103": {
@@ -2589,7 +2589,7 @@
         "koreana": "피의 퇴각",
         "spanish": "Retirada Sanguínea",
         "turkish": "Kanlı İnziva",
-        "french": "Retraite sanguinaire",
+        "french": "Retraite sanguine",
         "indonesian": "Mundur Teratur",
         "latam": "Retirada sanguínea",
         "ukrainian": "Багряний відступ"
@@ -2838,7 +2838,7 @@
         "koreana": "수호와 반격",
         "spanish": "¡Defiéndete y Lucha!",
         "turkish": "Savun ve Savaş!",
-        "french": "Défense et contreattaque",
+        "french": "Défense et contrattaque",
         "indonesian": "Bertahan dan Bertarung!",
         "latam": "¡Defiéndete y pelea!",
         "ukrainian": "Захист і бій"
@@ -3056,7 +3056,7 @@
         "ukrainian": "Бита",
         "japanese": "バッシュダウン",
         "schinese": "向下猛击",
-        "french": "Coup de boule",
+        "french": "Matraquage",
         "koreana": "내려찍기"
     },
     "193508101": {
@@ -3077,7 +3077,7 @@
         "indonesian": "Uang Bandar",
         "latam": "Rasgar",
         "ukrainian": "Подряпина",
-        "french": "Griffes"
+        "french": "Ratissage"
     },
     "3120550633": {
         "tag": "drifter_blood_blast",
@@ -3091,7 +3091,7 @@
         "thai": "เรนด์",
         "czech": "Spáry děsu",
         "turkish": "Parçalama",
-        "french": "Déchirer",
+        "french": "Déchirure",
         "indonesian": "Cabikan",
         "latam": "Desgarrar",
         "ukrainian": "Шматування",
@@ -3166,7 +3166,7 @@
         "tag": "ability_bookworm_dragonfire",
         "brazilian": "Conjurar Dragão",
         "german": "Drachenbeschwörung",
-        "italian": "Evoca il drago",
+        "italian": "Evocazione del drago",
         "russian": "Призыв дракона",
         "english": "Conjure Dragon",
         "japanese": "サモンドラゴン",
@@ -3255,7 +3255,7 @@
         "czech": "Zvonek",
         "spanish": "Campana",
         "turkish": "Resepsiyon Zili",
-        "french": "Sonnette d'appel",
+        "french": "Sonnette",
         "indonesian": "Lonceng",
         "latam": "Campana",
         "ukrainian": "Дзвінок",
@@ -3339,7 +3339,7 @@
         "latam": "Botellazo",
         "ukrainian": "Під градусом",
         "japanese": "ブラスト",
-        "french": "Explosé",
+        "french": "Cul sec",
         "koreana": "폭주"
     },
     "3762861984": {
@@ -3397,5 +3397,92 @@
     },
     "3632058121": {
         "tag": "ability_fortuna_ult"
+    },
+    "11154161": {
+        "tag": "ability_priest_beartrap"
+    },
+    "3923533266": {
+        "tag": "ability_druid_leech_seed"
+    },
+    "2082403219": {
+        "tag": "ability_druid_helicopter_seeds"
+    },
+    "3214055642": {
+        "tag": "ability_necro_hauntingskull"
+    },
+    "2001589780": {
+        "tag": "ability_necro_zombiewall"
+    },
+    "629925354": {
+        "tag": "ability_necro_fear"
+    },
+    "4110547059": {
+        "tag": "ability_necro_gravestone"
+    },
+    "725153709": {
+        "tag": "ability_fencer_throwblade"
+    },
+    "2006773718": {
+        "tag": "ability_fencer_riposte"
+    },
+    "147493976": {
+        "tag": "ability_fencer_lunge"
+    },
+    "494112189": {
+        "tag": "ability_fencer_ultimate"
+    },
+    "814745936": {
+        "tag": "ability_airheart_rocketeer3"
+    },
+    "2999171677": {
+        "tag": "ability_airheart_chargeblast"
+    },
+    "3692321247": {
+        "tag": "ability_familiar_ability02"
+    },
+    "1568845221": {
+        "tag": "ability_familiar_attach"
+    },
+    "536278136": {
+        "tag": "ability_familiar_helpinghands"
+    },
+    "2396527575": {
+        "tag": "ability_familiar_ability01"
+    },
+    "1385849824": {
+        "tag": "ability_werewolf_unloadgun"
+    },
+    "2717130900": {
+        "tag": "ability_werewolf_kickflip"
+    },
+    "3983754897": {
+        "tag": "ability_werewolf_netshot"
+    },
+    "515791019": {
+        "tag": "ability_werewolf_transformation"
+    },
+    "3443575800": {
+        "tag": "ability_unicorn_radiantblast"
+    },
+    "1950738949": {
+        "tag": "ability_unicorn_prismaticguard"
+    },
+    "1011349580": {
+        "tag": "ability_unicorn_luminousstrike"
+    },
+    "2590796390": {
+        "tag": "ability_unicorn_dazzlingorb"
+    },
+    "808611817": {
+        "tag": "ability_opera_ability01"
+    },
+    "1777250969": {
+        "tag": "ability_opera_ability02"
+    },
+    "3819597066": {
+        "tag": "ability_opera_ability03"
+    },
+    "463497510": {
+        "tag": "ability_opera_ult"
     }
 }

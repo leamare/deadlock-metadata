@@ -12,7 +12,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4225582829": {
         "tag": "armor_upgrade_base",
@@ -26,7 +29,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4049908402": {
         "tag": "armor_upgrade_t1",
@@ -40,7 +46,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2484189167": {
         "tag": "armor_upgrade_t2",
@@ -54,7 +63,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3162468251": {
         "tag": "armor_upgrade_t3",
@@ -68,7 +80,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2366847482": {
         "tag": "armor_upgrade_t4",
@@ -82,7 +97,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4130874468": {
         "tag": "weapon_upgrade_base",
@@ -96,7 +114,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "10546756": {
         "tag": "weapon_upgrade_t1",
@@ -110,7 +131,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1620942471": {
         "tag": "weapon_upgrade_t2",
@@ -124,7 +148,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "506109244": {
         "tag": "weapon_upgrade_t3",
@@ -138,7 +165,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "361904051": {
         "tag": "weapon_upgrade_t4",
@@ -152,7 +182,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2981063858": {
         "tag": "tech_upgrade_base",
@@ -166,7 +199,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1239500246": {
         "tag": "tech_upgrade_t1",
@@ -180,7 +216,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2938348616": {
         "tag": "tech_upgrade_t2",
@@ -194,7 +233,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "562994648": {
         "tag": "tech_upgrade_t3",
@@ -208,7 +250,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2729670681": {
         "tag": "tech_upgrade_t4",
@@ -222,7 +267,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1548066885": {
         "tag": "upgrade_clip_size",
@@ -239,7 +287,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1009965641": {
         "tag": "upgrade_non_player_bonus",
@@ -257,6 +308,9 @@
             "non_player_bonus_weapon_power": 25,
             "out_of_combat_health_regen": 1,
             "non_player_bullet_resist": 25
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3535785353": {
@@ -273,7 +327,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2861048274": {
         "tag": "upgrade_clip_size_fixed_t3",
@@ -289,7 +346,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "811521119": {
         "tag": "upgrade_chain_lightning",
@@ -311,6 +371,9 @@
             "proc_chance": 15,
             "chain_count": 4,
             "chain_tick_rate": 0.4
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3316018900": {
@@ -340,6 +403,9 @@
             "galvanic_buff_duration": 7,
             "buff_damage_mult": 2,
             "buff_move_speed_bonus": "3m"
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2678489038": {
@@ -354,7 +420,7 @@
             "damage_pct": 35
         },
         "vitality": {
-            "hp": 150
+            "hp": 125
         },
         "spirit": [],
         "mobility": [],
@@ -363,6 +429,9 @@
             "out_of_combat_health_regen": 4.5,
             "bullet_armor_reduction": -12,
             "debuff_duration": 8
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2064029594": {
@@ -382,6 +451,9 @@
         "extra": {
             "enemy_life_threshold": 50,
             "base_attack_damage_percent_bonus": 40
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1544322593": {
@@ -400,6 +472,9 @@
             "move_while_shooting_speed_penalty_reduction_percent": 100,
             "move_while_zoomed_speed_penalty_reduction_percent": 100,
             "bonus_bullet_speed_percent": 30
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3077079169": {
@@ -418,6 +493,9 @@
         "mobility": [],
         "extra": {
             "bonus_bullet_speed_percent": 50
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1437614329": {
@@ -440,7 +518,8 @@
             "non_hero_heal_pct": 30
         },
         "active": {
-            "cooldown": 8
+            "cooldown": 8,
+            "recharge_speed": -1
         }
     },
     "1342610602": {
@@ -460,6 +539,9 @@
         "extra": {
             "close_range_bonus_weapon_power": 20,
             "close_range_bonus_damage_range": "15m"
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3331811235": {
@@ -476,11 +558,14 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "sprint_speed": "1m"
+            "sprint_speed": "0.75m"
         },
         "extra": {
             "long_range_bonus_weapon_power": 40,
             "long_range_bonus_weapon_power_min_range": "15m"
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "393974127": {
@@ -503,6 +588,9 @@
             "slow_duration": 3.5,
             "build_up_duration": 5,
             "build_up_per_shot": 0.77
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2037039379": {
@@ -528,6 +616,9 @@
             "outgoing_damage_penalty_percent": -35,
             "heal_amp_receive_penalty_percent": -40,
             "heal_amp_regen_penalty_percent": -40
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1889400890": {
@@ -544,7 +635,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1144549437": {
         "tag": "upgrade_tech_defense_shredders",
@@ -563,6 +657,9 @@
         "extra": {
             "tech_armor_damage_reduction": -8,
             "debuff_duration": 8
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1109351073": {
@@ -579,7 +676,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1100809516": {
         "tag": "upgrade_nearby_enemy_boost",
@@ -604,6 +704,9 @@
             "radius": "20m",
             "tick_rate": 1,
             "min_targets_required": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1031828968": {
@@ -625,7 +728,8 @@
             "bullet_shield_damage_percent": 60
         },
         "active": {
-            "duration": 8
+            "duration": 8,
+            "recharge_speed": -1
         }
     },
     "775925321": {
@@ -650,6 +754,9 @@
             "build_up_per_shot": 1.2,
             "build_up_duration": 10,
             "tether_radius": "7m"
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2854211216": {
@@ -666,6 +773,9 @@
         "mobility": [],
         "extra": {
             "high_ground_bonus_weapon_power": 50
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1113837674": {
@@ -689,6 +799,9 @@
             "immunity_duration": 10,
             "build_up_per_shot": 1.04,
             "build_up_duration": 5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1503218332": {
@@ -709,7 +822,8 @@
             "build_up_duration": 10
         },
         "active": {
-            "duration": 5
+            "duration": 5,
+            "recharge_speed": -1
         }
     },
     "1414319208": {
@@ -731,6 +845,9 @@
             "damage_to_stack": 120,
             "weapon_power_per_stack": 7,
             "max_stacks": 10
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "339443430": {
@@ -749,14 +866,17 @@
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1m"
+            "move_speed_bonus": "0.75m"
         },
         "extra": {
             "low_health_threshold": 50,
-            "fervor_movespeed": "3m",
+            "fervor_movespeed": "2.5m",
             "fervor_fire_rate": 30,
             "fervor_tech_resist": 30,
             "linger_duration": 5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2152872419": {
@@ -774,12 +894,15 @@
         "spirit": [],
         "mobility": {
             "move_speed_bonus": "-1m",
-            "sprint_speed": "1.5m"
+            "sprint_speed": "1.0m"
         },
         "extra": {
             "long_range_bonus_weapon_power": 70,
             "long_range_bonus_weapon_power_min_range": "15m",
             "bonus_zoom_percent": 25
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "184951197": {
@@ -800,6 +923,9 @@
             "nano_tech_per_shot": 1,
             "base_damage_per_shot": 1,
             "spell_amplification_multiplier": 5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "395867183": {
@@ -822,7 +948,8 @@
             "spirit_power": 7
         },
         "active": {
-            "cooldown": 8
+            "cooldown": 8,
+            "recharge_speed": -1
         }
     },
     "1396247347": {
@@ -843,6 +970,9 @@
             "radius": "1m",
             "proc_chance": 25,
             "crit_damage_percent": 110
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2095565695": {
@@ -856,7 +986,7 @@
         "bullet": [],
         "vitality": {
             "melee_resist_pct": 30,
-            "hp": 100
+            "hp": 75
         },
         "spirit": [],
         "mobility": [],
@@ -865,6 +995,9 @@
             "slow_percent": 25,
             "slow_duration": 2,
             "close_range_bonus_damage_range": "15m"
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "4284855775": {
@@ -881,7 +1014,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3449296332": {
         "tag": "upgrade_clip_size_3",
@@ -897,7 +1033,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3696726732": {
         "tag": "upgrade_toxic_bullets",
@@ -912,14 +1051,17 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "dot_health_percent": 2.2,
+            "dot_health_percent": 2,
             "dot_duration": 4,
-            "build_up_per_shot": 1.058,
+            "build_up_per_shot": 1.1638,
             "build_up_duration": 5,
             "tick_rate": 0.5,
             "heal_amp_receive_penalty_percent": -30,
             "heal_amp_regen_penalty_percent": -30,
             "dot_multipler_troopers": 0.5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3791295884": {
@@ -936,7 +1078,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4190165534": {
         "tag": "upgrade_drum_magazine",
@@ -953,7 +1098,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3633614685": {
         "tag": "upgrade_health",
@@ -969,7 +1117,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1448361452": {
         "tag": "upgrade_toughness_3",
@@ -986,7 +1137,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3713423303": {
         "tag": "upgrade_bullet_armor",
@@ -1002,7 +1156,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "223594321": {
         "tag": "upgrade_tech_armor",
@@ -1018,7 +1175,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1575167590": {
         "tag": "upgrade_health_regen_1",
@@ -1034,7 +1194,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "499683006": {
         "tag": "upgrade_vampire",
@@ -1052,7 +1215,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1047818222": {
         "tag": "upgrade_debuff_reducer",
@@ -1070,6 +1236,9 @@
         "mobility": [],
         "extra": {
             "status_resistance_percent": 20
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2887128033": {
@@ -1086,6 +1255,9 @@
         "mobility": [],
         "extra": {
             "bullet_armor": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2163598980": {
@@ -1105,6 +1277,9 @@
         "extra": {
             "health_threshold": 30,
             "tech_resist_below_threshold": 30
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3140772621": {
@@ -1124,6 +1299,9 @@
         "extra": {
             "health_threshold": 30,
             "bullet_resist_below_threshold": 30
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2566692615": {
@@ -1143,6 +1321,9 @@
         "extra": {
             "heal_amp_cast_percent": 20,
             "heal_amp_regen_percent": 20
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3585132399": {
@@ -1159,12 +1340,15 @@
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1.5m"
+            "move_speed_bonus": "1.25m"
         },
         "extra": {
             "restore_delay": 13,
             "heal_life_percent_out_of_combat": 2,
             "health_threshold": 75
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3399065363": {
@@ -1179,10 +1363,13 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "sprint_speed": "2.25m"
+            "sprint_speed": "2.0m"
         },
         "extra": {
             "out_of_combat_health_regen": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2447176615": {
@@ -1197,11 +1384,14 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "2.25m"
+            "move_speed_bonus": "2.0m"
         },
         "extra": {
-            "slow_resistance_percent": 30,
+            "slow_resistance_percent": 25,
             "out_of_combat_health_regen": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "334300056": {
@@ -1221,6 +1411,9 @@
         },
         "extra": {
             "air_move_increase_percent": 30
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "668299740": {
@@ -1237,7 +1430,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4139877411": {
         "tag": "upgrade_improved_stamina",
@@ -1254,7 +1450,10 @@
             "stamina": 1,
             "stamina_recover": 12
         },
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3970837787": {
         "tag": "upgrade_magic_shield",
@@ -1276,6 +1475,9 @@
         "extra": {
             "out_of_combat_health_regen": 2,
             "life_threshold": 65
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "968099481": {
@@ -1292,7 +1494,10 @@
             "spirit_power": 10
         },
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "7409189": {
         "tag": "upgrade_soaring_spirit",
@@ -1314,6 +1519,9 @@
         },
         "extra": {
             "out_of_combat_health_regen": 1.5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2226497419": {
@@ -1339,7 +1547,8 @@
             "build_up_duration": 5
         },
         "active": {
-            "duration": 15
+            "duration": 15,
+            "recharge_speed": -1
         }
     },
     "1193964439": {
@@ -1360,6 +1569,9 @@
         "mobility": [],
         "extra": {
             "tech_radius_multiplier": 35
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "754480263": {
@@ -1378,6 +1590,9 @@
         "mobility": [],
         "extra": {
             "tech_radius_multiplier": 20
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3776945997": {
@@ -1396,6 +1611,9 @@
         "mobility": [],
         "extra": {
             "bonus_spirit_for_charged_abilities": 7
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2971868509": {
@@ -1408,7 +1626,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 90,
+            "hp": 65,
             "bullet_resist": 7
         },
         "spirit": [],
@@ -1417,7 +1635,8 @@
             "bullet_armor_reduction": -12
         },
         "active": {
-            "duration": 8
+            "duration": 8,
+            "recharge_speed": -1
         }
     },
     "869090587": {
@@ -1443,7 +1662,8 @@
             "max_health_damage": 10
         },
         "active": {
-            "cooldown": 6.25
+            "cooldown": 6.25,
+            "recharge_speed": -1
         }
     },
     "1998374645": {
@@ -1464,7 +1684,8 @@
             "ability_charge_up_time": 14
         },
         "active": {
-            "cooldown": 14
+            "cooldown": 14,
+            "recharge_speed": -1
         }
     },
     "2121044373": {
@@ -1477,7 +1698,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 75
+            "hp": 50
         },
         "spirit": [],
         "mobility": [],
@@ -1485,12 +1706,13 @@
             "minimum_damage": 165,
             "re_proc_lockout_time": 5,
             "watcher_max_duration": 30,
-            "max_health_damage": 5,
+            "current_health_damage": 7.5,
             "damage": 40,
             "ability_charge_up_time": 14
         },
         "active": {
-            "cooldown": 14
+            "cooldown": 14,
+            "recharge_speed": -1
         }
     },
     "1052584266": {
@@ -1511,7 +1733,8 @@
             "minimum_damage": 200
         },
         "active": {
-            "duration": 12
+            "duration": 12,
+            "recharge_speed": -1
         }
     },
     "2081037738": {
@@ -1532,7 +1755,8 @@
             "tech_armor_damage_reduction": -8
         },
         "active": {
-            "duration": 7
+            "duration": 7,
+            "recharge_speed": -1
         }
     },
     "2603935618": {
@@ -1555,7 +1779,8 @@
             "heal_on_kill": 275
         },
         "active": {
-            "duration": 8
+            "duration": 8,
+            "recharge_speed": -1
         }
     },
     "1102081447": {
@@ -1568,18 +1793,19 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 50
+            "hp": 30
         },
         "spirit": [],
         "mobility": {
-            "sprint_speed": "1m"
+            "sprint_speed": "0.75m"
         },
         "extra": {
             "movement_speed_slow": 30,
             "ground_dash_reduction_percent": -10
         },
         "active": {
-            "duration": 2
+            "duration": 2,
+            "recharge_speed": -1
         }
     },
     "787198704": {
@@ -1598,7 +1824,10 @@
         },
         "mobility": [],
         "extra": {
-            "bonus_spirit_for_charged_abilities": 20
+            "bonus_spirit_for_charged_abilities": 16
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "380806748": {
@@ -1615,7 +1844,10 @@
             "cooldown_reduction": 18
         },
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3261353684": {
         "tag": "upgrade_cooldown_reduction",
@@ -1633,6 +1865,9 @@
         "mobility": [],
         "extra": {
             "out_of_combat_health_regen": 4
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3789823638": {
@@ -1649,6 +1884,9 @@
         "mobility": [],
         "extra": {
             "bonus_ability_duration_percent": 20
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3013879715": {
@@ -1666,6 +1904,9 @@
         "extra": {
             "slow_percent": 15,
             "slow_duration": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1993213427": {
@@ -1686,6 +1927,9 @@
             "tech_radius_multiplier": 30,
             "slow_percent": 20,
             "slow_duration": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3064545951": {
@@ -1707,6 +1951,9 @@
             "slow_percent": 30,
             "slow_duration": 2,
             "bonus_damage_per_hero": 5
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1288322878": {
@@ -1723,7 +1970,10 @@
             "charges": 3
         },
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3276909180": {
         "tag": "upgrade_reload_speed",
@@ -1739,7 +1989,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3977876567": {
         "tag": "upgrade_kinetic_sash",
@@ -1751,7 +2004,7 @@
         "ability": [],
         "bullet": {
             "fire_rate": 30,
-            "clip_size": 8
+            "clip_size": 6
         },
         "vitality": [],
         "spirit": [],
@@ -1761,7 +2014,8 @@
         },
         "extra": [],
         "active": {
-            "duration": 7
+            "duration": 7,
+            "recharge_speed": -1
         }
     },
     "1959600032": {
@@ -1782,6 +2036,9 @@
             "bonus_ability_duration_percent": 20,
             "slow_percent": 15,
             "slow_duration": 2
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2951612397": {
@@ -1798,6 +2055,9 @@
         "mobility": [],
         "extra": {
             "bonus_ability_duration_percent": 22
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2717651715": {
@@ -1816,6 +2076,9 @@
         "mobility": [],
         "extra": {
             "bonus_ability_duration_percent": 28
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "253917113": {
@@ -1837,6 +2100,9 @@
             "perfect_burst_weapon_power": 20,
             "base_bonus_weapon_power": 5,
             "non_burst_fire_conversion_factor": 3
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1252627263": {
@@ -1864,7 +2130,8 @@
             "non_hero_heal_pct": 40
         },
         "active": {
-            "cooldown": 4
+            "cooldown": 4,
+            "recharge_speed": -1
         }
     },
     "465043967": {
@@ -1886,7 +2153,8 @@
         },
         "active": {
             "cooldown": 8,
-            "duration": 6
+            "duration": 6,
+            "recharge_speed": -1
         }
     },
     "26002154": {
@@ -1910,7 +2178,8 @@
             "bonus_heavy_melee_damage": 25
         },
         "active": {
-            "cooldown": 7
+            "cooldown": 7,
+            "recharge_speed": -1
         }
     },
     "3572021243": {
@@ -1930,7 +2199,8 @@
             "light_melee_time_window": 4
         },
         "active": {
-            "cooldown": 26
+            "cooldown": 26,
+            "recharge_speed": -1
         }
     },
     "1326137213": {
@@ -1952,6 +2222,9 @@
             "spin_up_decay": 1,
             "initial_fire_rate_decrease": 40,
             "max_fire_rate_increase": 60
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3612042342": {
@@ -1984,7 +2257,10 @@
             "spirit_lifesteal": 7
         },
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2829638276": {
         "tag": "upgrade_endurance",
@@ -2000,7 +2276,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "2985482185": {
         "tag": "upgrade_magic_clarity",
@@ -2023,7 +2302,8 @@
         },
         "active": {
             "cooldown": 16,
-            "duration": 8
+            "duration": 8,
+            "recharge_speed": -1
         }
     },
     "1292979587": {
@@ -2038,17 +2318,18 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "2m"
+            "move_speed_bonus": "1.75m"
         },
         "extra": {
-            "imbued_tech_power": 28,
+            "imbued_tech_power": 24,
             "fire_rate_bonus": 22,
             "movement_speed_bonus_duration": 8,
             "move_while_shooting_speed_penalty_reduction_percent": 100,
             "move_while_zoomed_speed_penalty_reduction_percent": 100
         },
         "active": {
-            "cooldown": 14
+            "cooldown": 14,
+            "recharge_speed": -1
         }
     },
     "1925087134": {
@@ -2061,7 +2342,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 75
+            "hp": 50
         },
         "spirit": {
             "spirit_power": 6
@@ -2071,7 +2352,8 @@
             "fire_rate_slow": 30
         },
         "active": {
-            "duration": 4
+            "duration": 4,
+            "recharge_speed": -1
         }
     },
     "2717142638": {
@@ -2094,6 +2376,9 @@
             "proc_cooldown": 0.5,
             "max_stacks": 99,
             "steal_duration": 12
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2574520834": {
@@ -2113,6 +2398,9 @@
         "mobility": [],
         "extra": {
             "life_threshold": 50
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2463960640": {
@@ -2128,7 +2416,7 @@
             "clip_size_pct": 30
         },
         "vitality": {
-            "hp": 100
+            "hp": 75
         },
         "spirit": [],
         "mobility": [],
@@ -2136,6 +2424,9 @@
             "max_armor_stacks": 30,
             "bullet_resist_per_stack": 2,
             "bullet_resist_duration": 24
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "4104549924": {
@@ -2152,9 +2443,12 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "sprint_speed": "1.0m"
+            "sprint_speed": "0.75m"
         },
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "865958998": {
         "tag": "upgrade_veil_walker",
@@ -2170,7 +2464,7 @@
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "4m"
+            "move_speed_bonus": "3.5m"
         },
         "extra": {
             "invis_alert_when_fading": 1,
@@ -2184,7 +2478,8 @@
         },
         "active": {
             "cooldown": 15,
-            "duration": 16
+            "duration": 16,
+            "recharge_speed": -1
         }
     },
     "3862866912": {
@@ -2208,7 +2503,8 @@
             "heal_from_n_p_c": 15
         },
         "active": {
-            "cooldown": 6
+            "cooldown": 6,
+            "recharge_speed": -1
         }
     },
     "2356412290": {
@@ -2226,7 +2522,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "1150006784": {
         "tag": "upgrade_arcane_surge",
@@ -2250,7 +2549,8 @@
             "tech_range_multiplier_buff": 15
         },
         "active": {
-            "duration": 7
+            "duration": 7,
+            "recharge_speed": -1
         }
     },
     "3190916303": {
@@ -2265,21 +2565,22 @@
             "melee_dmg_pct": 7
         },
         "vitality": {
-            "hp": 100
+            "hp": 75
         },
         "spirit": [],
         "mobility": [],
         "extra": {
             "light_melee_scale": 70,
             "spirit_damage": 50,
-            "tech_armor_damage_reduction": -15,
-            "tech_armor_gain": 15,
+            "tech_armor_damage_reduction": -12,
+            "tech_armor_gain": 12,
             "tech_power_reduction": -15,
             "tech_power_gain": 15
         },
         "active": {
             "cooldown": 6,
-            "duration": 10
+            "duration": 10,
+            "recharge_speed": -1
         }
     },
     "343572757": {
@@ -2311,7 +2612,8 @@
             "damage_pct_vs_non_heroes": 50
         },
         "active": {
-            "cooldown": 20
+            "cooldown": 20,
+            "recharge_speed": -1
         }
     },
     "493591231": {
@@ -2324,11 +2626,11 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 75
+            "hp": 50
         },
         "spirit": [],
         "mobility": {
-            "sprint_speed": "1m"
+            "sprint_speed": "0.75m"
         },
         "extra": {
             "damage": 150,
@@ -2339,7 +2641,8 @@
             "ground_dash_reduction_percent": -10
         },
         "active": {
-            "duration": 2
+            "duration": 2,
+            "recharge_speed": -1
         }
     },
     "1851590806": {
@@ -2354,7 +2657,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "349524508": {
         "tag": "weapon_upgrade_t5",
@@ -2368,7 +2674,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4121208447": {
         "tag": "tech_upgrade_t5",
@@ -2382,7 +2691,10 @@
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "4204808176": {
         "tag": "upgrade_melee_rebuttal",
@@ -2404,6 +2716,9 @@
             "buff_duration": 6,
             "bonus_damage_percent": 30,
             "parry_success_heal_percentage": 100
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "1414025773": {
@@ -2420,7 +2735,7 @@
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "2m"
+            "move_speed_bonus": "1.75m"
         },
         "extra": {
             "spirit_power": 20,
@@ -2430,7 +2745,8 @@
             "heal_on_success": 150
         },
         "active": {
-            "cooldown": 20
+            "cooldown": 20,
+            "recharge_speed": -1
         }
     },
     "3791587546": {
@@ -2454,6 +2770,9 @@
         "extra": {
             "status_resistance_percent": 16,
             "bonus_bullet_speed_percent": -30
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2858617477": {
@@ -2470,7 +2789,10 @@
         },
         "spirit": [],
         "mobility": [],
-        "extra": []
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
     },
     "3074274290": {
         "tag": "upgrade_trophy_collector",
@@ -2484,17 +2806,20 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "sprint_speed": "2.25m"
+            "sprint_speed": "2.0m"
         },
         "extra": {
             "out_of_combat_health_regen": 4,
             "stacking_bonus_health": 20,
-            "stacking_bonus_sprint_speed": "0.2m",
+            "stacking_bonus_sprint_speed": "0.15m",
             "stacking_tech_range_multiplier": 1,
             "stacking_tech_radius_multiplier": 1,
             "stacking_gold_per_minute": 22,
             "think_rate": 3,
             "max_stacks": 16
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "800008313": {
@@ -2525,7 +2850,8 @@
             "bullet_resist_reduction": -4
         },
         "active": {
-            "cooldown": 7
+            "cooldown": 7,
+            "recharge_speed": -1
         }
     },
     "84321454": {
@@ -2549,7 +2875,8 @@
             "ability_charge_up_time": 18
         },
         "active": {
-            "cooldown": 18
+            "cooldown": 18,
+            "recharge_speed": -1
         }
     },
     "3919289022": {
@@ -2577,7 +2904,8 @@
             "bullets_bonus_magic_damage": 25
         },
         "active": {
-            "cooldown": 15
+            "cooldown": 15,
+            "recharge_speed": -1
         }
     },
     "3028234315": {
@@ -2602,7 +2930,8 @@
             "damage_threshold": 75
         },
         "active": {
-            "cooldown": 1
+            "cooldown": 1,
+            "recharge_speed": -1
         }
     },
     "1427630806": {
@@ -2622,7 +2951,7 @@
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1.5m"
+            "move_speed_bonus": "1.25m"
         },
         "extra": {
             "buff_duration": 7,
@@ -2631,7 +2960,8 @@
             "heal_amp_regen_percent": 25
         },
         "active": {
-            "cooldown": 1
+            "cooldown": 1,
+            "recharge_speed": -1
         }
     },
     "673001892": {
@@ -2649,6 +2979,9 @@
         "extra": {
             "bonus_bullet_speed_percent": 50,
             "proc_chance": 50
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "3491236900": {
@@ -2671,7 +3004,8 @@
             "deflection_randomness": 1
         },
         "active": {
-            "cooldown": 1
+            "cooldown": 1,
+            "recharge_speed": -1
         }
     },
     "1955841979": {
@@ -2694,7 +3028,8 @@
             "spirit_damage_reduction_proc": 75
         },
         "active": {
-            "cooldown": 9
+            "cooldown": 9,
+            "recharge_speed": -1
         }
     },
     "2221211450": {
@@ -2717,6 +3052,9 @@
         "extra": {
             "buff_duration": 18,
             "max_stacks": 6
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "98582110": {
@@ -2729,11 +3067,11 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 75
+            "hp": 50
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1.75m"
+            "move_speed_bonus": "1.5m"
         },
         "extra": {
             "dps": 17,
@@ -2745,7 +3083,8 @@
         },
         "active": {
             "cooldown": 6,
-            "duration": 5
+            "duration": 5,
+            "recharge_speed": -1
         }
     },
     "2519598785": {
@@ -2758,7 +3097,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 100
+            "hp": 75
         },
         "spirit": {
             "spirit_power": 35
@@ -2767,6 +3106,9 @@
         "extra": {
             "out_of_combat_health_regen": 4,
             "tech_power_percent": 15
+        },
+        "active": {
+            "recharge_speed": -1
         }
     },
     "2010028405": {
@@ -2779,7 +3121,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 40
+            "hp": 30
         },
         "spirit": [],
         "mobility": [],
@@ -2788,7 +3130,8 @@
             "proc_chance": 100
         },
         "active": {
-            "cooldown": 9
+            "cooldown": 9,
+            "recharge_speed": -1
         }
     },
     "4053935515": {
@@ -2803,11 +3146,11 @@
             "damage_pct": 5
         },
         "vitality": {
-            "hp": 75
+            "hp": 50
         },
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "2m"
+            "move_speed_bonus": "1.75m"
         },
         "extra": {
             "head_shot_bonus_damage": 75,
@@ -2816,7 +3159,8 @@
             "proc_chance": 100
         },
         "active": {
-            "cooldown": 8
+            "cooldown": 8,
+            "recharge_speed": -1
         }
     },
     "915014646": {
@@ -2836,6 +3180,305 @@
         "extra": {
             "item_cooldown_reduction": 25,
             "out_of_combat_health_regen": 4
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "4238249888": {
+        "tag": "upgrade_ancient_shield",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/improved_bullet_armor",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 40,
+            "bullet_resist": 40
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "status_resistance_percent": 40,
+            "out_of_combat_health_regen": 40,
+            "degen_resistance": 40
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "564937160": {
+        "tag": "upgrade_aerial_supremacy",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/superior_stamina",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "stamina": 7,
+            "stamina_recover": 40
+        },
+        "extra": {
+            "air_move_increase_percent": 70
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3893702034": {
+        "tag": "upgrade_timeless_emblem",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "cooldown_reduction": 50,
+            "range": 50
+        },
+        "mobility": [],
+        "extra": {
+            "tech_radius_multiplier": 50,
+            "bonus_ability_duration_percent": 50,
+            "item_cooldown_reduction": 50
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3269957497": {
+        "tag": "upgrade_infinite_rounds",
+        "tier": 5,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/armor_breaking_bullets",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 30
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bonus_bullet_speed_percent": 200,
+            "proc_chance": 65
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1736094134": {
+        "tag": "upgrade_icarus_wings",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/sprint_booster",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "stamina_recover": 120
+        },
+        "extra": {
+            "air_bonus_damage_given": 40,
+            "air_bonus_damage_taken": -40,
+            "gravity_scale": -70,
+            "air_control_percent": 100,
+            "air_control_accel_percent": 50
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "230297145": {
+        "tag": "upgrade_eternal_gift",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "respawn_time": -70,
+            "buff_frequency": 2
+        },
+        "active": {
+            "cooldown": 165,
+            "recharge_speed": -1
+        }
+    },
+    "4050602737": {
+        "tag": "upgrade_patrons_blessing",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "spirit_power": 40,
+            "range": 40,
+            "cooldown_reduction": 40
+        },
+        "mobility": [],
+        "extra": {
+            "radius": "25m",
+            "tech_radius_multiplier": 40,
+            "ally_percentage": 50,
+            "heal_amount": 700,
+            "heal_radius": "35m",
+            "damage_threshold": 300,
+            "damage_threshold_duration": 5
+        },
+        "active": {
+            "cooldown": 25,
+            "recharge_speed": -1
+        }
+    },
+    "3568217437": {
+        "tag": "upgrade_eldritch_shot",
+        "tier": 5,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/explosive_bullets",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "1m",
+            "proc_chance": 100,
+            "proc_cooldown": 1,
+            "bullet_radius": "1.5m",
+            "debuff_duration": 4,
+            "health_pct_damage": 10,
+            "outgoing_damage_penalty_percent": -40,
+            "heal_amp_receive_penalty_percent": -40,
+            "heal_amp_regen_penalty_percent": -40,
+            "movement_speed_slow": 40,
+            "ground_dash_reduction_percent": -40
+        },
+        "active": {
+            "cooldown": 2.5,
+            "recharge_speed": -1
+        }
+    },
+    "3523480953": {
+        "tag": "upgrade_cloak_of_opportunity",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "3m"
+        },
+        "extra": {
+            "combat_barrier": 300,
+            "buff_duration": 6,
+            "status_immune_duration": 4
+        },
+        "active": {
+            "cooldown": 14,
+            "recharge_speed": -1
+        }
+    },
+    "64550694": {
+        "tag": "upgrade_runed_gauntlets",
+        "tier": 5,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "melee_dmg_pct": 30
+        },
+        "vitality": {
+            "melee_resist_pct": 50
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "melee_distance_scale": 130,
+            "cooldown_reduction_on_hit_min": 3,
+            "cooldown_reduction_on_hit_pct": 12
+        },
+        "active": {
+            "cooldown": 10,
+            "recharge_speed": -1
+        }
+    },
+    "2068250483": {
+        "tag": "upgrade_shivas_bracelet",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "imbued_cooldown_reduction": 50,
+            "imbued_tech_power": 70,
+            "damage": 200,
+            "freeze_duration": 1
+        },
+        "active": {
+            "cooldown": 10,
+            "recharge_speed": -1
+        }
+    },
+    "3294954488": {
+        "tag": "upgrade_bulletshredimbue",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/fire_rate_plus",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 30
+        },
+        "mobility": [],
+        "extra": {
+            "tech_radius_multiplier": 30,
+            "weapon_power_per_stack": 18,
+            "weapon_power_per_stack_non_hero": 4,
+            "non_hero_stack_limit": 8
+        },
+        "active": {
+            "duration": 14,
+            "recharge_speed": -1
         }
     }
 }

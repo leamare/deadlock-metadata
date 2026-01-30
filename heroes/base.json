@@ -554,7 +554,7 @@
     "65": {
         "tag": "priest",
         "old_name": null,
-        "name": "Priest",
+        "name": "Venator",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -642,7 +642,7 @@
     "73": {
         "tag": "druid",
         "old_name": null,
-        "name": "druid",
+        "name": "Druid",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -653,7 +653,7 @@
     "74": {
         "tag": "graf",
         "old_name": null,
-        "name": "graf",
+        "name": "Graf",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -664,7 +664,7 @@
     "75": {
         "tag": "fortuna",
         "old_name": null,
-        "name": "fortuna",
+        "name": "Fortuna",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -675,10 +675,10 @@
     "76": {
         "tag": "necro",
         "old_name": null,
-        "name": "necro",
+        "name": "Graves",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1769767173,
         "status": "available",
         "complexity": 2,
         "inspiration": null
@@ -686,7 +686,7 @@
     "77": {
         "tag": "fencer",
         "old_name": null,
-        "name": "fencer",
+        "name": "Apollo",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -697,7 +697,7 @@
     "78": {
         "tag": "airheart",
         "old_name": null,
-        "name": "airheart",
+        "name": "Airheart",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -708,10 +708,10 @@
     "79": {
         "tag": "familiar",
         "old_name": null,
-        "name": "familiar",
+        "name": "Rem",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1769507973,
         "status": "available",
         "complexity": 3,
         "inspiration": null
@@ -719,7 +719,7 @@
     "80": {
         "tag": "werewolf",
         "old_name": null,
-        "name": "werewolf",
+        "name": "Silver",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -730,7 +730,7 @@
     "81": {
         "tag": "unicorn",
         "old_name": null,
-        "name": "unicorn",
+        "name": "Celeste",
         "alt_name": null,
         "aliases": null,
         "released": null,
@@ -741,7 +741,7 @@
     "82": {
         "tag": "opera",
         "old_name": null,
-        "name": "opera",
+        "name": "Opera",
         "alt_name": null,
         "aliases": null,
         "released": null,

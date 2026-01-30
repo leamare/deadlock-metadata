@@ -7437,10 +7437,11 @@
                     "displays_damage_impact",
                     "projectile_fired_as_bullet"
                 ],
+                "cooldown": 40,
                 "unit_target_limit": 1,
                 "cast_delay": 0.05,
                 "charges": 4,
-                "charge_cooldown": 0.05,
+                "charge_cooldown": 1,
                 "channel_move_speed": -1,
                 "special_props": {
                     "launch_window_cooldown": 40,
@@ -7462,6 +7463,10 @@
                     [
                         {
                             "property": "launch_window_cooldown",
+                            "value": -15
+                        },
+                        {
+                            "property": "ability_cooldown",
                             "value": -15
                         }
                     ],
@@ -12036,162 +12041,60 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": 0,
-                "image": "nano\/nano_roller_bomb",
-                "activation_time": "instant_cast",
-                "targeting_location": "self",
-                "unit_target": "all_enemy",
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
                 "behaviors": [
-                    "no_target",
-                    "displays_damage_impact"
+                    ""
                 ],
-                "cooldown": 26,
-                "duration": 5,
-                "unit_target_limit": 1,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "special_props": {
-                    "damage_pulses": 5,
-                    "damage": 50
-                },
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ]
-                ]
+                "upgrades": []
             },
             "ability_druid_helicopter_seeds": {
                 "id": 2082403219,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": 0,
-                "image": "nano\/nano_roller_bomb",
-                "activation_time": "instant_cast",
-                "targeting_location": "self",
-                "unit_target": "all_enemy",
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
                 "behaviors": [
-                    "no_target",
-                    "displays_damage_impact"
+                    ""
                 ],
-                "cooldown": 26,
-                "unit_target_limit": 1,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "projectile": [],
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ]
-                ]
+                "upgrades": []
             },
             "ability_druid_sprout": {
                 "id": 2800600819,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": 0,
+                "update_time": null,
                 "image": "",
-                "activation_time": "press",
-                "targeting_location": "none",
+                "activation_time": null,
+                "targeting_location": null,
                 "unit_target": null,
                 "behaviors": [
-                    "no_target",
-                    "allow_gun_fire_after_cast"
+                    ""
                 ],
-                "cooldown": 1,
-                "unit_target_limit": 1,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ]
-                ]
+                "upgrades": []
             },
             "ability_druid_ult": {
                 "id": 2510227556,
                 "is_active": false,
-                "is_ultimate": true,
+                "is_ultimate": false,
                 "slot": 4,
                 "update_time": null,
-                "image": "nano\/nano_tunnel_vision",
-                "activation_time": "instant_cast",
-                "targeting_location": "self",
-                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
                 "behaviors": [
-                    "no_target",
-                    "displays_damage_impact"
+                    ""
                 ],
-                "cooldown": 127,
-                "unit_target_limit": 1,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": 0
-                        }
-                    ]
-                ]
+                "upgrades": []
             }
         }
     },
@@ -12540,15 +12443,83 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "necro\/necro_skull",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "projectile",
+                    "displays_damage_impact",
+                    "projectile_fired_as_bullet",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "unit_target_limit": 1,
+                "cast_delay": 0.15,
+                "charges": 4,
+                "charge_cooldown": 13,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "skull_count": 4,
+                    "skull_lifetime": 15,
+                    "tick_rate": 0.2,
+                    "target_search_radius": "7m",
+                    "target_search_delay_max": 1.25,
+                    "damage": 20,
+                    "target_search_delay_min": 1.5,
+                    "max_hits": -1,
+                    "summon_health": 20,
+                    "skull_immune_duration": 0.15,
+                    "spawn_radius": "2m",
+                    "delay_before_respawning": 1,
+                    "target_dash_radius": "15m",
+                    "summon_takes_damage": 1,
+                    "resource_cost": 100,
+                    "resource_generation_percent": 100,
+                    "resource_radius": "40m",
+                    "pickups_per_death": 1,
+                    "pickups_per_hero_death": 5,
+                    "ability_charges_conditionally": 1,
+                    "kill_time": 0.25,
+                    "resource_per_pickup": 10,
+                    "pickups_per_boss_death": 5,
+                    "pickups_per_neutral_trooper_death": 2,
+                    "skull_kill_gold": 5
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "heal_per_pickup",
+                            "value": 5
+                        },
+                        {
+                            "property": "heal_per_pickup",
+                            "value": 0.1,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "slow_percent",
+                            "value": 30
+                        },
+                        {
+                            "property": "slow_duration",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "skull_count",
+                            "value": 2
+                        },
+                        {
+                            "property": "skulls_apply_passive",
+                            "value": 1
+                        }
+                    ]
+                ]
             },
             "ability_necro_zombiewall": {
                 "id": 2001589780,
@@ -12556,44 +12527,203 @@
                 "is_ultimate": false,
                 "slot": 2,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "necro\/necro_hands",
+                "activation_time": "press",
+                "targeting_location": "ground",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
                 "behaviors": [
-                    ""
+                    "deploy_object",
+                    "no_target",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 38,
+                "duration": 7,
+                "cast_range": "24m",
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "zombie_wall_length": "20m",
+                    "aura_radius": "0.75m",
+                    "debuff_duration": 0.5,
+                    "ground_aura_spacing": "1m",
+                    "slow_percent": 40,
+                    "zombie_wall_height": "2.5m",
+                    "tech_resist": 40,
+                    "damage": 90,
+                    "tick_rate": 0.1,
+                    "immobilize_duration": 1.5,
+                    "ground_aura_pop_delay": 1.1,
+                    "zombie_wall_deploy_time": 0.7,
+                    "tether_duration": 1,
+                    "tether_radius": "0.1m"
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_duration",
+                            "value": 2
+                        }
+                    ],
+                    [
+                        {
+                            "property": "immobilize_duration",
+                            "value": 0.75
+                        }
+                    ],
+                    [
+                        {
+                            "property": "zombie_wall_length",
+                            "value": "15m"
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -10
+                        }
+                    ]
+                ]
             },
             "ability_necro_fear": {
                 "id": 629925354,
-                "is_active": false,
+                "is_active": true,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
+                "update_time": 0,
+                "image": "necro\/necro_siphon",
+                "activation_time": "passive",
                 "targeting_location": null,
                 "unit_target": null,
                 "behaviors": [
                     ""
                 ],
-                "upgrades": []
+                "duration": 4,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "max_stolen_attack_damage": 25,
+                    "shoot_duration_for_max": 4,
+                    "progress_loss_per_second": 1,
+                    "tick_interval": 0.15,
+                    "delay_before_loss": 0.5,
+                    "progress_loss_multiplier": 2.3,
+                    "max_stolen_spirit_resist": 10,
+                    "max_stolen_targets": 3,
+                    "skull_build_up": 0.15
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "max_stolen_spirit_resist",
+                            "value": 5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_stolen_attack_damage",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_tether_upgrade",
+                            "value": 2
+                        }
+                    ]
+                ]
             },
             "ability_necro_gravestone": {
                 "id": 4110547059,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "necro\/necro_gravestone",
+                "activation_time": "press",
+                "targeting_location": "ground",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "deploy_object",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 110,
+                "duration": 20,
+                "cast_range": "20m",
+                "unit_target_limit": 1,
+                "channel_time": 0.66,
+                "special_props": {
+                    "grow_time": 0.1,
+                    "blocker_scale_factor": 1,
+                    "knockup_speed": 240,
+                    "knockup_radius": "4m",
+                    "knockup_side_ratio": 1,
+                    "gravestone_health": 100,
+                    "aura_radius": "5m",
+                    "tick_rate": 0.4,
+                    "slow_percent": 80,
+                    "slow_duration": 1.25,
+                    "tech_resist": 20,
+                    "push_force": 300,
+                    "max_gravestones": 3,
+                    "summon_initial_delay": 0.3,
+                    "summon_frequency": 5,
+                    "buff_duration": -1,
+                    "stacking_debuff_tick_rate": 0.25,
+                    "damage": 150,
+                    "gravestone_takes_damage": 1,
+                    "max_stacks": 40,
+                    "stack_duration": 5,
+                    "slow_percent_per_stack": 0.5,
+                    "tech_armor_damage_reduction_per_stack": -0.5,
+                    "replicate_zombie_cast": 1,
+                    "summon_lifetime": 20,
+                    "decay_tick_rate": 0.1,
+                    "decay_duration": 1,
+                    "summon_melee_damage": 40,
+                    "summon_health": 200,
+                    "bonus_spirit_damage_percentage": 15,
+                    "summon_search_radius": "4m",
+                    "summon_max_count": 32,
+                    "explode_delay": 0.23,
+                    "spawn_duration": 1.5,
+                    "explosion_radius": "6.5m",
+                    "bullet_resist": 12.5,
+                    "summon_burst_frequency": 0.1
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "move_speed_percent",
+                            "value": 25
+                        },
+                        {
+                            "property": "ability_duration",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "property": "summon_burst_count",
+                            "value": 3
+                        },
+                        {
+                            "property": "max_health_damage_percentage",
+                            "value": 5
+                        }
+                    ]
+                ]
             }
         }
     },
@@ -12840,15 +12970,58 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "familiar\/familiar_pillow",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "displays_damage_impact",
+                    "projectile"
                 ],
-                "upgrades": []
+                "cooldown": 25,
+                "cast_range": "40m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.3,
+                "post_cast_duration": 0.2,
+                "charges": 1,
+                "charge_cooldown": 12,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "orbs_to_fire": 1,
+                    "damage": 75,
+                    "effect_duration": 3,
+                    "fading_slow_percent": 45,
+                    "toss_duration": 0.4,
+                    "toss_force": 300,
+                    "c_d_reduce_on_pillow_hit": 4
+                },
+                "radius": "5m",
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -7
+                        }
+                    ],
+                    [
+                        {
+                            "property": "fire_rate_slow",
+                            "value": 40
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 90
+                        },
+                        {
+                            "property": "radius",
+                            "value": "2m"
+                        }
+                    ]
+                ]
             },
             "ability_familiar_attach": {
                 "id": 1568845221,
@@ -12856,44 +13029,211 @@
                 "is_ultimate": false,
                 "slot": 2,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "familiar\/familiar_tag_along",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_friendly | trooper_friendly | neutral | boss",
                 "behaviors": [
-                    ""
+                    "dont_break_invisibility",
+                    "displays_damage_impact",
+                    "can_cancel_during_cast_delay",
+                    "cannot_cancel_during_channel",
+                    "cooldown_on_channel_end",
+                    "use_instant_cast_unit_target_ui",
+                    "movement",
+                    "can_set_quick_cast",
+                    "do_not_allow_spam_proc"
                 ],
-                "upgrades": []
+                "cooldown": 40,
+                "duration": 5.5,
+                "cast_range": "23m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.5,
+                "charge_cooldown": -1,
+                "channel_move_speed": "5m",
+                "special_props": {
+                    "bonus_move_speed": "4m",
+                    "hop_out_lockout_duration": 1,
+                    "health_regen_duration": 3,
+                    "healing_per_second": 28,
+                    "missing_health_burst_pct": 15
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_barrier_amp_percent",
+                            "value": 20
+                        },
+                        {
+                            "property": "bonus_item_duration_percent",
+                            "value": 20
+                        },
+                        {
+                            "property": "bonus_item_range_percent",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "tech_power_percent",
+                            "value": 15
+                        },
+                        {
+                            "property": "bonus_spirit_power",
+                            "value": 35
+                        },
+                        {
+                            "property": "hop_off_effec_duration",
+                            "value": 10
+                        }
+                    ]
+                ]
             },
             "ability_familiar_helpinghands": {
                 "id": 536278136,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "familiar\/familiar_helpers",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "trooper_friendly | hero_friendly | minion_friendly | neutral | breakable_prop | prop | trophy",
                 "behaviors": [
-                    ""
+                    "can_set_quick_cast",
+                    "dont_interrupt_sprint",
+                    "allow_self_cast",
+                    "damage_doesnt_wake_from_sleep",
+                    "displays_damage_impact",
+                    "do_not_allow_spam_proc"
                 ],
-                "upgrades": []
+                "cast_range": "45m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "helper_downtime_duration": 15.1,
+                    "helper_chore_cooldown_duration": 5,
+                    "aura_radius": "10m",
+                    "aura_soft_radius": "10m",
+                    "aura_attack_height": "10m",
+                    "d_p_s_per_sprite": 1,
+                    "tick_rate": 0.2,
+                    "damage": 20,
+                    "bonus_move_speed": "3.0m",
+                    "arm_time": 0.1,
+                    "patrol_damage_cooldown": 10,
+                    "helpers_per_patrol": 4,
+                    "helper_count": 1,
+                    "infest_heal": 14,
+                    "infest_heal_interval": 3,
+                    "infest_damage_taken_percent": 35,
+                    "infest_burst_health_percent": 75,
+                    "tech_armor_gain": 15,
+                    "player_infest_duration": 8,
+                    "n_p_c_infest_duration": 50
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "helper_count",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "tech_armor_gain",
+                            "value": 8
+                        },
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "1.0m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "helper_count",
+                            "value": 2
+                        },
+                        {
+                            "property": "infest_damage_taken_percent",
+                            "value": 15
+                        }
+                    ]
+                ]
             },
             "ability_familiar_ability01": {
                 "id": 2396527575,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "familiar\/familiar_sleep",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "cannot_cancel_during_channel",
+                    "displays_damage_impact",
+                    "cooldown_on_channel_end",
+                    "refund_half_cooldown_on_channel_interrupt"
                 ],
-                "upgrades": []
+                "cooldown": 175,
+                "cast_range": "24m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.18,
+                "channel_time": 1.9,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "sleep_duration": 4.25,
+                    "min_sleep_time": 0.5,
+                    "sleep_damage_threshold": 100,
+                    "sleep_move_speed": "1.5m",
+                    "awake_damage": 120,
+                    "height": "20m",
+                    "move_speed_and_dash_slow_pct": 25
+                },
+                "radius": "20m",
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "consume_stamina_on_wake",
+                            "value": 1
+                        },
+                        {
+                            "property": "no_stamina_regen_during_sleep",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "unstoppable_while_channeling",
+                            "value": 1
+                        },
+                        {
+                            "property": "damage_resist_pct_while_channeling",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -40
+                        }
+                    ]
+                ]
             }
         }
     },

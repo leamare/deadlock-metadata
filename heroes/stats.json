@@ -5495,72 +5495,58 @@
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_druid_set": {
-                    "can_zoom": true,
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 58.2011,
-                        "max_dps": 76.7091,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 7.249006,
-                        "clip_size": 30,
-                        "full_clip_sec": 2.835,
-                        "reload_time": 2.5,
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 1.749006,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.0945,
-                        "radius": 3,
-                        "speed": 22500,
-                        "lifetime": 2,
-                        "num_per_shot": 1,
-                        "num_per_sec": 10.582010582010582,
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
                         "gravity_scale": 0,
-                        "burst_amount": 1,
+                        "burst_amount": 0,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 1,
-                        "damage_falloff_end_scale": 0.1,
-                        "damage_falloff_bias": 0.5,
-                        "reload_move_speed": 10000
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
                     },
                     "range": {
-                        "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
                     },
                     "crit": {
-                        "start": 1.65,
-                        "end": 1.65,
-                        "start_range": 500,
-                        "end_range": 1500
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
                     },
                     "recoil": {
-                        "vertical": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstSlope": 0,
-                            "m_flBurstExponent": 0,
-                            "m_flBurstConstant": 0
-                        },
-                        "horizontal": {
-                            "m_Range": [
-                                0,
-                                0
-                            ],
-                            "m_flBurstExponent": 0
-                        },
-                        "speed": 5,
-                        "recovery_speed": 5,
-                        "recovery_delay_factor": 0.05,
-                        "shot_index_recovery_time_factor": 0.25
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
                     },
                     "spread": {
-                        "spread": 0.2,
-                        "standing_spread": 1.5,
+                        "spread": 0,
+                        "standing_spread": 0,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 1,
+                        "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 2
+                        "penalty_decay": 0
                     }
                 }
             }
@@ -5804,60 +5790,74 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.1,
+            "bullet_dmg_per_lvl": 0.06,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_necro_set": {
-                    "can_zoom": false,
+                    "can_zoom": true,
                     "damage": {
-                        "dps": 0,
-                        "max_dps": 0,
-                        "bullet_dmg": 0,
-                        "bullet_dmg_max": 1.4000000000000001,
-                        "clip_size": 0,
-                        "full_clip_sec": 0,
-                        "reload_time": 0,
+                        "dps": 41.1765,
+                        "max_dps": 49.4118,
+                        "bullet_dmg": 4.2,
+                        "bullet_dmg_max": 5.04,
+                        "clip_size": 40,
+                        "full_clip_sec": 4.08,
+                        "reload_time": 2.8,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0,
-                        "radius": 0,
-                        "speed": 0,
-                        "lifetime": 0,
-                        "num_per_shot": 0,
-                        "num_per_sec": 0,
+                        "cycle_time": 0.102,
+                        "radius": 3,
+                        "speed": 25000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.803921568627452,
                         "gravity_scale": 0,
-                        "burst_amount": 0,
+                        "burst_amount": 1,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 0,
-                        "damage_falloff_end_scale": 0,
-                        "damage_falloff_bias": 0,
-                        "reload_move_speed": 0
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.5,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
                     },
                     "range": {
-                        "range": 0,
-                        "base": 0,
-                        "max": 0
+                        "range": 7000,
+                        "base": 300,
+                        "max": 700
                     },
                     "crit": {
-                        "start": 0,
-                        "end": 0,
-                        "start_range": 0,
-                        "end_range": 0
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
                     },
                     "recoil": {
-                        "vertical": 0,
-                        "horizontal": 0,
-                        "speed": 0,
-                        "recovery_speed": 0,
-                        "recovery_delay_factor": 0,
-                        "shot_index_recovery_time_factor": 0
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0,
-                        "standing_spread": 0,
+                        "spread": 0.2,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0,
+                        "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 0
                     }
@@ -5885,11 +5885,7 @@
             "stamina": 2,
             "stamina_regen": 0.222222
         },
-        "scaling_stats": {
-            "tech_power": {
-                "bullet_damage": 0.03
-            }
-        }
+        "scaling_stats": []
     },
     "77": {
         "tag": "fencer",
@@ -6079,58 +6075,72 @@
             "attack_range_per_level": 0,
             "set": {
                 "ability_familiar_primary_weapon_bubblegun": {
-                    "can_zoom": false,
+                    "can_zoom": true,
                     "damage": {
-                        "dps": 0,
-                        "max_dps": 0,
-                        "bullet_dmg": 0,
-                        "bullet_dmg_max": 4.760000000000001,
-                        "clip_size": 0,
-                        "full_clip_sec": 0,
-                        "reload_time": 0,
+                        "dps": 61.5385,
+                        "max_dps": 79.8462,
+                        "bullet_dmg": 16,
+                        "bullet_dmg_max": 20.76,
+                        "clip_size": 13,
+                        "full_clip_sec": 3.3800000000000003,
+                        "reload_time": 2,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0,
-                        "radius": 0,
-                        "speed": 0,
-                        "lifetime": 0,
-                        "num_per_shot": 0,
-                        "num_per_sec": 0,
-                        "gravity_scale": 0,
-                        "burst_amount": 0,
+                        "cycle_time": 0.26,
+                        "radius": 10,
+                        "speed": 6300,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 3.846153846153846,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 0,
-                        "damage_falloff_end_scale": 0,
-                        "damage_falloff_bias": 0,
-                        "reload_move_speed": 0
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
                     },
                     "range": {
-                        "range": 0,
-                        "base": 0,
-                        "max": 0
+                        "range": 3000,
+                        "base": 787,
+                        "max": 2264
                     },
                     "crit": {
-                        "start": 0,
-                        "end": 0,
-                        "start_range": 0,
-                        "end_range": 0
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
                     },
                     "recoil": {
-                        "vertical": 0,
-                        "horizontal": 0,
-                        "speed": 0,
-                        "recovery_speed": 0,
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
                         "recovery_delay_factor": 0,
-                        "shot_index_recovery_time_factor": 0
+                        "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 0,
+                        "standing_spread": 1.5,
                         "pellet_spread": 0,
                         "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 0
+                        "penalty_decay": 2
                     }
                 }
             }
@@ -6143,14 +6153,14 @@
         "vitality": {
             "hp": 650,
             "hp_regen": 2,
-            "hp_per_lvl": 30,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
             "move_speed": 7.2,
-            "sprint_speed": 1.6,
+            "sprint_speed": 4,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -6164,7 +6174,7 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.1872,
+            "bullet_dmg_per_lvl": 0.134,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_werewolf_rifle": {
@@ -6173,7 +6183,7 @@
                         "dps": 0,
                         "max_dps": 0,
                         "bullet_dmg": 0,
-                        "bullet_dmg_max": 2.6208,
+                        "bullet_dmg_max": 1.8760000000000001,
                         "clip_size": 0,
                         "full_clip_sec": 0,
                         "reload_time": 0,

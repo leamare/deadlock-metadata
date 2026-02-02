@@ -3271,7 +3271,7 @@
         "english": "Luggage Cart",
         "polish": "Wózek Bagażowy",
         "schinese": "行李车",
-        "thai": "ลักเกจคาร์ท",
+        "thai": "ลักเกจคาร์ต",
         "czech": "Vozík se zavazadly",
         "spanish": "Carrito de Equipaje",
         "turkish": "Bavul Arabası",
@@ -3422,7 +3422,10 @@
         "french": "Mort en bocal",
         "indonesian": "Toples Kematian",
         "latam": "Frasco de los muertos",
-        "ukrainian": "Банка мертвих"
+        "ukrainian": "Банка мертвих",
+        "japanese": "死者の魔瓶",
+        "koreana": "죽음의 단지",
+        "spanish": "Tarro de los Muertos"
     },
     "2001589780": {
         "tag": "ability_necro_zombiewall",
@@ -3438,7 +3441,11 @@
         "turkish": "Hortlak Eller",
         "french": "Mains d'outre-tombe",
         "indonesian": "Tangan Penyergap",
-        "ukrainian": "Загребущі руки"
+        "ukrainian": "Загребущі руки",
+        "japanese": "グラスプハンド",
+        "koreana": "속박의 손",
+        "spanish": "Manos Agarradoras",
+        "latam": "Manos pegajosas"
     },
     "629925354": {
         "tag": "ability_necro_fear",
@@ -3454,7 +3461,11 @@
         "turkish": "Varlık Hırsızı",
         "french": "Vol d'essence",
         "indonesian": "Pencuri Serum",
-        "ukrainian": "Викрадення сутності"
+        "ukrainian": "Викрадення сутності",
+        "japanese": "生気吸収",
+        "koreana": "정수 강탈",
+        "spanish": "Robo de Esencia",
+        "latam": "Robo de esencia"
     },
     "4110547059": {
         "tag": "ability_necro_gravestone",
@@ -3463,13 +3474,18 @@
         "italian": "Contratto mortuario",
         "russian": "Загробный договор",
         "english": "Borrowed Decree",
-        "polish": "Pozagrobowa Umowa",
+        "polish": "Pozagrobowy Dekret",
         "schinese": "代行敕令",
         "czech": "Pomník padlým",
         "turkish": "Geçici Hüküm",
         "french": "Clause mortuaire",
         "indonesian": "Aturan Pinjaman",
-        "ukrainian": "Посмертна угода"
+        "ukrainian": "Посмертна угода",
+        "japanese": "屍鬼累々",
+        "thai": "บอร์โรว์ดดีครี",
+        "koreana": "빌려온 칙령",
+        "spanish": "Decreto Prestado",
+        "latam": "Decreto prestado"
     },
     "725153709": {
         "tag": "ability_fencer_throwblade"

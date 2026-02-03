@@ -722,10 +722,10 @@
         "name": "Silver",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1770088182,
         "status": "available",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": "dota:lycan"
     },
     "81": {
         "tag": "unicorn",

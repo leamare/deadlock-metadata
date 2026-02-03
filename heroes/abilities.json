@@ -1275,10 +1275,9 @@
                 "update_time": 1692734621,
                 "image": "wraith_teleport",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "none",
                 "behaviors": [
-                    "deploy_object",
                     "prevent_bot_usage",
                     "movement",
                     "can_set_quick_cast"
@@ -1449,10 +1448,9 @@
                 "update_time": 1676844248,
                 "image": "engineer_turret",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
-                    "deploy_object",
                     "displays_damage_impact",
                     "prevent_training_bot_usage",
                     "can_set_quick_cast"
@@ -1527,10 +1525,9 @@
                 "update_time": 1677288438,
                 "image": "engineer_resupply",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_friendly | trooper_friendly | minion_friendly",
                 "behaviors": [
-                    "deploy_object",
                     "displays_damage_impact",
                     "can_heal_players",
                     "can_set_quick_cast"
@@ -1786,10 +1783,9 @@
                 "update_time": 1633571723,
                 "image": "chrono\/chrono_time_wall",
                 "activation_time": "instant_cast",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_enemy | trooper_enemy | neutral",
                 "behaviors": [
-                    "deploy_object",
                     "displays_damage_impact",
                     "can_cancel_during_cast_delay",
                     "can_set_quick_cast"
@@ -2048,10 +2044,9 @@
                 "update_time": null,
                 "image": "sumo\/sumo_quantum",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_friendly",
                 "behaviors": [
-                    "deploy_object",
                     "displays_damage_impact",
                     "prevent_bot_usage",
                     "allow_alt_cast",
@@ -3072,7 +3067,7 @@
                 "image": "bebop\/bebop_sticky_bomb",
                 "activation_time": "instant_cast",
                 "targeting_location": "unit",
-                "unit_target": "all_enemy | trooper_friendly | hero_friendly",
+                "unit_target": "all_enemy | trooper_friendly | hero_friendly | minion_friendly",
                 "behaviors": [
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
@@ -3114,8 +3109,12 @@
                             "value": "5m"
                         },
                         {
+                            "property": "bonus_fire_rate",
+                            "value": 20
+                        },
+                        {
                             "property": "movement_speed_bonus_duration",
-                            "value": 3
+                            "value": 5
                         }
                     ]
                 ]
@@ -3999,8 +3998,8 @@
                 "special_props": {
                     "bleed_tick_rate": 1,
                     "movement_slow": 35,
-                    "impact_damage": 32,
-                    "bleed_d_p_s_per_stack": 4.6,
+                    "impact_damage": 28,
+                    "bleed_d_p_s_per_stack": 4,
                     "bleed_duration": 5,
                     "a_o_e_radius": "10m",
                     "ricochet_count": 1
@@ -4022,11 +4021,11 @@
                     [
                         {
                             "property": "impact_damage",
-                            "value": 36
+                            "value": 30
                         },
                         {
                             "property": "bleed_d_p_s_per_stack",
-                            "value": 6.3
+                            "value": 5.5
                         }
                     ]
                 ]
@@ -5584,10 +5583,9 @@
                 "update_time": 1669930587,
                 "image": "viscous\/viscous_goo_punch",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_friendly | all_enemy",
                 "behaviors": [
-                    "deploy_object",
                     "displays_damage_impact",
                     "can_set_quick_cast"
                 ],
@@ -9108,11 +9106,10 @@
                 "update_time": null,
                 "image": "magician\/magician_cloneturret",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "always_preview_radius",
-                    "deploy_object",
                     "prevent_bot_usage",
                     "can_set_quick_cast"
                 ],
@@ -9173,11 +9170,10 @@
                 "update_time": 0,
                 "image": "magician\/magician_animalcurse",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_enemy",
                 "behaviors": [
                     "always_preview_radius",
-                    "deploy_object",
                     "displays_damage_impact",
                     "projectile_pass_through_world",
                     "can_set_quick_cast"
@@ -9327,11 +9323,10 @@
                 "update_time": null,
                 "image": "trapper\/trapper_web_wall",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "always_preview_radius",
-                    "deploy_object",
                     "displays_damage_impact",
                     "can_set_quick_cast"
                 ],
@@ -9807,11 +9802,10 @@
                 "update_time": 0,
                 "image": "vampirebat\/vampirebat_sanguine_retreat",
                 "activation_time": "instant_cast",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": null,
                 "behaviors": [
                     "channelled",
-                    "deploy_object",
                     "displays_damage_impact",
                     "prevent_bot_usage",
                     "cannot_cancel_during_channel",
@@ -11172,7 +11166,6 @@
                 "targeting_location": "custom",
                 "unit_target": "all_enemy",
                 "behaviors": [
-                    "deploy_object",
                     "no_target",
                     "displays_damage_impact",
                     "allow_alt_cast",
@@ -11391,11 +11384,10 @@
                 "update_time": 0,
                 "image": "kelvin\/freezing_grenade",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "always_preview_radius",
-                    "deploy_object",
                     "displays_damage_impact",
                     "can_set_quick_cast"
                 ],
@@ -12473,7 +12465,7 @@
                     "tick_rate": 0.2,
                     "target_search_radius": "7m",
                     "target_search_delay_max": 1.25,
-                    "damage": 20,
+                    "damage": 16,
                     "target_search_delay_min": 1.5,
                     "max_hits": -1,
                     "summon_health": 20,
@@ -12488,7 +12480,7 @@
                     "pickups_per_death": 1,
                     "pickups_per_hero_death": 5,
                     "ability_charges_conditionally": 1,
-                    "kill_time": 0.25,
+                    "kill_time": 0.2,
                     "resource_per_pickup": 10,
                     "pickups_per_boss_death": 5,
                     "pickups_per_neutral_trooper_death": 2,
@@ -12542,10 +12534,9 @@
                 "update_time": null,
                 "image": "necro\/necro_hands",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "hero_enemy | creep_enemy | minion_enemy",
                 "behaviors": [
-                    "deploy_object",
                     "no_target",
                     "displays_damage_impact"
                 ],
@@ -12654,11 +12645,10 @@
                 "update_time": 0,
                 "image": "necro\/necro_gravestone",
                 "activation_time": "press",
-                "targeting_location": "ground",
+                "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "channelled",
-                    "deploy_object",
                     "no_target",
                     "displays_damage_impact",
                     "cannot_cancel_during_channel",
@@ -12732,7 +12722,7 @@
                             "value": 3
                         },
                         {
-                            "property": "max_health_damage_percentage",
+                            "property": "current_health_damage_percentage",
                             "value": 5
                         }
                     ]
@@ -13007,7 +12997,7 @@
                     "fading_slow_percent": 45,
                     "toss_duration": 0.4,
                     "toss_force": 300,
-                    "c_d_reduce_on_pillow_hit": 4
+                    "c_d_reduce_on_pillow_hit": 5
                 },
                 "radius": "5m",
                 "projectile": [],
@@ -13082,15 +13072,15 @@
                     [
                         {
                             "property": "bonus_barrier_amp_percent",
-                            "value": 20
+                            "value": 25
                         },
                         {
                             "property": "bonus_item_duration_percent",
-                            "value": 20
+                            "value": 25
                         },
                         {
                             "property": "bonus_item_range_percent",
-                            "value": 20
+                            "value": 25
                         }
                     ],
                     [
@@ -13169,7 +13159,7 @@
                         },
                         {
                             "property": "bonus_move_speed",
-                            "value": "1.0m"
+                            "value": "1.5m"
                         }
                     ],
                     [
@@ -13243,7 +13233,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -40
+                            "value": -55
                         }
                     ]
                 ]
@@ -13263,15 +13253,69 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "werewolf\/werewolf_slamfire",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "projectile_fired_as_bullet",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 20,
+                "duration": 5,
+                "unit_target_limit": 1,
+                "cast_delay": 0.45,
+                "charge_cooldown": -1,
+                "channel_move_speed": 200,
+                "special_props": {
+                    "damage": 40,
+                    "debuff_duration": 3,
+                    "bullet_spread": -1,
+                    "bullet_effectiveness": 0.1,
+                    "bullet_radius_override": 7,
+                    "spread_penalty_per_shot": 0.5,
+                    "recoil_recovery_speed": 0.1,
+                    "recoil_delay_factor": 0.05,
+                    "recoil_speed": 12,
+                    "recoil_strength": 12,
+                    "max_shots": 3,
+                    "bonus_fire_rate": 300,
+                    "accuracy_percentage": -25,
+                    "current_health_damage_percentage": 4,
+                    "proc_chance": 100,
+                    "linger_duration": 0.1
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "base_attack_damage_percent",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stack_duration",
+                            "value": 3
+                        },
+                        {
+                            "property": "max_stacks",
+                            "value": 3
+                        },
+                        {
+                            "property": "bonus_current_health_damage_percentage",
+                            "value": 10
+                        }
+                    ]
+                ]
             },
             "ability_werewolf_kickflip": {
                 "id": 2717130900,
@@ -13279,44 +13323,193 @@
                 "is_ultimate": false,
                 "slot": 2,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "werewolf\/werewolf_jumpback",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "dont_trigger_post_cast_on_cast_complete",
+                    "movement",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "deactivate_crouch_toggle_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 21,
+                "unit_target_limit": 1,
+                "cast_delay": 0.25,
+                "channel_time": 0.35,
+                "post_cast_duration": 0.25,
+                "charge_cooldown": -1,
+                "special_props": {
+                    "leap_radius": "1.7m",
+                    "leap_speed": 1200,
+                    "camera_turn_rate_max": 188,
+                    "enemy_push_force_away": 300,
+                    "self_push_force_up": 200,
+                    "slow_duration": 0.1,
+                    "time_scale_debuff": 95,
+                    "air_drag": 0.8,
+                    "fall_speed_max": 20,
+                    "enemy_push_force_up": 300,
+                    "self_push_force_camera_away": 600,
+                    "success_input_window": 0.3,
+                    "leap_forward_offset": "2.5m",
+                    "bonus_damage": 25,
+                    "mark_duration": 3
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -6
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stamina_restore",
+                            "value": 2
+                        }
+                    ],
+                    [
+                        {
+                            "property": "outgoing_damage_percent",
+                            "value": -25
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 5
+                        }
+                    ]
+                ]
             },
             "ability_werewolf_netshot": {
                 "id": 3983754897,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "werewolf\/werewolf_bola",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "projectile_fired_as_bullet",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 20,
+                "unit_target_limit": 1,
+                "cast_delay": 0.24,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 40,
+                    "debuff_duration": 1.5,
+                    "slow_percent": 20
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "slow_percent",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "property": "debuff_duration",
+                            "value": 0.75
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ricochet_count",
+                            "value": 2
+                        },
+                        {
+                            "property": "ricochet_range",
+                            "value": "15m"
+                        }
+                    ]
+                ]
             },
             "ability_werewolf_transformation": {
                 "id": 515791019,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "werewolf\/werewolf_lycancurse",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 22,
+                "duration": 15,
+                "unit_target_limit": 1,
+                "cast_delay": 0.2,
+                "post_cast_duration": 0.5,
+                "charge_cooldown": -1,
+                "channel_move_speed": 300,
+                "special_props": {
+                    "bonus_health": 350,
+                    "camera_turn_rate_max": 188,
+                    "bonus_move_speed": "3m",
+                    "auto_activate_health_threshold": 20,
+                    "bonus_duration_on_light_melee": 0.5,
+                    "bonus_duration_on_heavy_melee": 1.5,
+                    "bonus_duration_on_bullet": 0.15,
+                    "bonus_duration_per_health_percent_lost": 0.1,
+                    "tech_resist": 20,
+                    "bullet_resist": 20,
+                    "headshot_resist": -35,
+                    "bonus_fire_rate": 80,
+                    "rage_percentage_per_second_out_of_combat": -3,
+                    "max_rage": 100,
+                    "rage_per_damage": 0.255,
+                    "ready_duration": 3,
+                    "low_health_fraction": 30,
+                    "low_health_rage_bonus": 40,
+                    "ability_charges_conditionally": 1,
+                    "max_stacks": 15,
+                    "stack_duration": 5,
+                    "rage_percentage_per_second_in_combat": 1,
+                    "missing_health_percent_heal": 30,
+                    "ending_warning_sound_duration": 3
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bullet_resist",
+                            "value": 15
+                        },
+                        {
+                            "property": "tech_resist",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "3m"
+                        },
+                        {
+                            "property": "bonus_health",
+                            "value": 125
+                        }
+                    ],
+                    [
+                        {
+                            "property": "kill_duration_bonus",
+                            "value": 15
+                        }
+                    ]
+                ]
             }
         }
     },

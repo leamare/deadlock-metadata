@@ -1857,7 +1857,7 @@
         "vitality": {
             "hp": 800,
             "hp_regen": 2,
-            "hp_per_lvl": 48,
+            "hp_per_lvl": 45,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4730,8 +4730,8 @@
         },
         "melee": {
             "light_melee_damage": 50,
-            "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 1.58
+            "heavy_melee_damage": 125,
+            "melee_damage_per_lvl": 1.7
         },
         "vitality": {
             "hp": 720,
@@ -6174,62 +6174,76 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.134,
+            "bullet_dmg_per_lvl": 0.1206,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_werewolf_rifle": {
-                    "can_zoom": false,
+                    "can_zoom": true,
                     "damage": {
-                        "dps": 0,
-                        "max_dps": 0,
-                        "bullet_dmg": 0,
-                        "bullet_dmg_max": 1.8760000000000001,
-                        "clip_size": 0,
-                        "full_clip_sec": 0,
-                        "reload_time": 0,
-                        "reload_time_single_delay": 0
+                        "dps": 38.5,
+                        "max_dps": 50.3188,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 7.1884,
+                        "clip_size": 5,
+                        "full_clip_sec": 5,
+                        "reload_time": 0.3,
+                        "reload_time_single_delay": 0.5
                     },
                     "bullet": {
-                        "cycle_time": 0,
-                        "radius": 0,
-                        "speed": 0,
-                        "lifetime": 0,
-                        "num_per_shot": 0,
-                        "num_per_sec": 0,
+                        "cycle_time": 1,
+                        "radius": 4,
+                        "speed": 32000,
+                        "lifetime": 2,
+                        "num_per_shot": 7,
+                        "num_per_sec": 1,
                         "gravity_scale": 0,
-                        "burst_amount": 0,
+                        "burst_amount": 1,
                         "burst_cycle_time": 0,
-                        "damage_falloff_start_scale": 0,
-                        "damage_falloff_end_scale": 0,
-                        "damage_falloff_bias": 0,
-                        "reload_move_speed": 0
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
                     },
                     "range": {
-                        "range": 0,
-                        "base": 0,
-                        "max": 0
+                        "range": 7000,
+                        "base": 630,
+                        "max": 1800
                     },
                     "crit": {
-                        "start": 0,
-                        "end": 0,
-                        "start_range": 0,
-                        "end_range": 0
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
                     },
                     "recoil": {
-                        "vertical": 0,
-                        "horizontal": 0,
-                        "speed": 0,
-                        "recovery_speed": 0,
-                        "recovery_delay_factor": 0,
-                        "shot_index_recovery_time_factor": 0
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 12,
+                        "recovery_speed": 12,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
                         "spread": 0,
-                        "standing_spread": 0,
-                        "pellet_spread": 0,
-                        "penalty_per_shot": 0,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0.5,
+                        "penalty_per_shot": 0.6,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 0
+                        "penalty_decay": 2
                     }
                 }
             }

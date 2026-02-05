@@ -5823,7 +5823,7 @@
                     "range": {
                         "range": 7000,
                         "base": 300,
-                        "max": 700
+                        "max": 629
                     },
                     "crit": {
                         "start": 1.65,
@@ -5878,7 +5878,7 @@
             "spirit_resist": 0
         },
         "mobility": {
-            "move_speed": 6.6,
+            "move_speed": 7,
             "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
@@ -6180,22 +6180,22 @@
                 "citadel_weapon_werewolf_rifle": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 38.5,
-                        "max_dps": 50.3188,
+                        "dps": 42.7778,
+                        "max_dps": 55.9098,
                         "bullet_dmg": 5.5,
                         "bullet_dmg_max": 7.1884,
-                        "clip_size": 5,
-                        "full_clip_sec": 5,
+                        "clip_size": 6,
+                        "full_clip_sec": 5.3999999999999995,
                         "reload_time": 0.3,
                         "reload_time_single_delay": 0.5
                     },
                     "bullet": {
-                        "cycle_time": 1,
+                        "cycle_time": 0.9,
                         "radius": 4,
                         "speed": 32000,
                         "lifetime": 2,
                         "num_per_shot": 7,
-                        "num_per_sec": 1,
+                        "num_per_sec": 1.1111111111111112,
                         "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
@@ -6255,7 +6255,7 @@
         },
         "vitality": {
             "hp": 725,
-            "hp_regen": 2,
+            "hp_regen": 2.5,
             "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,

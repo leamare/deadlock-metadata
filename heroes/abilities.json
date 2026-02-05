@@ -10269,59 +10269,248 @@
                 "is_ultimate": false,
                 "slot": 1,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "priest\/priest_grenade",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "projectile",
+                    "displays_damage_impact",
+                    "can_heal_players",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 25,
+                "unit_target_limit": 1,
+                "cast_delay": 0.03,
+                "post_cast_duration": 0.15,
+                "channel_move_speed": -1,
+                "radius": "4.5m",
+                "special_props": {
+                    "damage": 35,
+                    "camera_turn_rate_max": 15,
+                    "debuff_duration": 3.5,
+                    "dps": 10,
+                    "heal_amp_regen_penalty_percent": -30,
+                    "tick_rate": 0.2,
+                    "bounce_grenade_speed": 1100,
+                    "burn_radius": "4.5m",
+                    "burn_linger_duration": 0.15,
+                    "heal_amp_receive_penalty_percent": -30,
+                    "pre_bounce_lifetime": 15,
+                    "bounce_lifetime": 0.5
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "radius",
+                            "value": "1.5m"
+                        },
+                        {
+                            "property": "burn_radius",
+                            "value": "1.5m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "heal_amp_receive_penalty_percent",
+                            "value": -20
+                        },
+                        {
+                            "property": "heal_amp_regen_penalty_percent",
+                            "value": -20
+                        },
+                        {
+                            "property": "ability_charges",
+                            "value": 1
+                        },
+                        {
+                            "property": "ability_cooldown_between_charge",
+                            "value": 3
+                        }
+                    ]
+                ]
             },
             "ability_priest_knockback": {
                 "id": 1764146857,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "priest\/priest_shotgun",
+                "activation_time": "instant_cast",
+                "targeting_location": "unit",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 26,
+                "cast_range": "10m",
+                "unit_target_limit": 99,
+                "cast_delay": 0.25,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 60,
+                    "bonus_damage": 30,
+                    "stun_duration": 0.65,
+                    "knockback_speed": 1200,
+                    "bonus_knockback_distance": "3.5m",
+                    "targeting_cone_angle": 60,
+                    "push_force": 6,
+                    "self_push_force": 500,
+                    "max_push_force_horizontal": 1400,
+                    "max_push_force_vertical": 500,
+                    "trace_distance_for_stun": "6.5m"
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "damage",
+                            "value": 25
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        },
+                        {
+                            "property": "ability_cast_range",
+                            "value": "2.5m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "buff_duration",
+                            "value": 5
+                        }
+                    ]
+                ]
             },
             "ability_priest_beartrap": {
                 "id": 11154161,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 1682452561,
+                "image": "priest\/priest_trap",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy",
                 "behaviors": [
-                    ""
+                    "projectile",
+                    "displays_damage_impact",
+                    "prevent_training_bot_usage"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "charges": 2,
+                "charge_cooldown": 8,
+                "channel_move_speed": -1,
+                "radius": "2m",
+                "special_props": {
+                    "trap_height": "2m",
+                    "lifetime": 30,
+                    "damage": 80,
+                    "immobilize_duration": 1.5,
+                    "arm_time": 0.5,
+                    "trip_up_speed": 250,
+                    "debuff_duration": 5,
+                    "tick_rate": 0.1,
+                    "tether_radius": "0.3m",
+                    "tether_duration": 0.6
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12
+                        }
+                    ],
+                    [
+                        {
+                            "property": "immobilize_duration",
+                            "value": 0.75
+                        }
+                    ],
+                    [
+                        {
+                            "property": "incoming_damage_percent_from_caster",
+                            "value": 20
+                        }
+                    ]
+                ]
             },
             "ability_priest_weaponswap": {
                 "id": 2918874166,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "priest\/priest_crossbow",
+                "activation_time": "instant_cast_toggle",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "dont_interrupt_slide_on_cast",
+                    "refund_half_cooldown_on_channel_interrupt"
                 ],
-                "upgrades": []
+                "cooldown": 140,
+                "duration": 15,
+                "unit_target_limit": 1,
+                "cast_delay": 0.3,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 120,
+                    "execute_threshold": 8,
+                    "push_force": 500,
+                    "explode_radius": "0.2m",
+                    "swap_end_delay": 0.6,
+                    "stake_count": 3,
+                    "bonus_damage": 100,
+                    "bonus_amp_to_vampire": 5,
+                    "bonus_move_speed": "0m"
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "1.2m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_damage",
+                            "value": 150
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "all_stakes_blessed",
+                            "value": 1
+                        }
+                    ]
+                ]
             }
         }
     },

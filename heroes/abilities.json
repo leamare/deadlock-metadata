@@ -13728,30 +13728,120 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "unicorn\/unicorn_flare",
+                "activation_time": "instant_cast",
+                "targeting_location": "unit",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "show_cast_range_as_sat_sphere_while_casting"
                 ],
-                "upgrades": []
+                "cooldown": 20,
+                "duration": 12,
+                "cast_range": "10m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.3,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "flare_damage": 50,
+                    "damage": 25,
+                    "tick_rate": 0.5,
+                    "targeting_cone_angle": 70,
+                    "extra_sweep_radius": "2m",
+                    "ability_lifesteal_percent_hero": 20
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -10
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cast_range",
+                            "value": "3m"
+                        },
+                        {
+                            "property": "ability_lifesteal_percent_hero",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 25
+                        },
+                        {
+                            "property": "damage",
+                            "value": 0.2,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
             },
             "ability_unicorn_prismaticguard": {
                 "id": 1950738949,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "unicorn\/unicorn_shield",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | trooper_enemy | neutral",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world"
                 ],
-                "upgrades": []
+                "cooldown": 35,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "max_lifetime": 4,
+                    "buff_duration": 4,
+                    "explode_radius": "15m",
+                    "debuff_duration": 1.75,
+                    "bonus_move_speed": "1.0m",
+                    "combat_barrier": 120,
+                    "barrier_damage_percentage": 50
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "2.5m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "combat_barrier",
+                            "value": 100
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 0.7,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "debuff_duration",
+                            "value": 2
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -18
+                        }
+                    ]
+                ]
             },
             "ability_unicorn_luminousstrike": {
                 "id": 1011349580,
@@ -13759,29 +13849,129 @@
                 "is_ultimate": false,
                 "slot": 3,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "unicorn\/unicorn_luminousflux",
+                "activation_time": "press",
+                "targeting_location": "ground",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy | neutral",
                 "behaviors": [
-                    ""
+                    "always_preview_radius",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "can_set_quick_cast"
                 ],
-                "upgrades": []
+                "cooldown": 30,
+                "cast_range": "30m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.2,
+                "charges": 1,
+                "charge_cooldown": 2,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "explosion_interval": 0.7,
+                    "pre_explosion_duration": 1.4,
+                    "explosion_radius": "8m",
+                    "impact_damage": 65,
+                    "climb_height": "50.0m",
+                    "tick_rate": 0.5,
+                    "buff_max_stacks": 6,
+                    "buff_duration": 25,
+                    "magic_increase_per_stack": 8,
+                    "buff_delay": 0.75,
+                    "post_explosion_duration": 0.8
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_charges",
+                            "value": 2
+                        }
+                    ],
+                    [
+                        {
+                            "property": "impact_damage",
+                            "value": 60
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12
+                        }
+                    ],
+                    [
+                        {
+                            "property": "magic_increase_per_stack",
+                            "value": 3
+                        },
+                        {
+                            "property": "fire_rate_per_stack",
+                            "value": 6
+                        }
+                    ]
+                ]
             },
             "ability_unicorn_dazzlingorb": {
                 "id": 2590796390,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "unicorn\/unicorn_orb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | trooper_enemy | minion_enemy | neutral",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "projectile",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "cooldown_on_channel_end"
                 ],
-                "upgrades": []
+                "cooldown": 140,
+                "unit_target_limit": 1,
+                "cast_delay": 0.75,
+                "channel_time": 9999,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 115,
+                    "slow_duration": 1.5,
+                    "slow_percent": 40,
+                    "ground_dash_reduction_percent": -25,
+                    "max_bounces": 8,
+                    "bounce_radius": "17m",
+                    "priority_bounce_radius": "13m",
+                    "bounce_grace": 4.5,
+                    "next_target_duration": 4
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ground_dash_reduction_percent",
+                            "value": -15
+                        },
+                        {
+                            "property": "slow_percent",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_bounces",
+                            "value": 10
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -35
+                        }
+                    ]
+                ]
             }
         }
     },

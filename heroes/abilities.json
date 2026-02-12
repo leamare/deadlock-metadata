@@ -12937,30 +12937,128 @@
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "fencer\/fencer_sigil",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "no_target",
+                    "displays_damage_impact",
+                    "show_cast_range_as_sat_sphere_while_casting"
                 ],
-                "upgrades": []
+                "cooldown": 12,
+                "unit_target_limit": 1,
+                "cast_delay": 0.5,
+                "charge_cooldown": -1,
+                "channel_move_speed": "1.3m",
+                "special_props": {
+                    "sigil_radius": "6.5m",
+                    "sigil_height": "15m",
+                    "damage": 100,
+                    "jump_velocity_hidden": "10.5m",
+                    "slow_duration": 4,
+                    "slow_percent": 30,
+                    "trace_to_ground_distance": 1000,
+                    "fall_speed_max": 1,
+                    "air_speed_max": 70,
+                    "air_drag": 2
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "damage",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_fire_rate",
+                            "value": 20
+                        },
+                        {
+                            "property": "bonus_bullet_speed_percent",
+                            "value": 50
+                        },
+                        {
+                            "property": "buff_duration",
+                            "value": 10
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stamina_to_restore",
+                            "value": 2
+                        },
+                        {
+                            "property": "resets_air_limit",
+                            "value": 1
+                        }
+                    ]
+                ]
             },
             "ability_fencer_riposte": {
                 "id": 2006773718,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 0,
+                "image": "fencer\/fencer_riposte",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 22,
+                "unit_target_limit": 1,
+                "channel_time": 0.8,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "dash_speed": 2400,
+                    "dash_range": "20m",
+                    "side_move_speed": -100,
+                    "turn_rate_max": 10,
+                    "dash_radius": "2.2m",
+                    "counterattack_anti_mash_delay": "0.2s",
+                    "parry_window": "0.3s",
+                    "damage_threshold": 60,
+                    "slash_cone_angle": 90,
+                    "slash_radius": "6m",
+                    "slash_half_width": "1m",
+                    "slow_duration": 4,
+                    "slow_percent": 40,
+                    "ability_lifesteal_percent_hero": 50,
+                    "stun_duration": 0.6,
+                    "damping_factor": 0.5,
+                    "lift_height": 240,
+                    "move_speed_max": "4m",
+                    "bullet_resist_reduction": -15,
+                    "bullet_resist_reduction_duration": 3
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -7
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bullet_resist_reduction",
+                            "value": -15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stun_duration",
+                            "value": 1.2
+                        }
+                    ]
+                ]
             },
             "ability_fencer_lunge": {
                 "id": 147493976,
@@ -12968,29 +13066,182 @@
                 "is_ultimate": false,
                 "slot": 3,
                 "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "image": "fencer\/fencer_lungingstab",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "trophy_friendly | all_enemy",
                 "behaviors": [
-                    ""
+                    "displays_damage_impact",
+                    "dont_trigger_post_cast_on_cast_complete",
+                    "movement",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "deactivate_crouch_toggle_on_cast"
                 ],
-                "upgrades": []
+                "cooldown": 26,
+                "duration": 8,
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "post_cast_duration": 0.2,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "dash_angle_threshold": 89,
+                    "dash_speed": 1100,
+                    "attacking_dash_speed": 2200,
+                    "dash_range": "5.0m",
+                    "attack_dash_range": "3.0m",
+                    "dash_radius": "2.0m",
+                    "hold_duration_min": 0.25,
+                    "perfect_hold_time_start": 0.525,
+                    "perfect_window_duration": 0.25,
+                    "hold_duration_max": 1.1,
+                    "base_damage": 30,
+                    "max_damage_before_perfect": 45,
+                    "perfect_damage": 75,
+                    "pct_travel_distance_to_damage_in": 80,
+                    "max_proc_bleed_damage_percent": 50,
+                    "slash_radius": "1.75m",
+                    "slash_length": "13m",
+                    "slash_collision_radius": 5,
+                    "max_stacks": 2,
+                    "max_stabs": 3,
+                    "recast_time": 5,
+                    "parry_cooldown_reduction": 5
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "heal_fixed_health",
+                            "value": 35
+                        },
+                        {
+                            "property": "heal_fixed_health",
+                            "value": 0.75,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -10
+                        },
+                        {
+                            "property": "dash_speed",
+                            "value": 550
+                        }
+                    ],
+                    [
+                        {
+                            "property": "base_damage",
+                            "value": 30
+                        },
+                        {
+                            "property": "base_damage",
+                            "value": 1.15,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "max_damage_before_perfect",
+                            "value": 45
+                        },
+                        {
+                            "property": "max_damage_before_perfect",
+                            "value": 1.15,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "perfect_damage",
+                            "value": 75
+                        },
+                        {
+                            "property": "perfect_damage",
+                            "value": 1.15,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "attack_dash_range",
+                            "value": "3.0m"
+                        }
+                    ]
+                ]
             },
             "ability_fencer_ultimate": {
                 "id": 494112189,
                 "is_active": false,
-                "is_ultimate": false,
+                "is_ultimate": true,
                 "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
+                "update_time": 1759190587,
+                "image": "fencer\/fencer_ult",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "trophy_friendly | all_enemy",
                 "behaviors": [
-                    ""
+                    "channelled",
+                    "dont_trigger_post_cast_on_cast_complete",
+                    "movement",
+                    "no_target",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "deactivate_crouch_toggle_on_cast",
+                    "cannot_cancel_during_channel",
+                    "cooldown_on_channel_end",
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "displays_damage_impact"
                 ],
-                "upgrades": []
+                "cooldown": 125,
+                "unit_target_limit": 1,
+                "cast_delay": 1.5,
+                "channel_time": 9999,
+                "post_cast_duration": 0.2,
+                "charge_cooldown": -1,
+                "channel_move_speed": "0m",
+                "special_props": {
+                    "tech_cleave_expire_time": 0.35,
+                    "dash_angle_threshold": 89,
+                    "dash_speed": 10000,
+                    "dash_range": "27m",
+                    "dash_radius": "7m",
+                    "gap_distance_to_wall": 180,
+                    "travel_dist_pct_before_wall_gap_check": 70,
+                    "debuff_duration": 1.8,
+                    "caster_lock_duration": 1.8,
+                    "time_scale_debuff": 70,
+                    "vacuum_speed": 400,
+                    "impact_damage": 70,
+                    "delayed_damage": 250,
+                    "ground_dash_reduction_percent": -30,
+                    "move_speed_penalty_max_speed": 200,
+                    "camera_distance": 250,
+                    "side_move_speed_reduction": -100,
+                    "turn_rate_max_during_cast": 999,
+                    "fall_speed_max": 1,
+                    "air_speed_max": 70,
+                    "low_health_enemy_threshold_pct": 50,
+                    "bonus_damage_percent": 60,
+                    "incoming_damage_reduction_percent": 70,
+                    "heal_amp_receive_penalty_percent": 100,
+                    "heal_amp_regen_penalty_percent": 100,
+                    "timer_sound_duration": 1
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "dash_range",
+                            "value": "8m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -40
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bonus_damage_percent",
+                            "value": 40
+                        }
+                    ]
+                ]
             }
         }
     },

@@ -728,7 +728,7 @@
         "tag": "upgrade_superior_stamina",
         "brazilian": "Revigoração",
         "german": "Meisterhafte Ausdauer",
-        "italian": "Controllo della resistenza",
+        "italian": "Controllo della stamina",
         "russian": "Превосходная выносливость",
         "english": "Stamina Mastery",
         "japanese": "スタミナマスタリー",
@@ -768,7 +768,7 @@
         "tag": "upgrade_improved_stamina",
         "brazilian": "Vigor Adicional",
         "german": "Zusätzliche Ausdauer",
-        "italian": "Resistenza extra",
+        "italian": "Stamina extra",
         "russian": "Добавочная выносливость",
         "english": "Extra Stamina",
         "japanese": "エクストラスタミナ",
@@ -945,24 +945,7 @@
         "ukrainian": "Зменшувач опору кулям"
     },
     "869090587": {
-        "tag": "upgrade_tech_bleed",
-        "brazilian": "Reverberação Mística",
-        "german": "Mystischer Hall",
-        "italian": "Riverbero mistico",
-        "russian": "Мистический отзвук",
-        "english": "Mystic Reverb",
-        "japanese": "ミスティックリバーブ",
-        "polish": "Mistyczny Pogłos",
-        "schinese": "秘术余波",
-        "thai": "​มิสติก​รีเวิร์บ​",
-        "czech": "Mystický opakovač",
-        "koreana": "신비의 반향",
-        "spanish": "Reverberación Mística",
-        "turkish": "Mistik Titreşimler",
-        "french": "Réverbération mystique",
-        "indonesian": "Gema Mistis",
-        "latam": "Reverberación mística",
-        "ukrainian": "Містичний відгомін"
+        "tag": "upgrade_tech_bleed"
     },
     "1998374645": {
         "tag": "upgrade_magic_burst",

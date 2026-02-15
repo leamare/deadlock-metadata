@@ -4748,7 +4748,7 @@
             "melee_damage_per_lvl": 1.7
         },
         "vitality": {
-            "hp": 720,
+            "hp": 750,
             "hp_regen": 2,
             "hp_per_lvl": 38,
             "bullet_resist": 0,
@@ -5810,10 +5810,10 @@
                 "citadel_weapon_necro_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 41.1765,
-                        "max_dps": 49.4118,
-                        "bullet_dmg": 4.2,
-                        "bullet_dmg_max": 5.04,
+                        "dps": 39.2157,
+                        "max_dps": 47.451,
+                        "bullet_dmg": 4,
+                        "bullet_dmg_max": 4.84,
                         "clip_size": 40,
                         "full_clip_sec": 4.08,
                         "reload_time": 2.8,
@@ -5837,7 +5837,7 @@
                     "range": {
                         "range": 7000,
                         "base": 300,
-                        "max": 629
+                        "max": 670
                     },
                     "crit": {
                         "start": 1.65,
@@ -5907,16 +5907,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.6,
+            "bullet_dmg_per_lvl": 0.75,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_fencer_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 44.7368,
-                        "max_dps": 66.8421,
+                        "max_dps": 72.3684,
                         "bullet_dmg": 17,
-                        "bullet_dmg_max": 25.4,
+                        "bullet_dmg_max": 27.5,
                         "clip_size": 15,
                         "full_clip_sec": 5.699999999999999,
                         "reload_time": 2.5,
@@ -6174,7 +6174,7 @@
             }
         },
         "melee": {
-            "light_melee_damage": 50,
+            "light_melee_damage": 58,
             "heavy_melee_damage": 116,
             "melee_damage_per_lvl": 1.58
         },
@@ -6212,8 +6212,8 @@
                         "max_dps": 55.9098,
                         "bullet_dmg": 5.5,
                         "bullet_dmg_max": 7.1884,
-                        "clip_size": 6,
-                        "full_clip_sec": 5.3999999999999995,
+                        "clip_size": 7,
+                        "full_clip_sec": 6.3,
                         "reload_time": 0.3,
                         "reload_time_single_delay": 0.5
                     },
@@ -6234,7 +6234,7 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 630,
+                        "base": 787,
                         "max": 1800
                     },
                     "crit": {
@@ -6282,7 +6282,7 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 725,
+            "hp": 800,
             "hp_regen": 2.5,
             "hp_per_lvl": 29,
             "bullet_resist": 0,
@@ -6305,16 +6305,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.4,
+            "bullet_dmg_per_lvl": 0.6,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_unicorn_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 47.9167,
-                        "max_dps": 57.25,
-                        "bullet_dmg": 28.75,
-                        "bullet_dmg_max": 34.35,
+                        "dps": 30,
+                        "max_dps": 44,
+                        "bullet_dmg": 18,
+                        "bullet_dmg_max": 26.4,
                         "clip_size": 8,
                         "full_clip_sec": 4.8,
                         "reload_time": 2,
@@ -6388,7 +6388,7 @@
             "hp": 750,
             "hp_regen": 2,
             "hp_per_lvl": 35,
-            "bullet_resist": 0,
+            "bullet_resist": -6,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },

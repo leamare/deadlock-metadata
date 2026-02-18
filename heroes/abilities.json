@@ -10372,7 +10372,7 @@
                     "self_push_force": 500,
                     "max_push_force_horizontal": 1400,
                     "max_push_force_vertical": 500,
-                    "wall_stun_distance": "6.5m"
+                    "wall_stun_distance": "7m"
                 },
                 "upgrades": [
                     [
@@ -12947,7 +12947,8 @@
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "movement"
                 ],
                 "cooldown": 12,
                 "unit_target_limit": 1,
@@ -13038,8 +13039,8 @@
                     "damping_factor": 0.5,
                     "lift_height": 240,
                     "move_speed_max": "4m",
-                    "bullet_resist_reduction": -15,
-                    "bullet_resist_reduction_duration": 3
+                    "melee_resist_reduction": -22,
+                    "melee_resist_reduction_duration": 3
                 },
                 "upgrades": [
                     [
@@ -13050,8 +13051,8 @@
                     ],
                     [
                         {
-                            "property": "bullet_resist_reduction",
-                            "value": -15
+                            "property": "melee_resist_reduction",
+                            "value": -22
                         }
                     ],
                     [
@@ -13092,19 +13093,19 @@
                     "attacking_dash_speed": 2200,
                     "dash_range": "5.0m",
                     "attack_dash_range": "3.0m",
-                    "dash_radius": "2.0m",
+                    "dash_radius": "1.85m",
                     "hold_duration_min": 0.25,
                     "perfect_hold_time_start": 0.525,
                     "perfect_window_duration": 0.25,
                     "hold_duration_max": 1.1,
-                    "base_damage": 30,
-                    "max_damage_before_perfect": 45,
-                    "perfect_damage": 75,
+                    "base_damage": 25,
+                    "max_damage_before_perfect": 40,
+                    "perfect_damage": 65,
                     "pct_travel_distance_to_damage_in": 80,
                     "max_proc_bleed_damage_percent": 50,
-                    "slash_radius": "1.75m",
+                    "slash_radius": "1.6m",
                     "slash_length": "13m",
-                    "slash_collision_radius": 5,
+                    "slash_collision_radius": 4.5,
                     "max_stacks": 2,
                     "max_stabs": 3,
                     "recast_time": 5,
@@ -13114,7 +13115,7 @@
                     [
                         {
                             "property": "heal_fixed_health",
-                            "value": 35
+                            "value": 30
                         },
                         {
                             "property": "heal_fixed_health",
@@ -13161,7 +13162,7 @@
                         },
                         {
                             "property": "perfect_damage",
-                            "value": 75
+                            "value": 65
                         },
                         {
                             "property": "perfect_damage",
@@ -13217,7 +13218,7 @@
                     "time_scale_debuff": 70,
                     "vacuum_speed": 400,
                     "impact_damage": 70,
-                    "delayed_damage": 250,
+                    "delayed_damage": 225,
                     "ground_dash_reduction_percent": -30,
                     "move_speed_penalty_max_speed": 200,
                     "camera_distance": 250,
@@ -13228,8 +13229,6 @@
                     "low_health_enemy_threshold_pct": 50,
                     "bonus_damage_percent": 60,
                     "incoming_damage_reduction_percent": 70,
-                    "heal_amp_receive_penalty_percent": 100,
-                    "heal_amp_regen_penalty_percent": 100,
                     "timer_sound_duration": 1
                 },
                 "upgrades": [
@@ -14001,12 +14000,13 @@
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "use_lag_compensation_for_unit_targeting"
                 ],
                 "cooldown": 20,
                 "duration": 12,
                 "cast_range": "10m",
-                "unit_target_limit": 1,
+                "unit_target_limit": 100,
                 "cast_delay": 0.3,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,

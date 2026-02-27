@@ -36,6 +36,7 @@
     },
     "3": {
         "tag": "hornet",
+        "tag_alt": "vindicta",
         "old_name": [
             "wasp"
         ],
@@ -50,26 +51,26 @@
         ]
     },
     "4": {
-        "tag": "ghost",
+        "tag": "spectre",
         "old_name": [
-            "spectre"
+            "ghost"
         ],
         "name": "Lady Geist",
         "alt_name": "Oathkeeper",
-        "aliases": "spectre",
+        "aliases": "ghost",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
         "inspiration": []
     },
     "6": {
-        "tag": "atlas",
+        "tag": "bull",
         "old_name": [
-            "bull"
+            "atlas"
         ],
         "name": "Abrams",
         "alt_name": "Detective",
-        "aliases": "bull",
+        "aliases": "atlas",
         "released": 1712094154,
         "status": "available",
         "complexity": 1,
@@ -91,9 +92,9 @@
         "inspiration": []
     },
     "8": {
-        "tag": "forge",
+        "tag": "engineer",
         "old_name": [
-            "engineer"
+            "forge"
         ],
         "name": "McGinnis",
         "alt_name": "Maggie",
@@ -107,6 +108,7 @@
     },
     "10": {
         "tag": "chrono",
+        "alt_tag": "paradox",
         "old_name": null,
         "name": "Paradox",
         "alt_name": null,
@@ -117,13 +119,12 @@
         "inspiration": []
     },
     "11": {
-        "tag": "dynamo",
-        "old_name": [
-            "sumo"
-        ],
+        "tag": "sumo",
+        "alt_tag": "dynamo",
+        "old_name": null,
         "name": "Dynamo",
         "alt_name": "Professor",
-        "aliases": "sumo",
+        "aliases": "dynamo",
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
@@ -158,6 +159,7 @@
     },
     "14": {
         "tag": "astro",
+        "alt_tag": "holliday",
         "old_name": null,
         "name": "Holliday",
         "alt_name": "Sheriff",
@@ -195,9 +197,10 @@
         "inspiration": []
     },
     "17": {
-        "tag": "orion",
+        "tag": "archer",
+        "alt_tag": "grey_talon",
         "old_name": [
-            "archer"
+            "orion"
         ],
         "name": "Grey Talon",
         "alt_name": "Wesley Grey",
@@ -210,9 +213,9 @@
         ]
     },
     "18": {
-        "tag": "krill",
+        "tag": "digger",
         "old_name": [
-            "digger",
+            "krill",
             "grappler"
         ],
         "name": "Mo & Krill",
@@ -575,6 +578,7 @@
     },
     "67": {
         "tag": "bookworm",
+        "alt_tag": "paige",
         "old_name": null,
         "name": "Paige",
         "alt_name": null,
@@ -718,6 +722,7 @@
     },
     "80": {
         "tag": "werewolf",
+        "alt_tag": "werewolf_wolf",
         "old_name": null,
         "name": "Silver",
         "alt_name": null,

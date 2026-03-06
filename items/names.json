@@ -1824,15 +1824,20 @@
     "98582110": {
         "tag": "upgrade_weapon_backstabber",
         "brazilian": "Perseguidor",
+        "german": "Verräter-Klinge",
         "italian": "Ombra",
         "english": "Stalker",
         "japanese": "ストーカー",
+        "polish": "Prześladowca",
         "schinese": "追猎",
         "thai": "นักสะกดรอย",
         "czech": "Stalkerovo ostří",
         "koreana": "추격자",
+        "spanish": "Acechador",
         "turkish": "İz Sürücü",
-        "indonesian": "Penguntit"
+        "french": "Rôdeur",
+        "indonesian": "Penguntit",
+        "latam": "Acechador"
     },
     "2519598785": {
         "tag": "upgrade_boundless_spirit",

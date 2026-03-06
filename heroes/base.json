@@ -1,6 +1,8 @@
 {
     "0": {
         "tag": "base",
+        "internal_tag": "base",
+        "tag_alt": null,
         "old_name": null,
         "name": "base",
         "alt_name": null,
@@ -12,6 +14,8 @@
     },
     "1": {
         "tag": "inferno",
+        "internal_tag": "inferno",
+        "tag_alt": null,
         "old_name": null,
         "name": "Infernus",
         "alt_name": null,
@@ -25,6 +29,8 @@
     },
     "2": {
         "tag": "gigawatt",
+        "internal_tag": "gigawatt",
+        "tag_alt": null,
         "old_name": null,
         "name": "Seven",
         "alt_name": "Prisoner 4279",
@@ -36,6 +42,7 @@
     },
     "3": {
         "tag": "hornet",
+        "internal_tag": "hornet",
         "tag_alt": "vindicta",
         "old_name": [
             "wasp"
@@ -52,6 +59,8 @@
     },
     "4": {
         "tag": "spectre",
+        "internal_tag": "ghost",
+        "tag_alt": null,
         "old_name": [
             "ghost"
         ],
@@ -65,6 +74,8 @@
     },
     "6": {
         "tag": "bull",
+        "internal_tag": "atlas",
+        "tag_alt": null,
         "old_name": [
             "atlas"
         ],
@@ -82,6 +93,8 @@
     },
     "7": {
         "tag": "wraith",
+        "internal_tag": "wraith",
+        "tag_alt": null,
         "old_name": null,
         "name": "Wraith",
         "alt_name": null,
@@ -93,6 +106,8 @@
     },
     "8": {
         "tag": "engineer",
+        "internal_tag": "forge",
+        "tag_alt": null,
         "old_name": [
             "forge"
         ],
@@ -108,7 +123,8 @@
     },
     "10": {
         "tag": "chrono",
-        "alt_tag": "paradox",
+        "internal_tag": "chrono",
+        "tag_alt": null,
         "old_name": null,
         "name": "Paradox",
         "alt_name": null,
@@ -120,7 +136,8 @@
     },
     "11": {
         "tag": "sumo",
-        "alt_tag": "dynamo",
+        "internal_tag": "dynamo",
+        "tag_alt": null,
         "old_name": null,
         "name": "Dynamo",
         "alt_name": "Professor",
@@ -134,6 +151,8 @@
     },
     "12": {
         "tag": "kelvin",
+        "internal_tag": "kelvin",
+        "tag_alt": null,
         "old_name": null,
         "name": "Kelvin",
         "alt_name": "Ice Wight",
@@ -145,6 +164,8 @@
     },
     "13": {
         "tag": "haze",
+        "internal_tag": "haze",
+        "tag_alt": null,
         "old_name": null,
         "name": "Haze",
         "alt_name": "Assassin",
@@ -159,7 +180,8 @@
     },
     "14": {
         "tag": "astro",
-        "alt_tag": "holliday",
+        "internal_tag": "astro",
+        "tag_alt": null,
         "old_name": null,
         "name": "Holliday",
         "alt_name": "Sheriff",
@@ -173,6 +195,8 @@
     },
     "15": {
         "tag": "bebop",
+        "internal_tag": "bebop",
+        "tag_alt": null,
         "old_name": null,
         "name": "Bebop",
         "alt_name": "Robot",
@@ -187,6 +211,8 @@
     },
     "16": {
         "tag": "nano",
+        "internal_tag": "nano",
+        "tag_alt": null,
         "old_name": null,
         "name": "Calico",
         "alt_name": null,
@@ -198,7 +224,8 @@
     },
     "17": {
         "tag": "archer",
-        "alt_tag": "grey_talon",
+        "internal_tag": "orion",
+        "tag_alt": null,
         "old_name": [
             "orion"
         ],
@@ -214,6 +241,8 @@
     },
     "18": {
         "tag": "digger",
+        "internal_tag": "krill",
+        "tag_alt": null,
         "old_name": [
             "krill",
             "grappler"
@@ -230,6 +259,8 @@
     },
     "19": {
         "tag": "shiv",
+        "internal_tag": "shiv",
+        "tag_alt": null,
         "old_name": [
             "weremole"
         ],
@@ -243,6 +274,8 @@
     },
     "20": {
         "tag": "tengu",
+        "internal_tag": "tengu",
+        "tag_alt": null,
         "old_name": null,
         "name": "Ivy",
         "alt_name": "Gargoyle",
@@ -256,6 +289,8 @@
     },
     "21": {
         "tag": "kali",
+        "internal_tag": "kali",
+        "tag_alt": null,
         "old_name": null,
         "name": "Kali",
         "alt_name": null,
@@ -267,6 +302,8 @@
     },
     "25": {
         "tag": "warden",
+        "internal_tag": "warden",
+        "tag_alt": null,
         "old_name": null,
         "name": "Warden",
         "alt_name": null,
@@ -278,6 +315,8 @@
     },
     "27": {
         "tag": "yamato",
+        "internal_tag": "yamato",
+        "tag_alt": null,
         "old_name": null,
         "name": "Yamato",
         "alt_name": "Kaori",
@@ -291,6 +330,8 @@
     },
     "31": {
         "tag": "lash",
+        "internal_tag": "lash",
+        "tag_alt": null,
         "old_name": null,
         "name": "Lash",
         "alt_name": "Jacob",
@@ -302,6 +343,8 @@
     },
     "35": {
         "tag": "viscous",
+        "internal_tag": "viscous",
+        "tag_alt": null,
         "old_name": null,
         "name": "Viscous",
         "alt_name": "Psychic Sea Anemone",
@@ -316,6 +359,8 @@
     },
     "38": {
         "tag": "gunslinger",
+        "internal_tag": "gunslinger",
+        "tag_alt": null,
         "old_name": null,
         "name": "Gunslinger",
         "alt_name": null,
@@ -327,6 +372,8 @@
     },
     "39": {
         "tag": "yakuza",
+        "internal_tag": "yakuza",
+        "tag_alt": null,
         "old_name": null,
         "name": "The Boss",
         "alt_name": null,
@@ -338,6 +385,8 @@
     },
     "46": {
         "tag": "genericperson",
+        "internal_tag": "genericperson",
+        "tag_alt": null,
         "old_name": null,
         "name": "Generic Person",
         "alt_name": null,
@@ -349,6 +398,8 @@
     },
     "47": {
         "tag": "tokamak",
+        "internal_tag": "tokamak",
+        "tag_alt": null,
         "old_name": null,
         "name": "Tokamak",
         "alt_name": null,
@@ -360,6 +411,8 @@
     },
     "48": {
         "tag": "wrecker",
+        "internal_tag": "wrecker",
+        "tag_alt": null,
         "old_name": null,
         "name": "Wrecker",
         "alt_name": null,
@@ -371,6 +424,8 @@
     },
     "49": {
         "tag": "rutger",
+        "internal_tag": "rutger",
+        "tag_alt": null,
         "old_name": null,
         "name": "Rutger",
         "alt_name": null,
@@ -382,6 +437,8 @@
     },
     "50": {
         "tag": "synth",
+        "internal_tag": "synth",
+        "tag_alt": null,
         "old_name": null,
         "name": "Pocket",
         "alt_name": "Arin Fairfax",
@@ -395,6 +452,8 @@
     },
     "51": {
         "tag": "thumper",
+        "internal_tag": "thumper",
+        "tag_alt": null,
         "old_name": null,
         "name": "Thumper",
         "alt_name": null,
@@ -406,6 +465,8 @@
     },
     "52": {
         "tag": "mirage",
+        "internal_tag": "mirage",
+        "tag_alt": null,
         "old_name": null,
         "name": "Mirage",
         "alt_name": "The Djinn Bodyguard",
@@ -420,6 +481,8 @@
     },
     "53": {
         "tag": "slork",
+        "internal_tag": "slork",
+        "tag_alt": null,
         "old_name": null,
         "name": "Fathom",
         "alt_name": null,
@@ -433,6 +496,8 @@
     },
     "54": {
         "tag": "cadence",
+        "internal_tag": "cadence",
+        "tag_alt": null,
         "old_name": null,
         "name": "Cadence",
         "alt_name": null,
@@ -444,6 +509,8 @@
     },
     "55": {
         "tag": "targetdummy",
+        "internal_tag": "targetdummy",
+        "tag_alt": null,
         "old_name": null,
         "name": "TargetDummy",
         "alt_name": null,
@@ -455,6 +522,8 @@
     },
     "56": {
         "tag": "bomber",
+        "internal_tag": "bomber",
+        "tag_alt": null,
         "old_name": null,
         "name": "Bomber",
         "alt_name": null,
@@ -466,6 +535,8 @@
     },
     "57": {
         "tag": "shieldguy",
+        "internal_tag": "shieldguy",
+        "tag_alt": null,
         "old_name": null,
         "name": "Shield Guy",
         "alt_name": null,
@@ -477,6 +548,8 @@
     },
     "58": {
         "tag": "viper",
+        "internal_tag": "viper",
+        "tag_alt": null,
         "old_name": "kali",
         "name": "Vyper",
         "alt_name": null,
@@ -488,6 +561,8 @@
     },
     "59": {
         "tag": "vandal",
+        "internal_tag": "vandal",
+        "tag_alt": null,
         "old_name": null,
         "name": "Vandal",
         "alt_name": null,
@@ -499,6 +574,8 @@
     },
     "60": {
         "tag": "magician",
+        "internal_tag": "magician",
+        "tag_alt": null,
         "old_name": null,
         "name": "Sinclair",
         "alt_name": null,
@@ -512,6 +589,8 @@
     },
     "61": {
         "tag": "trapper",
+        "internal_tag": "trapper",
+        "tag_alt": null,
         "old_name": null,
         "name": "Trapper",
         "alt_name": null,
@@ -523,6 +602,8 @@
     },
     "62": {
         "tag": "operative",
+        "internal_tag": "operative",
+        "tag_alt": null,
         "old_name": null,
         "name": "Raven",
         "alt_name": null,
@@ -534,6 +615,8 @@
     },
     "63": {
         "tag": "vampirebat",
+        "internal_tag": "vampirebat",
+        "tag_alt": null,
         "old_name": null,
         "name": "Mina",
         "alt_name": null,
@@ -545,6 +628,8 @@
     },
     "64": {
         "tag": "drifter",
+        "internal_tag": "drifter",
+        "tag_alt": null,
         "old_name": null,
         "name": "Drifter",
         "alt_name": null,
@@ -556,6 +641,8 @@
     },
     "65": {
         "tag": "priest",
+        "internal_tag": "priest",
+        "tag_alt": null,
         "old_name": null,
         "name": "Venator",
         "alt_name": null,
@@ -567,6 +654,8 @@
     },
     "66": {
         "tag": "frank",
+        "internal_tag": "frank",
+        "tag_alt": null,
         "old_name": "Frank",
         "name": "Victor",
         "alt_name": null,
@@ -578,7 +667,8 @@
     },
     "67": {
         "tag": "bookworm",
-        "alt_tag": "paige",
+        "internal_tag": "bookworm",
+        "tag_alt": null,
         "old_name": null,
         "name": "Paige",
         "alt_name": null,
@@ -590,6 +680,8 @@
     },
     "68": {
         "tag": "boho",
+        "internal_tag": "boho",
+        "tag_alt": null,
         "old_name": null,
         "name": "Boho",
         "alt_name": null,
@@ -601,6 +693,8 @@
     },
     "69": {
         "tag": "doorman",
+        "internal_tag": "doorman",
+        "tag_alt": null,
         "old_name": null,
         "name": "Doorman",
         "alt_name": null,
@@ -612,6 +706,8 @@
     },
     "70": {
         "tag": "skyrunner",
+        "internal_tag": "skyrunner",
+        "tag_alt": null,
         "old_name": null,
         "name": "Skyrunner",
         "alt_name": null,
@@ -623,6 +719,8 @@
     },
     "71": {
         "tag": "swan",
+        "internal_tag": "swan",
+        "tag_alt": null,
         "old_name": null,
         "name": "Swan",
         "alt_name": null,
@@ -634,6 +732,8 @@
     },
     "72": {
         "tag": "punkgoat",
+        "internal_tag": "punkgoat",
+        "tag_alt": null,
         "old_name": null,
         "name": "Billy",
         "alt_name": null,
@@ -645,6 +745,8 @@
     },
     "73": {
         "tag": "druid",
+        "internal_tag": "druid",
+        "tag_alt": null,
         "old_name": null,
         "name": "Druid",
         "alt_name": null,
@@ -656,6 +758,8 @@
     },
     "74": {
         "tag": "graf",
+        "internal_tag": "graf",
+        "tag_alt": null,
         "old_name": null,
         "name": "Graf",
         "alt_name": null,
@@ -667,6 +771,8 @@
     },
     "75": {
         "tag": "fortuna",
+        "internal_tag": "fortuna",
+        "tag_alt": null,
         "old_name": null,
         "name": "Fortuna",
         "alt_name": null,
@@ -678,6 +784,8 @@
     },
     "76": {
         "tag": "necro",
+        "internal_tag": "necro",
+        "tag_alt": null,
         "old_name": null,
         "name": "Graves",
         "alt_name": null,
@@ -689,6 +797,8 @@
     },
     "77": {
         "tag": "fencer",
+        "internal_tag": "fencer",
+        "tag_alt": null,
         "old_name": null,
         "name": "Apollo",
         "alt_name": null,
@@ -700,6 +810,8 @@
     },
     "78": {
         "tag": "airheart",
+        "internal_tag": "airheart",
+        "tag_alt": null,
         "old_name": null,
         "name": "Airheart",
         "alt_name": null,
@@ -711,6 +823,8 @@
     },
     "79": {
         "tag": "familiar",
+        "internal_tag": "familiar",
+        "tag_alt": null,
         "old_name": null,
         "name": "Rem",
         "alt_name": null,
@@ -722,7 +836,8 @@
     },
     "80": {
         "tag": "werewolf",
-        "alt_tag": "werewolf_wolf",
+        "internal_tag": "werewolf",
+        "tag_alt": null,
         "old_name": null,
         "name": "Silver",
         "alt_name": null,
@@ -734,6 +849,8 @@
     },
     "81": {
         "tag": "unicorn",
+        "internal_tag": "unicorn",
+        "tag_alt": null,
         "old_name": null,
         "name": "Celeste",
         "alt_name": null,
@@ -745,6 +862,8 @@
     },
     "82": {
         "tag": "opera",
+        "internal_tag": "opera",
+        "tag_alt": null,
         "old_name": null,
         "name": "Opera",
         "alt_name": null,

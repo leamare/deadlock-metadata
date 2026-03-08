@@ -5121,7 +5121,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "damage_pulse_amount": 27,
+            "damage_pulse_amount": 25,
             "damage_pulse_radius": "9m"
         },
         "active": {
@@ -6799,7 +6799,7 @@
             "sprint_speed": "1m"
         },
         "extra": {
-            "bonus_gold_per_minute": 75,
+            "bonus_gold_per_minute": 90,
             "outgoing_damage_penalty_percent": -10,
             "think_rate": 3,
             "out_of_combat_health_regen": 1,

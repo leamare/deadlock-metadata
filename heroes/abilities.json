@@ -5421,7 +5421,7 @@
                             "value": "4m"
                         },
                         {
-                            "property": "",
+                            "property": "ability_cooldown",
                             "value": -25
                         }
                     ],

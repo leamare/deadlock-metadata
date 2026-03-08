@@ -1004,16 +1004,16 @@
                             "value": 8
                         },
                         {
-                            "property": "tech_power",
-                            "value": 60
-                        },
-                        {
                             "property": "tech_resist",
                             "value": 50
                         },
                         {
                             "property": "bonus_fire_rate",
                             "value": 40
+                        },
+                        {
+                            "property": "bonus_spirit",
+                            "value": 60
                         }
                     ]
                 ]
@@ -2578,12 +2578,13 @@
                 "slot": 4,
                 "update_time": 1639165848,
                 "image": "kelvin\/frozen_shelter",
-                "activation_time": "on_button_release",
+                "activation_time": "press",
                 "targeting_location": "unit",
                 "unit_target": "hero",
                 "behaviors": [
                     "castable_while_busy",
                     "interrupt_melee_on_cast",
+                    "use_instant_cast_unit_target_ui",
                     "displays_damage_impact",
                     "require_ability_button_to_cancel",
                     "can_set_quick_cast",
@@ -7923,6 +7924,10 @@
                     [
                         {
                             "property": "ability_cooldown",
+                            "value": -1
+                        },
+                        {
+                            "property": "proc_cooldown",
                             "value": -1
                         },
                         {

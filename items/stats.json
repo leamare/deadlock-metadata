@@ -3476,5 +3476,3338 @@
             "duration": 14,
             "recharge_speed": -1
         }
+    },
+    "2641680935": {
+        "tag": "ability_item_pickup_effects",
+        "tier": null,
+        "slot_type": null,
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "duration": 2,
+            "recharge_speed": -1
+        }
+    },
+    "264187235": {
+        "tag": "item_projectile_test_01",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "1014700451": {
+        "tag": "item_projectile_test_02",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "2414315232": {
+        "tag": "item_projectile_test_03",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "3418358054": {
+        "tag": "item_projectile_test_04",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "3130661899": {
+        "tag": "item_projectile_test_05",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "3744513303": {
+        "tag": "item_projectile_test_06",
+        "tier": 1,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "0.5m",
+            "height_off_ground": "0.5m"
+        },
+        "active": {
+            "cooldown": 1,
+            "duration": 1,
+            "cast_range": "30m",
+            "cast_delay": 0.01,
+            "recharge_speed": -1
+        }
+    },
+    "709540378": {
+        "tag": "upgrade_non_player_bonus_sacrifice",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 8
+        },
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": {
+            "charges": 1,
+            "range": 15
+        },
+        "mobility": [],
+        "extra": {
+            "non_player_bonus_weapon_power": 30,
+            "out_of_combat_health_regen": 2,
+            "non_player_bullet_resist": 30,
+            "bonus_souls_pct": 150,
+            "tech_radius_multiplier": 15
+        },
+        "active": {
+            "cooldown": 270,
+            "duration": 160,
+            "cast_range": "7m",
+            "recharge_speed": -1
+        }
+    },
+    "1248737459": {
+        "tag": "upgrade_ammo_scavenger",
+        "tier": 1,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_weapon\/ammo_scavenger",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "2m"
+        },
+        "extra": {
+            "ammo_per_soul": 2,
+            "spirit_power_per_soul": 1,
+            "max_stacks": 18
+        },
+        "active": {
+            "duration": 45,
+            "recharge_speed": -1
+        }
+    },
+    "710436191": {
+        "tag": "upgrade_capacitor",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/electrified_bullets",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 5
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "proc_cooldown": 0.25,
+            "damage_per_chain": 43,
+            "bonus_per_chain": 43,
+            "chain_radius": "10m",
+            "proc_chance": 20,
+            "chain_count": 6,
+            "chain_tick_rate": 0.4,
+            "damage": 100,
+            "max_slow_percent": 75,
+            "slow_duration": 3
+        },
+        "active": {
+            "cooldown": 40,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "2108215830": {
+        "tag": "upgrade_dps_aura",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/bullet_damage_aura",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 26
+        },
+        "vitality": {
+            "bullet_resist": 15
+        },
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "1.5m"
+        },
+        "extra": {
+            "radius": "30m",
+            "active_radius": "30m",
+            "active_bonus_move_speed": "2.25m",
+            "non_hero_mult": 2
+        },
+        "active": {
+            "cooldown": 25,
+            "duration": 7,
+            "recharge_speed": -1
+        }
+    },
+    "619484391": {
+        "tag": "upgrade_targeted_silence",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_weapon\/targeted_silence",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "cooldown_on_miss": 30,
+            "height_off_ground": "1m",
+            "growth_per_meter": "0.15m",
+            "initial_width": "5.0m",
+            "damage": 100
+        },
+        "active": {
+            "cooldown": 30,
+            "duration": 3,
+            "cast_range": "40m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "3927044172": {
+        "tag": "upgrade_haunting_scream",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_weapon\/targeted_silence",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "tech_power_percent": 30,
+            "height_off_ground": "1m",
+            "growth_per_meter": "0.15m",
+            "initial_width": "5.0m",
+            "damage": 400,
+            "skip_frames": 6
+        },
+        "active": {
+            "cooldown": 25,
+            "duration": 3,
+            "cast_range": "40m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "3133167885": {
+        "tag": "upgrade_silencer",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/emp_bullets",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 20
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "e_m_p_duration": 2
+        },
+        "active": {
+            "cooldown": 36,
+            "duration": 4,
+            "recharge_speed": -1
+        }
+    },
+    "1282141666": {
+        "tag": "upgrade_siphon_bullets",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_weapon\/siphon_bullets",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 15
+        },
+        "vitality": {
+            "bullet_resist": 10
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "steal_per_hit": 1,
+            "steal_per_kill": 1,
+            "stack_lost_per_death": 2,
+            "max_stacks": 9999,
+            "steal_duration": 17,
+            "proc_cooldown": 1.2,
+            "health_steal_pct_hero": 2.5,
+            "particle_radius": "1m"
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1770441818": {
+        "tag": "upgrade_headshot_booster2",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/headshot_booster",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 60
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bullet_resist_reduction": -13,
+            "debuff_duration": 12,
+            "diminishing_multiplier": 0.5
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "4075861416": {
+        "tag": "upgrade_spellslinger_headshots",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/spellslinger_headshots",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 75
+        },
+        "spirit": {
+            "spirit_lifesteal": 12
+        },
+        "mobility": [],
+        "extra": {
+            "proc_cooldown": 2,
+            "max_stacks": 4,
+            "magic_resist_reduction": -7,
+            "tech_armor_damage_reduction": -8,
+            "debuff_duration": 8
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3884003354": {
+        "tag": "upgrade_banshee_slugs",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/banshee_slugs",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 125
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bullet_resist_reduction": -16,
+            "magic_resist_reduction": -16,
+            "heal_amp_receive_penalty_percent": -35,
+            "heal_amp_regen_penalty_percent": -35,
+            "debuff_duration": 12,
+            "diminishing_multiplier": 0.5
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "2480592370": {
+        "tag": "upgrade_ricochet",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/ricochet",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 18
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "ricochet_damage_percent": 65,
+            "ricochet_radius": "13m",
+            "ricochet_targets_tooltip_only": 2
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "4149380528": {
+        "tag": "upgrade_apex_combat",
+        "tier": 5,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/ricochet",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "ricochet_damage_percent": 65,
+            "ricochet_radius": "13m",
+            "ricochet_targets_tooltip_only": 4,
+            "proc_chance": 40,
+            "crit_damage_percent": 125
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "790496977": {
+        "tag": "upgrade_double_jump",
+        "tier": 1,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/double_jump",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "air_jumps": 1,
+            "air_jump_vertical_speed_percent": 75,
+            "interrupt_cooldown": 4
+        },
+        "active": {
+            "cooldown": 8.5,
+            "recharge_speed": -1
+        }
+    },
+    "3321728133": {
+        "tag": "upgrade_health_regen_aura",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/health_regen_aura",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "heal_interval": 3,
+            "heal_amount": 40,
+            "heal_radius": "9m"
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "4066757307": {
+        "tag": "upgrade_combo_breaker",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/tech_purge",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp_regen": 2.75
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "tech_armor": 2,
+            "heal_percent_amount": 30,
+            "regen_duration": 10
+        },
+        "active": {
+            "cooldown": 23,
+            "recharge_speed": -1
+        }
+    },
+    "3731635960": {
+        "tag": "upgrade_reduce_debuff_duration",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/debuff_remover",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 16
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "active_bonus_move_speed": "2m",
+            "buff_duration": 3,
+            "heal_on_activate": 250
+        },
+        "active": {
+            "cooldown": 40,
+            "recharge_speed": -1
+        }
+    },
+    "1825391146": {
+        "tag": "upgrade_high_impact_armor",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_armor",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "damage_threshold": 40,
+            "damage_reduction": 60
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1711193274": {
+        "tag": "upgrade_slow_immunity",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/sprint_booster",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "cooldown": 32,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "471704443": {
+        "tag": "upgrade_weapon_power_and_health_drain",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/overdrive",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "weapon_power_while_activated": 135,
+            "health_drained_per_second": 35,
+            "interval": 0.1
+        },
+        "active": {
+            "cooldown": 11.5,
+            "duration": 4,
+            "recharge_speed": -1
+        }
+    },
+    "1319649491": {
+        "tag": "upgrade_active_bullet_shield",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "5m"
+        },
+        "extra": {
+            "radius": "30m"
+        },
+        "active": {
+            "cooldown": 64,
+            "duration": 15,
+            "cast_range": "25m",
+            "cast_delay": 0.25,
+            "recharge_speed": -1
+        }
+    },
+    "4168302000": {
+        "tag": "upgrade_ablative_coat",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "3m"
+        },
+        "extra": {
+            "max_bullet_resist": 30,
+            "stack_loss_frequency": 1,
+            "armor_loss_per_hit": 4,
+            "bullet_armor": 1
+        },
+        "active": {
+            "cooldown": 21,
+            "recharge_speed": -1
+        }
+    },
+    "1378931225": {
+        "tag": "upgrade_metal_skin",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/metal_skin",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "bullet_resist": 15
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "active_move_speed_penalty": "-1.5m",
+            "ground_dash_reduction_percent": -20
+        },
+        "active": {
+            "cooldown": 24,
+            "duration": 5,
+            "recharge_speed": -1
+        }
+    },
+    "865846625": {
+        "tag": "upgrade_damage_recycler",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/leech",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 30,
+            "damage_pct": 12
+        },
+        "vitality": {
+            "hp": 120
+        },
+        "spirit": {
+            "spirit_power": 12,
+            "spirit_lifesteal": 30
+        },
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1298427343": {
+        "tag": "upgrade_bullet_damage_reduction_aura",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/weapon_jammer",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "12m",
+            "fire_rate_slow": 30
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "2481177645": {
+        "tag": "upgrade_bullet_armor_reduction_aura",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_armor_reduction_aura",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 100
+        },
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "0.75m"
+        },
+        "extra": {
+            "radius": "15m",
+            "bullet_armor_reduction": -10,
+            "fire_rate_slow": 14,
+            "single_target_player_multiplier": 2
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1962740586": {
+        "tag": "upgrade_camouflage",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/camouflage_suit",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "invis_alert_when_fading": 1,
+            "invis_fade_to_duration": 1,
+            "spotted_radius": "20m",
+            "reveal_on_spotted_duration": 0.25,
+            "movement_threshold_sq": 200,
+            "regen_while_invisible": 5
+        },
+        "active": {
+            "cooldown": 10.5,
+            "recharge_speed": -1
+        }
+    },
+    "3038950099": {
+        "tag": "upgrade_regenerative_armor",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/last_stand",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp_regen": 20
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "duration": 5,
+            "recharge_speed": -1
+        }
+    },
+    "805079544": {
+        "tag": "upgrade_weapon_shielding",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "1.5m"
+        },
+        "extra": {
+            "damage_window": 3.5,
+            "damage_threshold": 250,
+            "combat_barrier": 300,
+            "out_of_combat_health_regen": 2.5,
+            "barrier_duration": 7
+        },
+        "active": {
+            "cooldown": 35,
+            "recharge_speed": -1
+        }
+    },
+    "112198670": {
+        "tag": "upgrade_spirit_bubble",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "1.5m"
+        },
+        "extra": {
+            "damage_window": 3.5,
+            "damage_threshold": 225,
+            "combat_barrier": 300,
+            "out_of_combat_health_regen": 2.5,
+            "barrier_duration": 7
+        },
+        "active": {
+            "cooldown": 45,
+            "recharge_speed": -1
+        }
+    },
+    "1235347618": {
+        "tag": "upgrade_regenerating_bullet_shield",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 15,
+            "fire_rate": 7
+        },
+        "vitality": {
+            "bullet_resist": 18
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "out_of_combat_health_regen": 3,
+            "life_threshold": 65
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1439347412": {
+        "tag": "upgrade_mystic_regeneration",
+        "tier": 1,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_armor\/endurance",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "regeneration": 4,
+            "regeneration_duration": 6
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3361075077": {
+        "tag": "upgrade_return_fire",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/return_fire",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "bullet_resist": 8
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bullet_damage_reflected_pct": 50,
+            "spirit_damage_reflected_pct": 25
+        },
+        "active": {
+            "cooldown": 25,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "876563814": {
+        "tag": "upgrade_health_stealing_magic",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/health_stealing_tech",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 70
+        },
+        "spirit": {
+            "spirit_power": 6,
+            "spirit_lifesteal": 16
+        },
+        "mobility": [],
+        "extra": {
+            "non_hero_ability_lifesteal_tooltip_only": 3
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "2645639421": {
+        "tag": "upgrade_disarm",
+        "tier": 1,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/disarm",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 25
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "fire_rate_slow": 30,
+            "spirit_steal": 22,
+            "spirit_steal_duration": 6
+        },
+        "active": {
+            "cooldown": 26,
+            "duration": 6,
+            "cast_range": "17m",
+            "recharge_speed": -1
+        }
+    },
+    "3577481646": {
+        "tag": "upgrade_mystic_reverb",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/magic_reverb",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "spirit_lifesteal": 10
+        },
+        "mobility": [],
+        "extra": {
+            "tech_damage_percent": 50,
+            "delay_duration": 3,
+            "minimum_damage": 100,
+            "radius": "16m",
+            "imbue_ability_lifesteal": 27,
+            "movement_speed_slow": 40,
+            "max_health_damage": 10
+        },
+        "active": {
+            "cooldown": 6.25,
+            "recharge_speed": -1
+        }
+    },
+    "3005970438": {
+        "tag": "upgrade_escalating_exposure",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/escalating_exposure",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 17
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "proc_cooldown": 0.7,
+            "magic_increase_per_stack": 4.5,
+            "max_stacks": 12,
+            "tech_armor_damage_reduction": -8
+        },
+        "active": {
+            "duration": 12,
+            "recharge_speed": -1
+        }
+    },
+    "424779525": {
+        "tag": "upgrade_omnicharge_pendant",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/rapid_recharge",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "recharge_speed": 70,
+            "charges": 4,
+            "charges_cooldown_reduction": 30
+        },
+        "mobility": [],
+        "extra": {
+            "bonus_ability_charges_non_charge": 2,
+            "enable_ability_charges": 1,
+            "bonus_spirit_for_charged_abilities": 50
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3456645009": {
+        "tag": "upgrade_shadow_step",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_weapon\/warp_stone",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "damage_pulse_interval": 0.5,
+            "damage_pulse_amount": 50,
+            "damage_pulse_radius": "13m"
+        },
+        "active": {
+            "cooldown": 3,
+            "cast_range": "12m",
+            "recharge_speed": -1
+        }
+    },
+    "1813726886": {
+        "tag": "upgrade_containment",
+        "tier": 2,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/immobilize",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "0.5m"
+        },
+        "extra": {
+            "slow_percent": 20,
+            "ground_dash_reduction_percent": -30
+        },
+        "active": {
+            "cooldown": 27,
+            "duration": 3.5,
+            "cast_range": "25m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "1219329868": {
+        "tag": "upgrade_spirit_sap",
+        "tier": 2,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/focused_silence",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "magic_resist_reduction": -9,
+            "tech_power_reduction": -30
+        },
+        "active": {
+            "cooldown": 18,
+            "duration": 12,
+            "cast_range": "40m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "2142980412": {
+        "tag": "upgrade_focus_lens",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/focused_silence",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 10
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "percent_damage": 30,
+            "magic_resist_reduction": -9,
+            "tech_power_reduction": -30,
+            "resist_reduction_duration": 12
+        },
+        "active": {
+            "cooldown": 45,
+            "duration": 4,
+            "cast_range": "20m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "2922054143": {
+        "tag": "upgrade_withering_whip",
+        "tier": 1,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/slowing_tech",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "0.5m"
+        },
+        "extra": {
+            "fire_rate_slow": 32,
+            "bullet_armor_reduction": -8
+        },
+        "active": {
+            "cooldown": 16,
+            "duration": 5,
+            "cast_range": "32m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "2061878743": {
+        "tag": "upgrade_greater_withering_whip",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/disarm",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 75
+        },
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "0.75m"
+        },
+        "extra": {
+            "bullet_armor_reduction": -13
+        },
+        "active": {
+            "cooldown": 16,
+            "duration": 4,
+            "cast_range": "32m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "1804594021": {
+        "tag": "upgrade_rescue_beam",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/medic_beam",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 8
+        },
+        "mobility": {
+            "sprint_speed": "0.75m"
+        },
+        "extra": {
+            "heal_percent_amount": 20,
+            "heal_interval": 0.2,
+            "self_modifier": 100,
+            "tech_radius_multiplier": 8
+        },
+        "active": {
+            "cooldown": 60,
+            "cast_range": "32m",
+            "channel_time": 2.5,
+            "recharge_speed": -1
+        }
+    },
+    "2329546537": {
+        "tag": "upgrade_personal_rejuvenator",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/rebirth",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "respawn_delay": 5
+        },
+        "active": {
+            "cooldown": 509,
+            "recharge_speed": -1
+        }
+    },
+    "4003032160": {
+        "tag": "upgrade_rebirth",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/rebirth",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "spirit_power": 12
+        },
+        "mobility": [],
+        "extra": {
+            "spawn_time_penalty": 30,
+            "respawn_delay": 4,
+            "respawn_health_percent": 50
+        },
+        "active": {
+            "cooldown": 240,
+            "recharge_speed": -1
+        }
+    },
+    "4249800570": {
+        "tag": "upgrade_tech_cleave",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/quantum_chimaera",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "tech_cleave_damage_percent": 75,
+            "tech_cleave_radius": "10m",
+            "proc_cooldown": 0.05
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "4245766497": {
+        "tag": "upgrade_charge_mastery",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/extra_charge",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "charges": 4,
+            "recharge_speed": 50
+        },
+        "mobility": [],
+        "extra": {
+            "bonus_charged_ability_damage": 15,
+            "bonus_charged_cooldown_reduction": 15
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3144988365": {
+        "tag": "upgrade_rupture",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/rupture",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 65
+        },
+        "spirit": {
+            "spirit_power": 8
+        },
+        "mobility": [],
+        "extra": {
+            "heal_amp_receive_penalty_percent": -50,
+            "heal_amp_regen_penalty_percent": -50,
+            "tick_rate": 1,
+            "dot_health_percent": 2.6
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 10,
+            "cast_range": "20m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "2417568017": {
+        "tag": "upgrade_discord",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/rupture",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 40,
+            "hp": 100
+        },
+        "spirit": {
+            "cooldown_reduction": 4
+        },
+        "mobility": [],
+        "extra": {
+            "tick_rate": 0.25,
+            "max_health_percent_as_d_p_s": 3.5,
+            "aura_radius": "10m"
+        },
+        "active": {
+            "cooldown": 35,
+            "duration": 10,
+            "cast_range": "35m",
+            "cast_delay": 0.25,
+            "recharge_speed": -1
+        }
+    },
+    "776145721": {
+        "tag": "upgrade_aoe_tech_shield",
+        "tier": 2,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/tech_shield_pulse",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "temp_tech_shield_health": 400,
+            "radius": "30m"
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 16,
+            "cast_delay": 0.25,
+            "recharge_speed": -1
+        }
+    },
+    "1254091416": {
+        "tag": "upgrade_target_stun",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/knockdown",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 75
+        },
+        "spirit": {
+            "range": 6
+        },
+        "mobility": [],
+        "extra": {
+            "stun_delay": 2,
+            "stun_duration": 0.5,
+            "visual_contract_radius": "3m",
+            "max_bonus_duration": 1.5,
+            "max_height_for_bonus": "30m",
+            "tech_radius_multiplier": 6
+        },
+        "active": {
+            "cooldown": 35,
+            "cast_range": "45m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "1371725689": {
+        "tag": "upgrade_phantom_strike",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/phantom_strike",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 15
+        },
+        "vitality": [],
+        "spirit": {
+            "spirit_power": 8
+        },
+        "mobility": [],
+        "extra": {
+            "slow_percent": 50,
+            "slow_duration": 3,
+            "impact_damage": 75
+        },
+        "active": {
+            "cooldown": 35,
+            "cast_range": "25m",
+            "cast_delay": 0.35,
+            "recharge_speed": -1
+        }
+    },
+    "3270001687": {
+        "tag": "upgrade_warp_stone",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_weapon\/warp_stone",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "bullet_resist": 30
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "caster_buff_duration": 6
+        },
+        "active": {
+            "cooldown": 16,
+            "cast_range": "11m",
+            "recharge_speed": -1
+        }
+    },
+    "1152158042": {
+        "tag": "upgrade_aoe_root",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/area_immobilize",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 10
+        },
+        "mobility": {
+            "sprint_speed": "0.75m"
+        },
+        "extra": {
+            "capture_radius": "12m",
+            "tether_duration": 0.5,
+            "tether_radius": "1m",
+            "slow_percent": 35,
+            "ground_dash_reduction_percent": -40,
+            "tech_radius_multiplier": 10
+        },
+        "active": {
+            "cooldown": 42,
+            "duration": 4,
+            "cast_range": "30m",
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "677738769": {
+        "tag": "upgrade_ability_refresher",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/refresher_module",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 14,
+            "bullet_resist": 15
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "cooldown": 300,
+            "cast_delay": 0.6,
+            "recharge_speed": -1
+        }
+    },
+    "630839635": {
+        "tag": "upgrade_ability_power_shard",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/echo_shard",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 5
+        },
+        "vitality": {
+            "spirit_resist": 5,
+            "bullet_resist": 5
+        },
+        "spirit": {
+            "range": 5
+        },
+        "mobility": [],
+        "extra": {
+            "tech_radius_multiplier": 5
+        },
+        "active": {
+            "cooldown": 30,
+            "recharge_speed": -1
+        }
+    },
+    "395944548": {
+        "tag": "upgrade_tech_damage_pulse",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/torment_aura",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 100,
+            "melee_resist_pct": 15
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "damage_pulse_amount": 27,
+            "damage_pulse_radius": "9m"
+        },
+        "active": {
+            "cooldown": 1.4,
+            "recharge_speed": -1
+        }
+    },
+    "3361811174": {
+        "tag": "upgrade_cheat_death",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/torment_aura",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 200,
+            "bullet_resist": 15
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "death_immunity_duration": 4.5,
+            "death_immunity_damage_reduction": -60,
+            "heal_amp_receive_penalty_percent": -60,
+            "heal_amp_regen_penalty_percent": -60
+        },
+        "active": {
+            "cooldown": 90,
+            "recharge_speed": -1
+        }
+    },
+    "2560018361": {
+        "tag": "upgrade_cloaking_device",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/cloaking_device",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "invis_alert_when_fading": 1,
+            "invis_cancel_on_damage": 1,
+            "invis_fade_to_duration": 1.5,
+            "invis_move_speed_mod": "3m",
+            "spotted_radius": "20m",
+            "reveal_on_damage_duration": 1.5,
+            "reveal_on_spotted_duration": 1.5,
+            "full_invis_distance": "50m"
+        },
+        "active": {
+            "cooldown": 10.5,
+            "recharge_speed": -1
+        }
+    },
+    "1798666702": {
+        "tag": "upgrade_cloaking_device_active",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_utility\/cloaking_device",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "1.5m"
+        },
+        "extra": {
+            "invis_alert_when_fading": 1,
+            "invis_cancel_on_damage": 1,
+            "invis_fade_to_duration": 0.6,
+            "invis_move_speed_mod": "5m",
+            "spotted_radius": "18m",
+            "reveal_on_damage_duration": 1.5,
+            "reveal_on_spotted_duration": 1.5,
+            "full_invis_distance": "30m",
+            "ambush_duration": 8,
+            "ambush_bonus_fire_rate": 32,
+            "ambush_bonus_tech_power": 35,
+            "ambush_bonus_melee_damage": 25,
+            "out_of_combat_health_regen": 10
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 18,
+            "recharge_speed": -1
+        }
+    },
+    "3662153307": {
+        "tag": "upgrade_fire_rate_aura",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_utility\/fire_rate_aura",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 10
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bonus_fire_rate_n_p_c": 35,
+            "aura_radius": "30m"
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "607292868": {
+        "tag": "upgrade_weapon_overdrive_clip",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_armor\/overdrive",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "health_damage_percent": 20,
+            "bonus_reload_speed": -75,
+            "bonus_weapon_power": 100,
+            "overdrive_clip_duration": 5
+        },
+        "active": {
+            "cooldown": 53,
+            "recharge_speed": -1
+        }
+    },
+    "3830846077": {
+        "tag": "upgrade_rocket_boots",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/springy_boots",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 50
+        },
+        "spirit": {
+            "spirit_power": 8
+        },
+        "mobility": [],
+        "extra": {
+            "jump_velocity_hidden": "22.5m",
+            "interrupt_cooldown": 4,
+            "air_control_percent": 100
+        },
+        "active": {
+            "cooldown": 16,
+            "recharge_speed": -1
+        }
+    },
+    "600033864": {
+        "tag": "upgrade_rocket_booster",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/hud\/abilities\/lash\/lash_death_slam",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "jump_velocity_hidden": "27m",
+            "interrupt_cooldown": 5,
+            "air_control_percent": 100,
+            "slam_down_radius": "10m",
+            "vertical_difference_tolerance": "2m",
+            "toss_speed": 500,
+            "slow_percent": 40,
+            "slow_duration": 2.5,
+            "drop_down_speed": "35m",
+            "max_landing_speed": "20m",
+            "impact_height": "2m",
+            "min_aim_angle": 30,
+            "combat_barrier": 200,
+            "barrier_duration": 8
+        },
+        "active": {
+            "cooldown": 45,
+            "recharge_speed": -1
+        }
+    },
+    "271801138": {
+        "tag": "upgrade_aerial_assault",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/springy_boots",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 25,
+            "fire_rate": 15
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "activate_time": 0.75,
+            "jump_velocity_hidden": "30.0m",
+            "assault_lifesteal_percent": 20,
+            "assault_duration": 3,
+            "assault_fire_rate": 60,
+            "explode_radius": "3m"
+        },
+        "active": {
+            "cooldown": 26,
+            "recharge_speed": -1
+        }
+    },
+    "2956256701": {
+        "tag": "upgrade_health_nova",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/health_nova",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 6
+        },
+        "mobility": [],
+        "extra": {
+            "total_health_regen": 325,
+            "regen_duration": 2,
+            "aura_radius": "18m",
+            "spirit_power": 8,
+            "tech_radius_multiplier": 6
+        },
+        "active": {
+            "cooldown": 60,
+            "cast_delay": 0.25,
+            "recharge_speed": -1
+        }
+    },
+    "2059712766": {
+        "tag": "upgrade_restorative_locket",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/restorative_locket",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 8
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "35m",
+            "heal_per_stack": 20,
+            "max_stacks": 20,
+            "min_stamina_restore": 1,
+            "max_stamina_restore": 4
+        },
+        "active": {
+            "cooldown": 20,
+            "cast_range": "35m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "1710079648": {
+        "tag": "upgrade_health_stimpak",
+        "tier": 1,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/stimpak",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "2m"
+        },
+        "extra": {
+            "total_health_regen": 300,
+            "regen_duration": 20
+        },
+        "active": {
+            "cooldown": 70,
+            "cast_range": "30m",
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "4121584236": {
+        "tag": "upgrade_shrink_ray",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_armor\/stimpak",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "5.0m"
+        },
+        "extra": {
+            "shrink_duration": 60,
+            "model_scale_growth": 0.5,
+            "model_scale_growth_tooltip": -50
+        },
+        "active": {
+            "cooldown": 30,
+            "cast_range": "40m",
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "1797283378": {
+        "tag": "upgrade_infuser",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_tech\/infuser",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 100,
+            "spirit_resist": 10
+        },
+        "spirit": {
+            "spirit_lifesteal": 80
+        },
+        "mobility": [],
+        "extra": {
+            "bonus_spirit": 30,
+            "ability_lifesteal_percent_hero_passive": 16,
+            "non_hero_ability_lifesteal_tooltip_only": 3
+        },
+        "active": {
+            "cooldown": 30,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "857669956": {
+        "tag": "upgrade_guardian_ward",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/savior",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 10
+        },
+        "mobility": {
+            "move_speed_bonus": "2.75m"
+        },
+        "extra": {
+            "cooldown_reduction_pct_on_others": 50,
+            "buff_duration": 6,
+            "guardian_ward_combat_barrier": 200,
+            "tech_radius_multiplier": 10
+        },
+        "active": {
+            "cooldown": 45,
+            "cast_range": "40m",
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "1662311306": {
+        "tag": "upgrade_divine_barrier",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/savior",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "range": 15
+        },
+        "mobility": {
+            "move_speed_bonus": "2.75m"
+        },
+        "extra": {
+            "cooldown_reduction_pct_on_others": 50,
+            "buff_duration": 6,
+            "combat_barrier": 600,
+            "tech_radius_multiplier": 15
+        },
+        "active": {
+            "cooldown": 45,
+            "cast_range": "40m",
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "937242723": {
+        "tag": "upgrade_aoe_smoke_bomb",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/smoke",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "invis_alert_when_fading": 1,
+            "invis_cancel_on_damage": 1,
+            "invis_fade_to_duration": 0.3,
+            "invis_move_speed_mod": "1.5m",
+            "spotted_radius": "20m",
+            "reveal_on_damage_duration": 0.25,
+            "reveal_on_spotted_duration": 0.25,
+            "radius": "30m",
+            "full_invis_distance": "50m"
+        },
+        "active": {
+            "cooldown": 64,
+            "duration": 25,
+            "cast_delay": 1.5,
+            "recharge_speed": -1
+        }
+    },
+    "1932939246": {
+        "tag": "upgrade_thermal_detonator",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/thermal_detonator",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "dps": 45,
+            "d_p_s_increase": 7,
+            "d_p_s_max": 95,
+            "non_hero_reduction_percent": 50,
+            "radius": "10m",
+            "height_off_ground": 50,
+            "tick_rate": 0.5,
+            "bullet_armor_reduction": -7,
+            "spirit_power": 8
+        },
+        "active": {
+            "cooldown": 30,
+            "duration": 5,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "989206714": {
+        "tag": "upgrade_blood_tribute",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 35
+        },
+        "vitality": {
+            "spirit_resist": 10
+        },
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "2.0m"
+        },
+        "extra": {
+            "health_drained_per_second": 50,
+            "tick_rate": 0.1,
+            "status_resistance_percent": 40,
+            "out_of_combat_health_regen": 4
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3403085434": {
+        "tag": "upgrade_fleetfoot_boots",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/fleetfoot_boots",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "bullet_resist": 6
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "move_while_shooting_speed_penalty_reduction_percent": 100,
+            "move_while_zoomed_speed_penalty_reduction_percent": 100,
+            "active_bonus_move_speed": "3.0m",
+            "slide_scale": 35,
+            "slow_resistance_percent": 35
+        },
+        "active": {
+            "cooldown": 16,
+            "duration": 5,
+            "recharge_speed": -1
+        }
+    },
+    "389243496": {
+        "tag": "upgrade_weapon_eater",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/advanced_weaponry",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "weapon_power_per_kill": 3.5,
+            "weapon_power_per_death": 6,
+            "kill_window": 1,
+            "max_weapon_power": 30,
+            "base_bonus_counter": -5
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "315518818": {
+        "tag": "upgrade_weapon_instant_reload",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_utility\/fast_reload",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "clip_size_pct": 60
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "cooldown": 21,
+            "recharge_speed": -1
+        }
+    },
+    "1947620709": {
+        "tag": "upgrade_tech_defender",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/tech_defender",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 85
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "tech_armor": 1
+        },
+        "active": {
+            "cooldown": 95,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "3357231760": {
+        "tag": "upgrade_unstoppable",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/unstoppable",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 125
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "status_resistance_percent": 25
+        },
+        "active": {
+            "cooldown": 65,
+            "duration": 5.5,
+            "recharge_speed": -1
+        }
+    },
+    "2407781327": {
+        "tag": "upgrade_colossus",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/colossus",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 15,
+            "melee_dmg_pct": 30
+        },
+        "vitality": {
+            "hp": 300
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bonus_base_health": 15,
+            "buff_bullet_resist": 35,
+            "buff_tech_resist": 35,
+            "slow_percent": 30,
+            "ground_dash_reduction_percent": -25,
+            "radius": "14m",
+            "model_scale_growth": 1.2,
+            "model_scale_growth_tooltip": 20
+        },
+        "active": {
+            "cooldown": 37,
+            "duration": 7,
+            "recharge_speed": -1
+        }
+    },
+    "1976391348": {
+        "tag": "upgrade_cold_front",
+        "tier": 2,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/ice_blast",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 6
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "spread_duration": 0.6,
+            "start_radius": "2m",
+            "end_radius": "12m",
+            "movement_speed_slow": 60,
+            "damage": 95,
+            "damage_height": "3.5m",
+            "n_p_c_damage_mult": 1
+        },
+        "active": {
+            "cooldown": 25,
+            "duration": 4,
+            "recharge_speed": -1
+        }
+    },
+    "3812615317": {
+        "tag": "upgrade_arctic_blast",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/ice_blast",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 10
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "spread_duration": 0.6,
+            "start_radius": "2m",
+            "end_radius": "12m",
+            "slow_percent": 60,
+            "slow_duration": 4,
+            "damage": 175,
+            "damage_height": "3.5m",
+            "n_p_c_damage_mult": 1,
+            "freeze_duration": 0.75,
+            "percent_damage": 15
+        },
+        "active": {
+            "cooldown": 24,
+            "recharge_speed": -1
+        }
+    },
+    "486220748": {
+        "tag": "upgrade_aoe_silence",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/emp_wave",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": -20,
+            "hp": 150
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "debuff_duration": 5,
+            "start_radius": "1m",
+            "radius": "8m",
+            "out_of_combat_health_regen": 3
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 0.25,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "2533252781": {
+        "tag": "upgrade_self_bubble",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/items\/spirit\/ethereal_shift",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 30
+        },
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "3m"
+        },
+        "extra": {
+            "buff_duration": 5,
+            "damping_factor": 3,
+            "lift_height": 200,
+            "bonus_spirit": 20,
+            "float_move_speed": "2.5m"
+        },
+        "active": {
+            "cooldown": 35,
+            "duration": 4,
+            "recharge_speed": -1
+        }
+    },
+    "385745034": {
+        "tag": "upgrade_stasis_bomb",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_utility\/stasis",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "stasis_radius": "7m",
+            "explode_radius": "7m",
+            "explode_damage": 250,
+            "stun_duration": 1.5,
+            "immunity_duration": 4,
+            "e_m_p_duration": 3,
+            "e_m_p_proc_chance": 100,
+            "build_up_per_shot": 1.6,
+            "build_up_duration": 10,
+            "damping_factor": 0.5,
+            "lift_height": 120,
+            "slamdown_speed": 500,
+            "move_speed_max": "4m"
+        },
+        "active": {
+            "cooldown": 37,
+            "duration": 6,
+            "cast_range": "20m",
+            "recharge_speed": -1
+        }
+    },
+    "1641353616": {
+        "tag": "upgrade_quarantine",
+        "tier": 2,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/stasis",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "cooldown": 42,
+            "duration": 4.5,
+            "cast_range": "30m",
+            "recharge_speed": -1
+        }
+    },
+    "2617435668": {
+        "tag": "upgrade_glitch",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/glitch",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "skip_frames": 6,
+            "outgoing_damage_penalty_percent": -10
+        },
+        "active": {
+            "cooldown": 55,
+            "duration": 3.25,
+            "cast_range": "20m",
+            "cast_delay": 0.1,
+            "recharge_speed": -1
+        }
+    },
+    "365620721": {
+        "tag": "upgrade_glass_cannon",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/glass_cannon",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 80
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "max_health_loss_percent": -15,
+            "bonus_clip_per_kill": 2,
+            "fire_rate_per_kill": 7,
+            "max_stacks": 8,
+            "slow_percent": 30,
+            "slow_duration": 3,
+            "build_up_duration": 2,
+            "build_up_per_shot": 1.2
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1409190604": {
+        "tag": "upgrade_fury_trance",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_weapon\/vampiric_burst",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 18
+        },
+        "vitality": {
+            "spirit_resist": 40,
+            "hp": 100
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "active_bonus_fire_rate": 30
+        },
+        "active": {
+            "cooldown": 18,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "1055679805": {
+        "tag": "upgrade_surging_power",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_weapon\/vampiric_burst",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 16
+        },
+        "vitality": {
+            "hp": 100,
+            "bullet_resist": 10
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "active_bonus_fire_rate": 34,
+            "active_bonus_lifesteal": 80,
+            "active_reload_percent": 75
+        },
+        "active": {
+            "cooldown": 30,
+            "duration": 4.5,
+            "recharge_speed": -1
+        }
+    },
+    "481022061": {
+        "tag": "upgrade_mod_disruptor",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_weapon\/thermal_detonator",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": -18
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "dps": 50,
+            "d_p_s_increase": 10,
+            "d_p_s_max": 100,
+            "radius": "8m",
+            "tick_rate": 0.5
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 5,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "2039312305": {
+        "tag": "upgrade_frenzy",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/health_stealing_bullets",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 25
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "radius": "15m",
+            "bullet_armor_reduction": -40,
+            "low_health_percent_threshold": 45,
+            "low_health_life_steal_percent": 45,
+            "kill_bonus_move_speed_per_stack": "2m",
+            "max_kill_bonus_move_speed_stack": 3
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "2820116164": {
+        "tag": "upgrade_diviners_kevlar",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": {
+            "spirit_power": 35
+        },
+        "mobility": [],
+        "extra": {
+            "combat_barrier": 1000,
+            "buff_duration": 20,
+            "bonus_ability_duration_percent": 15
+        },
+        "active": {
+            "cooldown": 40,
+            "recharge_speed": -1
+        }
+    },
+    "2672389724": {
+        "tag": "upgrade_stabilizing_tripod",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_utility\/base_utility",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "model_scale": 1,
+            "tick_rate": 0.5,
+            "tracking_speed": 125,
+            "turret_attack_delay": 0.35,
+            "turret_attack_range": "50m",
+            "turret_deploy_time": 2,
+            "turret_lifetime": 20,
+            "attack_cone_angle": 10,
+            "stationary_weapon_power": 40,
+            "stationary_recoil_reduction": 25,
+            "caster_health_percent": 100,
+            "bullet_speed_override": 6500
+        },
+        "active": {
+            "cooldown": 64,
+            "duration": 20,
+            "cast_range": "15m",
+            "recharge_speed": -1
+        }
+    },
+    "2947183272": {
+        "tag": "upgrade_resonant_healing",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/boundless_spirit",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 90
+        },
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "1.75m"
+        },
+        "extra": {
+            "healing_per_cast": 70,
+            "regeneration": 4,
+            "regeneration_duration": 6
+        },
+        "active": {
+            "cooldown": 6,
+            "duration": 3,
+            "recharge_speed": -1
+        }
+    },
+    "2739107182": {
+        "tag": "upgrade_burst_fire",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/fire_rate_plus_plus",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "fire_rate": 10
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "1.25m"
+        },
+        "extra": {
+            "activated_fire_rate": 32,
+            "slide_scale": 50
+        },
+        "active": {
+            "cooldown": 7,
+            "duration": 3.5,
+            "recharge_speed": -1
+        }
+    },
+    "2407033488": {
+        "tag": "upgrade_intensifying_clip",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/auto_reloader",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "clip_size_pct": 20
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "shoot_duration_for_max": 2.5,
+            "base_attack_damage_percent_at_max_duration": 45
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1644605047": {
+        "tag": "upgrade_vex_barrier",
+        "tier": 2,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/last_stand",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 6
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "vex_barrier_combat_barrier": 325
+        },
+        "active": {
+            "cooldown": 40,
+            "duration": 10,
+            "recharge_speed": -1
+        }
+    },
+    "3647584222": {
+        "tag": "upgrade_split_shot",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/titanic_magazine",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bonus_shots_duration": 5,
+            "bullet_split_shot": 5,
+            "spread_angle_degrees": 45,
+            "weapon_damage_bonus_duration": 12,
+            "weapon_damage_per_stack": 10,
+            "max_stacks": 6
+        },
+        "active": {
+            "cooldown": 24,
+            "recharge_speed": -1
+        }
+    },
+    "381961617": {
+        "tag": "upgrade_active_reload",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_utility\/deployable_bullet_shield",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "bullet_lifesteal_pct": 18,
+            "fire_rate": 22,
+            "clip_size_pct": 20
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "0.75m"
+        },
+        "extra": [],
+        "active": {
+            "cooldown": 12,
+            "duration": 7,
+            "recharge_speed": -1
+        }
+    },
+    "2800629741": {
+        "tag": "upgrade_magic_carpet",
+        "tier": 4,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/hud\/abilities\/kelvin\/ice_path",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 125
+        },
+        "spirit": {
+            "spirit_power": 14
+        },
+        "mobility": [],
+        "extra": {
+            "summon_duration": 1.3,
+            "fly_move_speed": "7m",
+            "bonus_ability_duration_percent": 15
+        },
+        "active": {
+            "cooldown": 32,
+            "duration": 12,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "1200177229": {
+        "tag": "upgrade_spellshield",
+        "tier": 3,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/restorative_locket",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "spirit_resist": 15
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "spell_shield_linger_duration": 0.3,
+            "spell_shield_flavor_text": "asdasd"
+        },
+        "active": {
+            "cooldown": 12
+        }
+    },
+    "2331566268": {
+        "tag": "upgrade_superacolytes_glove",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/acolytes_glove",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "melee_dmg_pct": 30
+        },
+        "vitality": {
+            "hp": 75,
+            "hp_regen": 1
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "stored_spirit_damage": 200
+        },
+        "active": {
+            "cooldown": 3,
+            "duration": 13,
+            "recharge_speed": -1
+        }
+    },
+    "194116661": {
+        "tag": "upgrade_magic_missile",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/glass_cannon",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 70,
+            "fire_rate": 10
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "1m"
+        },
+        "extra": {
+            "max_health_loss_percent": -15,
+            "bonus_clip_per_kill": 2,
+            "max_clip_bonus": 14,
+            "weapon_power_per_kill": 10,
+            "max_stacks": 5
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "138320648": {
+        "tag": "upgrade_heal_on_level",
+        "tier": 1,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/last_stand",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp_regen": 2
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "heal_on_level_heal_amount": 210,
+            "aura_radius": "15m"
+        }
+    },
+    "3913864662": {
+        "tag": "upgrade_corpse_explosion",
+        "tier": 3,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_utility\/smoke",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp_regen": 3,
+            "hp": 110
+        },
+        "spirit": {
+            "spirit_power": 6
+        },
+        "mobility": {
+            "sprint_speed": "1m"
+        },
+        "extra": {
+            "explosion_radius": "4m",
+            "explosion_damage": 125,
+            "hero_multiplier": 150,
+            "arming_time": 0.1
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "3346798998": {
+        "tag": "upgrade_infinitemagazine",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/hud\/abilities\/wraith_daggers",
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "clip_size_pct": 100,
+            "damage_pct": 20,
+            "fire_rate": 20
+        },
+        "vitality": {
+            "hp": 200
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": [],
+        "active": {
+            "cooldown": 40,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "1497973293": {
+        "tag": "upgrade_glass_cannon2",
+        "tier": 4,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_weapon\/glass_cannon",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 100,
+            "fire_rate": 100
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "max_health_loss_percent": -50,
+            "weapon_power_per_kill": 10,
+            "bonus_bullet_speed_percent": 25
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1250307611": {
+        "tag": "upgrade_juggernaut",
+        "tier": 4,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/items\/vitality\/juggernaut",
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "melee_resist_pct": 25,
+            "hp_regen": 8
+        },
+        "spirit": [],
+        "mobility": {
+            "move_speed_bonus": "2.0m"
+        },
+        "extra": {
+            "slow_resistance_percent": 50,
+            "fire_rate_slow": 36,
+            "fire_rate_slow_duration": 4
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "690458959": {
+        "tag": "upgrade_express_shot",
+        "tier": 3,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 8
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "bonus_bullet_speed_percent": 60,
+            "proc_ammo_consumed": 2,
+            "proc_bullet_velocity": 100,
+            "proc_base_attack_damage_percent": 125,
+            "proc_base_attack_damage_percent_alt_fire": 35
+        },
+        "active": {
+            "cooldown": 8,
+            "recharge_speed": -1
+        }
+    },
+    "2054088113": {
+        "tag": "upgrade_mystical_piano",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/knockdown",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "stun_delay": 1.7,
+            "stun_duration": 2,
+            "daze_move_speed": "2m",
+            "daze_duration": 2,
+            "radius": "11m"
+        },
+        "active": {
+            "cooldown": 23,
+            "duration": 1.7,
+            "cast_delay": 0.2,
+            "recharge_speed": -1
+        }
+    },
+    "3949773228": {
+        "tag": "upgrade_nullification_aura",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/bullet_armor_reduction_aura",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": {
+            "hp": 300
+        },
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "spread_duration": 0.5,
+            "start_radius": "2m",
+            "end_radius": "12m",
+            "damage": 250,
+            "damage_height": "2.5m"
+        },
+        "active": {
+            "cooldown": 18,
+            "duration": 7,
+            "recharge_speed": -1
+        }
+    },
+    "3729138568": {
+        "tag": "upgrade_celestial_guidance",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": "mods_armor\/debuff_reducer",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "stamina_recover": 100
+        },
+        "extra": {
+            "min_heal": 300,
+            "heal_percent_amount": 50,
+            "radius": "999m",
+            "buff_duration": 6,
+            "buff_move_speed_bonus": "5m"
+        },
+        "active": {
+            "cooldown": 50,
+            "recharge_speed": -1
+        }
+    },
+    "1825399334": {
+        "tag": "upgrade_electric_slippers",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": null,
+        "is_active": null,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "stamina": 2
+        },
+        "extra": {
+            "radius": "8m",
+            "proc_cooldown": 0.3,
+            "damage": 100,
+            "slide_scale": 80,
+            "slide_turn_scale": 100,
+            "evasion_while_sliding": 60,
+            "fire_rate_while_sliding": 50
+        },
+        "active": {
+            "recharge_speed": -1
+        }
+    },
+    "1132564516": {
+        "tag": "upgrade_prism_blast",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "panorama:\"file:\/\/{images}\/items\/spirit\/ethereal_shift",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "beam_length": "30m",
+            "beam_width": "2.9m",
+            "dps": 270,
+            "damping_factor": 3,
+            "lift_height": 100,
+            "float_move_speed": "2.5m"
+        },
+        "active": {
+            "cooldown": 40,
+            "duration": 6,
+            "recharge_speed": -1
+        }
+    },
+    "1558545403": {
+        "tag": "upgrade_unstable_concoction",
+        "tier": 5,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": {
+            "damage_pct": 150
+        },
+        "vitality": {
+            "hp": 3000
+        },
+        "spirit": {
+            "spirit_power": 150
+        },
+        "mobility": {
+            "move_speed_bonus": "10m"
+        },
+        "extra": {
+            "max_h_p_damage": 30,
+            "stun_duration": 3,
+            "radius": "18m"
+        },
+        "active": {
+            "cooldown": 25,
+            "duration": 4,
+            "recharge_speed": -1
+        }
+    },
+    "2319629810": {
+        "tag": "upgrade_shadow_strike",
+        "tier": 5,
+        "slot_type": "armor",
+        "components": null,
+        "icon_class": null,
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "stamina": 2
+        },
+        "extra": {
+            "invis_alert_when_fading": 1,
+            "invis_fade_to_duration": 0.2,
+            "reveal_on_damage_duration": 1.5,
+            "reveal_on_spotted_duration": 0.25,
+            "resist_steal_amount": 40,
+            "tick_rate": 1,
+            "dps": 75,
+            "max_stacks": 1,
+            "steal_duration": 6
+        },
+        "active": {
+            "duration": 2.5,
+            "recharge_speed": -1
+        }
+    },
+    "1763073141": {
+        "tag": "upgrade_rechargingbullets",
+        "tier": 2,
+        "slot_type": "damage",
+        "components": null,
+        "icon_class": "mods_tech\/arcane_medallion",
+        "is_active": null,
+        "ability": [],
+        "bullet": {
+            "clip_size_pct": 20,
+            "damage_pct": 10
+        },
+        "vitality": [],
+        "spirit": [],
+        "mobility": [],
+        "extra": {
+            "damage_threshold": 200,
+            "damage_window": 3.5
+        },
+        "active": {
+            "cooldown": 20,
+            "recharge_speed": -1
+        }
+    },
+    "2462046703": {
+        "tag": "upgrade_goose_egg",
+        "tier": 1,
+        "slot_type": "spirit",
+        "components": null,
+        "icon_class": "mods_tech\/tech_damage",
+        "is_active": true,
+        "ability": [],
+        "bullet": [],
+        "vitality": [],
+        "spirit": [],
+        "mobility": {
+            "sprint_speed": "1m"
+        },
+        "extra": {
+            "bonus_gold_per_minute": 75,
+            "outgoing_damage_penalty_percent": -10,
+            "think_rate": 3,
+            "out_of_combat_health_regen": 1,
+            "starting_gold": 400,
+            "bonus_buffs_per_gold": 200
+        },
+        "active": {
+            "recharge_speed": -1
+        }
     }
 }

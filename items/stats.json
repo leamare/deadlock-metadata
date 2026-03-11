@@ -6804,7 +6804,7 @@
             "think_rate": 3,
             "out_of_combat_health_regen": 1,
             "starting_gold": 400,
-            "bonus_buffs_per_gold": 200
+            "bonus_buffs_per_gold": 150
         },
         "active": {
             "recharge_speed": -1

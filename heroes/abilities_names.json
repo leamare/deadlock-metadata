@@ -1369,7 +1369,7 @@
         "japanese": "絡みつくイバラ",
         "polish": "Pętające Ciernie",
         "schinese": "纠缠荆棘",
-        "thai": "​คุดซุ​บอมบ์​",
+        "thai": "​เอนแทงเกิลลิงธอร์น",
         "czech": "Popínavé trny",
         "koreana": "포박 가시",
         "spanish": "Espinas Enredadoras",
@@ -1377,7 +1377,7 @@
         "french": "Bombe de ronces",
         "indonesian": "Duri Penjerat",
         "latam": "Espinas enredadoras",
-        "ukrainian": "Кудзу-бомба"
+        "ukrainian": "Чіпкі терни"
     },
     "1531378655": {
         "tag": "citadel_ability_tangotether",
@@ -1389,7 +1389,7 @@
         "japanese": "イバラの絆",
         "polish": "Więź Kudzu",
         "schinese": "葛根连结",
-        "thai": "​วอตเชอร์​คัฟเวอแนนต์​",
+        "thai": "​คุดซุคอนเนกชัน",
         "czech": "Pouto s chrličem",
         "koreana": "칡덩굴 연결",
         "spanish": "Conexión Kudzu",
@@ -1397,7 +1397,7 @@
         "french": "Liane de soin",
         "indonesian": "Koneksi Kudzu",
         "latam": "Conexión Kudzu",
-        "ukrainian": "Союзний пакт"
+        "ukrainian": "Кудзу-зв’язок"
     },
     "3642273386": {
         "tag": "citadel_ability_tengu_stone_form",
@@ -1569,14 +1569,14 @@
         "french": "Sabre-grappin",
         "indonesian": "Tupai Kuat",
         "latam": "Corte volador",
-        "ukrainian": "Летюче лезо"
+        "ukrainian": "Розріз у повітрі"
     },
     "2366960452": {
         "tag": "citadel_ability_healing_slash",
         "brazilian": "Corte Carmesim",
         "german": "Schwertstreich",
         "italian": "Colpo scarlatto",
-        "russian": "Багровый удар",
+        "russian": "Багровое рассечение",
         "english": "Crimson Slash",
         "japanese": "クリムゾンスラッシュ",
         "polish": "Szkarłatne Cięcie",
@@ -1589,7 +1589,7 @@
         "french": "Shomen écarlate",
         "indonesian": "Tebasan Maut",
         "latam": "Corte carmesí",
-        "ukrainian": "Багряний поріз"
+        "ukrainian": "Багряний розріз"
     },
     "3319782965": {
         "tag": "citadel_ability_infinity_slash",
@@ -2064,7 +2064,7 @@
         "japanese": "ダストデビル",
         "polish": "Wir Piaskowy",
         "schinese": "尘卷风",
-        "thai": "​ทอร์นาโด​",
+        "thai": "ดัสต์เดวิล",
         "czech": "Písečný ďábel",
         "koreana": "먼지 회오리",
         "spanish": "Torbellino",
@@ -2072,7 +2072,7 @@
         "french": "Tornade",
         "indonesian": "Angin Setan",
         "latam": "Torbellino",
-        "ukrainian": "Торнадо"
+        "ukrainian": "Пиловий диявол"
     },
     "2221949202": {
         "tag": "mirage_sand_phantom",
@@ -2841,7 +2841,7 @@
         "french": "Défense et contrattaque",
         "indonesian": "Armor Baja",
         "latam": "Armadura narrativa",
-        "ukrainian": "Захист і бій"
+        "ukrainian": "Сюжетні лати"
     },
     "3054993162": {
         "tag": "ability_bookworm_aoemagic",
@@ -3197,7 +3197,7 @@
         "french": "Invocation de dragon",
         "indonesian": "Kutu Buku",
         "latam": "Dragón erudito",
-        "ukrainian": "Виклик дракона"
+        "ukrainian": "Книжковий дракон"
     },
     "2000761890": {
         "tag": "ability_boho_bouncyprojectile",
@@ -3858,5 +3858,17 @@
     },
     "463497510": {
         "tag": "ability_opera_ult"
+    },
+    "294499382": {
+        "tag": "ability_testhero_wallcling"
+    },
+    "301527624": {
+        "tag": "ability_testhero_ability02"
+    },
+    "2192886657": {
+        "tag": "ability_testhero_ability03"
+    },
+    "2556078712": {
+        "tag": "ability_testhero_ult"
     }
 }

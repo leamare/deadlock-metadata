@@ -872,5 +872,18 @@
         "status": "in_devel",
         "complexity": 1,
         "inspiration": null
+    },
+    "83": {
+        "tag": "testhero",
+        "internal_tag": "testhero",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "testhero",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "in_devel",
+        "complexity": 2,
+        "inspiration": null
     }
 }

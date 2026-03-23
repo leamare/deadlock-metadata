@@ -510,7 +510,7 @@
         "koreana": "추가 체력",
         "spanish": "Vida Adicional",
         "turkish": "Ekstra Sağlık",
-        "french": "Bonus de PV",
+        "french": "Surplus de PV",
         "indonesian": "Health Ekstra",
         "latam": "Vida adicional",
         "ukrainian": "Додаткове здоров’я"
@@ -779,7 +779,7 @@
         "koreana": "추가 활력",
         "spanish": "Aguante Adicional",
         "turkish": "Ekstra Kuvvet",
-        "french": "Bonus d'endurance",
+        "french": "Surplus d'endurance",
         "indonesian": "Ekstra Stamina",
         "latam": "Resistencia adicional",
         "ukrainian": "Додаткова витривалість"
@@ -819,7 +819,7 @@
         "koreana": "추가 마법",
         "spanish": "Espíritu Adicional",
         "turkish": "Ekstra Büyü",
-        "french": "Esprit bonus",
+        "french": "Surplus spirituel",
         "indonesian": "Spirit Ekstra",
         "latam": "Espíritu adicional",
         "ukrainian": "Додатковий дух"
@@ -919,7 +919,7 @@
         "koreana": "추가 충전",
         "spanish": "Carga Adicional",
         "turkish": "Ekstra Şarj",
-        "french": "Charge bonus",
+        "french": "Surplus de charge",
         "indonesian": "Isi Daya Ekstra",
         "latam": "Carga extra",
         "ukrainian": "Додатковий заряд"
@@ -1298,7 +1298,7 @@
         "koreana": "추가 재생",
         "spanish": "Regeneración Adicional",
         "turkish": "Ekstra Yenilenme",
-        "french": "Bonus de régénération",
+        "french": "Surplus de régénération",
         "indonesian": "Pemulihan Ekstra",
         "latam": "Regeneración adicional",
         "ukrainian": "Додаткове відновлення"
@@ -1831,13 +1831,15 @@
         "japanese": "ストーカー",
         "polish": "Prześladowca",
         "schinese": "追猎",
+        "thai": "สตอล์กเกอร์",
         "czech": "Stalkerovo ostří",
         "koreana": "추격자",
         "spanish": "Acechador",
         "turkish": "İz Sürücü",
         "french": "Traqueur",
         "indonesian": "Penguntit",
-        "latam": "Acechador"
+        "latam": "Acechador",
+        "ukrainian": "Переслідувач"
     },
     "2519598785": {
         "tag": "upgrade_boundless_spirit",
@@ -4124,6 +4126,7 @@
         "turkish": "Altın Kaz Yumurtası",
         "french": "Œuf doré",
         "indonesian": "Telur Angsa Emas",
-        "latam": "Huevo dorado de ganso"
+        "latam": "Huevo dorado de ganso",
+        "ukrainian": "Гусяче золоте яйце"
     }
 }

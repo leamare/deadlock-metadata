@@ -17,7 +17,7 @@
                         "bullet_dmg_max": 5.5,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
-                        "reload_time": 2.491,
+                        "reload_time": 2.25,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
@@ -87,7 +87,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 75,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -120,7 +120,7 @@
                         "bullet_dmg_max": 6.732,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
-                        "reload_time": 2.491,
+                        "reload_time": 2.25,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
@@ -190,7 +190,7 @@
         "vitality": {
             "hp": 840,
             "hp_regen": 2,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 51,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -293,7 +293,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 1,
-            "hp_per_lvl": 48,
+            "hp_per_lvl": 53,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -396,7 +396,7 @@
         "vitality": {
             "hp": 765,
             "hp_regen": 2,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 39,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -503,7 +503,7 @@
         "vitality": {
             "hp": 890,
             "hp_regen": 1,
-            "hp_per_lvl": 59,
+            "hp_per_lvl": 64,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -598,12 +598,12 @@
         "melee": {
             "light_melee_damage": 50,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 1.58
+            "melee_damage_per_lvl": 1.738
         },
         "vitality": {
             "hp": 810,
             "hp_regen": 1.5,
-            "hp_per_lvl": 57,
+            "hp_per_lvl": 62,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -706,7 +706,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 2,
-            "hp_per_lvl": 42,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -731,16 +731,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.15,
+            "bullet_dmg_per_lvl": 0.16,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_engineer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 28.5714,
-                        "max_dps": 38.5714,
-                        "bullet_dmg": 6,
-                        "bullet_dmg_max": 8.1,
+                        "dps": 29.5238,
+                        "max_dps": 40.1905,
+                        "bullet_dmg": 6.2,
+                        "bullet_dmg_max": 8.440000000000001,
                         "clip_size": 66,
                         "full_clip_sec": 13.86,
                         "reload_time": 3.29,
@@ -813,7 +813,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 60,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0.625
@@ -916,7 +916,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 1,
-            "hp_per_lvl": 53,
+            "hp_per_lvl": 58,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -947,8 +947,8 @@
                         "max_dps": 74.6667,
                         "bullet_dmg": 12.6,
                         "bullet_dmg_max": 19.6,
-                        "clip_size": 18,
-                        "full_clip_sec": 4.7250000000000005,
+                        "clip_size": 20,
+                        "full_clip_sec": 5.25,
                         "reload_time": 2.35,
                         "reload_time_single_delay": 0
                     },
@@ -1019,7 +1019,7 @@
         "vitality": {
             "hp": 890,
             "hp_regen": 1.75,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 74,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.625,
             "spirit_resist": 0
@@ -1122,7 +1122,7 @@
         "vitality": {
             "hp": 890,
             "hp_regen": 1,
-            "hp_per_lvl": 67,
+            "hp_per_lvl": 73,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0.625
@@ -1225,7 +1225,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 2,
-            "hp_per_lvl": 40,
+            "hp_per_lvl": 45,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1332,7 +1332,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 1,
-            "hp_per_lvl": 48,
+            "hp_per_lvl": 53,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1435,7 +1435,7 @@
         "vitality": {
             "hp": 890,
             "hp_regen": 1.5,
-            "hp_per_lvl": 60,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.3,
             "spirit_resist": 0
@@ -1538,7 +1538,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 2,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 49,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1641,7 +1641,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 1.5,
-            "hp_per_lvl": 45,
+            "hp_per_lvl": 50,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1749,7 +1749,7 @@
         "vitality": {
             "hp": 940,
             "hp_regen": 1,
-            "hp_per_lvl": 72,
+            "hp_per_lvl": 78,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1852,7 +1852,7 @@
         "vitality": {
             "hp": 840,
             "hp_regen": 2,
-            "hp_per_lvl": 53,
+            "hp_per_lvl": 58,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1862,8 +1862,8 @@
             "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
-            "stamina": 2,
-            "stamina_regen": 0.222222
+            "stamina": 3,
+            "stamina_regen": 0.18181
         },
         "scaling_stats": []
     },
@@ -1955,7 +1955,7 @@
         "vitality": {
             "hp": 765,
             "hp_regen": 2,
-            "hp_per_lvl": 52,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2058,7 +2058,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2161,7 +2161,7 @@
         "vitality": {
             "hp": 815,
             "hp_regen": 2,
-            "hp_per_lvl": 67,
+            "hp_per_lvl": 73,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2267,7 +2267,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 1,
-            "hp_per_lvl": 52,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2374,7 +2374,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 58,
+            "hp_per_lvl": 63,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2477,7 +2477,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 52,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2580,7 +2580,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2683,7 +2683,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2786,7 +2786,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 75,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2889,7 +2889,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2992,7 +2992,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3095,7 +3095,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3195,7 +3195,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 1,
-            "hp_per_lvl": 43,
+            "hp_per_lvl": 48,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3298,7 +3298,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3401,7 +3401,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 2,
-            "hp_per_lvl": 52,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3501,7 +3501,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 62,
+            "hp_per_lvl": 67,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3604,7 +3604,7 @@
         "vitality": {
             "hp": 840,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3707,7 +3707,7 @@
         "vitality": {
             "hp": 3000,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 75,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3810,7 +3810,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3913,7 +3913,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4018,7 +4018,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 42,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4125,7 +4125,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 61,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4228,7 +4228,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 2,
-            "hp_per_lvl": 45,
+            "hp_per_lvl": 50,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4335,7 +4335,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 75,
+            "hp_per_lvl": 81,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4438,7 +4438,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 59,
+            "hp_per_lvl": 64,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4541,7 +4541,7 @@
         "vitality": {
             "hp": 670,
             "hp_regen": 2,
-            "hp_per_lvl": 34,
+            "hp_per_lvl": 38,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4642,7 +4642,7 @@
         "vitality": {
             "hp": 765,
             "hp_regen": 3.5,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 51,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4745,7 +4745,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 45,
+            "hp_per_lvl": 50,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4853,7 +4853,7 @@
         "vitality": {
             "hp": 810,
             "hp_regen": 1.5,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 55,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4960,7 +4960,7 @@
         "vitality": {
             "hp": 690,
             "hp_regen": 2,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 39,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5067,7 +5067,7 @@
         "vitality": {
             "hp": 715,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 75,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5170,7 +5170,7 @@
         "vitality": {
             "hp": 765,
             "hp_regen": 1,
-            "hp_per_lvl": 49,
+            "hp_per_lvl": 54,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5273,7 +5273,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 59,
+            "hp_per_lvl": 64,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5376,7 +5376,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 74,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5479,7 +5479,7 @@
         "vitality": {
             "hp": 830,
             "hp_regen": 2.5,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 55,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5568,7 +5568,7 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 48,
+            "hp_per_lvl": 53,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5671,7 +5671,7 @@
         "vitality": {
             "hp": 520,
             "hp_regen": 2,
-            "hp_per_lvl": 37,
+            "hp_per_lvl": 41,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5774,7 +5774,7 @@
         "vitality": {
             "hp": 690,
             "hp_regen": 2,
-            "hp_per_lvl": 42,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5881,7 +5881,7 @@
         "vitality": {
             "hp": 740,
             "hp_regen": 1,
-            "hp_per_lvl": 40,
+            "hp_per_lvl": 45,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5908,10 +5908,10 @@
                 "citadel_weapon_fencer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 44.7368,
-                        "max_dps": 72.3684,
-                        "bullet_dmg": 17,
-                        "bullet_dmg_max": 27.5,
+                        "dps": 48.6842,
+                        "max_dps": 76.3158,
+                        "bullet_dmg": 18.5,
+                        "bullet_dmg_max": 29,
                         "clip_size": 15,
                         "full_clip_sec": 5.699999999999999,
                         "reload_time": 2.5,
@@ -5984,7 +5984,7 @@
         "vitality": {
             "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 52,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6073,7 +6073,7 @@
         "vitality": {
             "hp": 690,
             "hp_regen": 2,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 51,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6176,7 +6176,7 @@
         "vitality": {
             "hp": 690,
             "hp_regen": 2,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 39,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6279,7 +6279,7 @@
         "vitality": {
             "hp": 840,
             "hp_regen": 2.5,
-            "hp_per_lvl": 35,
+            "hp_per_lvl": 39,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6300,16 +6300,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.6,
+            "bullet_dmg_per_lvl": 0.7,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_unicorn_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 30,
-                        "max_dps": 44,
-                        "bullet_dmg": 18,
-                        "bullet_dmg_max": 26.4,
+                        "dps": 36.6667,
+                        "max_dps": 53,
+                        "bullet_dmg": 22,
+                        "bullet_dmg_max": 31.799999999999997,
                         "clip_size": 8,
                         "full_clip_sec": 4.8,
                         "reload_time": 2,
@@ -6332,8 +6332,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 5905,
-                        "max": 7874
+                        "base": 866.142,
+                        "max": 2362.2
                     },
                     "crit": {
                         "start": 1.65,
@@ -6382,8 +6382,8 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 42,
-            "bullet_resist": -6,
+            "hp_per_lvl": 47,
+            "bullet_resist": -8,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
@@ -6471,13 +6471,102 @@
         "vitality": {
             "hp": 790,
             "hp_regen": 2,
-            "hp_per_lvl": 70,
+            "hp_per_lvl": 76,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
             "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "83": {
+        "tag": "testhero",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.043,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_testhero_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 0.602,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            }
+        },
+        "melee": {
+            "light_melee_damage": 63,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 740,
+            "hp_regen": 2,
+            "hp_per_lvl": 49,
+            "bullet_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist": 0
+        },
+        "mobility": {
+            "move_speed": 6.8,
             "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,

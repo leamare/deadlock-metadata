@@ -453,8 +453,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787.402,
-                        "max": 2047.24
+                        "base": 669.291,
+                        "max": 1889.76
                     },
                     "crit": {
                         "start": 1.65,
@@ -1434,7 +1434,7 @@
         },
         "vitality": {
             "hp": 890,
-            "hp_regen": 1.5,
+            "hp_regen": 2.5,
             "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.3,
@@ -4853,7 +4853,7 @@
         "vitality": {
             "hp": 810,
             "hp_regen": 1.5,
-            "hp_per_lvl": 55,
+            "hp_per_lvl": 46,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6197,16 +6197,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.1206,
+            "bullet_dmg_per_lvl": 0.124,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_werewolf_rifle": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 42.7778,
-                        "max_dps": 55.9098,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 7.1884,
+                        "dps": 42,
+                        "max_dps": 55.5022,
+                        "bullet_dmg": 5.4,
+                        "bullet_dmg_max": 7.136,
                         "clip_size": 7,
                         "full_clip_sec": 6.3,
                         "reload_time": 0.3,
@@ -6381,7 +6381,7 @@
         },
         "vitality": {
             "hp": 790,
-            "hp_regen": 2,
+            "hp_regen": 1,
             "hp_per_lvl": 47,
             "bullet_resist": -8,
             "bullet_resist_per_level": 0,

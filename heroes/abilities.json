@@ -13161,11 +13161,6 @@
                             "property": "heal_per_pickup",
                             "value": 0.1,
                             "upgrade_type": "add_to_scale"
-                        },
-                        {
-                            "property": "heal_per_pickup",
-                            "value": 1,
-                            "upgrade_type": "add_to_scale"
                         }
                     ],
                     [
@@ -13176,10 +13171,6 @@
                         {
                             "property": "slow_duration",
                             "value": 1
-                        },
-                        {
-                            "property": "skull_lifetime",
-                            "value": 4
                         }
                     ],
                     [
@@ -13188,8 +13179,8 @@
                             "value": 2
                         },
                         {
-                            "property": "skulls_apply_passive",
-                            "value": 1
+                            "property": "skull_lifetime",
+                            "value": 4
                         }
                     ]
                 ]
@@ -13292,8 +13283,7 @@
                     "delay_before_loss": 0.5,
                     "progress_loss_multiplier": 2.3,
                     "max_stolen_spirit_resist": 10,
-                    "max_stolen_targets": 3,
-                    "skull_build_up": 0.15
+                    "max_stolen_targets": 3
                 },
                 "upgrades": [
                     [
@@ -13310,11 +13300,15 @@
                     ],
                     [
                         {
-                            "property": "bonus_weapon_angle",
-                            "value": 35
+                            "property": "skull_build_up",
+                            "value": 0.15
                         },
                         {
-                            "property": "bonus_weapon_tethers",
+                            "property": "zombie_melee_build_up",
+                            "value": 0.15
+                        },
+                        {
+                            "property": "zombie_explosion_build_up",
                             "value": 1
                         }
                     ]

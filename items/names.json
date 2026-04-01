@@ -1996,8 +1996,8 @@
         "koreana": "무한탄",
         "spanish": "Cartuchos Infinitos",
         "turkish": "Sonsuz Cephane",
-        "french": "Manches infinies",
-        "indonesian": "Putaran Tanpa Batas",
+        "french": "Chargeur inépuisable",
+        "indonesian": "Amunisi Tanpa Batas",
         "latam": "Cartuchos infinitos",
         "ukrainian": "Нескінченні набої"
     },
@@ -2117,7 +2117,7 @@
         "spanish": "Guanteletes Rúnicos",
         "turkish": "Rünlü Eldivenler",
         "french": "Gantelets runiques",
-        "indonesian": "Serbuk Pelindung",
+        "indonesian": "Sarung Tangan Ajaib",
         "latam": "Guanteletes rúnicos",
         "ukrainian": "Рунні рукавиці"
     },
@@ -2794,7 +2794,7 @@
         "spanish": "Savia Espiritual",
         "turkish": "Büyü Zayıflatma",
         "french": "Sape spirituelle",
-        "indonesian": "Penyurutan Spirit",
+        "indonesian": "Getah Jiwa",
         "latam": "Savia espiritual",
         "ukrainian": "Духовне висушення"
     },
@@ -3302,7 +3302,7 @@
     "857669956": {
         "tag": "upgrade_guardian_ward",
         "brazilian": "Sentinela Guardiã",
-        "german": "Schutzwache",
+        "german": "Schützende Barriere",
         "italian": "Guardiano sentinella",
         "russian": "Заслон стража",
         "english": "Guardian Ward",

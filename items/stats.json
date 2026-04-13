@@ -893,7 +893,7 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "-1m",
+            "move_speed_bonus": "-0.7m",
             "sprint_speed": "1.0m"
         },
         "extra": {
@@ -1051,13 +1051,13 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "dot_health_percent": 2,
+            "dot_health_percent": 1.7,
             "dot_duration": 4,
-            "build_up_per_shot": 1.1638,
+            "build_up_per_shot": 1.28,
             "build_up_duration": 5,
             "tick_rate": 0.5,
-            "heal_amp_receive_penalty_percent": -30,
-            "heal_amp_regen_penalty_percent": -30,
+            "heal_amp_receive_penalty_percent": -35,
+            "heal_amp_regen_penalty_percent": -35,
             "dot_multipler_troopers": 0.5
         },
         "active": {
@@ -2505,8 +2505,8 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "clip_size_pct": 90,
-            "damage_pct": 12
+            "clip_size_pct": 100,
+            "damage_pct": 14
         },
         "vitality": [],
         "spirit": [],
@@ -2973,7 +2973,7 @@
         "mobility": [],
         "extra": {
             "bonus_bullet_speed_percent": 60,
-            "proc_chance": 50
+            "proc_chance": 55
         },
         "active": {
             "recharge_speed": -1
@@ -2989,7 +2989,7 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "hp": 100
+            "hp": 130
         },
         "spirit": [],
         "mobility": [],
@@ -3662,7 +3662,7 @@
             "non_player_bonus_weapon_power": 30,
             "out_of_combat_health_regen": 2,
             "non_player_bullet_resist": 30,
-            "bonus_souls_pct": 150,
+            "bonus_souls_pct": 170,
             "tech_radius_multiplier": 12
         },
         "active": {
@@ -3777,10 +3777,10 @@
             "height_off_ground": "1m",
             "growth_per_meter": "0.15m",
             "initial_width": "5.0m",
-            "damage": 100
+            "damage": 75
         },
         "active": {
-            "cooldown": 30,
+            "cooldown": 42,
             "duration": 3,
             "cast_range": "40m",
             "cast_delay": 0.1,
@@ -4345,14 +4345,14 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1.5m"
+            "move_speed_bonus": "1.75m"
         },
         "extra": {
-            "damage_window": 3.5,
+            "damage_window": 4,
             "damage_threshold": 250,
             "combat_barrier": 300,
             "out_of_combat_health_regen": 2.5,
-            "barrier_duration": 7
+            "barrier_duration": 8
         },
         "active": {
             "cooldown": 35,
@@ -4371,14 +4371,14 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "move_speed_bonus": "1.5m"
+            "move_speed_bonus": "1.75m"
         },
         "extra": {
             "damage_window": 3.5,
             "damage_threshold": 225,
             "combat_barrier": 300,
             "out_of_combat_health_regen": 2.5,
-            "barrier_duration": 7
+            "barrier_duration": 8
         },
         "active": {
             "cooldown": 45,
@@ -4447,11 +4447,11 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "bullet_damage_reflected_pct": 50,
+            "bullet_damage_reflected_pct": 60,
             "spirit_damage_reflected_pct": 25
         },
         "active": {
-            "cooldown": 25,
+            "cooldown": 23,
             "duration": 6,
             "recharge_speed": -1
         }
@@ -5097,7 +5097,7 @@
         "mobility": [],
         "extra": [],
         "active": {
-            "cooldown": 30,
+            "cooldown": 35,
             "recharge_speed": -1
         }
     },
@@ -6558,7 +6558,7 @@
             "proc_ammo_consumed": 2,
             "proc_bullet_velocity": 100,
             "proc_base_attack_damage_percent": 125,
-            "proc_base_attack_damage_percent_alt_fire": 35
+            "proc_base_attack_damage_percent_alt_fire": 40
         },
         "active": {
             "cooldown": 8,
@@ -6781,7 +6781,7 @@
             "damage_window": 3.5
         },
         "active": {
-            "cooldown": 20,
+            "cooldown": 24,
             "recharge_speed": -1
         }
     },
@@ -6805,7 +6805,7 @@
             "think_rate": 3,
             "out_of_combat_health_regen": 1,
             "starting_gold": 400,
-            "bonus_buffs_per_gold": 150
+            "bonus_buffs_per_gold": 100
         },
         "active": {
             "channel_time": 2,

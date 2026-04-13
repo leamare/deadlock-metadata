@@ -24,7 +24,8 @@
                 "behaviors": [
                     "projectile",
                     "displays_damage_impact",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 25,
                 "cast_range": "20m",
@@ -265,7 +266,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "projectile",
-                    "no_target"
+                    "no_target",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 26,
                 "unit_target_limit": 1,
@@ -324,7 +326,8 @@
                     "always_preview_radius",
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 42,
                 "cast_range": "15m",
@@ -378,7 +381,7 @@
                 "targeting_location": "self",
                 "unit_target": "all_enemy",
                 "behaviors": [
-                    ""
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 50,
                 "duration": 10,
@@ -531,7 +534,8 @@
                     "projectile",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 40,
                 "unit_target_limit": 1,
@@ -648,7 +652,8 @@
                     "cleave_disabled",
                     "projectile",
                     "no_target",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 32,
                 "unit_target_limit": 1,
@@ -842,7 +847,8 @@
                     "allow_alt_cast",
                     "use_instant_cast_unit_target_ui",
                     "trigger_cancel_mash_protection_on_cast",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 34,
                 "duration": 2.5,
@@ -900,7 +906,8 @@
                 "behaviors": [
                     "projectile",
                     "no_target",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 6,
                 "unit_target_limit": 1,
@@ -964,7 +971,7 @@
                     "use_instant_cast_unit_target_ui",
                     "can_set_quick_cast"
                 ],
-                "cooldown": 185,
+                "cooldown": 190,
                 "duration": 0.25,
                 "cast_range": "5.5m",
                 "unit_target_limit": 1,
@@ -1276,7 +1283,8 @@
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
                     "allow_alt_cast",
-                    "allow_alt_cast"
+                    "allow_alt_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 0.6,
                 "cast_range": "500m",
@@ -1479,7 +1487,8 @@
                     "channelled",
                     "projectile_pass_through_world",
                     "use_instant_cast_unit_target_ui",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 130,
                 "duration": 2.25,
@@ -1552,7 +1561,8 @@
                 "behaviors": [
                     "displays_damage_impact",
                     "prevent_training_bot_usage",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 18,
                 "cast_range": "20m",
@@ -1625,7 +1635,8 @@
                 "behaviors": [
                     "displays_damage_impact",
                     "can_heal_players",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 50,
                 "duration": 6,
@@ -1689,7 +1700,7 @@
                     "prevent_bot_usage"
                 ],
                 "cooldown": 50,
-                "duration": 5.5,
+                "duration": 6,
                 "cast_range": "50m",
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
@@ -1699,7 +1710,7 @@
                     "wall_impact_range": "5m",
                     "push_force": 175,
                     "damage": 60,
-                    "num_wall_segments": 7,
+                    "num_wall_segments": 8,
                     "time_between_segments": 0.035,
                     "segment_emit_time": 0.1,
                     "time_to_max_distance": 1.8,
@@ -1762,7 +1773,8 @@
                     "deactivate_crouch_toggle_on_cast",
                     "can_set_quick_cast",
                     "require_ability_button_to_cancel",
-                    "dont_switch_away_on_cast"
+                    "dont_switch_away_on_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 175,
                 "duration": 8,
@@ -1855,7 +1867,8 @@
                     "projectile",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 32,
                 "duration": 3.2,
@@ -1925,8 +1938,8 @@
                 "cast_delay": 0.2,
                 "channel_move_speed": "1.3m",
                 "special_props": {
-                    "time_wall_width": "7.5m",
-                    "time_wall_height": "3.5m",
+                    "time_wall_width": "8m",
+                    "time_wall_height": "4m",
                     "time_wall_depth": "0.5m",
                     "time_wall_depth_visual_scale": 0.16,
                     "time_wall_time_scale": 0.0001,
@@ -2008,7 +2021,7 @@
                     "bonus_bullet_speed": 100,
                     "shot_count": 1,
                     "max_charge_duration": 2.5,
-                    "bullet_radius_override": 13.7,
+                    "bullet_radius_override": 16,
                     "move_speed_while_shooting_penalty_reduction": 100,
                     "min_slow_duration": 0.25,
                     "time_scale_debuff": 90
@@ -2205,7 +2218,7 @@
                     "can_set_quick_cast",
                     "deactivate_crouch_toggle_on_cast"
                 ],
-                "cooldown": 16,
+                "cooldown": 19,
                 "duration": 1.4,
                 "cast_range": "10m",
                 "unit_target_limit": 1,
@@ -2256,7 +2269,8 @@
                     "no_target",
                     "can_heal_players",
                     "displays_damage_impact",
-                    "require_ability_button_to_cancel"
+                    "require_ability_button_to_cancel",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 48,
                 "unit_target_limit": 1,
@@ -2381,7 +2395,8 @@
                     "displays_damage_impact",
                     "can_heal_players",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 30,
                 "unit_target_limit": 1,
@@ -2424,7 +2439,7 @@
                         },
                         {
                             "property": "heal_amount",
-                            "value": 1,
+                            "value": 0.9,
                             "upgrade_type": "add_to_scale"
                         },
                         {
@@ -2603,7 +2618,8 @@
                     "displays_damage_impact",
                     "require_ability_button_to_cancel",
                     "can_set_quick_cast",
-                    "allow_self_cast"
+                    "allow_self_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 170,
                 "duration": 5,
@@ -2674,7 +2690,8 @@
                     "projectile",
                     "no_target",
                     "damage_doesnt_wake_from_sleep",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 30,
                 "unit_target_limit": 1,
@@ -2704,13 +2721,13 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -15
+                            "value": -17
                         }
                     ],
                     [
                         {
                             "property": "sleep_duration",
-                            "value": 0.75
+                            "value": 1
                         },
                         {
                             "property": "slow_percent",
@@ -2722,7 +2739,7 @@
                         },
                         {
                             "property": "debuff_duration",
-                            "value": 2.5
+                            "value": 3
                         }
                     ]
                 ]
@@ -2777,7 +2794,7 @@
                     [
                         {
                             "property": "bullet_lifesteal",
-                            "value": 30
+                            "value": 40
                         },
                         {
                             "property": "post_invis_buff_duration",
@@ -2809,7 +2826,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "max_stacks": 40,
-                    "damage_bonus_fixed_per_stack": 0.18
+                    "damage_bonus_fixed_per_stack": 0.2
                 },
                 "upgrades": [
                     [
@@ -2848,7 +2865,7 @@
                     [
                         {
                             "property": "damage_bonus_fixed_per_stack",
-                            "value": 0.14
+                            "value": 0.12
                         }
                     ]
                 ]
@@ -2861,7 +2878,7 @@
                 "update_time": 1646772729,
                 "image": "haze\/haze_bullet_flurry",
                 "activation_time": "instant_cast",
-                "targeting_location": "self",
+                "targeting_location": "custom",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "exclusive_use",
@@ -2870,19 +2887,19 @@
                     "cleave_disabled",
                     "deactivate_crouch_toggle_on_cast"
                 ],
-                "cooldown": 165,
-                "duration": 3,
+                "cooldown": 145,
+                "duration": 3.5,
                 "unit_target_limit": 1,
                 "cast_delay": 0.4,
                 "charge_cooldown": -1,
                 "channel_move_speed": "4m",
                 "radius": "15m",
                 "special_props": {
+                    "radius_min": "0.75m",
                     "targets_per_tick": 1,
-                    "bonus_fire_rate": 20,
+                    "bonus_fire_rate": 25,
                     "weapon_damage_bonus": 7,
                     "proc_chance": 100,
-                    "evasion_percent": 60,
                     "override_bullet_radius": 10
                 },
                 "upgrades": [
@@ -2894,22 +2911,22 @@
                     ],
                     [
                         {
-                            "property": "ability_cooldown",
-                            "value": -45
-                        },
-                        {
                             "property": "bonus_fire_rate",
                             "value": 10
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -45
                         }
                     ],
                     [
                         {
                             "property": "channel_move_speed",
-                            "value": "3m"
+                            "value": "4m"
                         },
                         {
-                            "property": "targets_per_tick",
-                            "value": 1
+                            "property": "evasion_percent",
+                            "value": 60
                         }
                     ]
                 ]
@@ -2938,7 +2955,8 @@
                     "projectile",
                     "no_target",
                     "displays_damage_impact",
-                    "ignore_selection_mash_protection"
+                    "ignore_selection_mash_protection",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 28,
                 "unit_target_limit": 1,
@@ -3006,7 +3024,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "displays_damage_impact",
-                    "movement"
+                    "movement",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 41,
                 "duration": 22,
@@ -3259,6 +3278,7 @@
                 "targeting_location": "unit",
                 "unit_target": "all_enemy | trooper_friendly | hero_friendly | minion_friendly",
                 "behaviors": [
+                    "allow_self_cast",
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
                     "can_set_quick_cast"
@@ -3269,12 +3289,13 @@
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
-                "radius": "10m",
+                "radius": "8m",
                 "special_props": {
                     "fuse_time": 3.5,
                     "kill_check_window": 10,
                     "on_hit_diminish": 60,
                     "on_kill_diminish": 7,
+                    "self_damage_percent": 20,
                     "damage": 85,
                     "bonus_damage_pct_per_player_killed": 2.5,
                     "bonus_damage_pct_per_player_hit": 1
@@ -3321,7 +3342,8 @@
                 "unit_target": "hero | trooper_enemy",
                 "behaviors": [
                     "projectile",
-                    "prevent_bot_usage"
+                    "prevent_bot_usage",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 23,
                 "cast_range": "30m",
@@ -3711,7 +3733,8 @@
                     "no_target",
                     "channelled",
                     "projectile",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 17,
                 "unit_target_limit": 1,
@@ -3719,7 +3742,7 @@
                 "channel_time": 9999,
                 "charges": 1,
                 "charge_cooldown": 4,
-                "channel_move_speed": "1.3m",
+                "channel_move_speed": "1.5m",
                 "special_props": {
                     "tech_cleave_expire_time": 0.2,
                     "fall_speed_max": 60,
@@ -3910,7 +3933,7 @@
                 "cooldown": 110,
                 "unit_target_limit": 1,
                 "cast_delay": 1.5,
-                "channel_time": 18,
+                "channel_time": 20,
                 "charge_cooldown": -1,
                 "special_props": {
                     "explosion_radius": "12m",
@@ -3962,7 +3985,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "castable_while_busy",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 13,
                 "unit_target_limit": 1,
@@ -4083,7 +4107,8 @@
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 40,
                 "duration": 2.5,
@@ -4217,7 +4242,8 @@
                     "projectile",
                     "no_target",
                     "displays_damage_impact",
-                    "cleave_disabled"
+                    "cleave_disabled",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 18,
                 "unit_target_limit": 1,
@@ -4472,7 +4498,8 @@
                     "projectile",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 32,
                 "duration": 4,
@@ -4977,7 +5004,8 @@
                 "targeting_location": "none",
                 "unit_target": "all_enemy",
                 "behaviors": [
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 12,
                 "unit_target_limit": 1,
@@ -5093,7 +5121,8 @@
                 "behaviors": [
                     "displays_damage_impact",
                     "use_instant_cast_unit_target_ui",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 34,
                 "cast_range": "15m",
@@ -5360,7 +5389,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "no_target",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 16,
                 "unit_target_limit": 1,
@@ -5775,7 +5805,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "projectile",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 26,
                 "unit_target_limit": 1,
@@ -5842,7 +5873,8 @@
                     "allow_self_cast",
                     "can_heal_players",
                     "use_instant_cast_unit_target_ui",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 42,
                 "duration": 3,
@@ -5914,7 +5946,8 @@
                 "unit_target": "hero_friendly | all_enemy",
                 "behaviors": [
                     "displays_damage_impact",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 24,
                 "cast_range": "40m",
@@ -6077,7 +6110,8 @@
                     "projectile",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 32,
                 "duration": 3.2,
@@ -7316,7 +7350,8 @@
                 "behaviors": [
                     "no_target",
                     "channelled",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 32,
                 "unit_target_limit": 1,
@@ -7375,7 +7410,8 @@
                     "projectile",
                     "no_target",
                     "displays_damage_impact",
-                    "trigger_cancel_mash_protection_on_cast"
+                    "trigger_cancel_mash_protection_on_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 26,
                 "unit_target_limit": 1,
@@ -7796,7 +7832,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "outgoing_damage_penalty_percent": -20,
-                    "dps": 9,
+                    "dps": 8,
                     "steal_duration": 8,
                     "max_stacks": 100
                 },
@@ -8989,7 +9025,7 @@
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
                 "charges": 2,
-                "charge_cooldown": 4.5,
+                "charge_cooldown": 4,
                 "channel_move_speed": -1,
                 "special_props": {
                     "damage": 50,
@@ -9104,7 +9140,7 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "slide_scale": 10
+                    "slide_scale": 15
                 },
                 "upgrades": [
                     [
@@ -9425,7 +9461,8 @@
                     "displays_damage_impact",
                     "target_through_walls",
                     "cleave_disabled",
-                    "cooldown_on_channel_end"
+                    "cooldown_on_channel_end",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 24,
                 "cast_range": "500m",
@@ -9491,7 +9528,8 @@
                 "behaviors": [
                     "always_preview_radius",
                     "prevent_bot_usage",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 40,
                 "duration": 6,
@@ -9556,7 +9594,8 @@
                     "always_preview_radius",
                     "displays_damage_impact",
                     "projectile_pass_through_world",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 26,
                 "cast_range": "24m",
@@ -9615,7 +9654,8 @@
                     "displays_damage_impact",
                     "projectile_pass_through_world",
                     "use_instant_cast_unit_target_ui",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 85,
                 "cast_range": "20m",
@@ -10398,7 +10438,8 @@
                 "behaviors": [
                     "displays_damage_impact",
                     "no_target",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 16,
                 "cast_range": "16m",
@@ -10452,7 +10493,8 @@
                     "projectile",
                     "no_target",
                     "displays_damage_impact",
-                    "cleave_disabled"
+                    "cleave_disabled",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 20,
                 "duration": 5,
@@ -10783,9 +10825,10 @@
                 "behaviors": [
                     "projectile",
                     "displays_damage_impact",
-                    "prevent_training_bot_usage"
+                    "prevent_training_bot_usage",
+                    "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 25,
+                "cooldown": 28,
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
                 "charges": 2,
@@ -10796,7 +10839,7 @@
                     "trap_height": "2m",
                     "lifetime": 30,
                     "damage": 80,
-                    "immobilize_duration": 1.5,
+                    "immobilize_duration": 1.25,
                     "arm_time": 0.5,
                     "trip_up_speed": 250,
                     "reveal_duration": 6,
@@ -10809,13 +10852,13 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -8
+                            "value": -11
                         }
                     ],
                     [
                         {
                             "property": "immobilize_duration",
-                            "value": 0.75
+                            "value": 1
                         }
                     ],
                     [
@@ -10908,7 +10951,8 @@
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact",
-                    "show_cast_range_as_sat_sphere_while_casting"
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 2,
                 "cast_range": "28m",
@@ -10996,7 +11040,7 @@
                     [
                         {
                             "property": "total_health_regen",
-                            "value": 50
+                            "value": 70
                         },
                         {
                             "property": "ability_cooldown",
@@ -11038,25 +11082,29 @@
                     "can_cast_on_zipline"
                 ],
                 "cooldown": 2,
-                "duration": 6,
+                "duration": 8,
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "radius": "9m",
                 "special_props": {
-                    "min_d_p_s": 12,
+                    "min_d_p_s": 13,
                     "self_d_p_s": 15,
                     "tick_rate": 0.25,
                     "debuff_duration": 0.5,
                     "toggle_off_delay": 0.5,
-                    "max_d_p_s": 48,
+                    "max_d_p_s": 58,
                     "self_damage_percentage": 70
                 },
                 "upgrades": [
                     [
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 25
+                        },
+                        {
+                            "property": "enemy_dash_slow_percent",
+                            "value": -25
                         },
                         {
                             "property": "debuff_duration",
@@ -11070,7 +11118,7 @@
                         },
                         {
                             "property": "max_d_p_s",
-                            "value": 23
+                            "value": 28
                         }
                     ],
                     [
@@ -11113,7 +11161,8 @@
                     "initial_delay": 0.5,
                     "respawn_delay": 3,
                     "respawn_health_percent": 50,
-                    "slow_percent": 80,
+                    "slow_percent": 120,
+                    "enemy_dash_slow_percent": -30,
                     "slow_duration": 3,
                     "zombie_tick_rate": 0.02,
                     "stun_duration": 1.5
@@ -11182,7 +11231,8 @@
                     "projectile_pass_through_world",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 33,
                 "duration": 5,
@@ -11264,7 +11314,8 @@
                     "allow_alt_cast",
                     "use_instant_cast_unit_target_ui",
                     "trigger_cancel_mash_protection_on_cast",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 30,
                 "duration": 5,
@@ -11335,7 +11386,8 @@
                     "always_preview_radius",
                     "displays_damage_impact",
                     "projectile_pass_through_world",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 30,
                 "cast_range": "30m",
@@ -11720,7 +11772,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "no_target",
-                    "displays_damage_impact"
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 18,
                 "duration": 4,
@@ -11858,7 +11911,8 @@
                     "no_target",
                     "displays_damage_impact",
                     "allow_self_cast",
-                    "projectile_pass_through_world"
+                    "projectile_pass_through_world",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 30,
                 "duration": 6,
@@ -12469,7 +12523,7 @@
                         },
                         {
                             "property": "ability_cooldown_between_charge",
-                            "value": -2
+                            "value": -3
                         }
                     ]
                 ]
@@ -12540,7 +12594,7 @@
                     [
                         {
                             "property": "deal_max_health_damage_pct",
-                            "value": 8
+                            "value": 10
                         },
                         {
                             "property": "deal_max_health_damage_pct",
@@ -12563,7 +12617,8 @@
                 "behaviors": [
                     "no_target",
                     "cooldown_on_channel_end",
-                    "allow_gun_fire_after_cast"
+                    "allow_gun_fire_after_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 27,
                 "duration": 8,
@@ -13113,7 +13168,8 @@
                     "projectile",
                     "displays_damage_impact",
                     "projectile_fired_as_bullet",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
@@ -13330,7 +13386,9 @@
                     "displays_damage_impact",
                     "cannot_cancel_during_channel",
                     "cooldown_on_channel_end",
-                    "can_set_quick_cast"
+                    "can_set_quick_cast",
+                    "refund_full_cooldown_on_channel_interrupt",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 120,
                 "duration": 16,
@@ -13915,7 +13973,8 @@
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "displays_damage_impact",
-                    "projectile"
+                    "projectile",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 25,
                 "cast_range": "40m",
@@ -13978,7 +14037,6 @@
                 "behaviors": [
                     "dont_break_invisibility",
                     "displays_damage_impact",
-                    "can_cancel_during_cast_delay",
                     "cannot_cancel_during_channel",
                     "cooldown_on_channel_end",
                     "use_instant_cast_unit_target_ui",
@@ -14054,7 +14112,8 @@
                     "allow_self_cast",
                     "damage_doesnt_wake_from_sleep",
                     "displays_damage_impact",
-                    "do_not_allow_spam_proc"
+                    "do_not_allow_spam_proc",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cast_range": "45m",
                 "unit_target_limit": 1,
@@ -14146,7 +14205,7 @@
                     "height": "20m",
                     "move_speed_and_dash_slow_pct": 25
                 },
-                "radius": "17.0m",
+                "radius": "19.0m",
                 "projectile": [],
                 "upgrades": [
                     [
@@ -14493,18 +14552,20 @@
                     "no_target",
                     "displays_damage_impact",
                     "show_cast_range_as_sat_sphere_while_casting",
-                    "use_lag_compensation_for_unit_targeting"
+                    "use_lag_compensation_for_unit_targeting",
+                    "dont_interrupt_slide_on_cast",
+                    "dont_interrupt_slide_on_cast"
                 ],
                 "cooldown": 20,
-                "duration": 12,
+                "duration": 8,
                 "cast_range": "10m",
                 "unit_target_limit": 100,
                 "cast_delay": 0.3,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "flare_damage": 50,
-                    "damage": 20,
+                    "flare_damage": 40,
+                    "damage": 15,
                     "tick_rate": 0.5,
                     "targeting_cone_angle": 70,
                     "extra_sweep_radius": "2m",
@@ -14566,7 +14627,7 @@
                     "explode_radius": "14m",
                     "debuff_duration": 1.75,
                     "bonus_move_speed": "0m",
-                    "combat_barrier": 120,
+                    "combat_barrier": 100,
                     "barrier_damage_percentage": 50
                 },
                 "projectile": [],
@@ -14580,7 +14641,7 @@
                     [
                         {
                             "property": "combat_barrier",
-                            "value": 100
+                            "value": 80
                         },
                         {
                             "property": "combat_barrier",
@@ -14660,7 +14721,7 @@
                         },
                         {
                             "property": "fire_rate_per_stack",
-                            "value": 7
+                            "value": 9
                         }
                     ]
                 ]
@@ -14690,7 +14751,7 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "damage": 105,
+                    "damage": 120,
                     "slow_duration": 1.5,
                     "slow_percent": 40,
                     "ground_dash_reduction_percent": -25,

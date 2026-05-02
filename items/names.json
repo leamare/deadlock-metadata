@@ -4128,5 +4128,9 @@
         "indonesian": "Telur Angsa Emas",
         "latam": "Huevo dorado de ganso",
         "ukrainian": "Гусяче золоте яйце"
+    },
+    "951866250": {
+        "tag": "upgrade_auto_cleanse",
+        "english": "Indomitable"
     }
 }

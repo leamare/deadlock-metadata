@@ -22,7 +22,7 @@
                     },
                     "bullet": {
                         "cycle_time": 0.105,
-                        "radius": 3,
+                        "radius": 4,
                         "speed": 26000,
                         "lifetime": 2,
                         "num_per_shot": 1,
@@ -83,9 +83,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -123,7 +123,7 @@
                     },
                     "bullet": {
                         "cycle_time": 0.105,
-                        "radius": 3,
+                        "radius": 4,
                         "speed": 26000,
                         "lifetime": 2,
                         "num_per_shot": 1,
@@ -184,9 +184,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 840,
+            "hp": 830,
             "hp_regen": 2,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 41,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -207,16 +207,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.374,
+            "bullet_dmg_per_lvl": 0.337,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_gigawatt_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 75.2613,
-                        "max_dps": 111.7491,
+                        "max_dps": 108.1394,
                         "bullet_dmg": 10.8,
-                        "bullet_dmg_max": 16.036,
+                        "bullet_dmg_max": 15.518,
                         "clip_size": 29,
                         "full_clip_sec": 4.161499999999999,
                         "reload_time": 2.35,
@@ -285,9 +285,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 1,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 43,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -386,9 +386,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 765,
+            "hp": 755,
             "hp_regen": 2,
-            "hp_per_lvl": 32,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -491,9 +491,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 890,
+            "hp": 880,
             "hp_regen": 1,
-            "hp_per_lvl": 57,
+            "hp_per_lvl": 54,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -590,9 +590,9 @@
             "melee_damage_per_lvl": 1.738
         },
         "vitality": {
-            "hp": 810,
+            "hp": 800,
             "hp_regen": 1.5,
-            "hp_per_lvl": 55,
+            "hp_per_lvl": 52,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -691,9 +691,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 2,
-            "hp_per_lvl": 40,
+            "hp_per_lvl": 37,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -718,16 +718,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.17,
+            "bullet_dmg_per_lvl": 0.18,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_engineer_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 30.4762,
-                        "max_dps": 41.8095,
+                        "max_dps": 42.4762,
                         "bullet_dmg": 6.4,
-                        "bullet_dmg_max": 8.780000000000001,
+                        "bullet_dmg_max": 8.92,
                         "clip_size": 66,
                         "full_clip_sec": 13.86,
                         "reload_time": 3.29,
@@ -796,9 +796,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 58,
+            "hp_per_lvl": 55,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0.625
@@ -897,9 +897,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 1,
-            "hp_per_lvl": 51,
+            "hp_per_lvl": 48,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -998,9 +998,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 890,
+            "hp": 880,
             "hp_regen": 1.75,
-            "hp_per_lvl": 67,
+            "hp_per_lvl": 64,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.625,
             "spirit_resist": 0
@@ -1099,9 +1099,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 890,
+            "hp": 880,
             "hp_regen": 1,
-            "hp_per_lvl": 66,
+            "hp_per_lvl": 63,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0.625
@@ -1200,9 +1200,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 2,
-            "hp_per_lvl": 38,
+            "hp_per_lvl": 35,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1233,10 +1233,10 @@
                 "citadel_weapon_astro_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 39.7884,
-                        "max_dps": 73.6847,
-                        "bullet_dmg": 18.8,
-                        "bullet_dmg_max": 34.816,
+                        "dps": 41.6931,
+                        "max_dps": 75.5894,
+                        "bullet_dmg": 19.7,
+                        "bullet_dmg_max": 35.715999999999994,
                         "clip_size": 10,
                         "full_clip_sec": 4.725,
                         "reload_time": 2.75,
@@ -1305,9 +1305,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
-            "hp_regen": 1,
-            "hp_per_lvl": 46,
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 43,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1328,16 +1328,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.139,
+            "bullet_dmg_per_lvl": 0.115,
             "attack_range_per_level": 59,
             "set": {
                 "citadel_weapon_bebop_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 59.2857,
-                        "max_dps": 82.4524,
+                        "max_dps": 78.4524,
                         "bullet_dmg": 4.98,
-                        "bullet_dmg_max": 6.926,
+                        "bullet_dmg_max": 6.590000000000001,
                         "clip_size": 66,
                         "full_clip_sec": 5.5440000000000005,
                         "reload_time": 2.35,
@@ -1406,9 +1406,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 890,
+            "hp": 880,
             "hp_regen": 2.5,
-            "hp_per_lvl": 58,
+            "hp_per_lvl": 55,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0.3,
             "spirit_resist": 0
@@ -1507,9 +1507,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 2,
-            "hp_per_lvl": 42,
+            "hp_per_lvl": 39,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1608,9 +1608,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 1.5,
-            "hp_per_lvl": 43,
+            "hp_per_lvl": 40,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1714,9 +1714,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 940,
+            "hp": 930,
             "hp_regen": 1,
-            "hp_per_lvl": 71,
+            "hp_per_lvl": 68,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1815,9 +1815,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 840,
+            "hp": 830,
             "hp_regen": 2,
-            "hp_per_lvl": 51,
+            "hp_per_lvl": 48,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -1916,9 +1916,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 765,
+            "hp": 755,
             "hp_regen": 2,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2017,9 +2017,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2040,16 +2040,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.38,
+            "bullet_dmg_per_lvl": 0.34,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_warden_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 66.0571,
-                        "max_dps": 86.3238,
+                        "max_dps": 84.1905,
                         "bullet_dmg": 17.34,
-                        "bullet_dmg_max": 22.66,
+                        "bullet_dmg_max": 22.1,
                         "clip_size": 17,
                         "full_clip_sec": 4.4625,
                         "reload_time": 2.914,
@@ -2118,9 +2118,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 815,
+            "hp": 805,
             "hp_regen": 2,
-            "hp_per_lvl": 66,
+            "hp_per_lvl": 63,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2223,9 +2223,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 1,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2250,16 +2250,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.341,
+            "bullet_dmg_per_lvl": 0.31,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_lash_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 58.9547,
-                        "max_dps": 92.223,
+                        "max_dps": 89.1986,
                         "bullet_dmg": 8.46,
-                        "bullet_dmg_max": 13.234000000000002,
+                        "bullet_dmg_max": 12.8,
                         "clip_size": 29,
                         "full_clip_sec": 4.161499999999999,
                         "reload_time": 2.35,
@@ -2328,9 +2328,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 56,
+            "hp_per_lvl": 53,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2429,9 +2429,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2530,9 +2530,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2631,9 +2631,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2732,9 +2732,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -2833,7 +2833,7 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
             "hp_per_lvl": 69,
             "bullet_resist": 0,
@@ -2934,9 +2934,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3035,9 +3035,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3134,9 +3134,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 1,
-            "hp_per_lvl": 41,
+            "hp_per_lvl": 38,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3235,9 +3235,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3336,9 +3336,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 1.5,
-            "hp_per_lvl": 50,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3435,9 +3435,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 60,
+            "hp_per_lvl": 57,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3536,9 +3536,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 840,
+            "hp": 830,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3637,9 +3637,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 3000,
+            "hp": 2990,
             "hp_regen": 2,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3738,9 +3738,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3839,9 +3839,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 69,
+            "hp_per_lvl": 66,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -3942,9 +3942,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 40,
+            "hp_per_lvl": 37,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4047,9 +4047,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 59,
+            "hp_per_lvl": 56,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4148,9 +4148,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 2,
-            "hp_per_lvl": 43,
+            "hp_per_lvl": 40,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4253,9 +4253,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 74,
+            "hp_per_lvl": 71,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4354,9 +4354,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 57,
+            "hp_per_lvl": 54,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4455,9 +4455,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 670,
+            "hp": 660,
             "hp_regen": 2,
-            "hp_per_lvl": 31,
+            "hp_per_lvl": 28,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4555,9 +4555,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 765,
+            "hp": 755,
             "hp_regen": 3.5,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 41,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4656,9 +4656,9 @@
             "melee_damage_per_lvl": 1.7
         },
         "vitality": {
-            "hp": 790,
+            "hp": 820,
             "hp_regen": 2,
-            "hp_per_lvl": 43,
+            "hp_per_lvl": 45,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4684,16 +4684,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.3135,
+            "bullet_dmg_per_lvl": 0.26,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_frank_set2": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 65.6566,
-                        "max_dps": 87.8232,
-                        "bullet_dmg": 13,
-                        "bullet_dmg_max": 17.389,
+                        "dps": 60.6061,
+                        "max_dps": 78.9899,
+                        "bullet_dmg": 12,
+                        "bullet_dmg_max": 15.64,
                         "clip_size": 24,
                         "full_clip_sec": 4.752000000000001,
                         "reload_time": 2.4,
@@ -4762,9 +4762,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 810,
+            "hp": 800,
             "hp_regen": 1.5,
-            "hp_per_lvl": 39,
+            "hp_per_lvl": 36,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4867,9 +4867,9 @@
             "melee_damage_per_lvl": 1.2
         },
         "vitality": {
-            "hp": 690,
+            "hp": 680,
             "hp_regen": 2,
-            "hp_per_lvl": 32,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -4972,9 +4972,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 715,
+            "hp": 705,
             "hp_regen": 2,
-            "hp_per_lvl": 68,
+            "hp_per_lvl": 65,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5073,9 +5073,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 765,
+            "hp": 755,
             "hp_regen": 1,
-            "hp_per_lvl": 47,
+            "hp_per_lvl": 44,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5174,9 +5174,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 57,
+            "hp_per_lvl": 54,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5275,9 +5275,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 67,
+            "hp_per_lvl": 64,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5298,16 +5298,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.165,
+            "bullet_dmg_per_lvl": 0.142,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_punkgoat_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 74.1176,
-                        "max_dps": 101.2941,
+                        "max_dps": 97.5059,
                         "bullet_dmg": 6.3,
-                        "bullet_dmg_max": 8.61,
+                        "bullet_dmg_max": 8.288,
                         "clip_size": 30,
                         "full_clip_sec": 2.5500000000000003,
                         "reload_time": 2.9,
@@ -5376,9 +5376,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 830,
+            "hp": 820,
             "hp_regen": 2.5,
-            "hp_per_lvl": 48,
+            "hp_per_lvl": 56,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5465,9 +5465,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
-            "hp_per_lvl": 46,
+            "hp_per_lvl": 43,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5566,9 +5566,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 520,
+            "hp": 510,
             "hp_regen": 2,
-            "hp_per_lvl": 34,
+            "hp_per_lvl": 31,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5667,9 +5667,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 690,
+            "hp": 680,
             "hp_regen": 2,
-            "hp_per_lvl": 40,
+            "hp_per_lvl": 37,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5694,16 +5694,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.06,
+            "bullet_dmg_per_lvl": 0.054,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_necro_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 39.2157,
-                        "max_dps": 47.451,
-                        "bullet_dmg": 4,
-                        "bullet_dmg_max": 4.84,
+                        "dps": 35.2941,
+                        "max_dps": 42.7059,
+                        "bullet_dmg": 3.6,
+                        "bullet_dmg_max": 4.356,
                         "clip_size": 40,
                         "full_clip_sec": 4.08,
                         "reload_time": 2.8,
@@ -5772,16 +5772,16 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 1,
-            "hp_per_lvl": 38,
+            "hp_per_lvl": 35,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
         },
         "mobility": {
             "move_speed": 7,
-            "sprint_speed": 1.6,
+            "sprint_speed": 2.2,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 2,
@@ -5873,9 +5873,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 780,
-            "hp_regen": 2,
-            "hp_per_lvl": 50,
+            "hp": 770,
+            "hp_regen": 1,
+            "hp_per_lvl": 47,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -5962,9 +5962,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 690,
+            "hp": 680,
             "hp_regen": 2,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 41,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6063,9 +6063,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 690,
+            "hp": 680,
             "hp_regen": 2,
-            "hp_per_lvl": 32,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6086,28 +6086,28 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.124,
+            "bullet_dmg_per_lvl": 0.117,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_werewolf_rifle": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 42,
-                        "max_dps": 55.5022,
-                        "bullet_dmg": 5.4,
-                        "bullet_dmg_max": 7.136,
+                        "max_dps": 55.4894,
+                        "bullet_dmg": 5.1,
+                        "bullet_dmg_max": 6.7379999999999995,
                         "clip_size": 7,
-                        "full_clip_sec": 6.3,
+                        "full_clip_sec": 5.95,
                         "reload_time": 0.3,
                         "reload_time_single_delay": 0.5
                     },
                     "bullet": {
-                        "cycle_time": 0.9,
+                        "cycle_time": 0.85,
                         "radius": 4,
                         "speed": 32000,
                         "lifetime": 2,
                         "num_per_shot": 7,
-                        "num_per_sec": 1.1111111111111112,
+                        "num_per_sec": 1.1764705882352942,
                         "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
@@ -6164,9 +6164,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 840,
+            "hp": 830,
             "hp_regen": 2.5,
-            "hp_per_lvl": 32,
+            "hp_per_lvl": 29,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6265,9 +6265,9 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 700,
+            "hp": 690,
             "hp_regen": 1,
-            "hp_per_lvl": 38,
+            "hp_per_lvl": 35,
             "bullet_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist": 0
@@ -6278,7 +6278,7 @@
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 4,
-            "stamina_regen": 0.222222
+            "stamina_regen": 0.2
         },
         "scaling_stats": []
     },
@@ -6354,7 +6354,7 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 790,
+            "hp": 780,
             "hp_regen": 2,
             "hp_per_lvl": 69,
             "bullet_resist": 0,
@@ -6443,7 +6443,7 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 740,
+            "hp": 730,
             "hp_regen": 2,
             "hp_per_lvl": 42,
             "bullet_resist": 0,

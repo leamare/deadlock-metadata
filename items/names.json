@@ -687,7 +687,7 @@
     "3399065363": {
         "tag": "upgrade_sprint_booster",
         "brazilian": "Botas de Corrida",
-        "german": "Sprintstiefel",
+        "german": "Stiefel des Sprinters Sprint Boots",
         "italian": "Stivali da corsa",
         "russian": "Беговые ботинки",
         "english": "Sprint Boots",
@@ -926,7 +926,7 @@
     },
     "2971868509": {
         "tag": "upgrade_bullet_resist_shredder",
-        "brazilian": "Balas Rompe-Resistências",
+        "brazilian": "Espiritualidade Perfurante",
         "german": "Reduzierte Kugelresistenz",
         "italian": "Pallottole perforanti",
         "russian": "Измельчитель пулестойкости",
@@ -1546,7 +1546,7 @@
         "brazilian": "Refutação",
         "german": "Widerstand",
         "italian": "Obiezione",
-        "russian": "Непреклонность",
+        "russian": "Отпор",
         "english": "Rebuttal",
         "japanese": "プロテスト",
         "polish": "Odparcie",
@@ -2691,7 +2691,7 @@
         "thai": "​มิสติก​รีเวิร์บ​",
         "czech": "Mystický opakovač",
         "koreana": "신비의 반향",
-        "spanish": "Reverberación Mística",
+        "spanish": "Reverberación Mística",
         "turkish": "Mistik Titreşimler",
         "french": "Réverbération mystique",
         "indonesian": "Gema Mistis",
@@ -4131,6 +4131,36 @@
     },
     "951866250": {
         "tag": "upgrade_auto_cleanse",
-        "english": "Indomitable"
+        "brazilian": "Indomável",
+        "german": "Unbezwingbar",
+        "italian": "Indomabile",
+        "russian": "Непреклонность",
+        "english": "Indomitable",
+        "japanese": "インドミタブル",
+        "polish": "Nieugięty",
+        "schinese": "不屈之志",
+        "thai": "​อิน​ดอ​มิ​เท​เบิล​",
+        "czech": "Očistná bariéra",
+        "koreana": "진압 불가",
+        "spanish": "Indomable",
+        "turkish": "Yılmaz",
+        "french": "Indomptable",
+        "indonesian": "Tak Tergoyahkan",
+        "latam": "Indomable",
+        "ukrainian": "Незламність"
+    },
+    "1672893796": {
+        "tag": "upgrade_grit",
+        "brazilian": "Arrojo",
+        "german": "Gottvertrauen",
+        "italian": "Tenacia",
+        "english": "Grit",
+        "japanese": "不屈の心",
+        "thai": "กริต",
+        "czech": "Špetka kuráže",
+        "spanish": "Templanza",
+        "turkish": "Azim",
+        "french": "Ténacité",
+        "latam": "Templanza"
     }
 }

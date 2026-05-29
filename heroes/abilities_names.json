@@ -1993,7 +1993,7 @@
         "polish": "Teczka Czarownika",
         "schinese": "提箱遁形",
         "thai": "​เอนแชนเตอร์แซตเชล​",
-        "czech": "Kouzelnický kufr",
+        "czech": "Kouzelnický kufřík",
         "koreana": "마법사의 가방",
         "spanish": "Maleta Encantada",
         "turkish": "Büyücünün Çantası",
@@ -3479,7 +3479,7 @@
         "japanese": "グラスプハンド",
         "koreana": "속박의 손",
         "spanish": "Manos Agarradoras",
-        "latam": "Manos pegajosas"
+        "latam": "Manos agarradoras"
     },
     "629925354": {
         "tag": "ability_necro_fear",

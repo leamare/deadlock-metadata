@@ -687,7 +687,7 @@
     "3399065363": {
         "tag": "upgrade_sprint_booster",
         "brazilian": "Botas de Corrida",
-        "german": "Stiefel des Sprinters Sprint Boots",
+        "german": "Stiefel des Sprinters",
         "italian": "Stivali da corsa",
         "russian": "Беговые ботинки",
         "english": "Sprint Boots",
@@ -1686,7 +1686,7 @@
         "brazilian": "Magnum Mercurial",
         "german": "Wilde Magnum",
         "italian": "Magnum mercuriale",
-        "russian": "Ртутный «Магнум»",
+        "russian": "Ртутный Магнум",
         "english": "Mercurial Magnum",
         "japanese": "マーキュリーマグナム",
         "polish": "Żywe Magnum",
@@ -4166,6 +4166,7 @@
         "turkish": "Azim",
         "french": "Ténacité",
         "indonesian": "Ulet",
-        "latam": "Templanza"
+        "latam": "Templanza",
+        "ukrainian": "Витримка"
     }
 }

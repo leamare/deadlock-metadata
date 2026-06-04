@@ -3505,7 +3505,7 @@
                     [
                         {
                             "property": "melee_resist_reduction",
-                            "value": 5
+                            "value": -5
                         },
                         {
                             "property": "melee_resist_reduction_duration",
@@ -13311,7 +13311,6 @@
                     "ground_aura_spacing": "1m",
                     "slow_percent": 40,
                     "zombie_wall_height": "2.5m",
-                    "tech_resist": 40,
                     "damage": 90,
                     "tick_rate": 0.1,
                     "immobilize_duration": 1.25,
@@ -13447,7 +13446,6 @@
                     "tick_rate": 0.4,
                     "slow_percent": 80,
                     "slow_duration": 1.25,
-                    "tech_resist": 20,
                     "push_force": 300,
                     "max_gravestones": 3,
                     "summon_initial_delay": 0.3,
@@ -13619,7 +13617,7 @@
                     "damping_factor": 0.5,
                     "lift_height": 240,
                     "move_speed_max": "4m",
-                    "melee_resist_reduction": 22,
+                    "melee_resist_reduction": -22,
                     "melee_resist_reduction_duration": 3,
                     "dash_grace_window": 1
                 },
@@ -13633,7 +13631,7 @@
                     [
                         {
                             "property": "melee_resist_reduction",
-                            "value": 30
+                            "value": -30
                         }
                     ],
                     [

@@ -714,26 +714,17 @@
     },
     "1031828968": {
         "tag": "upgrade_armor_reduction_debuff",
-        "tier": 3,
-        "slot_type": "damage",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_weapon\/armor_breaking_bullets",
+        "icon_class": null,
         "is_active": null,
         "ability": [],
-        "bullet": {
-            "damage_pct": 12
-        },
+        "bullet": [],
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "resist_reduction": -60,
-            "bullet_shield_damage_percent": 60
-        },
-        "active": {
-            "duration": 8,
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "775925321": {
         "tag": "upgrade_weapon_detention_ammo",
@@ -764,22 +755,17 @@
     },
     "2854211216": {
         "tag": "upgrade_height_advantage",
-        "tier": 1,
-        "slot_type": "damage",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_weapon\/height_advantage",
+        "icon_class": null,
         "is_active": null,
         "ability": [],
         "bullet": [],
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "high_ground_bonus_weapon_power": 50
-        },
-        "active": {
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "1113837674": {
         "tag": "upgrade_proc_silence",
@@ -1248,22 +1234,17 @@
     },
     "2887128033": {
         "tag": "upgrade_bullet_armor_2",
-        "tier": 3,
-        "slot_type": "armor",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_armor\/bullet_armor_plus",
+        "icon_class": null,
         "is_active": null,
         "ability": [],
         "bullet": [],
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "bullet_armor": 2
-        },
-        "active": {
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "2163598980": {
         "tag": "upgrade_tech_purge",
@@ -1304,8 +1285,7 @@
         "mobility": [],
         "extra": {
             "health_threshold": 50,
-            "bullet_resist_below_threshold": 15,
-            "out_of_combat_health_regen": 3
+            "bullet_resist_below_threshold": 15
         },
         "active": {
             "recharge_speed": -1
@@ -4052,27 +4032,17 @@
     },
     "4066757307": {
         "tag": "upgrade_combo_breaker",
-        "tier": 4,
-        "slot_type": "armor",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_armor\/tech_purge",
-        "is_active": true,
+        "icon_class": null,
+        "is_active": null,
         "ability": [],
         "bullet": [],
-        "vitality": {
-            "hp_regen": 2.75
-        },
+        "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "tech_armor": 2,
-            "heal_percent_amount": 30,
-            "regen_duration": 10
-        },
-        "active": {
-            "cooldown": 23,
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "3731635960": {
         "tag": "upgrade_reduce_debuff_duration",
@@ -4187,28 +4157,17 @@
     },
     "4168302000": {
         "tag": "upgrade_ablative_coat",
-        "tier": 4,
-        "slot_type": "armor",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_armor\/bullet_shield",
+        "icon_class": null,
         "is_active": null,
         "ability": [],
         "bullet": [],
         "vitality": [],
         "spirit": [],
-        "mobility": {
-            "sprint_speed": "3m"
-        },
-        "extra": {
-            "max_bullet_resist": 30,
-            "stack_loss_frequency": 1,
-            "armor_loss_per_hit": 4,
-            "bullet_armor": 1
-        },
-        "active": {
-            "cooldown": 21,
-            "recharge_speed": -1
-        }
+        "mobility": [],
+        "extra": []
     },
     "1378931225": {
         "tag": "upgrade_metal_skin",
@@ -5721,26 +5680,17 @@
     },
     "1947620709": {
         "tag": "upgrade_tech_defender",
-        "tier": 4,
-        "slot_type": "armor",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_armor\/tech_defender",
-        "is_active": true,
+        "icon_class": null,
+        "is_active": null,
         "ability": [],
         "bullet": [],
-        "vitality": {
-            "hp": 85
-        },
+        "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "tech_armor": 1
-        },
-        "active": {
-            "cooldown": 95,
-            "duration": 6,
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "3357231760": {
         "tag": "upgrade_unstoppable",

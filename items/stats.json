@@ -447,13 +447,13 @@
         },
         "vitality": [],
         "spirit": {
-            "spirit_power": 4
+            "spirit_power": 7
         },
         "mobility": [],
         "extra": {
             "enemy_life_threshold": 50,
             "bonus_bullet_speed_percent": 60,
-            "base_attack_damage_percent_bonus": 30
+            "base_attack_damage_percent_bonus": 25
         },
         "active": {
             "recharge_speed": -1
@@ -1285,7 +1285,8 @@
         "mobility": [],
         "extra": {
             "health_threshold": 50,
-            "bullet_resist_below_threshold": 15
+            "bullet_resist_below_threshold": 15,
+            "out_of_combat_health_regen": 3
         },
         "active": {
             "recharge_speed": -1

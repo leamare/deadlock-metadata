@@ -938,7 +938,7 @@
             "spirit_power": 7
         },
         "active": {
-            "cooldown": 8,
+            "cooldown": 9,
             "recharge_speed": -1
         }
     },
@@ -1041,7 +1041,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "dot_health_percent": 1.7,
+            "dot_health_percent": 1.9,
             "dot_duration": 4,
             "build_up_per_shot": 1.28,
             "build_up_duration": 5,
@@ -4883,7 +4883,7 @@
         "mobility": [],
         "extra": {
             "tick_rate": 0.25,
-            "max_health_percent_as_d_p_s": 3.5,
+            "max_health_percent_as_d_p_s": 2.6,
             "aura_radius": "10m",
             "status_resistance_percent": 17
         },
@@ -5931,7 +5931,7 @@
         "mobility": [],
         "extra": {
             "skip_frames": 6,
-            "outgoing_damage_penalty_percent": -10
+            "outgoing_damage_penalty_percent": -14
         },
         "active": {
             "cooldown": 55,

@@ -2736,7 +2736,11 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -18
+                            "value": -17
+                        },
+                        {
+                            "property": "fixation_stacks",
+                            "value": 15
                         }
                     ],
                     [
@@ -4299,7 +4303,7 @@
                         },
                         {
                             "property": "bleed_d_p_s_per_stack",
-                            "value": 0.09,
+                            "value": 0.07,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -4334,13 +4338,12 @@
                     "dash_speed": 2400,
                     "dash_range": "12m",
                     "dash_radius": "2.5m",
-                    "impact_damage": 25,
+                    "impact_damage": 75,
                     "move_speed_penalty_max_speed": 200,
                     "camera_distance": 250,
                     "side_move_speed_reduction": -100,
                     "tech_armor_damage_reduction": -6,
-                    "debuff_duration": 14,
-                    "vulnerability_per_stack": 4
+                    "debuff_duration": 14
                 },
                 "upgrades": [
                     [
@@ -4351,8 +4354,8 @@
                     ],
                     [
                         {
-                            "property": "vulnerability_per_stack",
-                            "value": 4
+                            "property": "tech_armor_damage_reduction",
+                            "value": -4
                         },
                         {
                             "property": "dash_range",
@@ -4394,7 +4397,7 @@
                     "dont_consume_ability_resource_on_cast",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 20,
+                "cooldown": 25,
                 "unit_target_limit": 1,
                 "cast_delay": 0.25,
                 "charge_cooldown": -1,
@@ -4402,20 +4405,20 @@
                 "special_props": {
                     "damage_pct_deferred": 25,
                     "deferred_damage_duration": 6,
-                    "defer_clear_pct": 35,
+                    "defer_clear_pct": 30,
                     "damage_pct_deferred_max_rage": 15
                 },
                 "upgrades": [
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -10
+                            "value": -15
                         }
                     ],
                     [
                         {
                             "property": "defer_clear_pct",
-                            "value": 35
+                            "value": 40
                         }
                     ],
                     [
@@ -4461,7 +4464,7 @@
                     "buff_damage": 8,
                     "rage_drain_delay_duration": 12,
                     "damage": 200,
-                    "enemy_health_percent": 20,
+                    "enemy_health_percent": 18,
                     "enemy_health_percent_buffer": 3,
                     "camera_distance": 400,
                     "move_speed_to_target": "30m",
@@ -5350,11 +5353,12 @@
                     "use_instant_cast_unit_target_ui",
                     "movement",
                     "can_set_quick_cast",
-                    "deactivate_crouch_toggle_on_cast"
+                    "deactivate_crouch_toggle_on_cast",
+                    "allow_alt_cast"
                 ],
                 "cooldown": 36,
-                "cast_range": "28m",
-                "unit_target_limit": 1,
+                "cast_range": "26m",
+                "unit_target_limit": 10,
                 "post_cast_duration": 0.2,
                 "channel_move_speed": -1,
                 "special_props": {
@@ -5393,7 +5397,7 @@
                         },
                         {
                             "property": "ability_cooldown_between_charge",
-                            "value": 3
+                            "value": 4
                         }
                     ]
                 ]
@@ -5876,7 +5880,7 @@
                         },
                         {
                             "property": "damage",
-                            "value": 1,
+                            "value": 0.9,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -7578,7 +7582,7 @@
                 "special_props": {
                     "dps": 34,
                     "damage_interval": 0.5,
-                    "debuff_duration": 11,
+                    "debuff_duration": 10,
                     "can_be_purged": 1
                 },
                 "upgrades": [
@@ -7894,7 +7898,7 @@
                         },
                         {
                             "property": "dps",
-                            "value": 0.17,
+                            "value": 0.13,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -7968,7 +7972,7 @@
                         },
                         {
                             "property": "damage",
-                            "value": 1,
+                            "value": 0.6,
                             "upgrade_type": "add_to_scale"
                         },
                         {
@@ -7995,12 +7999,12 @@
                     "can_cast_on_zipline",
                     "do_not_allow_spam_proc"
                 ],
-                "cooldown": 3,
+                "cooldown": 2.75,
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "proc_cooldown": 3,
+                    "proc_cooldown": 2.75,
                     "proc_damage_base": 11,
                     "proc_chance": 100,
                     "proc_max_range": "40m",
@@ -8033,7 +8037,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -1
+                            "value": -0.75
                         },
                         {
                             "property": "proc_cooldown",
@@ -8105,7 +8109,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -70
+                            "value": -90
                         }
                     ]
                 ]
@@ -9238,7 +9242,7 @@
                     "projectile_fired_as_bullet",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 90,
+                "cooldown": 105,
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
                 "charge_cooldown": -1,
@@ -9263,7 +9267,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -25
+                            "value": -20
                         }
                     ],
                     [
@@ -10558,7 +10562,7 @@
                     "cleave_disabled",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 20,
+                "cooldown": 24,
                 "duration": 5,
                 "unit_target_limit": 1,
                 "cast_delay": 0.15,
@@ -10586,13 +10590,13 @@
                         },
                         {
                             "property": "ability_cooldown",
-                            "value": -8
+                            "value": -12
                         }
                     ],
                     [
                         {
                             "property": "dot_health_percent",
-                            "value": 2
+                            "value": 1.5
                         },
                         {
                             "property": "heal_amp_receive_penalty_percent",
@@ -10661,7 +10665,7 @@
                     [
                         {
                             "property": "amp_damage_percent",
-                            "value": 12
+                            "value": 11
                         }
                     ]
                 ]
@@ -11219,7 +11223,7 @@
                     "displays_damage_impact",
                     "can_cast_while_dead"
                 ],
-                "cooldown": 275,
+                "cooldown": 240,
                 "unit_target_limit": 1,
                 "channel_time": 3,
                 "post_cast_duration": 0.66,
@@ -12093,7 +12097,7 @@
                         },
                         {
                             "property": "late_checkout_cooldown",
-                            "value": 13
+                            "value": 15
                         }
                     ]
                 ]
@@ -12669,7 +12673,7 @@
                         },
                         {
                             "property": "deal_max_health_damage_pct",
-                            "value": 0.035,
+                            "value": 0.03,
                             "upgrade_type": "add_to_scale"
                         },
                         {
@@ -13275,7 +13279,7 @@
                     "kill_time": 0.2,
                     "resource_per_pickup": 10,
                     "pickups_per_boss_death": 5,
-                    "pickups_per_neutral_trooper_death": 2,
+                    "pickups_per_neutral_trooper_death": 3,
                     "skull_kill_gold": 7,
                     "target_search_initial_delay_min": 0.15,
                     "target_search_initial_delay_max": 0.2,
@@ -13290,7 +13294,7 @@
                         },
                         {
                             "property": "heal_per_pickup",
-                            "value": 0.1,
+                            "value": 0.16,
                             "upgrade_type": "add_to_scale"
                         }
                     ],
@@ -13348,7 +13352,7 @@
                     "zombie_wall_height": "2.5m",
                     "damage": 90,
                     "tick_rate": 0.1,
-                    "immobilize_duration": 1.25,
+                    "immobilize_duration": 1,
                     "ground_aura_pop_delay": 1.1,
                     "zombie_wall_deploy_time": 0.6,
                     "tether_duration": 1,
@@ -13384,7 +13388,7 @@
                         },
                         {
                             "property": "ability_cooldown",
-                            "value": -10
+                            "value": -14
                         }
                     ]
                 ]
@@ -13414,7 +13418,8 @@
                     "delay_before_loss": 0.5,
                     "progress_loss_multiplier": 2.3,
                     "max_stolen_spirit_resist": 10,
-                    "max_stolen_targets": 3
+                    "max_stolen_targets": 3,
+                    "melee_build_up": 0.2
                 },
                 "upgrades": [
                     [
@@ -13440,6 +13445,10 @@
                         },
                         {
                             "property": "zombie_explosion_build_up",
+                            "value": 1
+                        },
+                        {
+                            "property": "max_stolen_targets",
                             "value": 1
                         }
                     ]
@@ -13517,16 +13526,20 @@
                         {
                             "property": "ability_cooldown",
                             "value": -15
+                        },
+                        {
+                            "property": "move_speed_percent",
+                            "value": 25
                         }
                     ],
                     [
                         {
-                            "property": "move_speed_percent",
-                            "value": 25
-                        },
-                        {
                             "property": "ability_duration",
                             "value": 10
+                        },
+                        {
+                            "property": "summon_frequency",
+                            "value": -0.3
                         }
                     ],
                     [
@@ -13634,7 +13647,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "dash_speed": 3000,
-                    "dash_range": "20m",
+                    "dash_range": "35m",
                     "side_move_speed": -100,
                     "turn_rate_max": 10,
                     "dash_radius": "2.2m",
@@ -14553,7 +14566,7 @@
                     "no_target",
                     "displays_damage_impact"
                 ],
-                "cooldown": 80,
+                "cooldown": 60,
                 "duration": 15,
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,

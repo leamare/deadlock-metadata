@@ -1850,7 +1850,7 @@
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 1.5,
+                        "spread": 0,
                         "standing_spread": 1.5,
                         "pellet_spread": 0.5,
                         "penalty_per_shot": 0.5,
@@ -4610,16 +4610,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.616,
+            "bullet_dmg_per_lvl": 0.49,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_drifter_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 132.6531,
-                        "max_dps": 191.3197,
+                        "max_dps": 179.3197,
                         "bullet_dmg": 19.5,
-                        "bullet_dmg_max": 28.124000000000002,
+                        "bullet_dmg_max": 26.36,
                         "clip_size": 12,
                         "full_clip_sec": 5.292,
                         "reload_time": 2.444,
@@ -5142,16 +5142,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.1,
+            "bullet_dmg_per_lvl": 1.19,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_doorman_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 46.4444,
-                        "max_dps": 70.8889,
-                        "bullet_dmg": 29.26,
-                        "bullet_dmg_max": 44.660000000000004,
+                        "dps": 41.2698,
+                        "max_dps": 67.7143,
+                        "bullet_dmg": 26,
+                        "bullet_dmg_max": 42.66,
                         "clip_size": 8,
                         "full_clip_sec": 5.04,
                         "reload_time": 2.4,

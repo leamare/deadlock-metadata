@@ -1486,7 +1486,10 @@
             "deadlock",
             "forum"
         ],
-        "minor_dates": [],
+        "minor_dates": [
+            1782946522,
+            1783625258
+        ],
         "builds": [
             6601
         ]

@@ -4883,7 +4883,7 @@
         "mobility": [],
         "extra": {
             "tick_rate": 0.25,
-            "max_health_percent_as_d_p_s": 2.6,
+            "max_health_percent_as_d_p_s": 2.5,
             "aura_radius": "10m",
             "status_resistance_percent": 17
         },

@@ -579,9 +579,7 @@
         "icon_class": "mods_weapon\/slowing_bullets",
         "is_active": null,
         "ability": [],
-        "bullet": {
-            "damage_pct": 15
-        },
+        "bullet": [],
         "vitality": [],
         "spirit": [],
         "mobility": [],
@@ -848,7 +846,8 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "fire_rate": 15
+            "fire_rate": 15,
+            "bullet_lifesteal_pct": 10
         },
         "vitality": {
             "hp": 160
@@ -938,7 +937,7 @@
             "spirit_power": 7
         },
         "active": {
-            "cooldown": 9,
+            "cooldown": 8,
             "recharge_speed": -1
         }
     },
@@ -1522,7 +1521,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "fire_rate": 32
+            "fire_rate": 30
         },
         "vitality": {
             "hp": 90
@@ -1535,7 +1534,8 @@
         "extra": {
             "non_hero_ability_lifesteal_tooltip_only": 3,
             "bonus_spirit": 40,
-            "bonus_ability_duration_percent": 15,
+            "bonus_spirit_lifesteal": 10,
+            "bonus_ability_duration_percent": 13,
             "build_up_per_shot": 0.75,
             "build_up_duration": 5
         },
@@ -2336,7 +2336,7 @@
             "fire_rate_slow": 28
         },
         "active": {
-            "duration": 5,
+            "duration": 4.5,
             "recharge_speed": -1
         }
     },
@@ -2587,18 +2587,17 @@
             "tech_radius_multiplier": 6,
             "damage_threshold": 500,
             "damage_threshold_duration": 5,
-            "explosion_damage": 110,
-            "explosion_radius": "12m",
+            "explosion_damage": 50,
+            "explosion_radius": "3m",
             "dps": 24,
             "debuff_duration": 8,
             "heal_amp_receive_penalty_percent": -70,
             "heal_amp_regen_penalty_percent": -70,
             "tick_rate": 0.5,
-            "cooldown_reduction_pct_on_non_heroes": 50,
+            "immunity_duration": 20,
             "damage_pct_vs_non_heroes": 50
         },
         "active": {
-            "cooldown": 20,
             "recharge_speed": -1
         }
     },
@@ -2744,7 +2743,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "damage_pct": 40
+            "damage_pct": 30
         },
         "vitality": [],
         "spirit": [],
@@ -2832,11 +2831,11 @@
             "bonus_heavy_melee_damage": 25,
             "max_stacks": 6,
             "debuff_duration": 8,
-            "stun_duration": 0.5,
+            "stun_duration": 0.75,
             "light_melee_stacks": 1,
             "light_melee_ammo": 15,
             "heavy_melee_multiplier": 2,
-            "bullet_resist_reduction": -4
+            "bullet_resist_reduction": -5
         },
         "active": {
             "cooldown": 5,
@@ -4883,9 +4882,9 @@
         "mobility": [],
         "extra": {
             "tick_rate": 0.25,
-            "max_health_percent_as_d_p_s": 2.5,
+            "max_health_percent_as_d_p_s": 2.3,
             "aura_radius": "10m",
-            "status_resistance_percent": 17
+            "status_resistance_percent": 20
         },
         "active": {
             "cooldown": 35,
@@ -5062,18 +5061,19 @@
         "icon_class": "mods_tech\/echo_shard",
         "is_active": true,
         "ability": [],
-        "bullet": {
-            "fire_rate": 5
-        },
+        "bullet": [],
         "vitality": {
             "spirit_resist": 5,
             "bullet_resist": 5
         },
         "spirit": [],
         "mobility": [],
-        "extra": [],
+        "extra": {
+            "imbued_cooldown_multiplier": 1
+        },
         "active": {
-            "cooldown": 35,
+            "cooldown": 30,
+            "post_cast_duration": 0.5,
             "recharge_speed": -1
         }
     },
@@ -5858,7 +5858,7 @@
             "float_move_speed": "2.5m"
         },
         "active": {
-            "cooldown": 35,
+            "cooldown": 37,
             "duration": 4,
             "recharge_speed": -1
         }
@@ -5931,7 +5931,7 @@
         "mobility": [],
         "extra": {
             "skip_frames": 6,
-            "outgoing_damage_penalty_percent": -14
+            "outgoing_damage_penalty_percent": -25
         },
         "active": {
             "cooldown": 55,
@@ -5988,7 +5988,9 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "active_bonus_fire_rate": 32
+            "active_bonus_fire_rate": 32,
+            "active_bonus_move_speed": "1m",
+            "move_while_shooting_speed_penalty_reduction_percent": 100
         },
         "active": {
             "cooldown": 18,
@@ -6090,7 +6092,7 @@
         "bullet": [],
         "vitality": [],
         "spirit": {
-            "spirit_power": 35
+            "spirit_power": 40
         },
         "mobility": [],
         "extra": {

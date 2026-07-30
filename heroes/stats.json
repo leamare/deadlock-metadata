@@ -1882,7 +1882,7 @@
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.18181
+            "stamina_regen": 0.166667
         },
         "scaling_stats": []
     },
@@ -4745,8 +4745,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 2000
+                        "base": 708.661,
+                        "max": 1850.394
                     },
                     "crit": {
                         "start": 1.65,
@@ -4803,7 +4803,7 @@
         },
         "mobility": {
             "move_speed": 6.4,
-            "sprint_speed": 1.5,
+            "sprint_speed": 1,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -5142,16 +5142,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 1.19,
+            "bullet_dmg_per_lvl": 1.25,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_doorman_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 41.2698,
-                        "max_dps": 67.7143,
-                        "bullet_dmg": 26,
-                        "bullet_dmg_max": 42.66,
+                        "dps": 38.0952,
+                        "max_dps": 65.873,
+                        "bullet_dmg": 24,
+                        "bullet_dmg_max": 41.5,
                         "clip_size": 8,
                         "full_clip_sec": 5.04,
                         "reload_time": 2.4,
@@ -6298,8 +6298,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 1800
+                        "base": 669.291,
+                        "max": 1653.543
                     },
                     "crit": {
                         "start": 1.65,

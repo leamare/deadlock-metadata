@@ -1488,10 +1488,24 @@
         ],
         "minor_dates": [
             1782946522,
-            1783625258
+            1783625258,
+            1785270487
         ],
         "builds": [
             6601
+        ]
+    },
+    {
+        "timestamp": 1785438854,
+        "title": "07-30-2026",
+        "tags": [
+            "deadlock",
+            "forum",
+            "matchmaking"
+        ],
+        "minor_dates": [],
+        "builds": [
+            6652
         ]
     }
 ]

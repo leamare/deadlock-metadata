@@ -739,16 +739,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.18,
+            "bullet_dmg_per_lvl": 0.171,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_engineer_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 30.4762,
-                        "max_dps": 42.4762,
-                        "bullet_dmg": 6.4,
-                        "bullet_dmg_max": 8.92,
+                        "dps": 28.9524,
+                        "max_dps": 40.3524,
+                        "bullet_dmg": 6.08,
+                        "bullet_dmg_max": 8.474,
                         "clip_size": 66,
                         "full_clip_sec": 13.86,
                         "reload_time": 3.29,
@@ -825,7 +825,7 @@
             "bullet_resist": 0,
             "spirit_resist": 0,
             "bullet_resist_per_level": 0,
-            "spirit_resist_per_level": 0.625
+            "spirit_resist_per_level": 0.35
         },
         "mobility": {
             "move_speed": 6.7,
@@ -2348,8 +2348,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 787,
-                        "max": 2264
+                        "base": 708.66,
+                        "max": 2125.98
                     },
                     "crit": {
                         "start": 1.65,
@@ -5535,7 +5535,7 @@
         },
         "vitality": {
             "hp": 820,
-            "hp_regen": 2.5,
+            "hp_regen": 2,
             "hp_per_lvl": 53,
             "bullet_resist": 0,
             "spirit_resist": 0,

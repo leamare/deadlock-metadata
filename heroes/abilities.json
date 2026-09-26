@@ -44,7 +44,7 @@
                     "growth_per_meter": "0.5m",
                     "initial_width": "1m",
                     "slow_duration": 4,
-                    "slow_percent": 35
+                    "slow_percent": 28
                 },
                 "projectile": [],
                 "upgrades": [
@@ -293,7 +293,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 35
+                            "value": 28
                         },
                         {
                             "property": "max_lifetime",
@@ -825,7 +825,7 @@
                     [
                         {
                             "property": "blood_spill_d_p_s_percent",
-                            "value": 26
+                            "value": 30
                         },
                         {
                             "property": "blood_spill_duration",
@@ -862,7 +862,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "max_range": "28m",
-                    "move_speed_reduction": 40,
+                    "move_speed_reduction": 32,
                     "life_drain_per_second": 24,
                     "tick_rate": 0.1,
                     "life_drain_health_mult": 100
@@ -891,7 +891,7 @@
                         },
                         {
                             "property": "life_drain_per_second",
-                            "value": 0.3,
+                            "value": 0.45,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -923,7 +923,7 @@
                     "health_to_damage": 23,
                     "num_blood_shards": 3,
                     "spread_angle_degrees": 6,
-                    "move_speed_penalty_per_stack": 15,
+                    "move_speed_penalty_per_stack": 12,
                     "vulnerability_per_stack": 7,
                     "debuff_duration": 9,
                     "slow_duration": 4,
@@ -988,7 +988,7 @@
                     "enemy_min_health_pct": 30,
                     "min_health_taken_pct": 30,
                     "min_diff_to_cast": 0.1,
-                    "enemy_slow_pct": 70,
+                    "enemy_slow_pct": 56,
                     "silence_radius": "0m"
                 },
                 "projectile": [],
@@ -1133,7 +1133,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 40
+                            "value": 32
                         },
                         {
                             "property": "slow_duration",
@@ -1201,7 +1201,7 @@
                     [
                         {
                             "property": "regen_incoming_damage_percent",
-                            "value": 8
+                            "value": 9
                         },
                         {
                             "property": "status_resistance_percent",
@@ -1253,7 +1253,7 @@
                     [
                         {
                             "property": "immunity_duration",
-                            "value": 6
+                            "value": 5
                         },
                         {
                             "property": "impact_radius",
@@ -1310,13 +1310,13 @@
                     "card_resource_per_heavy_melee": 25,
                     "card_resource_gen_pct_scale": 85,
                     "projectile_origin_height_offset": 50,
-                    "club_slow_percent": 30,
+                    "club_slow_percent": 24,
                     "club_slow_duration": 3,
                     "diamond_resist_shred_duration": 5,
-                    "diamond_resist_shred": -8,
+                    "diamond_resist_shred": -7,
                     "joker_extra_card_search_radius": "20m",
                     "cooldown_between_cards": 0.5,
-                    "heart_heal": 75,
+                    "heart_heal": 60,
                     "heart_heal_non_hero_ratio": 0.5,
                     "spade_damage_bonus": 60
                 },
@@ -1351,7 +1351,7 @@
                         },
                         {
                             "property": "diamond_resist_shred",
-                            "value": -5
+                            "value": -4
                         },
                         {
                             "property": "heart_heal",
@@ -1364,7 +1364,7 @@
                         },
                         {
                             "property": "club_slow_percent",
-                            "value": 20
+                            "value": 12
                         }
                     ]
                 ]
@@ -1510,7 +1510,7 @@
                     "lift_chain_radius": "20m",
                     "lift_duration": 2,
                     "toss_distance": "13m",
-                    "slow_percent": 40,
+                    "slow_percent": 32,
                     "toss_up_strength": 220
                 },
                 "projectile": [],
@@ -1718,7 +1718,7 @@
                     "segment_emit_time": 0.1,
                     "time_to_max_distance": 1.8,
                     "slow_duration": 2.5,
-                    "slow_percent": 20
+                    "slow_percent": 16
                 },
                 "upgrades": [
                     [
@@ -1752,7 +1752,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         }
                     ]
                 ]
@@ -1807,11 +1807,11 @@
                     [
                         {
                             "property": "move_slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "enemy_dash_slow_percent",
-                            "value": -18
+                            "value": -16
                         },
                         {
                             "property": "move_slow_duration",
@@ -1948,7 +1948,7 @@
                     "time_scale_duration": 0.5,
                     "time_wall_time_scale_friendly": 2,
                     "friendly_bullet_damage_bonus": 30,
-                    "movement_slow_pct": 80,
+                    "movement_slow_pct": 64,
                     "aura_effect_duration": 2,
                     "time_wall_formation_time": 0.5
                 },
@@ -2051,11 +2051,6 @@
                         {
                             "property": "speed_boost_duration",
                             "value": 2
-                        },
-                        {
-                            "property": "min_bonus_bullet_damage",
-                            "value": 55,
-                            "upgrade_type": "add_to_scale"
                         },
                         {
                             "property": "max_bonus_bullet_damage",
@@ -2194,7 +2189,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "slow_duration",
@@ -2420,7 +2415,7 @@
                 "radius": "6.5m",
                 "special_props": {
                     "damage": 60,
-                    "slow_percent": 40,
+                    "slow_percent": 32,
                     "slow_duration": 4,
                     "heal_amount": 60
                 },
@@ -2562,10 +2557,10 @@
                     "path_length": "25m",
                     "path_width": "1.1m",
                     "camera_distance": 250,
-                    "min_slow_percent": 30,
-                    "max_slow_percent": 20,
+                    "min_slow_percent": 24,
+                    "max_slow_percent": 16,
                     "max_fire_rate_slow_percent": 20,
-                    "max_ground_dash_reduction_percent": -20,
+                    "max_ground_dash_reduction_percent": -18,
                     "max_slow_time": 2,
                     "ice_beam_buildup_proc_duration": 2,
                     "slow_duration": 0.6,
@@ -2575,7 +2570,7 @@
                     [
                         {
                             "property": "max_slow_percent",
-                            "value": 25
+                            "value": 20
                         },
                         {
                             "property": "max_fire_rate_slow_percent",
@@ -2647,7 +2642,7 @@
                     "grow_time": 0.2,
                     "enemy_drag_speed": 1000,
                     "bonus_health_regen": 90,
-                    "slow_percent": 35
+                    "slow_percent": 28
                 },
                 "upgrades": [
                     [
@@ -2748,11 +2743,11 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 50
+                            "value": 40
                         },
                         {
                             "property": "ground_dash_reduction_percent",
-                            "value": -50
+                            "value": -45
                         },
                         {
                             "property": "debuff_duration",
@@ -2843,6 +2838,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "max_stacks": 40,
+                    "headshot_stacks": 3,
                     "damage_bonus_fixed_per_stack": 0.2
                 },
                 "upgrades": [
@@ -2862,7 +2858,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 15
+                            "value": 12
                         },
                         {
                             "property": "slow_duration",
@@ -2886,7 +2882,7 @@
                         },
                         {
                             "property": "damage_bonus_fixed_per_stack",
-                            "value": 0.0003,
+                            "value": 0.00035,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -3136,20 +3132,28 @@
                     "explosion_radius": "2m",
                     "damage": 55,
                     "debuff_duration": 2,
-                    "fading_slow_percent": 50,
+                    "fading_slow_percent": 40,
                     "crackshot_n_p_c_c_d_reduction": 50
                 },
                 "upgrades": [
                     [
                         {
                             "property": "fading_slow_percent",
-                            "value": 25
+                            "value": 20
                         }
                     ],
                     [
                         {
                             "property": "damage",
                             "value": 49.5
+                        },
+                        {
+                            "property": "bullet_resist_reduction",
+                            "value": -6
+                        },
+                        {
+                            "property": "bullet_resist_reduction_duration",
+                            "value": 5
                         }
                     ],
                     [
@@ -3189,7 +3193,7 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "bounce_pad_extend_duration": 1,
+                    "bounce_pad_extend_duration": 1.25,
                     "lift_height": 7,
                     "lift_horizontal": -30,
                     "follow_damping_factor": 8,
@@ -3387,7 +3391,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "hooking_slow_speed_limit": 5,
-                    "slow_percent": 90,
+                    "slow_percent": 72,
                     "restriction_duration": 0.5,
                     "end_of_hook_move_speed_bonus": "0m",
                     "friendly_hook_ignore_range": "8m",
@@ -3456,8 +3460,8 @@
                     "fall_speed_max": 1,
                     "air_speed_max": 70,
                     "slow_target_duration": 0.5,
-                    "slow_percent": 25,
-                    "ground_dash_reduction_percent": -40
+                    "slow_percent": 20,
+                    "ground_dash_reduction_percent": -36
                 },
                 "upgrades": [
                     [
@@ -3856,7 +3860,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "slow_duration",
@@ -3916,7 +3920,7 @@
                     "trip_up_speed": 250,
                     "trip_gravity": 0.4,
                     "skip_frames": 6,
-                    "slow_percent": 30,
+                    "slow_percent": 24,
                     "charged_shot_hit_radius_scale": 30
                 },
                 "radius": "6.5m",
@@ -4092,7 +4096,7 @@
                     "speed_lost_duration": 1,
                     "enemy_damage_speed_penalty": 0.5,
                     "spin_duration": 1.5,
-                    "spin_slow_percent": 10,
+                    "spin_slow_percent": 8,
                     "spin_slow_duration": 0.3,
                     "tech_resist": 30,
                     "bullet_resist": 60,
@@ -4174,11 +4178,11 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "ground_dash_reduction_percent",
-                            "value": -30
+                            "value": -26
                         }
                     ],
                     [
@@ -4290,11 +4294,10 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "bleed_tick_rate": 1,
-                    "movement_slow": 35,
+                    "movement_slow": 28,
                     "bleed_d_p_s_per_stack": 10,
                     "bleed_duration": 5,
-                    "a_o_e_radius": "10m",
-                    "ricochet_count": 1
+                    "full_rage_current_health_damage_pct": 3.5
                 },
                 "projectile": [],
                 "upgrades": [
@@ -4554,7 +4557,7 @@
                     "tick_rate": 0.25,
                     "height": "2m",
                     "dps": 40,
-                    "slow_percent": 35
+                    "slow_percent": 28
                 },
                 "radius": "6m",
                 "upgrades": [
@@ -4676,12 +4679,12 @@
                     "damage": 75,
                     "stun_duration": 0.75
                 },
-                "radius": "6m",
+                "radius": "5.75m",
                 "upgrades": [
                     [
                         {
                             "property": "max_health_regen",
-                            "value": 7
+                            "value": 6
                         }
                     ],
                     [
@@ -4756,7 +4759,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 40
+                            "value": 32
                         },
                         {
                             "property": "debuff_duration",
@@ -5060,7 +5063,7 @@
                     "weapon_power_debuff": -25,
                     "slow_duration": 3,
                     "debuff_duration": 7,
-                    "move_speed_slow_pct": 20,
+                    "move_speed_slow_pct": 16,
                     "forward_velocity": 800,
                     "projectile_lifetime": 60
                 },
@@ -5140,11 +5143,11 @@
                     [
                         {
                             "property": "status_resistance_percent",
-                            "value": 40
+                            "value": 30
                         },
                         {
                             "property": "combat_barrier",
-                            "value": 2.7,
+                            "value": 2.1,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -5325,7 +5328,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 40
+                            "value": 32
                         }
                     ],
                     [
@@ -5377,7 +5380,7 @@
                 "channel_move_speed": -1,
                 "special_props": {
                     "slow_duration": 2.5,
-                    "slow_percent": 50
+                    "slow_percent": 40
                 },
                 "upgrades": [
                     [
@@ -5468,6 +5471,11 @@
                         {
                             "property": "damage",
                             "value": 0.6,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "heal_fixed_health",
+                            "value": 0.4,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -5588,7 +5596,7 @@
                     [
                         {
                             "property": "enemy_slow_pct",
-                            "value": 50
+                            "value": 40
                         },
                         {
                             "property": "slow_duration",
@@ -5606,12 +5614,12 @@
                     [
                         {
                             "property": "stomp_damage_per_meter_primary",
-                            "value": 0.03255,
+                            "value": 0.04,
                             "upgrade_type": "add_to_scale"
                         },
                         {
                             "property": "stomp_damage_per_meter_primary",
-                            "value": 113,
+                            "value": 120,
                             "upgrade_type": "multiply_base"
                         },
                         {
@@ -5621,7 +5629,7 @@
                         },
                         {
                             "property": "stomp_damage_per_meter_secondary",
-                            "value": 113,
+                            "value": 120,
                             "upgrade_type": "multiply_base"
                         }
                     ]
@@ -5671,7 +5679,7 @@
                         },
                         {
                             "property": "weapon_damage_bonus_duration",
-                            "value": 10
+                            "value": 6
                         }
                     ],
                     [
@@ -5712,9 +5720,9 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "targeting_cone_angle": 38,
+                    "targeting_cone_angle": 40,
                     "heal_pct_vs_non_heroes": 16,
-                    "heal_pct_vs_heroes": 50,
+                    "heal_pct_vs_heroes": 40,
                     "damage": 65
                 },
                 "upgrades": [
@@ -5725,7 +5733,7 @@
                         },
                         {
                             "property": "enemy_slow_pct",
-                            "value": 35
+                            "value": 28
                         }
                     ],
                     [
@@ -5745,11 +5753,11 @@
                         },
                         {
                             "property": "targeting_cone_angle",
-                            "value": 40
+                            "value": 25
                         },
                         {
                             "property": "heal_pct_vs_heroes",
-                            "value": 20
+                            "value": 15
                         },
                         {
                             "property": "heal_pct_vs_non_heroes",
@@ -5790,7 +5798,7 @@
                     "slam_speed": 1600,
                     "throw_straight_duration": 1.5,
                     "slow_duration": 4,
-                    "slow_percent": 50,
+                    "slow_percent": 40,
                     "impact_radius": "6m",
                     "not_in_cone_loses_lock": 1
                 },
@@ -5858,11 +5866,11 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "slow_percent": 35,
+                    "slow_percent": 28,
                     "max_bounces": 2,
                     "damage": 55,
                     "puddle_duration": 10,
-                    "detonate_cooldown": 0.15,
+                    "detonate_cooldown": 0.12,
                     "second_hit_damage_percentage": 0.5,
                     "third_hit_damage_percentage": 0.38,
                     "fourth_hit_damage_percentage": 0.26,
@@ -5878,7 +5886,7 @@
                         },
                         {
                             "property": "radius",
-                            "value": "2m"
+                            "value": "1.5m"
                         }
                     ],
                     [
@@ -5921,7 +5929,7 @@
                 ],
                 "cooldown": 42,
                 "duration": 3,
-                "cast_range": "26m",
+                "cast_range": "20m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
                 "charge_cooldown": -1,
@@ -5992,7 +6000,7 @@
                     "can_set_quick_cast",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 21,
+                "cooldown": 24,
                 "cast_range": "40m",
                 "unit_target_limit": 1,
                 "charges": 1,
@@ -6005,9 +6013,9 @@
                     "toss_speed_wall": 750,
                     "toss_speed_up_wall": 500,
                     "toss_ground_side_ratio": 0.7,
-                    "punch_roll_slow": -40,
+                    "punch_roll_slow": -36,
                     "punch_roll_slow_duration": 1,
-                    "slow_percent": 30,
+                    "slow_percent": 24,
                     "impact_duration": 3,
                     "friendly_impact_duration": 2,
                     "toss_duration": 0.6,
@@ -6137,6 +6145,11 @@
                         {
                             "property": "stun_duration",
                             "value": 0.3
+                        },
+                        {
+                            "property": "damage",
+                            "value": 0.2,
+                            "upgrade_type": "add_to_scale"
                         }
                     ]
                 ]
@@ -6238,7 +6251,7 @@
                     "self_shove_force": 200,
                     "enemy_shove_force": 800,
                     "slow_duration": 3,
-                    "slow_percent": 30,
+                    "slow_percent": 20,
                     "stun_duration": 1
                 },
                 "projectile": [],
@@ -7091,7 +7104,7 @@
                     "blast_radius": "10m",
                     "scrap_damage": 75,
                     "enemy_move_slow_duration": 5,
-                    "enemy_move_slow": 10
+                    "enemy_move_slow": 7
                 },
                 "upgrades": [
                     [
@@ -7109,7 +7122,7 @@
                     [
                         {
                             "property": "enemy_move_slow",
-                            "value": 20
+                            "value": 13
                         }
                     ]
                 ]
@@ -7143,7 +7156,7 @@
                     "toss_angle": 45,
                     "tick_rate": 1,
                     "camera_distance": 800,
-                    "slow_percent": 50,
+                    "slow_percent": 34,
                     "base_damage": 75,
                     "damage_per_second": 100
                 },
@@ -7420,7 +7433,7 @@
                     "fall_speed_max": 10,
                     "air_speed_max": 100,
                     "air_drag": 0.3,
-                    "move_slow_percent": 30,
+                    "move_slow_percent": 24,
                     "slow_duration": 1.5,
                     "amp_percent_per_stack": 6,
                     "amp_duration": 15
@@ -7556,7 +7569,7 @@
                         },
                         {
                             "property": "move_slow_percent",
-                            "value": 40
+                            "value": 32
                         },
                         {
                             "property": "debuff_duration",
@@ -7964,7 +7977,7 @@
                     "whirlwind_evasion_chance": 30,
                     "whirlwind_duration": 4,
                     "slow_duration": 3,
-                    "slow_percent": 30
+                    "slow_percent": 24
                 },
                 "upgrades": [
                     [
@@ -8031,7 +8044,7 @@
                     [
                         {
                             "property": "movement_speed_slow",
-                            "value": 60
+                            "value": 48
                         },
                         {
                             "property": "slow_duration",
@@ -8318,7 +8331,7 @@
                     "debuff_min_duration": 1,
                     "debuff_max_duration": 3.5,
                     "channel_time_for_max_debuff": 1.5,
-                    "enemy_slow_pct": 60,
+                    "enemy_slow_pct": 40,
                     "dps": 60,
                     "non_latched_duration_pct": 50
                 },
@@ -8428,7 +8441,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 40
+                            "value": 26
                         }
                     ],
                     [
@@ -9085,9 +9098,9 @@
                 "special_props": {
                     "damage": 50,
                     "slow_duration": 2,
-                    "slow_percent": 35,
+                    "slow_percent": 28,
                     "damage_per_stack": 25,
-                    "slow_percent_per_stack": 15,
+                    "slow_percent_per_stack": 12,
                     "stack_duration": 10,
                     "max_stacks": 3
                 },
@@ -9221,7 +9234,7 @@
                     [
                         {
                             "property": "buff_duration",
-                            "value": 5
+                            "value": 4
                         },
                         {
                             "property": "combat_barrier",
@@ -9256,7 +9269,7 @@
                     "projectile_fired_as_bullet",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 105,
+                "cooldown": 115,
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
                 "charge_cooldown": -1,
@@ -9267,7 +9280,7 @@
                     "petrify_duration": 2.2,
                     "slow_duration": 1.5,
                     "petrify_damage_break_threshold": 200,
-                    "slow_percent": 50
+                    "slow_percent": 40
                 },
                 "radius": "12m",
                 "projectile": [],
@@ -9774,14 +9787,14 @@
                     "tick_rate": 0.25,
                     "initial_radius": "6m",
                     "height": "2m",
-                    "slow_percent": 25,
+                    "slow_percent": 16,
                     "radius_per_second": "0.25m"
                 },
                 "upgrades": [
                     [
                         {
                             "property": "slow_percent",
-                            "value": 20
+                            "value": 14
                         }
                     ],
                     [
@@ -9826,7 +9839,7 @@
                     "web_duration": 120,
                     "web_wall_tick_rate": 0.15,
                     "debuff_duration": 3,
-                    "slow_percent": 99,
+                    "slow_percent": 66,
                     "web_arm_time": 0.5,
                     "min_wall_to_wall_distance": "3m",
                     "dps": 40,
@@ -9886,7 +9899,7 @@
                     "combat_barrier": 200,
                     "debuff_duration": 0.5,
                     "tick_rate": 1,
-                    "slow_percent": 30,
+                    "slow_percent": 20,
                     "dps": 30
                 },
                 "radius": "5m",
@@ -10173,7 +10186,7 @@
                     "tick_rate": 0.25,
                     "time_before_cursed": 2,
                     "curse_duration": 3,
-                    "slow_percent": 25,
+                    "slow_percent": 16,
                     "ground_dash_reduction_percent": -20,
                     "max_camera_angle_for_seeing": 180
                 },
@@ -10379,7 +10392,7 @@
                         },
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         }
                     ],
                     [
@@ -11059,7 +11072,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 40
+                            "value": 32
                         },
                         {
                             "property": "slow_duration",
@@ -11184,11 +11197,11 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 25
+                            "value": 20
                         },
                         {
                             "property": "enemy_dash_slow_percent",
-                            "value": -25
+                            "value": -22
                         },
                         {
                             "property": "debuff_duration",
@@ -11250,7 +11263,7 @@
                     "respawn_delay": 3,
                     "respawn_health_percent": 50,
                     "slow_percent": 120,
-                    "enemy_dash_slow_percent": -30,
+                    "enemy_dash_slow_percent": -26,
                     "slow_duration": 3,
                     "zombie_tick_rate": 0.02,
                     "stun_duration": 1.5
@@ -11340,7 +11353,7 @@
                     "ground_flame_duration": 3,
                     "damage": 60,
                     "dragon_search_tick_rate": 0.1,
-                    "ground_aura_spacing": "1m",
+                    "ground_aura_spacing": "2m",
                     "aura_linger_duration": 0.1,
                     "dragon_travel_range": "20m",
                     "dragon_range_per_second": 500
@@ -11488,7 +11501,7 @@
                     "detonation_delay": 1.25,
                     "immobilize_duration": 1,
                     "slow_duration": 0.5,
-                    "slow_percent": 45,
+                    "slow_percent": 36,
                     "height": "8m"
                 },
                 "radius": "7.5m",
@@ -11496,7 +11509,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -11
+                            "value": -14
                         }
                     ],
                     [
@@ -11516,7 +11529,7 @@
                         },
                         {
                             "property": "radius",
-                            "value": "1m"
+                            "value": "2m"
                         }
                     ]
                 ]
@@ -11878,7 +11891,7 @@
                     "debuff_accuracy": -40,
                     "impact_damage": 40,
                     "accuracy_debuff_falloff_bias": 0.3,
-                    "slow_percent": 35,
+                    "slow_percent": 28,
                     "enable_aura": 1
                 },
                 "projectile": [],
@@ -12836,76 +12849,6 @@
             }
         }
     },
-    "73": {
-        "list": [
-            "ability_druid_leech_seed",
-            "ability_druid_helicopter_seeds",
-            "ability_druid_sprout",
-            "ability_druid_ult"
-        ],
-        "desc": {
-            "ability_druid_leech_seed": {
-                "id": 3923533266,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_druid_helicopter_seeds": {
-                "id": 2082403219,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_druid_sprout": {
-                "id": 2800600819,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_druid_ult": {
-                "id": 2510227556,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            }
-        }
-    },
     "74": {
         "list": [
             "ability_graf_ability01",
@@ -13314,7 +13257,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "slow_duration",
@@ -13501,7 +13444,7 @@
                     "gravestone_health": 100,
                     "aura_radius": "8m",
                     "tick_rate": 0.4,
-                    "slow_percent": 80,
+                    "slow_percent": 64,
                     "slow_duration": 1.25,
                     "push_force": 300,
                     "max_gravestones": 3,
@@ -13599,7 +13542,7 @@
                     "damage": 85,
                     "jump_velocity_hidden": "16m",
                     "slow_duration": 4,
-                    "slow_percent": 30,
+                    "slow_percent": 24,
                     "trace_to_ground_distance": 1000,
                     "fall_speed_max": 1,
                     "air_speed_max": 70,
@@ -13866,7 +13809,7 @@
                     "vacuum_speed": 400,
                     "impact_damage": 70,
                     "delayed_damage": 200,
-                    "ground_dash_reduction_percent": -30,
+                    "ground_dash_reduction_percent": -26,
                     "move_speed_penalty_max_speed": 200,
                     "camera_distance": 250,
                     "side_move_speed_reduction": -100,
@@ -13895,166 +13838,6 @@
                         {
                             "property": "bonus_damage_percent",
                             "value": 50
-                        }
-                    ]
-                ]
-            }
-        }
-    },
-    "78": {
-        "list": [
-            "rutger_rocket",
-            "ability_airheart_rocketeer3",
-            "ability_airheart_chargeblast",
-            "citadel_ability_bebop_laser_beam"
-        ],
-        "desc": {
-            "rutger_rocket": {
-                "id": 4182904284,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 1,
-                "update_time": 1669926534,
-                "image": "rutger\/rutger_rocket_launcher",
-                "activation_time": "instant_cast",
-                "targeting_location": "self",
-                "unit_target": "hero_friendly | all_enemy",
-                "behaviors": [
-                    "no_target",
-                    "dont_trigger_spell_block",
-                    "displays_damage_impact"
-                ],
-                "cooldown": 17,
-                "unit_target_limit": 1,
-                "charges": 1,
-                "charge_cooldown": 1,
-                "channel_move_speed": -1,
-                "special_props": {
-                    "tech_cleave_expire_time": 0.2,
-                    "fall_speed_max": 60,
-                    "air_speed_max": 150,
-                    "damage": 120,
-                    "camera_height_offset": 20,
-                    "camera_horizontal_offset": 15,
-                    "impact_radius": "5m",
-                    "launch_max_speed": 600,
-                    "launch_min_speed": 525,
-                    "launch_min_vertical_amount": 0.2,
-                    "launch_vertical_bias": 0.75,
-                    "self_launch_percent": 175,
-                    "self_damage_percent": 50
-                },
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_charges",
-                            "value": 1
-                        }
-                    ],
-                    [
-                        {
-                            "property": "damage",
-                            "value": 80
-                        }
-                    ],
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": -7.5
-                        }
-                    ]
-                ]
-            },
-            "ability_airheart_rocketeer3": {
-                "id": 814745936,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_airheart_chargeblast": {
-                "id": 2999171677,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "citadel_ability_bebop_laser_beam": {
-                "id": 3832675871,
-                "is_active": false,
-                "is_ultimate": true,
-                "slot": 4,
-                "update_time": 1693505809,
-                "image": "bebop\/bebop_hyper_beam",
-                "activation_time": "instant_cast",
-                "targeting_location": "none",
-                "unit_target": "all_enemy",
-                "behaviors": [
-                    "channelled",
-                    "no_target",
-                    "displays_damage_impact",
-                    "deactivate_crouch_toggle_on_cast"
-                ],
-                "cooldown": 105,
-                "unit_target_limit": 1,
-                "cast_delay": 1,
-                "channel_time": 11,
-                "charge_cooldown": -1,
-                "channel_move_speed": "1.8m",
-                "special_props": {
-                    "dps": 160,
-                    "beam_length": "70m",
-                    "beam_width": "2.9m",
-                    "beam_close_radius": "5.0m",
-                    "beam_end_radius": "4.0m",
-                    "beam_close_damage_percent": 75,
-                    "interval": 0.1,
-                    "tracking_speed": 55,
-                    "zoom_time": 0.1,
-                    "zoom_bias": 0.5,
-                    "fall_speed_max": 1,
-                    "air_speed_max": 70,
-                    "slow_target_duration": 0.5,
-                    "slow_percent": 25,
-                    "ground_dash_reduction_percent": -40
-                },
-                "upgrades": [
-                    [
-                        {
-                            "property": "ability_cooldown",
-                            "value": -25
-                        }
-                    ],
-                    [
-                        {
-                            "property": "dps",
-                            "value": 108
-                        }
-                    ],
-                    [
-                        {
-                            "property": "beam_lifesteal",
-                            "value": 65
-                        },
-                        {
-                            "property": "beam_lifesteal_non_hero_percent",
-                            "value": 20
                         }
                     ]
                 ]
@@ -14096,7 +13879,7 @@
                     "orbs_to_fire": 1,
                     "damage": 75,
                     "effect_duration": 3,
-                    "fading_slow_percent": 45,
+                    "fading_slow_percent": 36,
                     "toss_duration": 0.4,
                     "toss_force": 300,
                     "c_d_reduce_on_pillow_hit": 5
@@ -14231,7 +14014,8 @@
                     "damage_doesnt_wake_from_sleep",
                     "displays_damage_impact",
                     "do_not_allow_spam_proc",
-                    "dont_interrupt_slide_on_cast"
+                    "dont_interrupt_slide_on_cast",
+                    "use_instant_cast_unit_target_ui"
                 ],
                 "cast_range": "45m",
                 "unit_target_limit": 1,
@@ -14325,7 +14109,7 @@
                     "sleep_move_speed": "1.5m",
                     "awake_damage": 120,
                     "height": "20m",
-                    "move_speed_and_dash_slow_pct": 25,
+                    "move_speed_and_dash_slow_pct": 20,
                     "damage_resist_pct_while_channeling": 30
                 },
                 "radius": "19.0m",
@@ -14457,7 +14241,7 @@
                 "image": "werewolf\/werewolf_jumpback",
                 "activation_time": "instant_cast",
                 "targeting_location": "self",
-                "unit_target": "all_enemy",
+                "unit_target": "hero_enemy | boss_enemy | building_enemy",
                 "behaviors": [
                     "channelled",
                     "displays_damage_impact",
@@ -14528,7 +14312,7 @@
                 "image": "werewolf\/werewolf_bola",
                 "activation_time": "instant_cast",
                 "targeting_location": "self",
-                "unit_target": "all_enemy",
+                "unit_target": "hero_enemy",
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact",
@@ -14543,13 +14327,14 @@
                 "special_props": {
                     "damage": 40,
                     "debuff_duration": 1.5,
-                    "slow_percent": 20
+                    "slow_percent": 16,
+                    "gravity_scale": 100
                 },
                 "upgrades": [
                     [
                         {
                             "property": "slow_percent",
-                            "value": 25
+                            "value": 20
                         }
                     ],
                     [
@@ -14693,7 +14478,7 @@
                     "tick_rate": 0.5,
                     "targeting_cone_angle": 70,
                     "extra_sweep_radius": "2m",
-                    "ability_lifesteal_percent_hero": 20
+                    "ability_lifesteal_percent_hero": 18
                 },
                 "projectile": [],
                 "upgrades": [
@@ -14716,7 +14501,7 @@
                     [
                         {
                             "property": "damage",
-                            "value": 25
+                            "value": 22
                         },
                         {
                             "property": "damage",
@@ -14741,7 +14526,7 @@
                     "displays_damage_impact",
                     "projectile_pass_through_world"
                 ],
-                "cooldown": 32,
+                "cooldown": 38,
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
@@ -14765,22 +14550,22 @@
                     [
                         {
                             "property": "combat_barrier",
-                            "value": 80
+                            "value": 70
                         },
                         {
                             "property": "combat_barrier",
-                            "value": 0.7,
+                            "value": 0.76,
                             "upgrade_type": "add_to_scale"
                         }
                     ],
                     [
                         {
                             "property": "debuff_duration",
-                            "value": 1.5
+                            "value": 1.25
                         },
                         {
                             "property": "ability_cooldown",
-                            "value": -18
+                            "value": -20
                         }
                     ]
                 ]
@@ -14817,7 +14602,7 @@
                     "tick_rate": 0.5,
                     "buff_max_stacks": 6,
                     "buff_duration": 30,
-                    "magic_increase_per_stack": 8,
+                    "magic_increase_per_stack": 7,
                     "buff_delay": 0.75,
                     "post_explosion_duration": 0.8
                 },
@@ -14831,7 +14616,7 @@
                     [
                         {
                             "property": "impact_damage",
-                            "value": 80
+                            "value": 70
                         },
                         {
                             "property": "ability_cooldown",
@@ -14841,7 +14626,7 @@
                     [
                         {
                             "property": "magic_increase_per_stack",
-                            "value": 3
+                            "value": 4
                         },
                         {
                             "property": "fire_rate_per_stack",
@@ -14875,12 +14660,12 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "damage": 165,
+                    "damage": 140,
                     "slow_duration": 1.5,
-                    "slow_percent": 40,
-                    "ground_dash_reduction_percent": -25,
+                    "slow_percent": 32,
+                    "ground_dash_reduction_percent": -22,
                     "max_bounces": 8,
-                    "bounce_radius": "17.5m",
+                    "bounce_radius": "15.5m",
                     "priority_bounce_radius": "13.5m",
                     "bounce_grace": 3.25,
                     "next_target_duration": 4
@@ -14890,23 +14675,28 @@
                     [
                         {
                             "property": "ground_dash_reduction_percent",
-                            "value": -15
+                            "value": -14
                         },
                         {
                             "property": "slow_percent",
-                            "value": 20
+                            "value": 16
                         }
                     ],
                     [
                         {
                             "property": "damage",
                             "value": 90
+                        },
+                        {
+                            "property": "damage",
+                            "value": 0.45,
+                            "upgrade_type": "add_to_scale"
                         }
                     ],
                     [
                         {
                             "property": "max_bounces",
-                            "value": 8
+                            "value": 6
                         },
                         {
                             "property": "ability_cooldown",
@@ -14914,146 +14704,6 @@
                         }
                     ]
                 ]
-            }
-        }
-    },
-    "82": {
-        "list": [
-            "ability_opera_ability01",
-            "ability_opera_ability02",
-            "ability_opera_ability03",
-            "ability_opera_ult"
-        ],
-        "desc": {
-            "ability_opera_ability01": {
-                "id": 808611817,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_opera_ability02": {
-                "id": 1777250969,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_opera_ability03": {
-                "id": 3819597066,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_opera_ult": {
-                "id": 463497510,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            }
-        }
-    },
-    "83": {
-        "list": [
-            "ability_testhero_wallcling",
-            "ability_testhero_ability02",
-            "ability_testhero_ability03",
-            "ability_testhero_ult"
-        ],
-        "desc": {
-            "ability_testhero_wallcling": {
-                "id": 294499382,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 1,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_testhero_ability02": {
-                "id": 301527624,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 2,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_testhero_ability03": {
-                "id": 2192886657,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 3,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
-            },
-            "ability_testhero_ult": {
-                "id": 2556078712,
-                "is_active": false,
-                "is_ultimate": false,
-                "slot": 4,
-                "update_time": null,
-                "image": "",
-                "activation_time": null,
-                "targeting_location": null,
-                "unit_target": null,
-                "behaviors": [
-                    ""
-                ],
-                "upgrades": []
             }
         }
     }

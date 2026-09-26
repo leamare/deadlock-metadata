@@ -427,7 +427,7 @@
         "extra": {
             "life_threshold": 65,
             "out_of_combat_health_regen": 4.5,
-            "bullet_armor_reduction": -9,
+            "bullet_armor_reduction": -10,
             "debuff_duration": 8
         },
         "active": {
@@ -584,8 +584,8 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "slow_percent": 30,
-            "ground_dash_reduction_percent": -22,
+            "slow_percent": 24,
+            "ground_dash_reduction_percent": -20,
             "slow_duration": 3.5,
             "build_up_duration": 5,
             "build_up_per_shot": 0.7
@@ -981,7 +981,7 @@
         "mobility": [],
         "extra": {
             "close_range_bonus_weapon_power": 50,
-            "slow_percent": 25,
+            "slow_percent": 20,
             "slow_duration": 2,
             "close_range_bonus_damage_range": "15m"
         },
@@ -1332,7 +1332,7 @@
         },
         "extra": {
             "restore_delay": 10,
-            "heal_life_percent_out_of_combat": 2,
+            "heal_life_percent_out_of_combat": 2.25,
             "health_threshold": 75
         },
         "active": {
@@ -1521,7 +1521,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "fire_rate": 30
+            "fire_rate": 25
         },
         "vitality": {
             "hp": 90
@@ -1533,10 +1533,10 @@
         "mobility": [],
         "extra": {
             "non_hero_ability_lifesteal_tooltip_only": 3,
-            "bonus_spirit": 40,
+            "bonus_spirit": 30,
             "bonus_spirit_lifesteal": 10,
             "bonus_ability_duration_percent": 13,
-            "build_up_per_shot": 0.75,
+            "build_up_per_shot": 1.08,
             "build_up_duration": 5
         },
         "active": {
@@ -1687,7 +1687,7 @@
             "minimum_damage": 165,
             "re_proc_lockout_time": 5,
             "watcher_max_duration": 30,
-            "current_health_damage": 8,
+            "current_health_damage": 7.5,
             "damage": 40,
             "ability_charge_up_time": 14
         },
@@ -1781,8 +1781,8 @@
             "sprint_speed": "0.75m"
         },
         "extra": {
-            "movement_speed_slow": 30,
-            "ground_dash_reduction_percent": -12
+            "movement_speed_slow": 24,
+            "ground_dash_reduction_percent": -10
         },
         "active": {
             "duration": 2,
@@ -1884,7 +1884,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "slow_percent": 15,
+            "slow_percent": 12,
             "slow_duration": 2
         },
         "active": {
@@ -1907,7 +1907,7 @@
         "mobility": [],
         "extra": {
             "tech_radius_multiplier": 30,
-            "slow_percent": 20,
+            "slow_percent": 16,
             "slow_duration": 2
         },
         "active": {
@@ -1930,7 +1930,7 @@
         "mobility": [],
         "extra": {
             "tech_radius_multiplier": 60,
-            "slow_percent": 30,
+            "slow_percent": 24,
             "slow_duration": 2,
             "bonus_damage_per_hero": 5
         },
@@ -2016,7 +2016,7 @@
             "imbued_bonus_duration": 25,
             "imbued_bonus_damage": 10,
             "bonus_ability_duration_percent": 20,
-            "slow_percent": 15,
+            "slow_percent": 12,
             "slow_duration": 2
         },
         "active": {
@@ -2105,10 +2105,10 @@
         "mobility": [],
         "extra": {
             "light_melee_cooldown_mult": 1.5,
-            "slow_percent": 60,
+            "slow_percent": 48,
             "slow_duration": 2.5,
-            "lifesteal_heal": 100,
-            "lifesteal_heal_percent": 30,
+            "lifesteal_heal": 120,
+            "lifesteal_heal_percent": 35,
             "non_hero_heal_pct": 40
         },
         "active": {
@@ -2448,7 +2448,6 @@
         },
         "spirit": [],
         "mobility": {
-            "sprint_speed": "2.0m",
             "move_speed_bonus": "3.5m"
         },
         "extra": {
@@ -2457,8 +2456,7 @@
             "spotted_radius": "20m",
             "reveal_on_damage_duration": 0.5,
             "reveal_on_spotted_duration": 1.25,
-            "out_of_combat_health_regen": 2,
-            "spirit_power": 10,
+            "spirit_power": 6,
             "invis_duration": 8,
             "heal_on_veil": 85
         },
@@ -2619,11 +2617,11 @@
         },
         "extra": {
             "damage": 150,
-            "slow_percent": 80,
+            "slow_percent": 64,
             "stun_duration": 0.75,
             "delay_before_stun": 3,
-            "movement_speed_slow": 30,
-            "ground_dash_reduction_percent": -12
+            "movement_speed_slow": 24,
+            "ground_dash_reduction_percent": -10
         },
         "active": {
             "duration": 2,
@@ -2753,8 +2751,8 @@
         },
         "extra": {
             "status_resistance_percent": 22,
-            "slow_percent": 30,
-            "ground_dash_reduction_percent": -22,
+            "slow_percent": 24,
+            "ground_dash_reduction_percent": -20,
             "slow_duration": 3.5,
             "build_up_duration": 5,
             "build_up_per_shot": 0.7
@@ -2801,7 +2799,7 @@
             "stacking_bonus_sprint_speed": "0.15m",
             "stacking_tech_range_multiplier": 0.75,
             "stacking_tech_radius_multiplier": 0.75,
-            "stacking_gold_per_minute": 18,
+            "stacking_gold_per_minute": 16,
             "think_rate": 3,
             "max_stacks": 16,
             "non_player_bonus_weapon_power": -15
@@ -2889,7 +2887,7 @@
             "damage": 60,
             "ammo_reload_percent": 100,
             "ability_charge_up_time": 14,
-            "bullets_bonus_magic_damage": 25
+            "bullets_bonus_magic_damage": 20
         },
         "active": {
             "cooldown": 15,
@@ -3368,8 +3366,8 @@
             "outgoing_damage_penalty_percent": -40,
             "heal_amp_receive_penalty_percent": -40,
             "heal_amp_regen_penalty_percent": -40,
-            "movement_speed_slow": 40,
-            "ground_dash_reduction_percent": -40
+            "movement_speed_slow": 32,
+            "ground_dash_reduction_percent": -36
         },
         "active": {
             "cooldown": 2.5,
@@ -3470,7 +3468,7 @@
             "non_hero_stack_limit": 8
         },
         "active": {
-            "duration": 14,
+            "duration": 20,
             "recharge_speed": -1
         }
     },
@@ -3659,7 +3657,7 @@
             "non_player_bonus_weapon_power": 30,
             "out_of_combat_health_regen": 2,
             "non_player_bullet_resist": 30,
-            "bonus_souls_pct": 180,
+            "bonus_souls_pct": 170,
             "tech_radius_multiplier": 12
         },
         "active": {
@@ -3716,7 +3714,7 @@
             "chain_count": 6,
             "chain_tick_rate": 0.4,
             "damage": 100,
-            "max_slow_percent": 75,
+            "max_slow_percent": 60,
             "slow_duration": 3
         },
         "active": {
@@ -3880,7 +3878,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "bullet_resist_reduction": -13,
+            "bullet_resist_reduction": -12,
             "debuff_duration": 12,
             "diminishing_multiplier": 0.5
         },
@@ -4202,7 +4200,7 @@
         "is_active": null,
         "ability": [],
         "bullet": {
-            "bullet_lifesteal_pct": 25,
+            "bullet_lifesteal_pct": 28,
             "damage_pct": 12
         },
         "vitality": {
@@ -4210,7 +4208,7 @@
         },
         "spirit": {
             "spirit_power": 12,
-            "spirit_lifesteal": 25
+            "spirit_lifesteal": 28
         },
         "mobility": [],
         "extra": [],
@@ -4502,7 +4500,7 @@
             "minimum_damage": 100,
             "radius": "16m",
             "imbue_ability_lifesteal": 22,
-            "movement_speed_slow": 40,
+            "movement_speed_slow": 32,
             "max_health_damage": 10
         },
         "active": {
@@ -4598,11 +4596,11 @@
             "sprint_speed": "0.5m"
         },
         "extra": {
-            "slow_percent": 20,
-            "ground_dash_reduction_percent": -30
+            "slow_percent": 16,
+            "ground_dash_reduction_percent": -26
         },
         "active": {
-            "cooldown": 27,
+            "cooldown": 29,
             "duration": 3.5,
             "cast_range": "25m",
             "cast_delay": 0.1,
@@ -4650,7 +4648,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "percent_damage": 30,
+            "percent_damage": 35,
             "magic_resist_reduction": -9,
             "tech_power_reduction": -30,
             "resist_reduction_duration": 12
@@ -4658,7 +4656,7 @@
         "active": {
             "cooldown": 45,
             "duration": 4.5,
-            "cast_range": "20m",
+            "cast_range": "25m",
             "cast_delay": 0.1,
             "recharge_speed": -1
         }
@@ -4855,11 +4853,11 @@
             "heal_amp_receive_penalty_percent": -50,
             "heal_amp_regen_penalty_percent": -50,
             "tick_rate": 1,
-            "dot_health_percent": 2.6
+            "dot_health_percent": 1.95
         },
         "active": {
             "cooldown": 30,
-            "duration": 10,
+            "duration": 12,
             "cast_range": "20m",
             "cast_delay": 0.1,
             "recharge_speed": -1
@@ -4965,7 +4963,7 @@
         },
         "mobility": [],
         "extra": {
-            "slow_percent": 50,
+            "slow_percent": 40,
             "slow_duration": 3,
             "impact_damage": 75
         },
@@ -5019,8 +5017,8 @@
             "capture_radius": "12m",
             "tether_duration": 0.5,
             "tether_radius": "1m",
-            "slow_percent": 35,
-            "ground_dash_reduction_percent": -40,
+            "slow_percent": 28,
+            "ground_dash_reduction_percent": -36,
             "tech_radius_multiplier": 8
         },
         "active": {
@@ -5166,7 +5164,7 @@
         "vitality": [],
         "spirit": [],
         "mobility": {
-            "sprint_speed": "1.5m"
+            "sprint_speed": "2m"
         },
         "extra": {
             "invis_alert_when_fading": 1,
@@ -5184,7 +5182,7 @@
             "out_of_combat_health_regen": 5
         },
         "active": {
-            "cooldown": 45,
+            "cooldown": 37,
             "duration": 13,
             "recharge_speed": -1
         }
@@ -5280,7 +5278,7 @@
             "slam_down_radius": "10m",
             "vertical_difference_tolerance": "2m",
             "toss_speed": 500,
-            "slow_percent": 40,
+            "slow_percent": 32,
             "slow_duration": 2.5,
             "drop_down_speed": "35m",
             "max_landing_speed": "20m",
@@ -5359,19 +5357,19 @@
         "ability": [],
         "bullet": [],
         "vitality": {
-            "spirit_resist": 10
+            "spirit_resist": 8
         },
         "spirit": [],
         "mobility": [],
         "extra": {
-            "radius": "35m",
+            "radius": "32m",
             "heal_per_stack": 16,
             "max_stacks": 25,
             "max_stamina_restore": 3
         },
         "active": {
             "cooldown": 20,
-            "cast_range": "35m",
+            "cast_range": "32m",
             "cast_delay": 0.1,
             "recharge_speed": -1
         }
@@ -5735,8 +5733,8 @@
             "bonus_base_health": 25,
             "buff_bullet_resist": 35,
             "buff_tech_resist": 35,
-            "slow_percent": 30,
-            "ground_dash_reduction_percent": -25,
+            "slow_percent": 24,
+            "ground_dash_reduction_percent": -22,
             "radius": "14m",
             "model_scale_growth": 1.2,
             "model_scale_growth_tooltip": 20
@@ -5765,7 +5763,7 @@
             "spread_duration": 0.6,
             "start_radius": "2m",
             "end_radius": "10m",
-            "movement_speed_slow": 60,
+            "movement_speed_slow": 48,
             "damage": 95,
             "damage_height": "7m",
             "n_p_c_damage_mult": 1
@@ -5794,7 +5792,7 @@
             "spread_duration": 0.6,
             "start_radius": "2m",
             "end_radius": "16m",
-            "slow_percent": 60,
+            "slow_percent": 48,
             "slow_duration": 4,
             "damage": 175,
             "damage_height": "7m",
@@ -6098,7 +6096,8 @@
         "extra": {
             "combat_barrier": 1000,
             "buff_duration": 20,
-            "bonus_ability_duration_percent": 15
+            "bonus_ability_duration_percent": 15,
+            "ultimate_cooldown_reduction": 10
         },
         "active": {
             "cooldown": 40,
@@ -6155,7 +6154,7 @@
             "move_speed_bonus": "1.75m"
         },
         "extra": {
-            "healing_per_cast": 70,
+            "healing_per_cast": 65,
             "regeneration": 4,
             "regeneration_duration": 7
         },
@@ -6776,8 +6775,8 @@
             "sprint_speed": "1m"
         },
         "extra": {
-            "bonus_gold_per_minute": 90,
-            "outgoing_damage_penalty_percent": -10,
+            "bonus_gold_per_minute": 80,
+            "outgoing_damage_penalty_percent": -15,
             "think_rate": 3,
             "out_of_combat_health_regen": 1,
             "starting_gold": 400,

@@ -1500,7 +1500,7 @@
                 "cast_range": "10m",
                 "unit_target_limit": 1,
                 "cast_delay": 0.45,
-                "channel_time": 0.65,
+                "channel_time": 1.25,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
@@ -2417,7 +2417,8 @@
                     "damage": 60,
                     "slow_percent": 32,
                     "slow_duration": 4,
-                    "heal_amount": 60
+                    "heal_amount": 60,
+                    "aura_slow_amount": -75
                 },
                 "upgrades": [
                     [
@@ -2499,7 +2500,9 @@
                     "slow_resistance_percent": 60,
                     "slide_scale": 50,
                     "move_while_shooting_speed_penalty_reduction_percent": 100,
-                    "move_while_zoomed_speed_penalty_reduction_percent": 100
+                    "move_while_zoomed_speed_penalty_reduction_percent": 100,
+                    "explode_radius": "5m",
+                    "explode_interval": 0.15
                 },
                 "upgrades": [
                     [
@@ -2712,7 +2715,7 @@
                     "sleep_wake_up_delay": 0.1,
                     "minimum_sleep_time": 0.2,
                     "sleep_move_speed": "1.5m",
-                    "ricochet_radius": "0m",
+                    "explosion_radius": "0m",
                     "does_not_break_invis": 1
                 },
                 "upgrades": [
@@ -2919,7 +2922,8 @@
                     "weapon_damage_bonus": 7,
                     "proc_chance": 100,
                     "evasion_percent": 30,
-                    "override_bullet_radius": 10
+                    "override_bullet_radius": 10,
+                    "min_rounds_per_second": 5
                 },
                 "upgrades": [
                     [
@@ -3196,7 +3200,6 @@
                     "bounce_pad_extend_duration": 1.25,
                     "lift_height": 7,
                     "lift_horizontal": -30,
-                    "follow_damping_factor": 8,
                     "grab_extra_targets_radius_mult": 2,
                     "extra_target_cone_angle": 60,
                     "extra_target_horizontal_offset": 30,
@@ -3204,7 +3207,6 @@
                     "camera_preview_offset": 25,
                     "camera_preview_speed": 0.6,
                     "camera_preview_distance": 200,
-                    "lasso_target_max_speed": 55,
                     "lift_initial_delay": 0.5,
                     "lift_initial_velocity_start": 500,
                     "lift_initial_rising_speed": 100,
@@ -3376,7 +3378,7 @@
                 "image": "bebop\/bebop_hook",
                 "activation_time": "instant_cast",
                 "targeting_location": "none",
-                "unit_target": "hero | trooper_enemy",
+                "unit_target": "hero | trooper_enemy | neutral",
                 "behaviors": [
                     "projectile",
                     "prevent_bot_usage",
@@ -3636,7 +3638,6 @@
                     "channelled",
                     "no_target",
                     "cannot_cancel_during_channel",
-                    "inhibit_soft_camera_collision",
                     "movement",
                     "prevent_bot_usage",
                     "require_ability_button_to_cancel"
@@ -3769,7 +3770,7 @@
                 "image": "archer\/archer_charged_shot",
                 "activation_time": "instant_cast",
                 "targeting_location": "self",
-                "unit_target": "minion_friendly | all_enemy | gold_orbs | abillity_trigger",
+                "unit_target": "minion_friendly | all_enemy | gold_orbs | ability_trigger",
                 "behaviors": [
                     "no_target",
                     "channelled",
@@ -4835,7 +4836,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         },
                         {
                             "property": "slow_duration",
@@ -4940,8 +4941,8 @@
                     "tornado_speed": 600,
                     "close_range_speed": 80,
                     "debuff_duration": 3,
-                    "slow_percent": 20,
-                    "ground_dash_reduction_percent": -30,
+                    "slow_percent": 16,
+                    "ground_dash_reduction_percent": -26,
                     "fire_rate_slow": 20
                 },
                 "radius": "3.5m",
@@ -4950,7 +4951,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 30
+                            "value": 24
                         }
                     ],
                     [
@@ -5000,7 +5001,7 @@
                     "bolo_bounce_count": 6,
                     "bolo_bounce_speed": 800,
                     "max_slow": 100,
-                    "max_ground_dash_reduction": -50
+                    "max_ground_dash_reduction": -45
                 },
                 "projectile": [],
                 "upgrades": [
@@ -6088,8 +6089,7 @@
                     "cannot_cancel_during_channel",
                     "trigger_cancel_mash_protection_on_cast",
                     "deactivate_crouch_toggle_on_cast",
-                    "require_ability_button_to_cancel",
-                    "inhibit_soft_camera_collision"
+                    "require_ability_button_to_cancel"
                 ],
                 "cooldown": 150,
                 "duration": 11,
@@ -6251,7 +6251,7 @@
                     "self_shove_force": 200,
                     "enemy_shove_force": 800,
                     "slow_duration": 3,
-                    "slow_percent": 20,
+                    "slow_percent": 24,
                     "stun_duration": 1
                 },
                 "projectile": [],
@@ -6428,7 +6428,7 @@
                 "targeting_location": "unit",
                 "unit_target": "hero_friendly",
                 "behaviors": [
-                    "0.0allow_self_cast"
+                    "allow_self_cast"
                 ],
                 "cooldown": 32,
                 "cast_range": "30m",
@@ -7104,7 +7104,7 @@
                     "blast_radius": "10m",
                     "scrap_damage": 75,
                     "enemy_move_slow_duration": 5,
-                    "enemy_move_slow": 7
+                    "enemy_move_slow": 8
                 },
                 "upgrades": [
                     [
@@ -7122,7 +7122,7 @@
                     [
                         {
                             "property": "enemy_move_slow",
-                            "value": 13
+                            "value": 16
                         }
                     ]
                 ]
@@ -7156,7 +7156,7 @@
                     "toss_angle": 45,
                     "tick_rate": 1,
                     "camera_distance": 800,
-                    "slow_percent": 34,
+                    "slow_percent": 40,
                     "base_damage": 75,
                     "damage_per_second": 100
                 },
@@ -7280,7 +7280,7 @@
                     "force_field_think_rate": 0.05,
                     "height": 150,
                     "slow_duration": 0.3,
-                    "slow_percent": 60,
+                    "slow_percent": 48,
                     "edge_push_duration": 0.15
                 },
                 "projectile": [],
@@ -7369,7 +7369,7 @@
                     "spread_duration": 0.6,
                     "start_radius": "1m",
                     "end_radius": "30m",
-                    "movement_slow": 25,
+                    "movement_slow": 20,
                     "damage_max": 350,
                     "damage_min": 50,
                     "damage_max__distance_fuzz": "2m"
@@ -7378,7 +7378,7 @@
                     [
                         {
                             "property": "movement_slow",
-                            "value": 25
+                            "value": 20
                         }
                     ],
                     [
@@ -7481,7 +7481,7 @@
                     "trigger_cancel_mash_protection_on_cast",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 25,
+                "cooldown": 26,
                 "unit_target_limit": 1,
                 "cast_delay": 0.2,
                 "charge_cooldown": -1,
@@ -7740,7 +7740,7 @@
                     "vertical_difference_tolerance": "2.5m",
                     "impact_interval": 0.1,
                     "stomp_range": "25m",
-                    "barbed_wire_slow": 50,
+                    "barbed_wire_slow": 40,
                     "barbed_wire_d_p_s": 10,
                     "barbed_wire_damage_per_meter": 30,
                     "barbed_wire_radius": "4m",
@@ -7902,7 +7902,9 @@
                     "outgoing_damage_penalty_percent": -20,
                     "dps": 8,
                     "steal_duration": 5,
-                    "max_stacks": 100
+                    "max_stacks": 100,
+                    "num_beetles": 1,
+                    "spread_angle_degrees": 60
                 },
                 "projectile": [],
                 "upgrades": [
@@ -8038,7 +8040,8 @@
                     "victim_stack_duration": 5,
                     "reveal_duration": 6,
                     "max_stacks": 4,
-                    "d_mark_multiplier_per_stack": 2
+                    "d_mark_multiplier_per_stack": 2,
+                    "explosion_radius": "0m"
                 },
                 "upgrades": [
                     [
@@ -8331,7 +8334,7 @@
                     "debuff_min_duration": 1,
                     "debuff_max_duration": 3.5,
                     "channel_time_for_max_debuff": 1.5,
-                    "enemy_slow_pct": 40,
+                    "enemy_slow_pct": 48,
                     "dps": 60,
                     "non_latched_duration_pct": 50
                 },
@@ -8441,7 +8444,7 @@
                     [
                         {
                             "property": "slow_percent",
-                            "value": 26
+                            "value": 32
                         }
                     ],
                     [
@@ -9602,7 +9605,6 @@
                 "targeting_location": "deployed_object",
                 "unit_target": "all_enemy",
                 "behaviors": [
-                    "always_preview_radius",
                     "prevent_bot_usage",
                     "can_set_quick_cast",
                     "dont_interrupt_slide_on_cast"
@@ -9664,7 +9666,7 @@
                 "update_time": 0,
                 "image": "magician\/magician_animalcurse",
                 "activation_time": "press",
-                "targeting_location": "deployed_object",
+                "targeting_location": "ground",
                 "unit_target": "hero_enemy",
                 "behaviors": [
                     "always_preview_radius",
@@ -9787,14 +9789,14 @@
                     "tick_rate": 0.25,
                     "initial_radius": "6m",
                     "height": "2m",
-                    "slow_percent": 16,
+                    "slow_percent": 20,
                     "radius_per_second": "0.25m"
                 },
                 "upgrades": [
                     [
                         {
                             "property": "slow_percent",
-                            "value": 14
+                            "value": 16
                         }
                     ],
                     [
@@ -9839,7 +9841,7 @@
                     "web_duration": 120,
                     "web_wall_tick_rate": 0.15,
                     "debuff_duration": 3,
-                    "slow_percent": 66,
+                    "slow_percent": 80,
                     "web_arm_time": 0.5,
                     "min_wall_to_wall_distance": "3m",
                     "dps": 40,
@@ -9899,7 +9901,7 @@
                     "combat_barrier": 200,
                     "debuff_duration": 0.5,
                     "tick_rate": 1,
-                    "slow_percent": 20,
+                    "slow_percent": 24,
                     "dps": 30
                 },
                 "radius": "5m",
@@ -10186,8 +10188,8 @@
                     "tick_rate": 0.25,
                     "time_before_cursed": 2,
                     "curse_duration": 3,
-                    "slow_percent": 16,
-                    "ground_dash_reduction_percent": -20,
+                    "slow_percent": 20,
+                    "ground_dash_reduction_percent": -18,
                     "max_camera_angle_for_seeing": 180
                 },
                 "radius": "15m",
@@ -11189,7 +11191,6 @@
                     "self_d_p_s": 15,
                     "tick_rate": 0.25,
                     "debuff_duration": 0.5,
-                    "toggle_off_delay": 0.5,
                     "max_d_p_s": 58,
                     "self_damage_percentage": 70
                 },
@@ -11569,7 +11570,7 @@
                     "bonus_move_speed": "5m",
                     "buff_duration": 9,
                     "ally_radius": "4m",
-                    "ally_height": "20m",
+                    "ally_height": "10m",
                     "knight_whisker_length": 300,
                     "knight_whisker_side": 50,
                     "knight_whisker_strength": 0.2,
@@ -11579,7 +11580,7 @@
                     "heal_amount": 125,
                     "knight_nav_search_distance": "10m",
                     "knight_distance_above_ground": "0m",
-                    "knight_charge_height": "3.5m",
+                    "knight_charge_height": "6m",
                     "gravity_acceleration": -1900,
                     "knight_max_jump_height": "30m",
                     "knight_max_fall_height": "-35m",
@@ -11638,214 +11639,197 @@
     },
     "68": {
         "list": [
-            "ability_boho_bouncyprojectile",
-            "ability_boho_doublehit",
-            "ability_boho_damageshare",
-            "ability_boho_channeltether"
+            "ability_boho_skipgrenade",
+            "ability_boho_ability02",
+            "ability_boho_ability03",
+            "ability_boho_ridebroom"
         ],
         "desc": {
-            "ability_boho_bouncyprojectile": {
-                "id": 2000761890,
+            "ability_boho_skipgrenade": {
+                "id": 1831181190,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 1,
-                "update_time": null,
-                "image": "magician\/magician_magicbolt",
-                "activation_time": "instant_cast",
-                "targeting_location": "unit",
-                "unit_target": "hero_friendly | all_enemy",
+                "update_time": 0,
+                "image": "astro\/bounce_pad",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
                 "behaviors": [
                     "projectile",
                     "no_target",
-                    "displays_damage_impact",
-                    "projectile_pass_through_world",
-                    "projectile_fired_as_bullet"
+                    "displays_damage_impact"
                 ],
-                "cooldown": 15,
-                "cast_range": "14m",
+                "cooldown": 3,
                 "unit_target_limit": 1,
                 "cast_delay": 0.1,
-                "charges": 1,
-                "charge_cooldown": 7,
+                "charge_cooldown": -1,
                 "channel_move_speed": -1,
+                "radius": "5m",
                 "special_props": {
-                    "bounce_count": 3,
-                    "bounce_radius": "18m",
-                    "damage": 60,
-                    "cooldown_reduction_percentage_per_hit": 15
+                    "max_bounce_count": 3,
+                    "damage": 30,
+                    "debuff_duration": 3,
+                    "slow_duration": 2.5,
+                    "slow_percent": 40
                 },
                 "projectile": [],
                 "upgrades": [
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -2
+                            "value": 0
                         }
                     ],
                     [
                         {
-                            "property": "damage",
-                            "value": 18
+                            "property": "ability_cooldown",
+                            "value": 0
                         }
                     ],
                     [
                         {
-                            "property": "bounce_count",
-                            "value": 2
+                            "property": "ability_cooldown",
+                            "value": 0
                         }
                     ]
                 ]
             },
-            "ability_boho_doublehit": {
-                "id": 3962304265,
+            "ability_boho_ability02": {
+                "id": 3793541808,
                 "is_active": false,
                 "is_ultimate": false,
                 "slot": 2,
-                "update_time": null,
-                "image": "shiv\/shiv_prison_dance",
-                "activation_time": "instant_cast",
-                "targeting_location": "unit",
-                "unit_target": "all_enemy",
-                "behaviors": [
-                    "no_target",
-                    "displays_damage_impact"
-                ],
-                "cooldown": 14,
-                "cast_range": "11m",
-                "unit_target_limit": 16,
-                "cast_delay": 0.1,
-                "post_cast_duration": 0.7,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "special_props": {
-                    "damage": 50,
-                    "buff_duration": 4,
-                    "time_between_attacks": 0.35,
-                    "targeting_cone_angle": 100,
-                    "max_stacks": 6,
-                    "combat_barrier": 80,
-                    "combat_barrier_per_stack": 20,
-                    "bonus_move_speed": "2m"
-                },
-                "projectile": [],
-                "upgrades": [
-                    [
-                        {
-                            "property": "damage",
-                            "value": 18
-                        }
-                    ],
-                    [
-                        {
-                            "property": "bonus_move_speed",
-                            "value": "2m"
-                        }
-                    ],
-                    [
-                        {
-                            "property": "combat_barrier",
-                            "value": 80
-                        }
-                    ]
-                ]
-            },
-            "ability_boho_damageshare": {
-                "id": 370209602,
-                "is_active": true,
-                "is_ultimate": false,
-                "slot": 3,
                 "update_time": 0,
-                "image": "synth\/synth_grasp",
-                "activation_time": "passive",
-                "targeting_location": null,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
                 "unit_target": "all_enemy",
                 "behaviors": [
                     "no_target",
                     "displays_damage_impact"
                 ],
                 "cooldown": 26,
-                "duration": 5,
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_boho_ability03": {
+                "id": 2674556961,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_boho_ridebroom": {
+                "id": 1815345037,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": 1707519913,
+                "image": "hornet\/vindicta_flight",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_friendly",
+                "behaviors": [
+                    "channelled",
+                    "no_target",
+                    "movement",
+                    "require_ability_button_to_cancel",
+                    "deactivate_crouch_toggle_on_cast"
+                ],
+                "cooldown": 5,
+                "duration": 13,
+                "unit_target_limit": 1,
+                "channel_time": 0.2,
+                "charge_cooldown": -1,
                 "special_props": {
-                    "damage_share_radius": "8m",
-                    "damage_share_percentage": 30,
-                    "debuff_duration": 6,
-                    "tick_rate": 0.25,
-                    "link_duration": 0.5,
-                    "max_links": 6
+                    "flying_item_cast_range": 50,
+                    "max_fly_height": 1720,
+                    "jump_velocity": 1000,
+                    "air_speed_bonus": "0m",
+                    "air_side_move_speed_percentage": -35,
+                    "min_velocity_z": -20,
+                    "weapon_recoil_reduction": 40,
+                    "magic_damage_per_bullet": 10
                 },
                 "upgrades": [
                     [
                         {
-                            "property": "damage_share_radius",
-                            "value": "3m"
+                            "property": "bonus_clip_size_percent",
+                            "value": 50
                         }
                     ],
                     [
                         {
                             "property": "ability_duration",
-                            "value": 3
+                            "value": 10
                         }
                     ],
                     [
                         {
-                            "property": "damage_share_percentage",
-                            "value": 22.5
-                        }
-                    ]
-                ]
-            },
-            "ability_boho_channeltether": {
-                "id": 759370291,
-                "is_active": false,
-                "is_ultimate": true,
-                "slot": 4,
-                "update_time": null,
-                "image": "mirage\/mirage_djinns_reach",
-                "activation_time": "instant_cast",
-                "targeting_location": "unit",
-                "unit_target": "all_enemy",
-                "behaviors": [
-                    "channelled",
-                    "displays_damage_impact",
-                    "cannot_cancel_during_channel"
-                ],
-                "cooldown": 100,
-                "cast_range": "12m",
-                "unit_target_limit": 16,
-                "cast_delay": 0.1,
-                "channel_time": 3,
-                "charge_cooldown": -1,
-                "channel_move_speed": -1,
-                "special_props": {
-                    "damage": 50,
-                    "buff_duration": 4,
-                    "time_between_attacks": 0.45,
-                    "bonus_move_speed": "2m",
-                    "bonus_damage": 100,
-                    "immobilize_duration": 2,
-                    "tether_leash_range": "15m",
-                    "slow_percent": 30
-                },
-                "projectile": [],
-                "upgrades": [
-                    [
+                            "property": "magic_damage_per_bullet",
+                            "value": 10
+                        },
                         {
-                            "property": "damage",
-                            "value": 18
-                        }
-                    ],
-                    [
+                            "property": "magic_damage_per_bullet",
+                            "value": 0.1,
+                            "upgrade_type": "add_to_scale"
+                        },
                         {
-                            "property": "combat_barrier",
-                            "value": 150
-                        }
-                    ],
-                    [
-                        {
-                            "property": "immobilize_duration",
+                            "property": "refresh_on_kill",
                             "value": 1
                         }
                     ]
@@ -13427,8 +13411,8 @@
                     "cannot_cancel_during_channel",
                     "cooldown_on_channel_end",
                     "can_set_quick_cast",
-                    "refund_full_cooldown_on_channel_interrupt",
-                    "dont_interrupt_slide_on_cast"
+                    "dont_interrupt_slide_on_cast",
+                    "refund_full_cooldown_on_channel_interrupt"
                 ],
                 "cooldown": 140,
                 "duration": 16,
@@ -14706,5 +14690,437 @@
                 ]
             }
         }
+    },
+    "73": {
+        "list": [
+            "ability_druid_leech_seed",
+            "ability_druid_helicopter_seeds",
+            "ability_druid_sprout",
+            "ability_druid_ult"
+        ],
+        "desc": {
+            "ability_druid_leech_seed": {
+                "id": 3923533266,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "duration": 5,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage_pulses": 5,
+                    "damage": 50
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_druid_helicopter_seeds": {
+                "id": 2082403219,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_druid_sprout": {
+                "id": 2800600819,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": 0,
+                "image": "",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": null,
+                "behaviors": [
+                    "no_target",
+                    "allow_gun_fire_after_cast"
+                ],
+                "cooldown": 1,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_druid_ult": {
+                "id": 2510227556,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "nano\/nano_tunnel_vision",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 127,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            }
+        }
+    },
+    "78": {
+        "list": [],
+        "desc": []
+    },
+    "82": {
+        "list": [
+            "ability_opera_ability01",
+            "ability_opera_ability02",
+            "ability_opera_ability03",
+            "ability_opera_ult"
+        ],
+        "desc": {
+            "ability_opera_ability01": {
+                "id": 808611817,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_opera_ability02": {
+                "id": 1777250969,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_opera_ability03": {
+                "id": 3819597066,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": 0,
+                "image": "nano\/nano_roller_bomb",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            },
+            "ability_opera_ult": {
+                "id": 463497510,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "nano\/nano_tunnel_vision",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "hero_enemy | creep_enemy | minion_enemy",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 127,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": 0
+                        }
+                    ]
+                ]
+            }
+        }
+    },
+    "83": {
+        "list": [
+            "ability_testhero_stanceswitch_gunslinger",
+            "ability_testhero_stanceswitch_swordsman",
+            "ability_testhero_stanceswitch_archer",
+            "ability_testhero_stanceswitch_spaceman"
+        ],
+        "desc": {
+            "ability_testhero_stanceswitch_gunslinger": {
+                "id": 2799906778,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
+                "behaviors": [
+                    ""
+                ],
+                "upgrades": []
+            },
+            "ability_testhero_stanceswitch_swordsman": {
+                "id": 1451730046,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
+                "behaviors": [
+                    ""
+                ],
+                "upgrades": []
+            },
+            "ability_testhero_stanceswitch_archer": {
+                "id": 39238805,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
+                "behaviors": [
+                    ""
+                ],
+                "upgrades": []
+            },
+            "ability_testhero_stanceswitch_spaceman": {
+                "id": 2291061733,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 4,
+                "update_time": null,
+                "image": "",
+                "activation_time": null,
+                "targeting_location": null,
+                "unit_target": null,
+                "behaviors": [
+                    ""
+                ],
+                "upgrades": []
+            }
+        }
+    },
+    "84": {
+        "list": [],
+        "desc": []
+    },
+    "85": {
+        "list": [],
+        "desc": []
+    },
+    "86": {
+        "list": [],
+        "desc": []
+    },
+    "87": {
+        "list": [],
+        "desc": []
+    },
+    "88": {
+        "list": [],
+        "desc": []
     }
 }

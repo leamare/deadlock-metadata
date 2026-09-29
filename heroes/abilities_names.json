@@ -1467,7 +1467,7 @@
         "spanish": "Frasco Alquímico",
         "turkish": "Simya Şişesi",
         "french": "Flasque alchimique",
-        "indonesian": "Labu Kimia",
+        "indonesian": "Labu Alkimia",
         "latam": "Frasco alquímico",
         "ukrainian": "Алхімічна колба"
     },
@@ -1567,7 +1567,7 @@
         "spanish": "Corte Volador",
         "turkish": "Uçan Darbe",
         "french": "Sabre-grappin",
-        "indonesian": "Tupai Kuat",
+        "indonesian": "Tupai Terbang",
         "latam": "Corte volador",
         "ukrainian": "Розріз у повітрі"
     },
@@ -3870,5 +3870,23 @@
     },
     "2556078712": {
         "tag": "ability_testhero_ult"
+    },
+    "1831181190": {
+        "tag": "ability_boho_skipgrenade"
+    },
+    "1815345037": {
+        "tag": "ability_boho_ridebroom"
+    },
+    "2799906778": {
+        "tag": "ability_testhero_stanceswitch_gunslinger"
+    },
+    "1451730046": {
+        "tag": "ability_testhero_stanceswitch_swordsman"
+    },
+    "39238805": {
+        "tag": "ability_testhero_stanceswitch_archer"
+    },
+    "2291061733": {
+        "tag": "ability_testhero_stanceswitch_spaceman"
     }
 }

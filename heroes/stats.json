@@ -49,17 +49,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -153,17 +155,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -257,17 +261,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0.2,
                                 0.2
                             ],
-                            "m_flBurstSlope": "0.20.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 5,
@@ -361,17 +367,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1.2,
                         "recovery_speed": 10,
@@ -469,14 +477,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -579,9 +589,10 @@
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 6,
@@ -675,17 +686,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 5,
@@ -783,14 +796,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -887,17 +902,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0.2,
                                 0.2
                             ],
-                            "m_flBurstSlope": "0.20.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                0
+                                0,
+                                -0
                             ],
-                            "m_flBurstExponent": "-0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 0.8,
                         "recovery_speed": 15,
@@ -991,17 +1008,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 2,
                         "recovery_speed": 10,
@@ -1095,14 +1114,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -1199,17 +1220,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -1307,17 +1330,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.25
+                                0.25,
+                                0.5
                             ],
-                            "m_flBurstSlope": "0.50.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 5,
@@ -1411,6 +1436,7 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstSlope": 0,
@@ -1419,6 +1445,7 @@
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -1515,17 +1542,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1.5,
                         "recovery_speed": 5,
@@ -1619,14 +1648,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -1639,7 +1670,7 @@
                     "spread": {
                         "spread": 0,
                         "standing_spread": 1.5,
-                        "pellet_spread": "1.80.0",
+                        "pellet_spread": 0,
                         "penalty_per_shot": 0.3,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 4
@@ -1728,17 +1759,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -1832,14 +1865,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                1.1,
                                 1.1
                             ],
-                            "m_flBurstSlope": "1.10.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -1936,17 +1971,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 6,
@@ -2040,21 +2077,23 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.45
+                                0.45,
+                                0.7
                             ],
-                            "m_flBurstSlope": "0.70.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.4
+                                -0.4,
+                                0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 7,
-                        "recovery_delay_factor": "0.72.3",
+                        "recovery_delay_factor": 2.3,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
@@ -2144,14 +2183,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -2253,9 +2294,10 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
@@ -2360,17 +2402,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -2464,17 +2508,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 4,
                         "recovery_speed": 10,
@@ -2568,17 +2614,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.6
+                                0.6,
+                                1
                             ],
-                            "m_flBurstSlope": "1.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.4
+                                -0.4,
+                                0.4
                             ],
-                            "m_flBurstExponent": "0.40.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 5,
@@ -2672,17 +2720,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                -0.2
+                                -0.2,
+                                0.2
                             ],
-                            "m_flBurstSlope": "0.20.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -2776,17 +2826,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.4
+                                0.4,
+                                0.6
                             ],
-                            "m_flBurstSlope": "0.60.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.3
+                                -0.3,
+                                0.5
                             ],
-                            "m_flBurstExponent": "0.50.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -2984,17 +3036,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 5,
@@ -3088,17 +3142,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.2
+                                0.2,
+                                0.5
                             ],
-                            "m_flBurstSlope": "0.50.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 2,
                         "recovery_speed": 10,
@@ -3198,9 +3254,10 @@
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 6,
@@ -3294,17 +3351,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                -0.2
+                                -0.2,
+                                0.2
                             ],
-                            "m_flBurstSlope": "0.20.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -3398,14 +3457,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -3508,9 +3569,10 @@
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 6,
@@ -3604,17 +3666,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.3
+                                0.3,
+                                0.5
                             ],
-                            "m_flBurstSlope": "0.50.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 3,
@@ -3664,16 +3728,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0,
+            "bullet_dmg_per_lvl": 0.22,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_targetdummy_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 58,
-                        "max_dps": 58,
+                        "max_dps": 73.4,
                         "bullet_dmg": 11.6,
-                        "bullet_dmg_max": 11.6,
+                        "bullet_dmg_max": 14.68,
                         "clip_size": 15,
                         "full_clip_sec": 3,
                         "reload_time": 2,
@@ -3708,17 +3772,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.4
+                                0.4,
+                                0.6
                             ],
-                            "m_flBurstSlope": "0.60.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.3
+                                -0.3,
+                                0.5
                             ],
-                            "m_flBurstExponent": "0.50.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 10,
@@ -3745,8 +3811,8 @@
         },
         "vitality": {
             "hp": 2990,
-            "hp_regen": 2,
-            "hp_per_lvl": 62,
+            "hp_regen": 0,
+            "hp_per_lvl": 54,
             "bullet_resist": 0,
             "spirit_resist": 0,
             "bullet_resist_per_level": 0,
@@ -3812,17 +3878,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -3916,17 +3984,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -4020,17 +4090,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.23
+                                0.23,
+                                0.44
                             ],
-                            "m_flBurstSlope": "0.440.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                -0.1
+                                -0.1,
+                                0.1
                             ],
-                            "m_flBurstExponent": "0.10.0",
+                            "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0,
                             "m_flBurstSlope": 0
                         },
@@ -4130,17 +4202,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -4234,17 +4308,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -4342,17 +4418,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 6,
                         "recovery_speed": 6,
@@ -4446,14 +4524,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -4550,17 +4630,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -4654,9 +4736,10 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
@@ -4757,17 +4840,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.11
+                                0.11,
+                                0.143
                             ],
-                            "m_flBurstSlope": "0.1430.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
-                                0
+                                0,
+                                0.02
                             ],
-                            "m_flBurstExponent": "0.020.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 2,
                         "recovery_speed": 10,
@@ -4866,17 +4951,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.15
+                                0.15,
+                                0.201
                             ],
-                            "m_flBurstSlope": "0.2010.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -4974,17 +5061,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5082,17 +5171,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5186,14 +5277,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0.5,
                                 0.5
                             ],
-                            "m_flBurstSlope": "0.50.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -5290,17 +5383,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5394,17 +5489,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5498,21 +5595,23 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0.23
+                                0.23,
+                                0.44
                             ],
-                            "m_flBurstSlope": "0.440.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 1,
                         "recovery_speed": 7,
-                        "recovery_delay_factor": "0.50.02",
+                        "recovery_delay_factor": 0.02,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
@@ -5602,17 +5701,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5706,17 +5807,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5814,17 +5917,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -5918,17 +6023,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 5,
                         "recovery_speed": 5,
@@ -6022,6 +6129,7 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstSlope": 0,
@@ -6030,6 +6138,7 @@
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -6126,17 +6235,19 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstExponent": "0.00.0"
+                            "m_flBurstExponent": 0
                         },
                         "speed": 12,
                         "recovery_speed": 12,
@@ -6230,14 +6341,16 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
+                                0,
                                 0
                             ],
-                            "m_flBurstSlope": "0.00.0",
+                            "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
                             "m_flBurstConstant": 0
                         },
                         "horizontal": {
                             "m_Range": [
+                                0,
                                 0
                             ],
                             "m_flBurstExponent": 0
@@ -6281,6 +6394,946 @@
             "move_acceleration": 4,
             "stamina": 4,
             "stamina_regen": 0.18867
+        },
+        "scaling_stats": []
+    },
+    "73": {
+        "tag": "druid",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.124929,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_druid_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 58.2011,
+                        "max_dps": 76.7091,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 7.249006,
+                        "clip_size": 30,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.5,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.0945,
+                        "radius": 3,
+                        "speed": 22500,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 10.582010582010582,
+                        "gravity_scale": 0,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.2,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 1,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 41,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "78": {
+        "tag": "deadpack",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.42,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 108.381,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 11.379999999999999,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 39,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "82": {
+        "tag": "opera",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.07,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_opera_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 61.1111,
+                        "max_dps": 72,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 6.48,
+                        "clip_size": 30,
+                        "full_clip_sec": 2.7,
+                        "reload_time": 2.5,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.09,
+                        "radius": 3,
+                        "speed": 22500,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 11.11111111111111,
+                        "gravity_scale": 0,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 787,
+                        "max": 2264
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.2,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 1,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 66,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "83": {
+        "tag": "testhero",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.043,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_testhero_set": {
+                    "can_zoom": false,
+                    "damage": {
+                        "dps": 0,
+                        "max_dps": 0,
+                        "bullet_dmg": 0,
+                        "bullet_dmg_max": 0.602,
+                        "clip_size": 0,
+                        "full_clip_sec": 0,
+                        "reload_time": 0,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0,
+                        "radius": 0,
+                        "speed": 0,
+                        "lifetime": 0,
+                        "num_per_shot": 0,
+                        "num_per_sec": 0,
+                        "gravity_scale": 0,
+                        "burst_amount": 0,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 0,
+                        "damage_falloff_end_scale": 0,
+                        "damage_falloff_bias": 0,
+                        "reload_move_speed": 0
+                    },
+                    "range": {
+                        "range": 0,
+                        "base": 0,
+                        "max": 0
+                    },
+                    "crit": {
+                        "start": 0,
+                        "end": 0,
+                        "start_range": 0,
+                        "end_range": 0
+                    },
+                    "recoil": {
+                        "vertical": 0,
+                        "horizontal": 0,
+                        "speed": 0,
+                        "recovery_speed": 0,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0
+                    },
+                    "spread": {
+                        "spread": 0,
+                        "standing_spread": 0,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 0
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 63,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 730,
+            "hp_regen": 2,
+            "hp_per_lvl": 40,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 6.8,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "84": {
+        "tag": "ratking",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.15,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 72.381,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 7.6,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 44,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "85": {
+        "tag": "chessmaster",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.4,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 105.7143,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 11.100000000000001,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.58
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 38,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "86": {
+        "tag": "artist",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.55,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 125.7143,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 13.200000000000001,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.2
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 34,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "87": {
+        "tag": "nurse",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.53176,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 123.2823,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 12.94464,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 1.2
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 30,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
+        },
+        "scaling_stats": []
+    },
+    "88": {
+        "tag": "baba",
+        "weapon": {
+            "weapon_power": 0,
+            "reload_speed": 1,
+            "power_scale": 1,
+            "bullet_dmg_per_lvl": 0.41,
+            "attack_range_per_level": 0,
+            "set": {
+                "citadel_weapon_inferno_set": {
+                    "can_zoom": true,
+                    "damage": {
+                        "dps": 52.381,
+                        "max_dps": 107.0476,
+                        "bullet_dmg": 5.5,
+                        "bullet_dmg_max": 11.239999999999998,
+                        "clip_size": 27,
+                        "full_clip_sec": 2.835,
+                        "reload_time": 2.25,
+                        "reload_time_single_delay": 0
+                    },
+                    "bullet": {
+                        "cycle_time": 0.105,
+                        "radius": 4,
+                        "speed": 26000,
+                        "lifetime": 2,
+                        "num_per_shot": 1,
+                        "num_per_sec": 9.523809523809524,
+                        "gravity_scale": 0.8,
+                        "burst_amount": 1,
+                        "burst_cycle_time": 0,
+                        "damage_falloff_start_scale": 1,
+                        "damage_falloff_end_scale": 0.1,
+                        "damage_falloff_bias": 0.5,
+                        "reload_move_speed": 10000
+                    },
+                    "range": {
+                        "range": 7000,
+                        "base": 708.661,
+                        "max": 2165.35
+                    },
+                    "crit": {
+                        "start": 1.65,
+                        "end": 1.65,
+                        "start_range": 500,
+                        "end_range": 1500
+                    },
+                    "recoil": {
+                        "vertical": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstSlope": 0,
+                            "m_flBurstExponent": 0,
+                            "m_flBurstConstant": 0
+                        },
+                        "horizontal": {
+                            "m_Range": [
+                                0,
+                                0
+                            ],
+                            "m_flBurstExponent": 0
+                        },
+                        "speed": 1,
+                        "recovery_speed": 10,
+                        "recovery_delay_factor": 0,
+                        "shot_index_recovery_time_factor": 0.25
+                    },
+                    "spread": {
+                        "spread": 0.05,
+                        "standing_spread": 1.5,
+                        "pellet_spread": 0,
+                        "penalty_per_shot": 0.15,
+                        "penalty_decay_delay": 0,
+                        "penalty_decay": 2
+                    }
+                }
+            },
+            "spirit_damage_multiplier_per_level": 0,
+            "spirit_power_per_level": 1.1
+        },
+        "melee": {
+            "light_melee_damage": 50,
+            "heavy_melee_damage": 116,
+            "melee_damage_per_lvl": 0.8
+        },
+        "vitality": {
+            "hp": 780,
+            "hp_regen": 2,
+            "hp_per_lvl": 45,
+            "bullet_resist": 0,
+            "spirit_resist": 0,
+            "bullet_resist_per_level": 0,
+            "spirit_resist_per_level": 0
+        },
+        "mobility": {
+            "move_speed": 7.2,
+            "sprint_speed": 1.6,
+            "crouch_speed": 4.75,
+            "move_acceleration": 4,
+            "stamina": 3,
+            "stamina_regen": 0.222222
         },
         "scaling_stats": []
     }

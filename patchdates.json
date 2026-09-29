@@ -1512,5 +1512,18 @@
             6679,
             6701
         ]
+    },
+    {
+        "timestamp": 1790713554,
+        "title": "City Never Sleeps",
+        "tags": [
+            "deadlock",
+            "forum",
+            "matchmaking"
+        ],
+        "minor_dates": [],
+        "builds": [
+            6712
+        ]
     }
 ]

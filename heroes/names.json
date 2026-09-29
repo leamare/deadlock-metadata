@@ -1068,22 +1068,7 @@
         "ukrainian": "Аполлон"
     },
     "78": {
-        "tag": "airheart",
-        "german": "Airheart",
-        "italian": "Cuore d'aria",
-        "russian": "Airheart",
-        "english": "Airheart",
-        "japanese": "エアハート",
-        "polish": "Airheart",
-        "schinese": "Airheart",
-        "thai": "แอร์ฮาร์ต",
-        "czech": "Airheart",
-        "koreana": "에어하트",
-        "turkish": "Airheart",
-        "french": "Airheart",
-        "indonesian": "Airheart",
-        "latam": "Airheart",
-        "ukrainian": "Повітряне Серце"
+        "tag": "deadpack"
     },
     "79": {
         "tag": "familiar",
@@ -1165,5 +1150,20 @@
     },
     "83": {
         "tag": "testhero"
+    },
+    "84": {
+        "tag": "ratking"
+    },
+    "85": {
+        "tag": "chessmaster"
+    },
+    "86": {
+        "tag": "artist"
+    },
+    "87": {
+        "tag": "nurse"
+    },
+    "88": {
+        "tag": "baba"
     }
 }

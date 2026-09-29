@@ -8,7 +8,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "available",
         "complexity": 3,
         "inspiration": null
     },
@@ -366,7 +366,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -379,7 +379,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -392,7 +392,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "labs",
         "complexity": 2,
         "inspiration": null
     },
@@ -418,7 +418,7 @@
         "alt_name": null,
         "aliases": "clockwerk",
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 3,
         "inspiration": null
     },
@@ -431,7 +431,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -459,7 +459,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -488,7 +488,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": [
             "dota:slark"
@@ -503,7 +503,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -516,7 +516,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
+        "status": "available",
         "complexity": 2,
         "inspiration": null
     },
@@ -529,7 +529,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 1,
         "inspiration": null
     },
@@ -542,7 +542,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 1,
         "inspiration": null
     },
@@ -568,7 +568,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 1,
         "inspiration": null
     },
@@ -596,7 +596,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -609,7 +609,7 @@
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "notahero",
+        "status": "in_devel",
         "complexity": 2,
         "inspiration": null
     },
@@ -810,15 +810,15 @@
     },
     "78": {
         "tag": "airheart",
-        "internal_tag": "airheart",
+        "internal_tag": "deadpack",
         "tag_alt": null,
         "old_name": null,
-        "name": "Airheart",
+        "name": "Deadman Danny",
         "alt_name": null,
         "aliases": null,
         "released": null,
-        "status": "in_devel",
-        "complexity": 2,
+        "status": "available",
+        "complexity": 3,
         "inspiration": null
     },
     "79": {
@@ -884,6 +884,71 @@
         "released": null,
         "status": "in_devel",
         "complexity": 2,
+        "inspiration": null
+    },
+    "84": {
+        "tag": "ratking",
+        "internal_tag": "ratking",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "Rat King",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "available",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "85": {
+        "tag": "chessmaster",
+        "internal_tag": "chessmaster",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "Solomon",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "available",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "86": {
+        "tag": "artist",
+        "internal_tag": "artist",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "Violet",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "available",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "87": {
+        "tag": "nurse",
+        "internal_tag": "nurse",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "Nurse Harrow",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "available",
+        "complexity": 3,
+        "inspiration": null
+    },
+    "88": {
+        "tag": "baba",
+        "internal_tag": "baba",
+        "tag_alt": null,
+        "old_name": null,
+        "name": "Baba",
+        "alt_name": null,
+        "aliases": null,
+        "released": null,
+        "status": "available",
+        "complexity": 3,
         "inspiration": null
     }
 }

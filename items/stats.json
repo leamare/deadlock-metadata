@@ -3193,8 +3193,7 @@
         "mobility": [],
         "extra": {
             "status_resistance_percent": 40,
-            "out_of_combat_health_regen": 40,
-            "degen_resistance": 40
+            "out_of_combat_health_regen": 40
         },
         "active": {
             "recharge_speed": -1
@@ -3956,7 +3955,7 @@
         "extra": {
             "ricochet_damage_percent": 65,
             "ricochet_radius": "13m",
-            "ricochet_targets_tooltip_only": 2
+            "ricochet_targets": 2
         },
         "active": {
             "recharge_speed": -1
@@ -5067,7 +5066,7 @@
         "spirit": [],
         "mobility": [],
         "extra": {
-            "imbued_cooldown_multiplier": 1
+            "imbued_cooldown_multiplier": 100
         },
         "active": {
             "cooldown": 30,
@@ -5285,7 +5284,11 @@
             "impact_height": "2m",
             "min_aim_angle": 30,
             "combat_barrier": 200,
-            "barrier_duration": 8
+            "barrier_duration": 8,
+            "velocity_pitch_scale_min": 0.8,
+            "velocity_pitch_scale_max": 1.8,
+            "velocity_vol_scale_min": 0.25,
+            "velocity_vol_scale_max": 1
         },
         "active": {
             "cooldown": 45,
@@ -6106,36 +6109,17 @@
     },
     "2672389724": {
         "tag": "upgrade_stabilizing_tripod",
-        "tier": 3,
-        "slot_type": "damage",
+        "tier": null,
+        "slot_type": null,
         "components": null,
-        "icon_class": "mods_utility\/base_utility",
-        "is_active": true,
+        "icon_class": null,
+        "is_active": null,
         "ability": [],
         "bullet": [],
         "vitality": [],
         "spirit": [],
         "mobility": [],
-        "extra": {
-            "model_scale": 1,
-            "tick_rate": 0.5,
-            "tracking_speed": 125,
-            "turret_attack_delay": 0.35,
-            "turret_attack_range": "50m",
-            "turret_deploy_time": 2,
-            "turret_lifetime": 20,
-            "attack_cone_angle": 10,
-            "stationary_weapon_power": 40,
-            "stationary_recoil_reduction": 25,
-            "caster_health_percent": 100,
-            "bullet_speed_override": 6500
-        },
-        "active": {
-            "cooldown": 64,
-            "duration": 20,
-            "cast_range": "15m",
-            "recharge_speed": -1
-        }
+        "extra": []
     },
     "2947183272": {
         "tag": "upgrade_resonant_healing",

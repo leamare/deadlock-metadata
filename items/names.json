@@ -299,6 +299,7 @@
         "turkish": "Büyü Parçalayan Mermiler",
         "french": "Balles anti-esprit",
         "indonesian": "Perisai Spirit",
+        "latam": "Destructor espiritual",
         "ukrainian": "Духодроб"
     },
     "1109351073": {
@@ -611,7 +612,7 @@
         "russian": "Спиритическая стойкость",
         "english": "Spirit Resilience",
         "japanese": "スピリットレジリエンス",
-        "polish": "Duchowa Niezłomność",
+        "polish": "Niezłomność Duchowa",
         "schinese": "元灵护体",
         "thai": "​สปิริต​รีซิเลียนซ์​",
         "czech": "Spirituální zbroj",
@@ -1074,7 +1075,7 @@
         "brazilian": "Compressão de Recarga",
         "german": "Abklingzeitraffer",
         "italian": "Tempo di ricarica compresso",
-        "russian": "Сжатая перезарядка умений",
+        "russian": "Сжатая перезарядка умения",
         "english": "Compress Cooldown",
         "japanese": "コンプレッサー",
         "polish": "Kompresja Odnowienia",
@@ -1757,6 +1758,7 @@
         "turkish": "Zırh Delen",
         "french": "Perce armure",
         "indonesian": "Penembus Armor",
+        "latam": "Perforador de armadura",
         "ukrainian": "Бронебій"
     },
     "3491236900": {
@@ -2357,6 +2359,7 @@
         "turkish": "Zayıflatan Kafadan Vuruş",
         "french": "Tirs entêtants",
         "indonesian": "Headshot Pelemah",
+        "latam": "Disparo debilitante a la cabeza",
         "ukrainian": "Згубний головостріл"
     },
     "4075861416": {

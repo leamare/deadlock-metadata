@@ -1521,9 +1521,11 @@
             "forum",
             "matchmaking"
         ],
-        "minor_dates": [],
+        "minor_dates": [
+            1790807510
+        ],
         "builds": [
-            6712
+            6712, 6731
         ]
     }
 ]

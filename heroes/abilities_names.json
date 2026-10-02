@@ -3888,5 +3888,17 @@
     },
     "2291061733": {
         "tag": "ability_testhero_stanceswitch_spaceman"
+    },
+    "3002308408": {
+        "tag": "ability_ratking_scrap_grenade"
+    },
+    "3681399397": {
+        "tag": "ability_ratking_ratnibble"
+    },
+    "690412829": {
+        "tag": "ability_ratking_ratarmor"
+    },
+    "1627989937": {
+        "tag": "ability_ratking_standard_bearer"
     }
 }

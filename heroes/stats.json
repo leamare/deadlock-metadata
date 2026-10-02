@@ -6813,31 +6813,31 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.15,
+            "bullet_dmg_per_lvl": 0.18,
             "attack_range_per_level": 0,
             "set": {
-                "citadel_weapon_inferno_set": {
+                "citadel_weapon_ratking_set": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 52.381,
-                        "max_dps": 72.381,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 7.6,
-                        "clip_size": 27,
-                        "full_clip_sec": 2.835,
-                        "reload_time": 2.25,
+                        "dps": 60,
+                        "max_dps": 85.2,
+                        "bullet_dmg": 6,
+                        "bullet_dmg_max": 8.52,
+                        "clip_size": 24,
+                        "full_clip_sec": 4.8,
+                        "reload_time": 2.8,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.105,
-                        "radius": 4,
-                        "speed": 26000,
+                        "cycle_time": 0.2,
+                        "radius": 5,
+                        "speed": 8000,
                         "lifetime": 2,
-                        "num_per_shot": 1,
-                        "num_per_sec": 9.523809523809524,
-                        "gravity_scale": 0.8,
+                        "num_per_shot": 2,
+                        "num_per_sec": 5,
+                        "gravity_scale": 0,
                         "burst_amount": 1,
-                        "burst_cycle_time": 0,
+                        "burst_cycle_time": 0.1,
                         "damage_falloff_start_scale": 1,
                         "damage_falloff_end_scale": 0.1,
                         "damage_falloff_bias": 0.5,
@@ -6845,12 +6845,12 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 708.661,
-                        "max": 2165.35
+                        "base": 787.402,
+                        "max": 1968.5
                     },
                     "crit": {
-                        "start": 1.65,
-                        "end": 1.65,
+                        "start": 1.35,
+                        "end": 1.35,
                         "start_range": 500,
                         "end_range": 1500
                     },
@@ -6877,12 +6877,12 @@
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0.05,
+                        "spread": 1,
                         "standing_spread": 1.5,
-                        "pellet_spread": 0,
-                        "penalty_per_shot": 0.15,
+                        "pellet_spread": 0.8,
+                        "penalty_per_shot": 0,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 2
+                        "penalty_decay": 5
                     }
                 }
             },
@@ -6895,21 +6895,21 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 780,
+            "hp": 800,
             "hp_regen": 2,
-            "hp_per_lvl": 44,
+            "hp_per_lvl": 50,
             "bullet_resist": 0,
             "spirit_resist": 0,
             "bullet_resist_per_level": 0,
             "spirit_resist_per_level": 0
         },
         "mobility": {
-            "move_speed": 7.2,
+            "move_speed": 6.8,
             "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.222222
+            "stamina_regen": 0.263
         },
         "scaling_stats": []
     },
@@ -7316,7 +7316,7 @@
         "melee": {
             "light_melee_damage": 50,
             "heavy_melee_damage": 116,
-            "melee_damage_per_lvl": 0.8
+            "melee_damage_per_lvl": 1.1
         },
         "vitality": {
             "hp": 780,

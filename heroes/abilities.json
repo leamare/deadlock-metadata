@@ -5364,7 +5364,7 @@
                 "image": "yamato\/yamato_flying_strike",
                 "activation_time": "press",
                 "targeting_location": "unit",
-                "unit_target": "all_enemy",
+                "unit_target": "hero_enemy | trooper_enemy | boss_enemy | prop_enemy | minion_enemy | creep_enemy",
                 "behaviors": [
                     "always_preview_radius",
                     "displays_damage_impact",
@@ -15104,8 +15104,292 @@
         }
     },
     "84": {
-        "list": [],
-        "desc": []
+        "list": [
+            "ability_ratking_scrap_grenade",
+            "ability_ratking_ratnibble",
+            "ability_ratking_ratarmor",
+            "ability_ratking_standard_bearer"
+        ],
+        "desc": {
+            "ability_ratking_scrap_grenade": {
+                "id": 3002308408,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": 0,
+                "image": "ratking\/ratking_grenade",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "projectile",
+                    "displays_damage_impact",
+                    "projectile_fired_as_bullet",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 26,
+                "unit_target_limit": 1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage_per_shrapnel": 65,
+                    "armor_reduction_per_stack_non_hero": -3,
+                    "slow_percent": 20,
+                    "big_explosion_slow_percent": 40,
+                    "slow_duration": 4,
+                    "bounce_grenade_speed": 1200,
+                    "shrapnel_sphere_radius": "8m",
+                    "detonations": 3,
+                    "first_bounce_detonate_timer": 0.8,
+                    "additional_bounce_detonate_timer": 0.7,
+                    "final_bounce_detonate_timer": 1.5,
+                    "melee_impulse_light": 750,
+                    "melee_impulse_heavy": 1000,
+                    "melee_impulse_up_scale": 0.45
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage_per_shrapnel",
+                            "value": 65
+                        }
+                    ],
+                    [
+                        {
+                            "property": "detonations",
+                            "value": 1
+                        },
+                        {
+                            "property": "big_explosion_damage",
+                            "value": 300
+                        },
+                        {
+                            "property": "big_explosion_damage",
+                            "value": 1,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "big_explosion_radius",
+                            "value": "14m"
+                        },
+                        {
+                            "property": "big_explosion_radius",
+                            "value": 1,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "big_explosion_slow_percent",
+                            "value": 0.12,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
+            },
+            "ability_ratking_ratnibble": {
+                "id": 3681399397,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": 0,
+                "image": "ratking\/ratking_swarm",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "hero_enemy | trooper_enemy | minion_enemy | neutral",
+                "behaviors": [
+                    "always_preview_radius",
+                    "displays_damage_impact",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 28,
+                "duration": 6,
+                "cast_range": "50m",
+                "unit_target_limit": 1,
+                "charges": 1,
+                "charge_cooldown": 8,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage_per_bite": 8,
+                    "bite_interval": 1,
+                    "rats_attached": 2,
+                    "armor_reduction_per_bite": -1,
+                    "debuff_duration": 4,
+                    "throw_speed": "22m",
+                    "throw_angle": 30,
+                    "throw_jitter_speed": "2m",
+                    "rat_swarm_width": 400,
+                    "rat_swarm_rows": 3,
+                    "rat_swarm_cols": 3,
+                    "rat_swarm_row_speed_step": "4m",
+                    "max_rats": 5
+                },
+                "radius": "10m",
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_charges",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "rat_swarm_cols",
+                            "value": 2
+                        },
+                        {
+                            "property": "rat_swarm_rows",
+                            "value": 1
+                        },
+                        {
+                            "property": "rat_swarm_width",
+                            "value": 100
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "armor_reduction_per_bite",
+                            "value": -1
+                        },
+                        {
+                            "property": "damage_per_bite",
+                            "value": 8
+                        }
+                    ]
+                ]
+            },
+            "ability_ratking_ratarmor": {
+                "id": 690412829,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": 0,
+                "image": "ratking\/ratking_shield",
+                "activation_time": "instant_cast",
+                "targeting_location": null,
+                "unit_target": null,
+                "behaviors": [
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 22,
+                "duration": 6,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "rat_count": 7,
+                    "max_health_pct": 15,
+                    "return_fire_chance": 15,
+                    "bullet_damage_reflected_pct": 100
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_duration",
+                            "value": 4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "return_fire_chance",
+                            "value": 15
+                        },
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_health_pct",
+                            "value": 10
+                        },
+                        {
+                            "property": "max_damage_per_hit",
+                            "value": 250
+                        }
+                    ]
+                ]
+            },
+            "ability_ratking_standard_bearer": {
+                "id": 1627989937,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": 0,
+                "image": "ratking\/ratking_flag",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "channelled",
+                    "always_preview_radius",
+                    "can_set_quick_cast"
+                ],
+                "cooldown": 130,
+                "duration": 12,
+                "unit_target_limit": 1,
+                "cast_delay": 2,
+                "charge_cooldown": -1,
+                "special_props": {
+                    "damage": 200,
+                    "flag_duration": 12,
+                    "toss_duration": 1.2,
+                    "bonus_move_speed": "3m",
+                    "ally_damage_reduction": 20,
+                    "slow_percent": 40,
+                    "dash_slow_percent": -20
+                },
+                "radius": "24m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -20
+                        },
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "1m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "flag_duration",
+                            "value": 8
+                        },
+                        {
+                            "property": "radius",
+                            "value": "8m"
+                        },
+                        {
+                            "property": "ability_duration",
+                            "value": 8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 150
+                        },
+                        {
+                            "property": "ally_damage_reduction",
+                            "value": 15
+                        }
+                    ]
+                ]
+            }
+        }
     },
     "85": {
         "list": [],

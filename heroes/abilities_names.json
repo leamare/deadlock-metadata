@@ -3900,5 +3900,17 @@
     },
     "1627989937": {
         "tag": "ability_ratking_standard_bearer"
+    },
+    "1282689113": {
+        "tag": "ability_baba_bubbling_brew"
+    },
+    "3122124161": {
+        "tag": "ability_baba_bench_run"
+    },
+    "2003165630": {
+        "tag": "ability_baba_hexing_brew"
+    },
+    "299875845": {
+        "tag": "ability_baba_ultimate_2"
     }
 }

@@ -9690,7 +9690,7 @@
                     "hex_duration": 2,
                     "detonation_delay": 0.9
                 },
-                "radius": "6.5m",
+                "radius": "6m",
                 "projectile": [],
                 "upgrades": [
                     [
@@ -9708,7 +9708,7 @@
                     [
                         {
                             "property": "radius",
-                            "value": "3m"
+                            "value": "2m"
                         },
                         {
                             "property": "damage_amp_percentage",
@@ -9742,9 +9742,9 @@
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "copied_ult_window": 12,
+                    "copied_ult_window": 9,
                     "copy_internal_cooldown": 0.5,
-                    "copy_cooldown_percentage": 40
+                    "copy_cooldown_percentage": 60
                 },
                 "projectile": [],
                 "upgrades": [
@@ -15132,7 +15132,7 @@
                 "unit_target_limit": 1,
                 "channel_move_speed": -1,
                 "special_props": {
-                    "damage_per_shrapnel": 65,
+                    "damage_per_shrapnel": 70,
                     "armor_reduction_per_stack_non_hero": -3,
                     "slow_percent": 20,
                     "big_explosion_slow_percent": 40,
@@ -15158,7 +15158,7 @@
                     [
                         {
                             "property": "damage_per_shrapnel",
-                            "value": 65
+                            "value": 70
                         }
                     ],
                     [
@@ -15208,7 +15208,7 @@
                     "can_set_quick_cast",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 28,
+                "cooldown": 24,
                 "duration": 6,
                 "cast_range": "50m",
                 "unit_target_limit": 1,
@@ -15337,8 +15337,8 @@
                     "always_preview_radius",
                     "can_set_quick_cast"
                 ],
-                "cooldown": 130,
-                "duration": 12,
+                "cooldown": 160,
+                "duration": 10,
                 "unit_target_limit": 1,
                 "cast_delay": 2,
                 "charge_cooldown": -1,
@@ -15347,34 +15347,26 @@
                     "flag_duration": 12,
                     "toss_duration": 1.2,
                     "bonus_move_speed": "3m",
-                    "ally_damage_reduction": 20,
+                    "ally_damage_reduction": 15,
                     "slow_percent": 40,
                     "dash_slow_percent": -20
                 },
-                "radius": "24m",
+                "radius": "20m",
                 "upgrades": [
                     [
                         {
-                            "property": "ability_cooldown",
-                            "value": -20
-                        },
-                        {
                             "property": "bonus_move_speed",
-                            "value": "1m"
+                            "value": "2m"
                         }
                     ],
                     [
                         {
                             "property": "flag_duration",
-                            "value": 8
+                            "value": 5
                         },
                         {
                             "property": "radius",
                             "value": "8m"
-                        },
-                        {
-                            "property": "ability_duration",
-                            "value": 8
                         }
                     ],
                     [
@@ -15384,7 +15376,7 @@
                         },
                         {
                             "property": "ally_damage_reduction",
-                            "value": 15
+                            "value": 10
                         }
                     ]
                 ]
@@ -15404,7 +15396,328 @@
         "desc": []
     },
     "88": {
-        "list": [],
-        "desc": []
+        "list": [
+            "ability_baba_bubbling_brew",
+            "ability_baba_bench_run",
+            "ability_baba_hexing_brew",
+            "ability_baba_ultimate_2"
+        ],
+        "desc": {
+            "ability_baba_bubbling_brew": {
+                "id": 1282689113,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": 0,
+                "image": "baba\/threadsap",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 26,
+                "cast_range": "35m",
+                "unit_target_limit": 1,
+                "charges": 1,
+                "charge_cooldown": 6,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "projectile_speed": 2600,
+                    "projectile_turn_rate": 220,
+                    "projectile_spacing_think_interval": 0.05,
+                    "explode_time": 0.9,
+                    "stolen_spirit_effectiveness": 175,
+                    "damage": 50,
+                    "explode_radius": "3.5m",
+                    "explode_time_interval": 0.05,
+                    "debuff_duration": 22,
+                    "tech_power_gain": 10,
+                    "max_stacks": 45,
+                    "projectile_turn_max_degrees": 270,
+                    "pull_distance": "0m",
+                    "pull_duration": 0.6,
+                    "magic_damage_per_bullet": 8
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "magic_damage_per_bullet",
+                            "value": 8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_charges",
+                            "value": 1
+                        },
+                        {
+                            "property": "pull_distance",
+                            "value": "7m"
+                        }
+                    ]
+                ]
+            },
+            "ability_baba_bench_run": {
+                "id": 3122124161,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": null,
+                "image": "baba\/strafing_run",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "no_target",
+                    "non_combat",
+                    "castable_while_busy"
+                ],
+                "cooldown": 30,
+                "duration": 10,
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": "1m",
+                "radius": "8m",
+                "special_props": {
+                    "bonus_move_speed": "5m",
+                    "crouch_move_speed_bonus": "3.5m",
+                    "heavy_melee_spirit_damage": 75,
+                    "heavy_melee_slow_percent": 50,
+                    "heavy_melee_dash_slow_percent": -25,
+                    "heavy_melee_slow_duration": 4,
+                    "move_while_shooting_speed_penalty_reduction_percent": 100,
+                    "status_resistance_percent": 30,
+                    "melee_resist": 30,
+                    "melee_lifesteal_non_hero_pct": 60,
+                    "light_kick_knockback_distance": "10m",
+                    "light_kick_knockback_height": "0.75m",
+                    "ground_pound_knock_up_duration": 0.3,
+                    "ground_pound_fall_time_reduction_percent": 30,
+                    "ground_pound_knock_up_height": "2.54m",
+                    "kick_knockback_duration": 0.45,
+                    "bonus_melee_range": "2m",
+                    "gravity_scale_percent": 80,
+                    "rising_gravity_scale_percent": 50,
+                    "heavy_melee_end_grace_time": 0.6,
+                    "end_launch_max_linger_time": 3,
+                    "min_jump_height": 75,
+                    "max_jump_height": 250,
+                    "jump_sound_layer_volume_min": -60,
+                    "jump_sound_layer_volume_max": -4,
+                    "charged_jump_forward_force": 300,
+                    "dash_distance_percent": 20,
+                    "air_dash_distance_percent": 20
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "bonus_move_speed",
+                            "value": "2.5m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -7
+                        }
+                    ],
+                    [
+                        {
+                            "property": "status_resistance_percent",
+                            "value": 15
+                        },
+                        {
+                            "property": "melee_resist",
+                            "value": 15
+                        },
+                        {
+                            "property": "melee_lifesteal",
+                            "value": 50
+                        }
+                    ]
+                ]
+            },
+            "ability_baba_hexing_brew": {
+                "id": 2003165630,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": null,
+                "image": "baba\/teapot_brew",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cannot_cancel_during_channel",
+                    "projectile_fired_as_bullet",
+                    "cooldown_on_channel_end",
+                    "dont_interrupt_slide_on_cast",
+                    "holds_at_max_channel"
+                ],
+                "cooldown": 25,
+                "cast_range": "12m",
+                "unit_target_limit": 1,
+                "channel_time": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "brew_time": 1.5,
+                    "barrier_lock_time": 2.5,
+                    "silence_lock_time": 3.5,
+                    "fire_lock_time": 4.5,
+                    "self_cast_forward_offset": "1m",
+                    "damage_per_second": 12,
+                    "burn_duration": 8,
+                    "spirit_resist_reduction": -15,
+                    "combat_barrier": 100,
+                    "barrier_duration": 8,
+                    "silence_duration": 3
+                },
+                "radius": "6m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "radius",
+                            "value": "3m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12
+                        }
+                    ],
+                    [
+                        {
+                            "property": "brew_effectiveness",
+                            "value": 33.33
+                        },
+                        {
+                            "property": "damage_per_second",
+                            "value": 33.33,
+                            "upgrade_type": "multiply_base"
+                        },
+                        {
+                            "property": "damage_per_second",
+                            "value": 1.3333,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 33.33,
+                            "upgrade_type": "multiply_base"
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 1.3333,
+                            "upgrade_type": "multiply_scale"
+                        },
+                        {
+                            "property": "silence_duration",
+                            "value": 33.33,
+                            "upgrade_type": "multiply_base"
+                        },
+                        {
+                            "property": "spirit_resist_reduction",
+                            "value": 33.33,
+                            "upgrade_type": "multiply_base"
+                        }
+                    ]
+                ]
+            },
+            "ability_baba_ultimate_2": {
+                "id": 299875845,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "baba\/pigeon_launcher",
+                "activation_time": "instant_cast",
+                "targeting_location": "unit",
+                "unit_target": "hero_enemy | minion_enemy",
+                "behaviors": [
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact",
+                    "cooldown_on_channel_end",
+                    "trigger_cancel_mash_protection_on_cast",
+                    "require_ability_button_to_cancel",
+                    "show_cast_range_as_sat_sphere_while_casting"
+                ],
+                "special_props": {
+                    "time_to_gain_lockon_stack": 0.7,
+                    "lockon_cone_angle": 40,
+                    "time_to_lose_lockon_stack": 2,
+                    "losing_lock_grace_time": 1,
+                    "max_lockon_stacks": 1,
+                    "time_to_max_stacks": 3.5,
+                    "max_slow": 32,
+                    "barrage_max_damage": 450,
+                    "tick_damage_increase_per_hit": 30,
+                    "tick_interval": 0.15,
+                    "barrage_start_delay_min": 1.2,
+                    "barrage_start_delay_max": 1.8,
+                    "final_tick_delay": 1.2,
+                    "hex_duration": 2.75
+                },
+                "cooldown": 150,
+                "cast_range": "18m",
+                "unit_target_limit": 9999,
+                "cast_delay": 0.15,
+                "channel_time": 6.5,
+                "post_cast_duration": 0.6,
+                "charge_cooldown": -1,
+                "channel_move_speed": "99m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "max_slow",
+                            "value": 32
+                        },
+                        {
+                            "property": "ability_cast_range",
+                            "value": "4m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -55
+                        }
+                    ],
+                    [
+                        {
+                            "property": "barrage_max_damage",
+                            "value": 125
+                        },
+                        {
+                            "property": "hex_duration",
+                            "value": 0.5
+                        },
+                        {
+                            "property": "barrage_max_damage",
+                            "value": 1.5,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
+            }
+        }
     }
 }

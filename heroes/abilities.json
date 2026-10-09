@@ -15384,8 +15384,324 @@
         }
     },
     "85": {
-        "list": [],
-        "desc": []
+        "list": [
+            "ability_chessmaster_throwbishop",
+            "ability_chessmaster_knightbuff",
+            "ability_chessmaster_forkpiece",
+            "ability_chessmaster_queen"
+        ],
+        "desc": {
+            "ability_chessmaster_throwbishop": {
+                "id": 4011110259,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": null,
+                "image": "chess\/chessmaster_bishop",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "projectile",
+                    "displays_damage_impact",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 12,
+                "cast_range": "20m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.2,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "radius": "3.5m",
+                "special_props": {
+                    "expire_distance": "80m",
+                    "move_distance": "12m",
+                    "max_pieces": 1,
+                    "bullet_resist": 25,
+                    "tech_resist": 50,
+                    "tick_interval": 0.15,
+                    "fading_slow_percent": 30,
+                    "slow_duration": 3,
+                    "current_cooldown_refund_percent": 50,
+                    "impact_damage": 70,
+                    "impact_radius": "2.5m",
+                    "move_cooldown": 3,
+                    "damage": 25,
+                    "aura_height": "50m",
+                    "dps": 30,
+                    "d_p_s_tick_interval": 0.25,
+                    "ground_aura_height": "4m",
+                    "dash_slow_percent": -25,
+                    "multi_hit_penalty_percentage": 25,
+                    "tile_steps": 2,
+                    "bishop_timem_between_shots": 0.05
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "move_distance",
+                            "value": "5m"
+                        },
+                        {
+                            "property": "fading_slow_percent",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_pieces",
+                            "value": 1
+                        },
+                        {
+                            "property": "recast_window",
+                            "value": 8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "tech_armor_damage_reduction_per_stack",
+                            "value": -2.5
+                        },
+                        {
+                            "property": "max_stacks",
+                            "value": 10
+                        },
+                        {
+                            "property": "stack_duration",
+                            "value": 10
+                        },
+                        {
+                            "property": "tile_steps",
+                            "value": 1
+                        }
+                    ]
+                ]
+            },
+            "ability_chessmaster_knightbuff": {
+                "id": 4180486641,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": null,
+                "image": "chess\/chessmaster_knight",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_friendly | minion_friendly",
+                "behaviors": [
+                    "projectile",
+                    "projectile_pass_through_world",
+                    "allow_self_cast",
+                    "use_instant_cast_unit_target_ui",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 25,
+                "cast_range": "28m",
+                "unit_target_limit": 1,
+                "post_cast_duration": 0.15,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "move_distance": "13m",
+                    "buff_duration": 7,
+                    "combat_barrier": 80,
+                    "stamina": 1,
+                    "move_cooldown": 10,
+                    "targeting_cone_angle": 30,
+                    "max_pieces": 1,
+                    "self_move_distance": "7m"
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stamina",
+                            "value": 1,
+                            "upgrade_type": "add_to_base"
+                        },
+                        {
+                            "property": "combat_barrier",
+                            "value": 80
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_pieces",
+                            "value": 1
+                        },
+                        {
+                            "property": "bonus_target_radius",
+                            "value": "20m"
+                        },
+                        {
+                            "property": "remove_debuffs",
+                            "value": 1
+                        }
+                    ]
+                ]
+            },
+            "ability_chessmaster_forkpiece": {
+                "id": 2424652896,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": null,
+                "image": "chess\/chessmaster_rook",
+                "activation_time": "instant_cast",
+                "targeting_location": null,
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "projectile",
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 33,
+                "unit_target_limit": 1,
+                "cast_delay": 0.25,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "toss_up_speed": 220,
+                    "move_distance": "12m",
+                    "damage": 50,
+                    "toss_back_speed": 300,
+                    "toss_duration": 1,
+                    "summon_health": 100,
+                    "detonation_delay": 0.25,
+                    "ground_aura_spacing": "3m",
+                    "ground_aura_linger_duration": 0.5,
+                    "ground_aura_height": "2m",
+                    "slide_scale": 100,
+                    "immobilize_duration": 1,
+                    "combat_barrier": 100,
+                    "air_drag": 0.3,
+                    "air_speed_max": 100,
+                    "fall_speed_max": 10,
+                    "max_reflect_count": 1,
+                    "max_triggers": 1
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "fire_rate_slow",
+                            "value": 25
+                        },
+                        {
+                            "property": "debuff_duration",
+                            "value": 5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "current_health_percent",
+                            "value": 5
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12,
+                            "upgrade_type": "add_to_base"
+                        },
+                        {
+                            "property": "immobilize_duration",
+                            "value": 0.5
+                        },
+                        {
+                            "property": "max_reflect_count",
+                            "value": 1
+                        }
+                    ]
+                ]
+            },
+            "ability_chessmaster_queen": {
+                "id": 1389230689,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "chess\/chessmaster_queen",
+                "activation_time": "press",
+                "targeting_location": "ground",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "displays_damage_impact",
+                    "target_through_walls",
+                    "can_set_quick_cast"
+                ],
+                "cooldown": 210,
+                "cast_range": "30m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.75,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "toss_up_speed": 600,
+                    "stun_duration": 1.25,
+                    "move_distance": "16m",
+                    "damage": 120,
+                    "max_pieces": 1,
+                    "queen_bonus_moves": 2,
+                    "ground_aura_height": "1m",
+                    "slow_percent": 15,
+                    "move_cooldown": 5,
+                    "max_stacks": 3,
+                    "expire_distance": "80m",
+                    "lift_height": "4m",
+                    "height": "10m",
+                    "aura_linger_duration": 0.15,
+                    "aura_height": "8m",
+                    "dps": 50,
+                    "d_p_s_tick_interval": 0.5,
+                    "tile_steps": 3,
+                    "slow_duration": 1.5
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -40
+                        }
+                    ],
+                    [
+                        {
+                            "property": "checkmate_threshold",
+                            "value": 200
+                        },
+                        {
+                            "property": "checkmate_threshold",
+                            "value": 5,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "slow_percent",
+                            "value": 15
+                        }
+                    ],
+                    [
+                        {
+                            "property": "tile_steps",
+                            "value": 1,
+                            "upgrade_type": "add_to_base"
+                        },
+                        {
+                            "property": "queen_bonus_moves",
+                            "value": 2
+                        }
+                    ]
+                ]
+            }
+        }
     },
     "86": {
         "list": [],
@@ -15511,7 +15827,6 @@
                     "bonus_melee_range": "2m",
                     "gravity_scale_percent": 80,
                     "rising_gravity_scale_percent": 50,
-                    "heavy_melee_end_grace_time": 0.6,
                     "end_launch_max_linger_time": 3,
                     "min_jump_height": 75,
                     "max_jump_height": 250,

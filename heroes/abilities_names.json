@@ -3890,27 +3890,171 @@
         "tag": "ability_testhero_stanceswitch_spaceman"
     },
     "3002308408": {
-        "tag": "ability_ratking_scrap_grenade"
+        "tag": "ability_ratking_scrap_grenade",
+        "brazilian": "Granada de Sucata",
+        "german": "Schrottgranate",
+        "italian": "Granata di rottami",
+        "russian": "Хлам-граната",
+        "english": "Scrap Grenade",
+        "japanese": "スクラップグレネード",
+        "polish": "Granat Złomowy",
+        "schinese": "废料手雷",
+        "thai": "สแครปเกรเนด",
+        "czech": "Odpadkový granát",
+        "koreana": "고철 수류탄",
+        "spanish": "Granada de Chatarra",
+        "turkish": "Hurda Bombası",
+        "french": "Grenade de ferraille",
+        "indonesian": "Granat Usang",
+        "latam": "Granada de chatarra",
+        "ukrainian": "Гранатa з брухту"
     },
     "3681399397": {
-        "tag": "ability_ratking_ratnibble"
+        "tag": "ability_ratking_ratnibble",
+        "brazilian": "Rataria",
+        "german": "Rattenschwarm",
+        "italian": "Orda di ratti",
+        "russian": "Крысиная стая",
+        "english": "Rat Swarm",
+        "japanese": "ラットスウォーム",
+        "polish": "Szczurzy Rój",
+        "schinese": "鼠群",
+        "thai": "แรตสวอร์ม",
+        "czech": "Hejno krys",
+        "koreana": "쥐 떼",
+        "spanish": "Plaga de Ratas",
+        "turkish": "Fare Sürüsü",
+        "french": "Horde de rats",
+        "indonesian": "Kawanan Tikus",
+        "latam": "Plaga de ratas",
+        "ukrainian": "Щуряча зграя"
     },
     "690412829": {
-        "tag": "ability_ratking_ratarmor"
+        "tag": "ability_ratking_ratarmor",
+        "brazilian": "Pestimentas Reais",
+        "german": "Königliches Plagewand",
+        "italian": "Protezione reale",
+        "russian": "Крысолевская мантия",
+        "english": "Royal Pestments",
+        "japanese": "ジャンクアーマー",
+        "polish": "Królewskie Szmaty",
+        "schinese": "皇家鼠甲",
+        "thai": "รอยัลเพสต์เมนต์",
+        "czech": "Královská zbroj",
+        "koreana": "쥐왕의 예복",
+        "spanish": "Pestes Reales",
+        "turkish": "Kraliyet Bezdirgânlığı",
+        "french": "Apparat royal",
+        "indonesian": "Hama Kerajaan",
+        "latam": "Pestes reales",
+        "ukrainian": "Щуролівські шати"
     },
     "1627989937": {
-        "tag": "ability_ratking_standard_bearer"
+        "tag": "ability_ratking_standard_bearer",
+        "brazilian": "Por Ratânia!",
+        "german": "Es lebe Ratannia!",
+        "italian": "Domina, Ratannia!",
+        "russian": "Правь, Крысания!",
+        "english": "Rule, Ratannia!",
+        "japanese": "ラッタニアの王命",
+        "polish": "Rządź, Szczuranio!",
+        "schinese": "统治，拉塔尼亚！",
+        "thai": "รูล แรตแทนเนีย!",
+        "czech": "Krysánie navždy!",
+        "koreana": "지배하라, 랫타니아여!",
+        "spanish": "¡Por Ratannia!",
+        "turkish": "Çok Yaşa Farenya!",
+        "french": "Gloire à la Ratannie !",
+        "indonesian": "Berkuasalah, Ratannia!",
+        "latam": "¡Por Ratannia!",
+        "ukrainian": "Прав, Щуританіє!"
     },
     "1282689113": {
-        "tag": "ability_baba_bubbling_brew"
+        "tag": "ability_baba_bubbling_brew",
+        "brazilian": "Fios Sugadores",
+        "german": "Garn der Entkräftung",
+        "italian": "Filo maledetto",
+        "russian": "Истощающая нить",
+        "english": "Threadsap",
+        "japanese": "スレッドサップ",
+        "polish": "Niwecząca Nić",
+        "schinese": "丝液",
+        "thai": "เธรดแซป",
+        "czech": "Dušervoucí klubko",
+        "koreana": "마력 강탈 실타래",
+        "spanish": "Hilo Drenante",
+        "turkish": "İplik Özü",
+        "french": "Fil siphonnant",
+        "latam": "Ovillo siniestro",
+        "ukrainian": "Нитчаста живиця"
     },
     "3122124161": {
-        "tag": "ability_baba_bench_run"
+        "tag": "ability_baba_bench_run",
+        "brazilian": "Pernocas da Vovó",
+        "german": "Oma Langbein",
+        "italian": "Nonna gambelunghe",
+        "russian": "Длинноногая бабуся",
+        "english": "Granny Long Legs",
+        "japanese": "おばあちゃんの長い脚",
+        "polish": "Babcia Długonoga",
+        "schinese": "长腿老妪",
+        "thai": "แกรนนี่ลองเลกส์",
+        "czech": "Kuří nožky",
+        "koreana": "키다리 할머니",
+        "spanish": "Abuelita Patas Largas",
+        "turkish": "Uzun Bacaklı Nene",
+        "french": "Mamie gambettes",
+        "latam": "Abuelita piernas largas",
+        "ukrainian": "Довгонога бабуся"
     },
     "2003165630": {
-        "tag": "ability_baba_hexing_brew"
+        "tag": "ability_baba_hexing_brew",
+        "brazilian": "Bebidinha da Baba",
+        "german": "Babas Gebräu",
+        "italian": "L'ora del tè",
+        "russian": "Бусин отвар",
+        "english": "Baba's Brew",
+        "japanese": "バーバの特製紅茶",
+        "polish": "Napar Baby",
+        "schinese": "婆婆泡茶",
+        "thai": "บาบาบรูว์",
+        "czech": "Babiččina specialita",
+        "koreana": "바바의 차",
+        "spanish": "Brebaje de Yagá",
+        "turkish": "Nene'nin Çayı",
+        "french": "Breuvage de Baba",
+        "latam": "Infusión de Yagá",
+        "ukrainian": "Вариво Баби"
     },
     "299875845": {
-        "tag": "ability_baba_ultimate_2"
+        "tag": "ability_baba_ultimate_2",
+        "brazilian": "Alimentar os Pássaros",
+        "german": "Vogelfütterung",
+        "italian": "Non solo briciole",
+        "russian": "Птичий корм",
+        "english": "Feed The Birds",
+        "japanese": "鳥の餌付け",
+        "polish": "Nakarm Ptaki",
+        "schinese": "喂鸟",
+        "thai": "ฟีดเดอะเบิร์ด",
+        "czech": "Krmení holubů",
+        "koreana": "모이 뿌리기",
+        "spanish": "Alimentar a las Aves",
+        "turkish": "Kuşları Besle",
+        "french": "Nourrir les p'tits oiseaux ",
+        "latam": "Alimentar a las aves",
+        "ukrainian": "Годування птахів"
+    },
+    "4011110259": {
+        "tag": "ability_chessmaster_throwbishop"
+    },
+    "4180486641": {
+        "tag": "ability_chessmaster_knightbuff"
+    },
+    "2424652896": {
+        "tag": "ability_chessmaster_forkpiece"
+    },
+    "1389230689": {
+        "tag": "ability_chessmaster_queen"
     }
 }

@@ -6512,26 +6512,26 @@
             "bullet_dmg_per_lvl": 0.42,
             "attack_range_per_level": 0,
             "set": {
-                "citadel_weapon_inferno_set": {
+                "ability_deadpack_primary_weapon_charge": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 52.381,
-                        "max_dps": 108.381,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 11.379999999999999,
-                        "clip_size": 27,
-                        "full_clip_sec": 2.835,
-                        "reload_time": 2.25,
+                        "dps": 48,
+                        "max_dps": 71.52,
+                        "bullet_dmg": 12,
+                        "bullet_dmg_max": 17.88,
+                        "clip_size": 14,
+                        "full_clip_sec": 3.5,
+                        "reload_time": 3.2,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.105,
-                        "radius": 4,
-                        "speed": 26000,
+                        "cycle_time": 0.25,
+                        "radius": 12,
+                        "speed": 7000,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 9.523809523809524,
-                        "gravity_scale": 0.8,
+                        "num_per_sec": 4,
+                        "gravity_scale": 0.05,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
@@ -6542,7 +6542,7 @@
                     "range": {
                         "range": 7000,
                         "base": 708.661,
-                        "max": 2165.35
+                        "max": 1850.39
                     },
                     "crit": {
                         "start": 1.65,
@@ -6567,18 +6567,18 @@
                             ],
                             "m_flBurstExponent": 0
                         },
-                        "speed": 1,
+                        "speed": 4,
                         "recovery_speed": 10,
                         "recovery_delay_factor": 0,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0.05,
+                        "spread": 0,
                         "standing_spread": 1.5,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.15,
+                        "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
-                        "penalty_decay": 2
+                        "penalty_decay": 3
                     }
                 }
             },
@@ -6591,8 +6591,8 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 780,
-            "hp_regen": 2,
+            "hp": 680,
+            "hp_regen": 2.5,
             "hp_per_lvl": 39,
             "bullet_resist": 0,
             "spirit_resist": 0,
@@ -6600,12 +6600,12 @@
             "spirit_resist_per_level": 0
         },
         "mobility": {
-            "move_speed": 7.2,
+            "move_speed": 6.4,
             "sprint_speed": 1.6,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
-            "stamina_regen": 0.222222
+            "stamina_regen": 0.2
         },
         "scaling_stats": []
     },

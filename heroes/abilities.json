@@ -2404,7 +2404,8 @@
                     "can_heal_players",
                     "projectile_fired_as_bullet",
                     "can_set_quick_cast",
-                    "dont_interrupt_slide_on_cast"
+                    "dont_interrupt_slide_on_cast",
+                    "ability_is_cold"
                 ],
                 "cooldown": 30,
                 "unit_target_limit": 1,
@@ -14864,8 +14865,291 @@
         }
     },
     "78": {
-        "list": [],
-        "desc": []
+        "list": [
+            "ability_deadpack_chargeblast",
+            "ability_deadpack_rocketeer",
+            "ability_deadpack_flamethrower",
+            "ability_deadpack_ultimate"
+        ],
+        "desc": {
+            "ability_deadpack_chargeblast": {
+                "id": 2603013853,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": null,
+                "image": "deadpack\/deadpack_salvo",
+                "activation_time": "hold_toggle",
+                "targeting_location": "ground",
+                "unit_target": "hero_enemy | trooper_enemy | neutral",
+                "behaviors": [
+                    "projectile",
+                    "displays_damage_impact",
+                    "projectile_pass_through_world",
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast",
+                    "refund_half_cooldown_on_channel_interrupt"
+                ],
+                "cooldown": 30,
+                "cast_range": "35m",
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 27,
+                    "explosion_radius": "3.5m",
+                    "marks_total": 3,
+                    "range": "21m",
+                    "mine_arm_time": 0.3,
+                    "missile_ground_duration": 6,
+                    "coated_duration": 10,
+                    "coated_damage": 45,
+                    "coated_slow_percent": 40,
+                    "coated_slow_duration": 1.5
+                },
+                "projectile": [],
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -12
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage",
+                            "value": 20
+                        },
+                        {
+                            "property": "coated_damage",
+                            "value": 35
+                        }
+                    ],
+                    [
+                        {
+                            "property": "marks_total",
+                            "value": 2
+                        },
+                        {
+                            "property": "range",
+                            "value": "14m"
+                        },
+                        {
+                            "property": "coated_damage",
+                            "value": 0.2,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "damage",
+                            "value": 0.225,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
+            },
+            "ability_deadpack_rocketeer": {
+                "id": 1904698842,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": null,
+                "image": "deadpack\/deadpack_chimera",
+                "activation_time": "instant_cast",
+                "targeting_location": "ground",
+                "unit_target": "hero_enemy | trooper_enemy | minion_enemy | neutral | all_enemy",
+                "behaviors": [
+                    "channelled",
+                    "cannot_cancel_during_channel",
+                    "displays_damage_impact",
+                    "movement",
+                    "can_set_quick_cast"
+                ],
+                "cooldown": 21,
+                "unit_target_limit": 1,
+                "cast_delay": 0.7,
+                "channel_time": 5,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "heat": 40,
+                    "heat_pct": 100,
+                    "heat_gain_air_dash": 4,
+                    "heat_gain_launch": 18,
+                    "heat_gain_rate": 33,
+                    "heat_gain_rate_slow_percent_effectiveness": 75,
+                    "heat_gain_rate_v_t_o_l": 60,
+                    "heat_drain_rate": -3,
+                    "overheat_stun_delay_duration": 2.5,
+                    "toss_duration": 0.9,
+                    "overheat_stun_duration_self": 1.3,
+                    "max_health_self_damage_percent": 12,
+                    "explosion_damage": 70,
+                    "explosion_bullet_damage": 70
+                },
+                "radius": "8.0m",
+                "upgrades": [
+                    [
+                        {
+                            "property": "heat_drain_rate",
+                            "value": -4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "heal_on_hit",
+                            "value": 150
+                        },
+                        {
+                            "property": "self_damage_reduction_on_player_hit_percent",
+                            "value": 100
+                        },
+                        {
+                            "property": "heal_on_hit",
+                            "value": 1,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "explosion_damage",
+                            "value": 120
+                        },
+                        {
+                            "property": "overheat_lockout_duration_reduction_on_player_hit_percent",
+                            "value": 40
+                        }
+                    ]
+                ]
+            },
+            "ability_deadpack_flamethrower": {
+                "id": 374042410,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": null,
+                "image": "deadpack\/deadpack_thermalmass",
+                "activation_time": "instant_cast_toggle",
+                "targeting_location": "none",
+                "unit_target": "hero_enemy | creep_enemy | building_enemy | minion_enemy | gold_orbs",
+                "behaviors": [
+                    "silent_cast_failure_feedback",
+                    "start_cooldown_on_toggle_off",
+                    "no_target",
+                    "displays_damage_impact",
+                    "dont_aim_facing_enemy",
+                    "require_ability_button_to_cancel",
+                    "do_not_allow_spam_proc",
+                    "do_not_cancel_on_parry"
+                ],
+                "cooldown": 22,
+                "duration": 2,
+                "cast_range": "22.0m",
+                "unit_target_limit": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "heat_gain_rate": -1,
+                    "bullet_resist_reduction": -15,
+                    "scorch_damage": 35,
+                    "debuff_duration": 7,
+                    "heat_gain_rate_hitting_enemy": -20,
+                    "dps": 30,
+                    "tick_rate": 0.1,
+                    "beam_width": "2.75m",
+                    "backblast_cone_angle": 40
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -8
+                        }
+                    ],
+                    [
+                        {
+                            "property": "scorch_damage",
+                            "value": 60
+                        },
+                        {
+                            "property": "bonus_fire_rate",
+                            "value": 18
+                        },
+                        {
+                            "property": "buff_duration",
+                            "value": 7
+                        }
+                    ],
+                    [
+                        {
+                            "property": "bullet_resist_reduction",
+                            "value": -10
+                        },
+                        {
+                            "property": "burst_mark_stacks",
+                            "value": 1
+                        }
+                    ]
+                ]
+            },
+            "ability_deadpack_ultimate": {
+                "id": 1026127931,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "deadpack\/deadpack_flight",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_enemy",
+                "behaviors": [
+                    "displays_damage_impact",
+                    "deactivate_crouch_toggle_on_cast",
+                    "use_instant_cast_unit_target_ui",
+                    "can_set_quick_cast"
+                ],
+                "cooldown": 135,
+                "cast_range": "10.0m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.5,
+                "post_cast_duration": 0.1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage": 70,
+                    "damage_per_meter": 3,
+                    "self_damage_percent": 25,
+                    "max_height": 1700,
+                    "stun_duration": 0.5,
+                    "stun_duration_self": 0.4,
+                    "low_health_enemy_threshold_pct": 50,
+                    "bonus_damage_percent": 50
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "damage",
+                            "value": 50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -35
+                        }
+                    ],
+                    [
+                        {
+                            "property": "damage_per_meter",
+                            "value": 8
+                        },
+                        {
+                            "property": "stun_duration",
+                            "value": 0.5
+                        }
+                    ]
+                ]
+            }
+        }
     },
     "82": {
         "list": [

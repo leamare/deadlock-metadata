@@ -3986,7 +3986,8 @@
         "turkish": "İplik Özü",
         "french": "Fil siphonnant",
         "latam": "Ovillo siniestro",
-        "ukrainian": "Нитчаста живиця"
+        "ukrainian": "Нитчаста живиця",
+        "indonesian": "Benang Getah"
     },
     "3122124161": {
         "tag": "ability_baba_bench_run",
@@ -4005,7 +4006,8 @@
         "turkish": "Uzun Bacaklı Nene",
         "french": "Mamie gambettes",
         "latam": "Abuelita piernas largas",
-        "ukrainian": "Довгонога бабуся"
+        "ukrainian": "Довгонога бабуся",
+        "indonesian": "Kaki Panjang Nenek"
     },
     "2003165630": {
         "tag": "ability_baba_hexing_brew",
@@ -4024,7 +4026,8 @@
         "turkish": "Nene'nin Çayı",
         "french": "Breuvage de Baba",
         "latam": "Infusión de Yagá",
-        "ukrainian": "Вариво Баби"
+        "ukrainian": "Вариво Баби",
+        "indonesian": "Teh Baba"
     },
     "299875845": {
         "tag": "ability_baba_ultimate_2",
@@ -4043,18 +4046,58 @@
         "turkish": "Kuşları Besle",
         "french": "Nourrir les p'tits oiseaux ",
         "latam": "Alimentar a las aves",
-        "ukrainian": "Годування птахів"
+        "ukrainian": "Годування птахів",
+        "indonesian": "Memberi Makan Burung"
     },
     "4011110259": {
-        "tag": "ability_chessmaster_throwbishop"
+        "tag": "ability_chessmaster_throwbishop",
+        "brazilian": "Preparar Bispo",
+        "german": "Läuferaufstellung",
+        "italian": "Schiera alfiere",
+        "english": "Setup Bishop",
+        "schinese": "摆放象",
+        "czech": "Nasazení střelce",
+        "indonesian": "Menyiapkan Gajah"
     },
     "4180486641": {
-        "tag": "ability_chessmaster_knightbuff"
+        "tag": "ability_chessmaster_knightbuff",
+        "brazilian": "Cavalo do Rei",
+        "german": "Königsspringer",
+        "italian": "Cavaliere del re",
+        "english": "Kingside Knight",
+        "schinese": "王翼马",
+        "czech": "Vytvoření jezdce",
+        "french": "Cavalier du roi"
     },
     "2424652896": {
-        "tag": "ability_chessmaster_forkpiece"
+        "tag": "ability_chessmaster_forkpiece",
+        "brazilian": "Torres Dobradas",
+        "german": "Turmansturm",
+        "italian": "Batteria della torre",
+        "english": "Rook Battery",
+        "schinese": "车阵",
+        "czech": "Útok věžemi",
+        "french": "Batterie de tours"
     },
     "1389230689": {
-        "tag": "ability_chessmaster_queen"
+        "tag": "ability_chessmaster_queen",
+        "brazilian": "Desenvolver Rainha",
+        "italian": "Sviluppa regina",
+        "english": "Develop Queen",
+        "schinese": "出后",
+        "czech": "Tah dámou",
+        "french": "Développer la dame"
+    },
+    "2603013853": {
+        "tag": "ability_deadpack_chargeblast"
+    },
+    "1904698842": {
+        "tag": "ability_deadpack_rocketeer"
+    },
+    "374042410": {
+        "tag": "ability_deadpack_flamethrower"
+    },
+    "1026127931": {
+        "tag": "ability_deadpack_ultimate"
     }
 }

@@ -14890,7 +14890,7 @@
                     "dont_interrupt_slide_on_cast",
                     "refund_half_cooldown_on_channel_interrupt"
                 ],
-                "cooldown": 30,
+                "cooldown": 25,
                 "cast_range": "35m",
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
@@ -14918,11 +14918,11 @@
                     [
                         {
                             "property": "damage",
-                            "value": 20
+                            "value": 30
                         },
                         {
                             "property": "coated_damage",
-                            "value": 35
+                            "value": 45
                         }
                     ],
                     [
@@ -14936,12 +14936,12 @@
                         },
                         {
                             "property": "coated_damage",
-                            "value": 0.2,
+                            "value": 0.35,
                             "upgrade_type": "add_to_scale"
                         },
                         {
                             "property": "damage",
-                            "value": 0.225,
+                            "value": 0.35,
                             "upgrade_type": "add_to_scale"
                         }
                     ]
@@ -14976,13 +14976,12 @@
                     "heat_gain_air_dash": 4,
                     "heat_gain_launch": 18,
                     "heat_gain_rate": 33,
-                    "heat_gain_rate_slow_percent_effectiveness": 75,
                     "heat_gain_rate_v_t_o_l": 60,
                     "heat_drain_rate": -3,
                     "overheat_stun_delay_duration": 2.5,
                     "toss_duration": 0.9,
                     "overheat_stun_duration_self": 1.3,
-                    "max_health_self_damage_percent": 12,
+                    "max_health_self_damage_percent": 10,
                     "explosion_damage": 70,
                     "explosion_bullet_damage": 70
                 },
@@ -15005,7 +15004,7 @@
                         },
                         {
                             "property": "heal_on_hit",
-                            "value": 1,
+                            "value": 2,
                             "upgrade_type": "add_to_scale"
                         }
                     ],
@@ -15016,7 +15015,7 @@
                         },
                         {
                             "property": "overheat_lockout_duration_reduction_on_player_hit_percent",
-                            "value": 40
+                            "value": 50
                         }
                     ]
                 ]
@@ -15122,13 +15121,13 @@
                     "stun_duration": 0.5,
                     "stun_duration_self": 0.4,
                     "low_health_enemy_threshold_pct": 50,
-                    "bonus_damage_percent": 50
+                    "bonus_damage_percent": 75
                 },
                 "upgrades": [
                     [
                         {
                             "property": "damage",
-                            "value": 50
+                            "value": 90
                         }
                     ],
                     [
@@ -16017,7 +16016,7 @@
                     "displays_damage_impact",
                     "dont_interrupt_slide_on_cast"
                 ],
-                "cooldown": 26,
+                "cooldown": 28,
                 "cast_range": "35m",
                 "unit_target_limit": 1,
                 "charges": 1,
@@ -16085,7 +16084,7 @@
                     "non_combat",
                     "castable_while_busy"
                 ],
-                "cooldown": 30,
+                "cooldown": 32,
                 "duration": 10,
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
@@ -16169,7 +16168,7 @@
                     "dont_interrupt_slide_on_cast",
                     "holds_at_max_channel"
                 ],
-                "cooldown": 25,
+                "cooldown": 27,
                 "cast_range": "12m",
                 "unit_target_limit": 1,
                 "channel_time": 1,
@@ -16184,7 +16183,7 @@
                     "damage_per_second": 12,
                     "burn_duration": 8,
                     "spirit_resist_reduction": -15,
-                    "combat_barrier": 100,
+                    "combat_barrier": 90,
                     "barrier_duration": 8,
                     "silence_duration": 3
                 },
@@ -16199,7 +16198,7 @@
                     [
                         {
                             "property": "ability_cooldown",
-                            "value": -12
+                            "value": -14
                         }
                     ],
                     [

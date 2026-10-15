@@ -6515,10 +6515,10 @@
                 "ability_deadpack_primary_weapon_charge": {
                     "can_zoom": true,
                     "damage": {
-                        "dps": 48,
-                        "max_dps": 71.52,
-                        "bullet_dmg": 12,
-                        "bullet_dmg_max": 17.88,
+                        "dps": 60,
+                        "max_dps": 83.52,
+                        "bullet_dmg": 15,
+                        "bullet_dmg_max": 20.88,
                         "clip_size": 14,
                         "full_clip_sec": 3.5,
                         "reload_time": 3.2,
@@ -6591,8 +6591,8 @@
             "melee_damage_per_lvl": 1.58
         },
         "vitality": {
-            "hp": 680,
-            "hp_regen": 2.5,
+            "hp": 730,
+            "hp_regen": 3.25,
             "hp_per_lvl": 39,
             "bullet_resist": 0,
             "spirit_resist": 0,
@@ -7326,7 +7326,7 @@
             "hp": 780,
             "hp_regen": 2.5,
             "hp_per_lvl": 45,
-            "bullet_resist": 0,
+            "bullet_resist": -7,
             "spirit_resist": 8,
             "bullet_resist_per_level": 0,
             "spirit_resist_per_level": 0
@@ -7341,7 +7341,7 @@
         },
         "scaling_stats": {
             "tech_power": {
-                "tech_armor_damage_reduction": 0.12
+                "tech_armor_damage_reduction": 0.1
             }
         }
     }

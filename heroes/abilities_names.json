@@ -4190,5 +4190,17 @@
         "turkish": "İşi Bitir",
         "french": "Affaire conclue",
         "ukrainian": "Убивча угода"
+    },
+    "836615329": {
+        "tag": "ability_artist_homingbrush"
+    },
+    "3389503777": {
+        "tag": "ability_artist_rollingprojectile"
+    },
+    "3612874202": {
+        "tag": "ability_artist_tether"
+    },
+    "2516700978": {
+        "tag": "ability_artist_bamboogrove"
     }
 }

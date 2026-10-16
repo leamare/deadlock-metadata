@@ -920,9 +920,9 @@
         "name": "Violet",
         "alt_name": null,
         "aliases": null,
-        "released": null,
-        "status": "available",
-        "complexity": 3,
+        "released": 1792184400,
+        "status": "labs",
+        "complexity": 1,
         "inspiration": null
     },
     "87": {

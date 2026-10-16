@@ -7032,26 +7032,26 @@
             "bullet_dmg_per_lvl": 0.55,
             "attack_range_per_level": 0,
             "set": {
-                "citadel_weapon_inferno_set": {
-                    "can_zoom": true,
+                "citadel_weapon_artist_set": {
+                    "can_zoom": false,
                     "damage": {
-                        "dps": 52.381,
-                        "max_dps": 125.7143,
-                        "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 13.200000000000001,
-                        "clip_size": 27,
-                        "full_clip_sec": 2.835,
-                        "reload_time": 2.25,
+                        "dps": 46.1538,
+                        "max_dps": 58,
+                        "bullet_dmg": 30,
+                        "bullet_dmg_max": 37.7,
+                        "clip_size": 15,
+                        "full_clip_sec": 9.75,
+                        "reload_time": 2.7,
                         "reload_time_single_delay": 0
                     },
                     "bullet": {
-                        "cycle_time": 0.105,
-                        "radius": 4,
-                        "speed": 26000,
+                        "cycle_time": 0.65,
+                        "radius": 10,
+                        "speed": 19500,
                         "lifetime": 2,
                         "num_per_shot": 1,
-                        "num_per_sec": 9.523809523809524,
-                        "gravity_scale": 0.8,
+                        "num_per_sec": 1.5384615384615383,
+                        "gravity_scale": 0,
                         "burst_amount": 1,
                         "burst_cycle_time": 0,
                         "damage_falloff_start_scale": 1,
@@ -7061,8 +7061,8 @@
                     },
                     "range": {
                         "range": 7000,
-                        "base": 708.661,
-                        "max": 2165.35
+                        "base": 787,
+                        "max": 2520
                     },
                     "crit": {
                         "start": 1.65,
@@ -7073,8 +7073,8 @@
                     "recoil": {
                         "vertical": {
                             "m_Range": [
-                                0,
-                                0
+                                -0.05,
+                                0.3
                             ],
                             "m_flBurstSlope": 0,
                             "m_flBurstExponent": 0,
@@ -7082,21 +7082,21 @@
                         },
                         "horizontal": {
                             "m_Range": [
-                                0,
-                                0
+                                -0.2,
+                                0.2
                             ],
                             "m_flBurstExponent": 0
                         },
-                        "speed": 1,
-                        "recovery_speed": 10,
-                        "recovery_delay_factor": 0,
+                        "speed": 5,
+                        "recovery_speed": 5,
+                        "recovery_delay_factor": 0.05,
                         "shot_index_recovery_time_factor": 0.25
                     },
                     "spread": {
-                        "spread": 0.05,
+                        "spread": 0,
                         "standing_spread": 1.5,
                         "pellet_spread": 0,
-                        "penalty_per_shot": 0.15,
+                        "penalty_per_shot": 1,
                         "penalty_decay_delay": 0,
                         "penalty_decay": 2
                     }
@@ -7111,7 +7111,7 @@
             "melee_damage_per_lvl": 1.2
         },
         "vitality": {
-            "hp": 780,
+            "hp": 710,
             "hp_regen": 2,
             "hp_per_lvl": 34,
             "bullet_resist": 0,
@@ -7120,8 +7120,8 @@
             "spirit_resist_per_level": 0
         },
         "mobility": {
-            "move_speed": 7.2,
-            "sprint_speed": 1.6,
+            "move_speed": 6.9,
+            "sprint_speed": 2.5,
             "crouch_speed": 4.75,
             "move_acceleration": 4,
             "stamina": 3,
@@ -7135,16 +7135,16 @@
             "weapon_power": 0,
             "reload_speed": 1,
             "power_scale": 1,
-            "bullet_dmg_per_lvl": 0.53176,
+            "bullet_dmg_per_lvl": 0.42541,
             "attack_range_per_level": 0,
             "set": {
                 "citadel_weapon_inferno_set": {
                     "can_zoom": true,
                     "damage": {
                         "dps": 52.381,
-                        "max_dps": 123.2823,
+                        "max_dps": 109.1023,
                         "bullet_dmg": 5.5,
-                        "bullet_dmg_max": 12.94464,
+                        "bullet_dmg_max": 11.45574,
                         "clip_size": 27,
                         "full_clip_sec": 2.835,
                         "reload_time": 2.25,

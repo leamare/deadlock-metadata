@@ -5284,11 +5284,7 @@
             "impact_height": "2m",
             "min_aim_angle": 30,
             "combat_barrier": 200,
-            "barrier_duration": 8,
-            "velocity_pitch_scale_min": 0.8,
-            "velocity_pitch_scale_max": 1.8,
-            "velocity_vol_scale_min": 0.25,
-            "velocity_vol_scale_max": 1
+            "barrier_duration": 8
         },
         "active": {
             "cooldown": 45,

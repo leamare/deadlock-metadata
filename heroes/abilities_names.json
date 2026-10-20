@@ -4202,5 +4202,17 @@
     },
     "2516700978": {
         "tag": "ability_artist_bamboogrove"
+    },
+    "267712790": {
+        "tag": "ability_nurse_leech_therapy"
+    },
+    "3621314027": {
+        "tag": "ability_nurse_adrenaline_rush"
+    },
+    "683490631": {
+        "tag": "ability_nurse_healing_needles"
+    },
+    "3427093887": {
+        "tag": "ability_nurse_fear"
     }
 }

@@ -46,7 +46,6 @@
                     "slow_duration": 4,
                     "slow_percent": 28
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -282,7 +281,6 @@
                     "min_shock_duration": 0.5,
                     "max_lifetime": 5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -554,7 +552,6 @@
                     "chain_duration": 1.75,
                     "enemy_drag_speed": 1000
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -804,7 +801,6 @@
                     "beep_sound_buildup_count": 4
                 },
                 "radius": "7m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -991,7 +987,6 @@
                     "enemy_slow_pct": 56,
                     "silence_radius": "0m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -1321,7 +1316,6 @@
                     "spade_damage_bonus": 60
                 },
                 "radius": "4m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -1513,7 +1507,6 @@
                     "slow_percent": 32,
                     "toss_up_strength": 220
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -1595,7 +1588,6 @@
                     "boss_damage_percent_outgoing": 30,
                     "boss_damage_percent_incoming": 50
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -1654,7 +1646,6 @@
                     "turret_heal_mult": 1,
                     "heal_interval": 0.1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -1802,7 +1793,6 @@
                     "projectile_ignore_collision_time": 0.2,
                     "ground_dash_reduction_percent": -35
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -2174,7 +2164,6 @@
                     "stomp_width": "5.5m",
                     "toss_duration": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3011,7 +3000,6 @@
                     "min_time_before_destroy": 0.1,
                     "toss_duration": 0.4
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3340,7 +3328,6 @@
                     "bonus_damage_pct_per_player_killed": 2.5,
                     "bonus_damage_pct_per_player_hit": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3401,7 +3388,6 @@
                     "cancel_hook_duration": 0.2,
                     "hook_impact_delay": 0.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3532,7 +3518,6 @@
                     "multi_hit_penalty_percentage": 65
                 },
                 "radius": "3.0m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3926,7 +3911,6 @@
                     "charged_shot_hit_radius_scale": 30
                 },
                 "radius": "6.5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -3984,7 +3968,6 @@
                     "stun_duration": 0.75,
                     "bonus_tech_power_per_kill": 8
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -4165,7 +4148,6 @@
                     "height_off_ground": 20,
                     "damage": 40
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -4301,7 +4283,6 @@
                     "bleed_duration": 5,
                     "full_rage_current_health_damage_pct": 3.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -4832,7 +4813,6 @@
                     "damage": 120,
                     "tech_cleave_expire_time": 0.2
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -4947,7 +4927,6 @@
                     "fire_rate_slow": 20
                 },
                 "radius": "3.5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -5004,7 +4983,6 @@
                     "max_slow": 100,
                     "max_ground_dash_reduction": -45
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -5069,7 +5047,6 @@
                     "forward_velocity": 800,
                     "projectile_lifetime": 60
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -5879,7 +5856,6 @@
                     "puddle_slide_buff": 60
                 },
                 "radius": "5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -6255,7 +6231,6 @@
                     "slow_percent": 24,
                     "stun_duration": 1
                 },
-                "projectile": [],
                 "upgrades": []
             },
             "gunslinger_demonMark": {
@@ -6338,7 +6313,6 @@
                     "proc_damage_percentage": 220,
                     "proc_chance": 100
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -6396,7 +6370,6 @@
                     "tick_time": 0.5
                 },
                 "radius": "6m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7012,7 +6985,6 @@
                     "explosion_push_force": 1200
                 },
                 "radius": "7m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7284,7 +7256,6 @@
                     "slow_percent": 48,
                     "edge_push_duration": 0.15
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7493,7 +7464,6 @@
                     "tick_rate": 0.1,
                     "max_lifetime": 3.8
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7795,7 +7765,6 @@
                     "tick_interval": 0.5,
                     "visibility_time": 0.2
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7845,7 +7814,6 @@
                     "drop_down_rate": 2,
                     "tornado_speed": 350
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -7907,7 +7875,6 @@
                     "num_beetles": 1,
                     "spread_angle_degrees": 60
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -8230,7 +8197,6 @@
                     "gravity_scale": 1.4,
                     "wall_impact_look_ahead_distance": 100
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -8761,7 +8727,6 @@
                     "blast_jump_velocity_crouch": "30m"
                 },
                 "radius": "7m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9108,7 +9073,6 @@
                     "stack_duration": 10,
                     "max_stacks": 3
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9287,7 +9251,6 @@
                     "slow_percent": 40
                 },
                 "radius": "12m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9346,7 +9309,6 @@
                     "lift_height": 120,
                     "damage": 100
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9397,7 +9359,6 @@
                     "petrify_damage_break_threshold": 200,
                     "half_height": "6m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9492,7 +9453,6 @@
                     "lift_height": 120,
                     "damage": 100
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9564,7 +9524,6 @@
                     "clone_bolt_delay": 0.1
                 },
                 "radius": "3.25m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9625,7 +9584,6 @@
                     "total_swaps": 2,
                     "leash_radius": "20m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9692,7 +9650,6 @@
                     "detonation_delay": 0.9
                 },
                 "radius": "6m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9747,7 +9704,6 @@
                     "copy_internal_cooldown": 0.5,
                     "copy_cooldown_percentage": 60
                 },
-                "projectile": [],
                 "upgrades": [
                     [],
                     [],
@@ -9848,7 +9804,6 @@
                     "dps": 40,
                     "tick_rate": 0.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -9968,7 +9923,6 @@
                     "spread_distance": "900m"
                 },
                 "radius": "3.5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10261,7 +10215,6 @@
                     "falling_drag": 20,
                     "max_float_time": 4
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10325,7 +10278,6 @@
                     "end_jump_velocity": 200,
                     "bonus_move_speed": "0m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10475,7 +10427,6 @@
                 "cast_delay": 0.5,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10736,7 +10687,6 @@
                     "max_targets": 2,
                     "aura_linger_duration": 0.001
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10807,7 +10757,6 @@
                     "pre_bounce_lifetime": 15,
                     "bounce_lifetime": 0.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -10943,7 +10892,6 @@
                     "tether_radius": "0.3m",
                     "tether_duration": 0.6
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -11361,7 +11309,6 @@
                     "dragon_range_per_second": 500
                 },
                 "radius": "4m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -11435,7 +11382,6 @@
                     "bonus_target_radius": "30m",
                     "bonus_spirit_damage_percent": 15
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -11598,7 +11544,6 @@
                     "max_amp": 100,
                     "max_amp_distance": "250m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -11674,7 +11619,6 @@
                     "slow_duration": 2.5,
                     "slow_percent": 40
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -11879,7 +11823,6 @@
                     "slow_percent": 28,
                     "enable_aura": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -12011,7 +11954,6 @@
                 "special_props": {
                     "cart_damage": 60
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -12301,7 +12243,6 @@
                     "proc_damage_percentage": 220,
                     "proc_chance": 100
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -12361,7 +12302,6 @@
                     "bonus_damage": 170
                 },
                 "radius": "4m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -12802,7 +12742,6 @@
                     "pull_duration": 0.8,
                     "pull_track_caster_duration": 0.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -13226,7 +13165,6 @@
                     "target_search_initial_delay_max": 0.2,
                     "target_search_initial_stagger": 0.125
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -13300,7 +13238,6 @@
                     "tether_radius": "0.1m",
                     "summon_count": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -13461,7 +13398,6 @@
                     "damage_slow_percent": 20,
                     "damage_slow_duration": 0.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -13870,7 +13806,6 @@
                     "c_d_reduce_on_pillow_hit": 5
                 },
                 "radius": "5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -13934,7 +13869,6 @@
                     "healing_per_second": 42,
                     "missing_health_burst_pct": 15
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14029,7 +13963,6 @@
                     "player_infest_duration": 8,
                     "n_p_c_infest_duration": 50
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14098,7 +14031,6 @@
                     "damage_resist_pct_while_channeling": 30
                 },
                 "radius": "19.0m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14465,7 +14397,6 @@
                     "extra_sweep_radius": "2m",
                     "ability_lifesteal_percent_hero": 18
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14524,7 +14455,6 @@
                     "combat_barrier": 100,
                     "barrier_damage_percentage": 50
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14655,7 +14585,6 @@
                     "bounce_grace": 3.25,
                     "next_target_duration": 4
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14762,7 +14691,6 @@
                 "unit_target_limit": 1,
                 "charge_cooldown": -1,
                 "channel_move_speed": -1,
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -14907,7 +14835,6 @@
                     "coated_slow_percent": 40,
                     "coated_slow_duration": 1.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15430,7 +15357,6 @@
                     "melee_impulse_heavy": 1000,
                     "melee_impulse_up_scale": 0.45
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15514,7 +15440,6 @@
                     "max_rats": 5
                 },
                 "radius": "10m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15720,7 +15645,6 @@
                     "tile_steps": 2,
                     "bishop_timem_between_shots": 0.05
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15796,7 +15720,6 @@
                     "max_pieces": 1,
                     "self_move_distance": "7m"
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15871,7 +15794,6 @@
                     "max_reflect_count": 1,
                     "max_triggers": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -15948,7 +15870,6 @@
                     "tile_steps": 3,
                     "slow_duration": 1.5
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -16029,7 +15950,6 @@
                     "bullet_damage_multiplier": 120
                 },
                 "radius": "2.5m",
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -16114,7 +16034,6 @@
                     "min_damage": 50,
                     "max_damage_time": 2
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -16194,7 +16113,6 @@
                     "effectiveness_per_hit": 0.35,
                     "spirit_per_pickup": 1
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {
@@ -16308,8 +16226,337 @@
         }
     },
     "87": {
-        "list": [],
-        "desc": []
+        "list": [
+            "ability_nurse_leech_therapy",
+            "ability_nurse_adrenaline_rush",
+            "ability_nurse_healing_needles",
+            "ability_nurse_fear"
+        ],
+        "desc": {
+            "ability_nurse_leech_therapy": {
+                "id": 267712790,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 1,
+                "update_time": null,
+                "image": "nurse\/leech",
+                "activation_time": "press",
+                "targeting_location": "none",
+                "unit_target": "all_enemy",
+                "behaviors": [
+                    "projectile",
+                    "displays_damage_impact",
+                    "can_heal_players",
+                    "projectile_fired_as_bullet",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast"
+                ],
+                "cooldown": 30,
+                "duration": 5,
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "post_cast_duration": 0.2,
+                "channel_move_speed": "5m",
+                "radius": "6.5m",
+                "special_props": {
+                    "dps": 23,
+                    "tick_rate": 0.38,
+                    "leech_eat_tick_rate": 0.38,
+                    "leech_eat_duration_per_second": 0.65,
+                    "leech_move_speed": "2m",
+                    "leech_ground_lifetime": 180,
+                    "leech_crawl_radius": "8m",
+                    "leech_crawl_radius_exit_gap": "5m",
+                    "leech_count": 4,
+                    "leech_hunt_lifetime": 9,
+                    "leech_lunge_speed": "15m",
+                    "leech_leap_duration": 0.4,
+                    "leech_leap_arc_height": "0.5m",
+                    "leech_hunt_crawl_speed": "3m",
+                    "leech_hunt_search_radius_percent": 150,
+                    "leech_hunt_search_interval": 0.2,
+                    "leech_hunt_lifetime_variance": 0.55,
+                    "leech_hunt_max_drop": "3m",
+                    "leech_spawn_spread_percent": 58,
+                    "leech_spawn_spread_min_percent": 73,
+                    "leech_spawn_angle_jitter": 0.32,
+                    "heal_percent_of_leech_damage": 100,
+                    "regen_per_leech_pickup": 0.6,
+                    "fire_rate_per_leech_pickup": 5,
+                    "leech_stacks_kept_on_death_percent": 50,
+                    "max_leech_bonus_stacks": 10,
+                    "stacks_lost_on_death_percent": 25
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "leech_stamina_drain",
+                            "value": 0.3
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -10
+                        },
+                        {
+                            "property": "spirit_power_per_leech_stack",
+                            "value": 4
+                        }
+                    ],
+                    [
+                        {
+                            "property": "max_leech_bonus_stacks",
+                            "value": 8
+                        },
+                        {
+                            "property": "dps",
+                            "value": 0.3,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "radius",
+                            "value": "1m"
+                        }
+                    ]
+                ]
+            },
+            "ability_nurse_adrenaline_rush": {
+                "id": 3621314027,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 2,
+                "update_time": null,
+                "image": "nurse\/nurse_vapors",
+                "activation_time": "press",
+                "targeting_location": "unit",
+                "unit_target": "hero_friendly",
+                "behaviors": [
+                    "allow_alt_cast",
+                    "can_set_quick_cast",
+                    "dont_interrupt_slide_on_cast",
+                    "use_instant_cast_unit_target_ui",
+                    "allow_self_cast"
+                ],
+                "cooldown": 40,
+                "duration": 4,
+                "cast_range": "13m",
+                "unit_target_limit": 1,
+                "cast_delay": 0.2,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "damage_spirit_threshold_percent": 6,
+                    "deferred_damage_percent": 100,
+                    "deferred_damage_bonus_percent": 30,
+                    "rush_time_scale_bonus_percent": 25,
+                    "crash_duration": 4,
+                    "crash_time_scale_penalty_percent": 20
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -15
+                        },
+                        {
+                            "property": "ability_cast_range",
+                            "value": "7m"
+                        }
+                    ],
+                    [
+                        {
+                            "property": "ability_duration",
+                            "value": 1
+                        },
+                        {
+                            "property": "healing_effectiveness_percent",
+                            "value": 20
+                        },
+                        {
+                            "property": "heal_amp_regen_percent",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "rush_time_scale_bonus_percent",
+                            "value": 15
+                        },
+                        {
+                            "property": "dispel_debuffs",
+                            "value": 1
+                        }
+                    ]
+                ]
+            },
+            "ability_nurse_healing_needles": {
+                "id": 683490631,
+                "is_active": false,
+                "is_ultimate": false,
+                "slot": 3,
+                "update_time": null,
+                "image": "nurse\/needle",
+                "activation_time": "instant_cast",
+                "targeting_location": "self",
+                "unit_target": "all",
+                "behaviors": [
+                    "no_target",
+                    "displays_damage_impact",
+                    "dont_interrupt_slide_on_cast",
+                    "do_not_allow_spam_proc"
+                ],
+                "unit_target_limit": 1,
+                "cast_delay": 0.1,
+                "charges": 1,
+                "charge_cooldown": -1,
+                "channel_move_speed": -1,
+                "special_props": {
+                    "ability_charges_conditionally": 1,
+                    "ability_charges_initial": 1,
+                    "charge_percent_per_bullet_hit": 1.26,
+                    "charge_percent_per_headshot": 2.52,
+                    "charge_percent_per_light_melee": 7.56,
+                    "charge_percent_per_heavy_melee": 15.12,
+                    "charge_percent_per_ability_hit": 1.26,
+                    "charge_hit_cooldown": 0.15,
+                    "non_hero_charge_scale_percent": 35,
+                    "charge_percent_per_second_per_leech": 0.15,
+                    "charge_gen_pct_scale": 100,
+                    "swap_in_delay": 1.3,
+                    "swap_end_delay": 1.8,
+                    "buff_extend_max_duration_percent": 200,
+                    "heal_regen": 25,
+                    "headshot_heal_bonus_percent": 15,
+                    "secondary_shot_heal_percent": 50,
+                    "build_up_duration": 5
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_charges",
+                            "value": 1
+                        }
+                    ],
+                    [
+                        {
+                            "property": "stamina_restore_per_hit",
+                            "value": 0.6
+                        },
+                        {
+                            "property": "heal_regen",
+                            "value": 20
+                        }
+                    ],
+                    [
+                        {
+                            "property": "heal_regen",
+                            "value": 0.4,
+                            "upgrade_type": "add_to_scale"
+                        },
+                        {
+                            "property": "buff_extend_percent_per_shot",
+                            "value": 6
+                        }
+                    ]
+                ]
+            },
+            "ability_nurse_fear": {
+                "id": 3427093887,
+                "is_active": false,
+                "is_ultimate": true,
+                "slot": 4,
+                "update_time": null,
+                "image": "nurse\/medicine_bag",
+                "activation_time": "instant_cast",
+                "targeting_location": "none",
+                "unit_target": "hero_enemy | trooper_enemy | minion_enemy | neutral",
+                "behaviors": [
+                    "channelled",
+                    "no_target",
+                    "displays_damage_impact",
+                    "show_cast_range_as_sat_sphere_while_casting",
+                    "dont_interrupt_slide_on_cast",
+                    "displays_damage_impact"
+                ],
+                "cooldown": 200,
+                "cast_range": "35m",
+                "unit_target_limit": 1,
+                "cast_delay": 1.3,
+                "channel_time": 7,
+                "charge_cooldown": -1,
+                "channel_move_speed": "3.5m",
+                "special_props": {
+                    "cone_angle": 180,
+                    "extra_sweep_cone_angle": 40,
+                    "extra_sweep_offset_behind_caster": 40,
+                    "extra_sweep_range": "4m",
+                    "tick_rate": 0.15,
+                    "buildup_tick_rate": 0.075,
+                    "dps": 60,
+                    "facing_away_damage_percent": 50,
+                    "debuff_duration": 2.2,
+                    "buildup_time": 1.3,
+                    "buildup_decay_time": 10,
+                    "buildup_look_angle": 80,
+                    "buildup_look_angle_full": 55,
+                    "look_buildup_scale_percent": 35,
+                    "gaze_linger_duration": 0.3,
+                    "fear_move_speed_bonus": "0m",
+                    "fall_speed_max": 1,
+                    "air_drag": 3,
+                    "air_control_accel_percent": -50,
+                    "launch_height": "7.8m",
+                    "camera_turn_rate_max": 15,
+                    "target_mantle_attempt_interval": 0.5,
+                    "fear_duration_per_leech_stack": 0.1,
+                    "slow_percent": 30,
+                    "fire_rate_slow": 30,
+                    "slow_linger_duration": 0.5,
+                    "vol_scale_min": 0.35,
+                    "vol_scale_max": 1,
+                    "pitch_scale_min": 1,
+                    "pitch_scale_max": 1.3
+                },
+                "upgrades": [
+                    [
+                        {
+                            "property": "ability_cooldown",
+                            "value": -50
+                        }
+                    ],
+                    [
+                        {
+                            "property": "slow_percent",
+                            "value": 20
+                        },
+                        {
+                            "property": "fire_rate_slow",
+                            "value": 20
+                        },
+                        {
+                            "property": "dps",
+                            "value": 30
+                        }
+                    ],
+                    [
+                        {
+                            "property": "channel_damage_immune",
+                            "value": 1
+                        },
+                        {
+                            "property": "ability_channel_time",
+                            "value": 3
+                        },
+                        {
+                            "property": "dps",
+                            "value": 0.5,
+                            "upgrade_type": "add_to_scale"
+                        }
+                    ]
+                ]
+            }
+        }
     },
     "88": {
         "list": [
@@ -16356,7 +16603,6 @@
                     "pull_duration": 0.6,
                     "magic_damage_per_bullet": 8
                 },
-                "projectile": [],
                 "upgrades": [
                     [
                         {

@@ -933,9 +933,9 @@
         "name": "Nurse Harrow",
         "alt_name": null,
         "aliases": null,
-        "released": null,
+        "released": 1792529940,
         "status": "available",
-        "complexity": 3,
+        "complexity": 1,
         "inspiration": null
     },
     "88": {

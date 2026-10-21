@@ -70,7 +70,10 @@
         "released": 1712094154,
         "status": "available",
         "complexity": 2,
-        "inspiration": []
+        "inspiration": [
+            "dota:terrorblade",
+            "dota:pugna"
+        ]
     },
     "6": {
         "tag": "bull",
@@ -118,7 +121,8 @@
         "status": "available",
         "complexity": 1,
         "inspiration": [
-            "ow:torbjorn"
+            "ow:torbjorn",
+            "tf2:engineer"
         ]
     },
     "10": {
@@ -132,7 +136,9 @@
         "released": 1712094154,
         "status": "available",
         "complexity": 3,
-        "inspiration": []
+        "inspiration": [
+            "dota:vengeful_spirit"
+        ]
     },
     "11": {
         "tag": "sumo",
@@ -270,7 +276,9 @@
         "released": 1721339055,
         "status": "available",
         "complexity": 3,
-        "inspiration": []
+        "inspiration": [
+            "dota:huskar"
+        ]
     },
     "20": {
         "tag": "tengu",
@@ -298,7 +306,7 @@
         "released": null,
         "status": "notahero",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "25": {
         "tag": "warden",
@@ -368,7 +376,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "39": {
         "tag": "yakuza",
@@ -381,7 +389,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "46": {
         "tag": "genericperson",
@@ -394,7 +402,7 @@
         "released": null,
         "status": "labs",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "47": {
         "tag": "tokamak",
@@ -420,7 +428,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "49": {
         "tag": "rutger",
@@ -637,7 +645,7 @@
         "released": 1756330695,
         "status": "available",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "65": {
         "tag": "priest",
@@ -650,7 +658,7 @@
         "released": 1770371973,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "66": {
         "tag": "frank",
@@ -663,7 +671,11 @@
         "released": 1756501567,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": [
+            "dota:wraith_king",
+            "dota:abaddon",
+            "lol:aatrox"
+        ]
     },
     "67": {
         "tag": "bookworm",
@@ -676,7 +688,7 @@
         "released": 1756155603,
         "status": "available",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "68": {
         "tag": "boho",
@@ -689,7 +701,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "69": {
         "tag": "doorman",
@@ -702,7 +714,7 @@
         "released": 1755896403,
         "status": "available",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "70": {
         "tag": "skyrunner",
@@ -715,7 +727,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "71": {
         "tag": "swan",
@@ -728,7 +740,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "72": {
         "tag": "punkgoat",
@@ -741,7 +753,7 @@
         "released": 1755723615,
         "status": "available",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "73": {
         "tag": "druid",
@@ -754,7 +766,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "74": {
         "tag": "graf",
@@ -767,7 +779,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "75": {
         "tag": "fortuna",
@@ -780,7 +792,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "76": {
         "tag": "necro",
@@ -793,7 +805,9 @@
         "released": 1769767173,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": [
+            "dota:undying"
+        ]
     },
     "77": {
         "tag": "fencer",
@@ -806,7 +820,7 @@
         "released": 177093360,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "78": {
         "tag": "airheart",
@@ -819,7 +833,10 @@
         "released": 1791925380,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": [
+            "tf2:soldier",
+            "ow:pharah"
+        ]
     },
     "79": {
         "tag": "familiar",
@@ -832,7 +849,7 @@
         "released": 1769507973,
         "status": "available",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "80": {
         "tag": "werewolf",
@@ -858,7 +875,7 @@
         "released": 1770717573,
         "status": "available",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "82": {
         "tag": "opera",
@@ -871,7 +888,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "83": {
         "tag": "testhero",
@@ -884,7 +901,7 @@
         "released": null,
         "status": "in_devel",
         "complexity": 2,
-        "inspiration": null
+        "inspiration": []
     },
     "84": {
         "tag": "ratking",
@@ -897,7 +914,7 @@
         "released": 1790974740,
         "status": "available",
         "complexity": 3,
-        "inspiration": null
+        "inspiration": []
     },
     "85": {
         "tag": "chessmaster",
@@ -910,7 +927,7 @@
         "released": 1791579540,
         "status": "available",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "86": {
         "tag": "artist",
@@ -923,7 +940,7 @@
         "released": 1792184400,
         "status": "labs",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     },
     "87": {
         "tag": "nurse",
@@ -936,7 +953,7 @@
         "released": 1792529940,
         "status": "available",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": "tf2:medic"
     },
     "88": {
         "tag": "baba",
@@ -949,6 +966,6 @@
         "released": 1791320340,
         "status": "labs",
         "complexity": 1,
-        "inspiration": null
+        "inspiration": []
     }
 }
